@@ -1,0 +1,3388 @@
+{
+ "_method": "Editorial 0-100 scores. longstay = ease for volunteers/new residents of many nationalities to live 1+ yr (volunteer, nomad, retiree/passive, low-bar temp residence, long tourist stays, bloc mobility). pr = path to PR/citizenship (years, tests, dual nationality). Verified via 2025-26 web sources (est:false); others est:true. prYears 0 = permanent-type status from start.",
+ "_sources": [
+  "https://outboundinvestment.com/portugal-president-signs-revised-nationality-law-extending-citizenship-timeline-to-10-years/",
+  "https://www.portugalist.com/minimum-wage-2026",
+  "https://www.envoyglobal.com/news-alert/portugal-ends-traditional-job-seeking-visa/",
+  "https://www.fragomen.com/insights/portugal-significant-immigration-reforms-in-effect.html",
+  "https://www.thelocal.es/20251120/why-does-spains-dnv-financial-requirements-rise-while-nlv-stays-the-same",
+  "https://taxnews.ey.com/news/2026-0869-spain-approves-the-extraordinary-regularization-process-for-third-country-nationals",
+  "https://migaku.com/blog/language-fun/italy-elective-residence-visa-2026-eligibility-and-steps",
+  "https://elxis.com/residence-permits-in-greece-a-complete-overview",
+  "https://monacolife.net/new-french-nationality-requirements-who-is-affected-and-from-when",
+  "https://vialtopartners.com/regional-alerts/germany-immigration-turbo-naturalization-citizenship-abolished",
+  "https://lawandmore.eu/naturalisation-netherlands/",
+  "https://www.lewissilkin.com/insights/2025/08/07/stamp-0irelands-visa-for-retirees-or-persons-of-independent-means",
+  "https://remoteworkeurope.eu/insights/croatia-digital-nomad-visa-2026/",
+  "https://ceelegalmatters.com/bulgaria/30073-amendments-to-the-bulgarian-foreigners-act-introducing-a-legal-framework-for-digital-nomads",
+  "https://www.stampednomad.com/updates/hungary-requires-250000-euro-minimum-for-the-guest-investor-program",
+  "https://www.jobbatical.com/blog/estonia-digital-nomad-visa-income-requirement-immigration-quota",
+  "https://getwherenext.com/digital-nomad-visas/ro",
+  "https://getwherenext.com/digital-nomad-visas/cy",
+  "https://wheretoemigrate.io/blog/malta-nomad-residence-permit-2026",
+  "https://www.migrationsverket.se/en/about-the-swedish-migration-agency/the-swedish-migration-agency-answers/2026/2026-07-17-how-do-you-become-a-swedish-citizen.html",
+  "https://www.osborneclarke.com/insights/earned-settlement-reforms-set-extend-qualifying-period-10-year-visa-holders",
+  "https://remoteworkeurope.eu/guides/montenegro",
+  "https://exit.al/en/approved-law-on-foreigners-paves-way-for-pensioner-and-digital-nomad-immigrants-in-albania",
+  "https://zuniclaw.com/en/law-on-foreigners-serbia/",
+  "https://eiglaw.com/georgia-to-increase-real-estate-investment-threshold-for-residence-permits-effective-march-1-2026/",
+  "https://expathub.ge/georgias-immigration-rules-2026/",
+  "https://schneider-group.com/en/news/countries/armenia-amends-law-on-foreigners-key-changes-effective-1-november-2026/",
+  "https://saily.com/blog/turkey-digital-nomad-visa/",
+  "https://eiglaw.com/israel-automatically-extends-visas-expiring-between-february-22-and-march-31-2026/",
+  "https://prsindia.org/billtrack/the-immigration-and-foreigners-bill-2025",
+  "https://www.eoiparis.gov.in/content/DOCUMENT-CHECKLIST-FOR-ENTRY-VISA.pdf",
+  "https://www.theweek.in/magazine/theweek/statescan/2025/12/06/we-shall-implement-master-plan-designed-by-the-mother-jayanti-ravi-secretary-auroville-foundation.amp.html",
+  "https://en.ara.cat/sunday/the-utopian-city-of-india-that-lives-profound-crisis_130_5829544.html",
+  "https://primelawnepal.com/legal-residential-visa-in-nepal-easy-path-to-secure-long-term-stay/",
+  "https://newsfirst.lk/2026/02/18/sri-lanka-launch-digital-nomad-visa",
+  "https://www.immigration.gov.lk/pages_e.php?id=19",
+  "https://freakingnomads.com/news/thailand-officially-cuts-visa-free-stay-to-30-days/",
+  "https://www.mdec.my/api/media/file/DE-Rantau_Pass_FAQ_v10.pdf",
+  "https://www.imidaily.com/program-updates/indonesia-introduces-second-home-program-10-year-visa-for-those-with-savings-of-us129000-or-more/",
+  "https://getwherenext.com/blog/digital-nomad-visa-philippines",
+  "https://migaku.com/blog/language-fun/vietnams-golden-visa-pilot-program-what-we-know-so-far",
+  "https://www.businesstoday.in/nri/visa/story/vietnam-tightens-temporary-residence-card-rules-514953-2026-02-06",
+  "https://recberlin.mfaic.gov.kh/en-us/the-cambodia-retirement-visa-er",
+  "https://wheretoemigrate.io/guide/programs/laos/general-residence-laos-nm-7f7851d4e4/",
+  "https://www.tokyoweekender.com/japan-life/news-and-opinion/permanent-residency-rules-explained-2026/",
+  "https://www.savoryandpartners.com/news/taiwan-extends-digital-nomad-visa-to-2-years",
+  "https://timesca.com/new-visa-for-modern-nomads-introduced-in-kazakhstan/",
+  "https://24.kg/english/337536__Kyrgyzstan_updates_procedure_for_granting_Digital_Nomad_status_to_foreigners/",
+  "https://en.fergana.agency/news/137580/",
+  "https://www.pathwaysnz.com/news/looking-back-at-the-2025-immigration-year-and-what-lies-ahead-for-2026",
+  "https://immigration.gov.vu/application-forms-publications-fees/",
+  "https://www.clarkhill.com/news-events/news/canada-releases-2026-2028-immigration-levels-plan",
+  "https://www.henleyglobal.com/publications/global-mobility-report/2026-january/us-travel-bans-explained",
+  "https://forumtogether.org/article/explainer-interim-final-rule-eliminates-one-year-foreign-residency-requirement-for-religious-workers-with-r-1-visas",
+  "https://mexicorelocationguide.com/mexican-residency-income-requirements-updates-in-2026/",
+  "https://consulmex.sre.gob.mx/sandiego/images/visas/ingles/5a_Temporary_Resident_Visa_-_Economic_Solvency.pdf",
+  "https://www.belize.com/residency-and-retirement-in-belize",
+  "https://aglegal.com/costa-rica-digital-nomad-visa/",
+  "https://www.riotimesonline.com/panama-visa-residency/",
+  "https://visaatlas.org/visas/guatemala/rentista-pensionado",
+  "https://www.riotimesonline.com/retire-in-el-salvador-foreigners-2026/",
+  "https://www.riotimesonline.com/retire-in-honduras-foreigners-2026/",
+  "https://www.riotimesonline.com/retire-in-nicaragua-foreigners-2026/",
+  "https://havanatimes.org/?p=230623",
+  "https://phlaw.com/pensionado-o-rentista-bajo-la-ley-171-07/",
+  "https://nomada.tools/blog/caribbean-remote-work-visas-2026",
+  "https://colombiamove.com/blog/colombia-visa-guide-2026",
+  "https://www.cancilleria.gov.co/node/26934",
+  "https://www.gob.ec/mremh/tramites/concesion-visa-residencia-temporal-voluntario-misionero",
+  "https://www.riotimesonline.com/residency-ecuador-foreigners-2026/",
+  "https://visaatlas.org/visas/peru/digital-nomad-visa",
+  "https://oliveiralawyers.com/services/immigration/digital-nomad-visa/",
+  "https://practiceguides.chambers.com/practice-guides/corporate-immigration-2026/uruguay",
+  "https://www.fragomen.com/insights/paraguay-new-investor-pass-expands-permanent-residence-options.html",
+  "https://www.envoyglobal.com/news-alert/argentina-overhauls-immigration-policy-with-decree-366-2025/",
+  "https://www.expat.cl/residency/temporary-residency-chile/",
+  "https://www.riotimesonline.com/bolivia-visa-residency/",
+  "https://pmg.org.za/committee-question/36738/",
+  "https://dirco.gov.za/canberra/volunteer-permit/",
+  "https://www.cliffedekkerhofmeyr.com/en/news/publications/2025/Sectors/Immigration-Law/immigration-law-alert-8-may-always-a-saffer-south-african-citizenship-rights-restored-",
+  "https://www.namibian.com.na/namibia-sticks-to-its-guns-on-visa-requirements/",
+  "https://cms.law/en/ken/news-information/immigration-kenya-introduces-the-class-n-digital-nomad-permit",
+  "https://fns.immigration.go.ke/infopack/passes/specialpass",
+  "https://immigration.go.tz/index.php/class-c-residence-matrix",
+  "https://www.sovereigngroup.com/news/mauritius-residency-permit-amendments-benefits-and-qualifying-requirements-update-november-2025/",
+  "https://macaubusiness.com/cavo-verde-country-wants-to-attract-foreigners-to-stay-work-remotely-from-archipelago/",
+  "https://visaatlas.org/visas/ghana/right-of-abode",
+  "https://visaatlas.org/move/morocco"
+ ],
+ "ESP": {
+  "longstay": 64,
+  "pr": 52,
+  "routes": [
+   "Non-lucrative visa (~€2,400/mo)",
+   "Digital nomad (~€2,850/mo)",
+   "Arraigo after 2 yrs presence",
+   "Volunteer/student stay permit",
+   "Ibero-American 2-yr citizenship"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Golden visa ended Apr 2025. RD 1155/2024 cut arraigo to 2 yrs. Citizenship 10 yrs (2 for Latin Americans/Filipinos); dual nationality only for Ibero-American states.",
+  "est": false
+ },
+ "CHE": {
+  "longstay": 22,
+  "pr": 30,
+  "routes": [
+   "Retiree 55+ (lump-sum tax)",
+   "Quota work permit",
+   "Ministers of religion (quota)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "EU/EFTA free movement"
+  ],
+  "prYears": 10,
+  "note": "Very restrictive for non-EU/EFTA. C permit 10 yrs (5 for some); citizenship 10 yrs with cantonal tests; dual allowed.",
+  "est": true
+ },
+ "AUS": {
+  "longstay": 30,
+  "pr": 40,
+  "routes": [
+   "Working holiday 417/462 (~50 nations)",
+   "Religious worker 408",
+   "Employer/skilled PR",
+   "Visitor up to 12 mo"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "Trans-Tasman"
+  ],
+  "prYears": 3,
+  "note": "Investor retirement visa closed to new applicants; PR via skills/employer. Citizenship 4 yrs (1 as PR); dual allowed.",
+  "est": true
+ },
+ "PRT": {
+  "longstay": 72,
+  "pr": 55,
+  "routes": [
+   "D7 passive income (~€920/mo, 2026)",
+   "D8 digital nomad (~€3,680/mo)",
+   "Volunteer residence visa",
+   "Golden visa (funds €500k)",
+   "Study/job routes"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "D7 is Europe's lowest passive-income bar. But 2025-26 tightening: job-seeker visa & manifestação de interesse abolished; citizenship now 10 yrs (7 CPLP/EU, law of May 2026); AIMA backlogs.",
+  "est": false
+ },
+ "NZL": {
+  "longstay": 36,
+  "pr": 45,
+  "routes": [
+   "Working holiday (~45 nations)",
+   "Visitor 9 mo (remote work allowed since 2025)",
+   "Religious worker visa",
+   "Parent Boost visa",
+   "Skilled migrant residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "Trans-Tasman"
+  ],
+  "prYears": 3,
+  "note": "Visitors may now work remotely for overseas employers. New skilled pathways Aug 2026. Citizenship 5 yrs; dual allowed.",
+  "est": false
+ },
+ "ITA": {
+  "longstay": 50,
+  "pr": 42,
+  "routes": [
+   "Elective residence (~€31-32k/yr passive)",
+   "Digital nomad (~€28k/yr)",
+   "Volunteer visa (programmes)",
+   "Religious visa"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Consular ERV approvals strict (no work). DN visa since Apr 2024. EU long-term permit after 5 yrs; citizenship 10 yrs + B1; descent route curbed 2025.",
+  "est": false
+ },
+ "JPN": {
+  "longstay": 26,
+  "pr": 22,
+  "routes": [
+   "Working holiday (~30 nations, 18-30)",
+   "Digital nomad (6 mo, ¥10M+/yr)",
+   "Religious activities visa",
+   "Cultural activities visa",
+   "Skilled work / SSW"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 10,
+  "note": "Tightening: naturalisation residence raised to 10 yrs (Apr 2026); PR income/language rules and ¥200k fee from Oct 2026; DN visa not extendable. No dual.",
+  "est": false
+ },
+ "DEU": {
+  "longstay": 42,
+  "pr": 68,
+  "routes": [
+   "Freelance permit §21 (local clients)",
+   "Opportunity Card (job search)",
+   "Volunteer service (BFD/§19e)",
+   "Skilled work / Blue Card"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "No nomad/retiree visa. Settlement permit ~5 yrs. Citizenship 5 yrs with dual allowed (3-yr 'turbo' abolished Oct 2025). B1 German required.",
+  "est": false
+ },
+ "AUT": {
+  "longstay": 32,
+  "pr": 28,
+  "routes": [
+   "Settlement permit excl. employment (quota)",
+   "Red-White-Red card",
+   "Religious/volunteer special cases",
+   "Student"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Passive-income permit is quota-limited and needs ~€1,300+/mo plus housing. Citizenship 10 yrs, dual generally barred.",
+  "est": true
+ },
+ "FRA": {
+  "longstay": 50,
+  "pr": 58,
+  "routes": [
+   "Long-stay visitor visa (passive, ~SMIC)",
+   "Talent passport",
+   "Volunteer permit (volontaire)",
+   "Student"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "No DN visa. From 2026: A2 French for multi-year card, B1 for 10-yr card, B2 + civic exam for naturalisation. Citizenship 5 yrs; dual allowed.",
+  "est": false
+ },
+ "DNK": {
+  "longstay": 20,
+  "pr": 22,
+  "routes": [
+   "Work permit (pay limit/positive list)",
+   "Working holiday (few nations)",
+   "Start-up Denmark"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA",
+   "Nordic"
+  ],
+  "prYears": 8,
+  "note": "Among Europe's strictest regimes. PR ~8 yrs with tests; citizenship 9 yrs; dual allowed.",
+  "est": true
+ },
+ "TWN": {
+  "longstay": 40,
+  "pr": 40,
+  "routes": [
+   "Digital nomad (up to 2 yrs since Jan 2026)",
+   "Employment Gold Card",
+   "Working holiday (~17 nations)",
+   "Missionary visa"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "DN visa extended to 2 yrs (visa-exempt nationals). APRC after 5 yrs (Gold Card faster). Naturalisation normally requires renunciation.",
+  "est": false
+ },
+ "NLD": {
+  "longstay": 30,
+  "pr": 45,
+  "routes": [
+   "Self-employed permit (points)",
+   "DAFT (US/Japan only)",
+   "Working holiday (few nations)",
+   "Volunteer (ESC) permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Tight for most nationalities. Naturalisation 5 yrs but usually must renounce; a 10-yr proposal was consulted 2025, not law as of Aug 2026.",
+  "est": false
+ },
+ "GBR": {
+  "longstay": 28,
+  "pr": 40,
+  "routes": [
+   "Youth Mobility (~13 nations, 18-30/35)",
+   "Charity worker visa (12 mo)",
+   "Religious worker (24 mo)",
+   "Skilled worker"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "Common Travel Area"
+  ],
+  "prYears": 5,
+  "note": "ILR still 5 yrs but 'earned settlement' (10-yr baseline) planned; rules not laid as of Sep 2026. Citizenship ILR+1 yr; dual allowed.",
+  "est": false
+ },
+ "NOR": {
+  "longstay": 24,
+  "pr": 40,
+  "routes": [
+   "Skilled work permit",
+   "Self-employed permit",
+   "Working holiday (few nations)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA",
+   "Nordic"
+  ],
+  "prYears": 3,
+  "note": "EEA via EFTA. PR after 3 yrs work (income test); citizenship 8 yrs; dual allowed since 2020.",
+  "est": true
+ },
+ "USA": {
+  "longstay": 18,
+  "pr": 30,
+  "routes": [
+   "R-1 religious worker (5 yrs)",
+   "J-1 exchange",
+   "B-2 visitor (≤6 mo)",
+   "Employment/family green cards"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Travel bans on 39 countries (Jan 2026) and B visa bonds for ~50 nations. R-1 re-entry wait removed Jan 2026 but EB-4 green cards heavily backlogged.",
+  "est": false
+ },
+ "KOR": {
+  "longstay": 26,
+  "pr": 25,
+  "routes": [
+   "Workation F-1-D (~KRW 85M/yr)",
+   "Working holiday (~25 nations)",
+   "D-6 religious visa",
+   "E-7 skilled work"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Workation visa up to 2 yrs for high earners. F-5 PR ~5 yrs via points; citizenship 5 yrs, dual restricted.",
+  "est": true
+ },
+ "CAN": {
+  "longstay": 34,
+  "pr": 55,
+  "routes": [
+   "IEC working holiday (~35 nations)",
+   "Visitor up to 6 mo (extendable)",
+   "Charitable/religious work permit",
+   "Express Entry PR"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 2,
+  "note": "2026-28 plan cuts new temporary residents ~43% (to 385k) while PR stays 380k/yr. Citizenship 3 of 5 yrs; dual allowed.",
+  "est": false
+ },
+ "BEL": {
+  "longstay": 30,
+  "pr": 48,
+  "routes": [
+   "Professional card (self-employed)",
+   "Single permit (work)",
+   "Volunteer permit",
+   "Student"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Few routes for non-workers. Citizenship 5 yrs with integration/language proof; dual allowed.",
+  "est": true
+ },
+ "HKG": {
+  "longstay": 24,
+  "pr": 25,
+  "routes": [
+   "Top Talent Pass",
+   "Working holiday (~15 nations)",
+   "Employment visa",
+   "Capital investment (HK$30M)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 7,
+  "note": "PR after 7 yrs; no HK citizenship for non-Chinese. Civil-society space narrowed since 2020.",
+  "est": true
+ },
+ "ISL": {
+  "longstay": 26,
+  "pr": 40,
+  "routes": [
+   "Remote-work long stay (180 days, ~ISK 1M/mo)",
+   "Work permit (shortage)",
+   "Student"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA",
+   "Nordic"
+  ],
+  "prYears": 4,
+  "note": "Tiny labour market; residence mostly via work/family. Citizenship 7 yrs; dual allowed.",
+  "est": true
+ },
+ "SWE": {
+  "longstay": 26,
+  "pr": 35,
+  "routes": [
+   "Work permit (80% median wage)",
+   "Self-employed permit",
+   "Working holiday (few nations)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA",
+   "Nordic"
+  ],
+  "prYears": 4,
+  "note": "Citizenship raised to 8 yrs with income, language and civics tests from 6 Jun 2026 (no grandfathering). Dual allowed.",
+  "est": false
+ },
+ "GRC": {
+  "longstay": 56,
+  "pr": 48,
+  "routes": [
+   "Financially independent (~€3,500/mo)",
+   "Digital nomad (€3,500/mo net)",
+   "Golden visa €250k-800k",
+   "Startup golden visa €250k"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Since 2026 DN permit needs a D visa from abroad. Golden visa €800k in Athens/islands, €400k elsewhere. Citizenship 7 yrs + Greek B1 and exam; dual allowed.",
+  "est": false
+ },
+ "ISR": {
+  "longstay": 14,
+  "pr": 8,
+  "routes": [
+   "B/4 volunteer visa (kibbutz/moshav)",
+   "Religious/clergy visa"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Kibbutz volunteering is the closest analogue, but stays are short and war-related disruption continues. Naturalisation for non-Jews rare.",
+  "est": false
+ },
+ "FIN": {
+  "longstay": 26,
+  "pr": 40,
+  "routes": [
+   "Work/specialist permit",
+   "Startup permit",
+   "Student"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA",
+   "Nordic"
+  ],
+  "prYears": 4,
+  "note": "PR after 4 yrs continuous; citizenship raised to 8 yrs (Oct 2024); dual allowed.",
+  "est": true
+ },
+ "LUX": {
+  "longstay": 28,
+  "pr": 45,
+  "routes": [
+   "Salaried/self-employed permits",
+   "Volunteer permit",
+   "Investor residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Very high costs; residence mostly via work. Citizenship 5 yrs + Luxembourgish test; dual allowed.",
+  "est": true
+ },
+ "IRL": {
+  "longstay": 30,
+  "pr": 60,
+  "routes": [
+   "Stamp 0 (~€50k/yr income)",
+   "Working holiday (limited nations)",
+   "Critical skills permit",
+   "Student"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA",
+   "Common Travel Area"
+  ],
+  "prYears": 5,
+  "note": "Not in Schengen. Stamp 0 is not reckonable for citizenship; Stamp 1/4 are. Naturalisation 5 yrs; dual allowed.",
+  "est": false
+ },
+ "SMR": {
+  "longstay": 15,
+  "pr": 10,
+  "routes": [
+   "Elective residence for investors/retirees"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Tiny state; residence by investment/wealth or marriage. Naturalisation takes decades.",
+  "est": true
+ },
+ "SYC": {
+  "longstay": 24,
+  "pr": 8,
+  "routes": [
+   "Workcation programme (1 yr remote)",
+   "Gainful occupation permit"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Residence very restricted; land purchase by foreigners needs sanction.",
+  "est": true
+ },
+ "HRV": {
+  "longstay": 44,
+  "pr": 38,
+  "routes": [
+   "Digital nomad (€3,622/mo, 18 mo)",
+   "Volunteering temporary stay",
+   "Work permit",
+   "Company founder"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "DN permit up to 18 months then 6-month exit before reapplying. Citizenship 8 yrs, normally must renounce.",
+  "est": false
+ },
+ "POL": {
+  "longstay": 42,
+  "pr": 45,
+  "routes": [
+   "Temporary residence (business/company)",
+   "Volunteer residence (wolontariat)",
+   "Work permit",
+   "Student"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Company-based residence is common and affordable. PR 5 yrs; citizenship ~3 yrs after PR (proposals to lengthen); dual tolerated.",
+  "est": true
+ },
+ "AND": {
+  "longstay": 30,
+  "pr": 22,
+  "routes": [
+   "Passive residence (~€600k investment)",
+   "Self-employed residence",
+   "Quota work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 20,
+  "note": "Passive residence needs heavy investment + 90 days/yr presence. Citizenship 20 yrs, renunciation required.",
+  "est": true
+ },
+ "CZE": {
+  "longstay": 42,
+  "pr": 42,
+  "routes": [
+   "Trade licence 'živno' visa",
+   "Digital nomad program (limited nationalities)",
+   "Employee card",
+   "Student"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Živno freelancer visa is a well-trodden route; DN scheme limited to some nationalities/high earners. PR 5 yrs; citizenship 5 yrs PR+; dual allowed.",
+  "est": true
+ },
+ "CYP": {
+  "longstay": 52,
+  "pr": 40,
+  "routes": [
+   "Digital nomad (€3,500/mo net)",
+   "Category F visitor permit (passive)",
+   "PR by investment (€300k)"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Cat F visitor permit is accessible for retirees but slow. DN 1 yr + 2. Citizenship ~8 yrs (faster with Greek B1).",
+  "est": false
+ },
+ "SVN": {
+  "longstay": 36,
+  "pr": 32,
+  "routes": [
+   "Digital nomad permit (1 yr, non-renewable)",
+   "Business residence (company)",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "DN permit added late 2024 but cannot be renewed back-to-back. PR 5 yrs; citizenship 10 yrs, renunciation usually required.",
+  "est": true
+ },
+ "BRB": {
+  "longstay": 45,
+  "pr": 25,
+  "routes": [
+   "Welcome Stamp (12 mo, ~$50k/yr)",
+   "Special Entry & Reside Permit (HNW)",
+   "CSME free movement"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME"
+  ],
+  "prYears": 5,
+  "note": "Welcome Stamp renewable; small island, high costs. One of 4 CARICOM states with full free movement since Oct 2024.",
+  "est": false
+ },
+ "MUS": {
+  "longstay": 54,
+  "pr": 35,
+  "routes": [
+   "Premium Visa (1 yr renewable, foreign income)",
+   "Retired non-citizen (50+, $2,000/mo)",
+   "Occupation permit",
+   "Property ≥$375k → residence"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Premium Visa open to most nationalities. Finance Act 2025: PR wait raised to 5 yrs; property duty on non-citizens 10% from Jul 2026.",
+  "est": false
+ },
+ "SGP": {
+  "longstay": 15,
+  "pr": 15,
+  "routes": [
+   "Employment Pass / ONE Pass",
+   "Work Holiday (students, few nations)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 2,
+  "note": "Residence tied to work; PR discretionary; land prices prohibitive.",
+  "est": true
+ },
+ "BHS": {
+  "longstay": 40,
+  "pr": 18,
+  "routes": [
+   "BEATS remote work (1 yr)",
+   "Annual residence (property)",
+   "PR via $750k+ property"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 10,
+  "note": "Remote-work permit accessible; long-term residence wealth-gated; hurricane exposure.",
+  "est": false
+ },
+ "ATG": {
+  "longstay": 42,
+  "pr": 25,
+  "routes": [
+   "Nomad Digital Residence (2 yrs, $50k/yr)",
+   "Citizenship by investment (~$230k)"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME",
+   "OECS"
+  ],
+  "prYears": 7,
+  "note": "NDR is one of the longest Caribbean nomad permits; residence otherwise wealth-gated.",
+  "est": false
+ },
+ "CRI": {
+  "longstay": 64,
+  "pr": 55,
+  "routes": [
+   "Pensionado ($1,000/mo)",
+   "Rentista ($2,500/mo or $60k deposit)",
+   "Digital nomad ($3,000/mo, 1+1 yr)",
+   "Investor ($150k)",
+   "Volunteer special category"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 3,
+  "note": "Stable democracy; PR after 3 yrs temporary; citizenship 7 yrs. DN status doesn't lead to PR. Investor bar may return to $200k.",
+  "est": false
+ },
+ "ROU": {
+  "longstay": 40,
+  "pr": 42,
+  "routes": [
+   "Digital nomad (3x avg salary, ~€3,700+/mo)",
+   "Volunteer visa",
+   "Business/company visa",
+   "Work permit"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "DN threshold among EU's highest. PR 5 yrs; citizenship 8 yrs (5 if married); dual allowed.",
+  "est": false
+ },
+ "MAC": {
+  "longstay": 10,
+  "pr": 15,
+  "routes": [
+   "Employment/talent schemes"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 7,
+  "note": "Tiny, costly; residence via work/talent only.",
+  "est": true
+ },
+ "URY": {
+  "longstay": 80,
+  "pr": 70,
+  "routes": [
+   "Legal residence with modest income proof",
+   "Digital nomad permit (6+6 mo)",
+   "Mercosur residence",
+   "Remote income accepted for residence"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement"
+  ],
+  "prYears": 1,
+  "note": "Among the world's easiest residence systems; stable democracy. Citizenship 3 yrs (family) / 5 yrs; dual allowed. DN permit time not reckonable.",
+  "est": false
+ },
+ "TTO": {
+  "longstay": 25,
+  "pr": 25,
+  "routes": [
+   "Work permit",
+   "CSME skills certificate"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME"
+  ],
+  "prYears": 5,
+  "note": "Energy economy; crime high; few non-work routes.",
+  "est": true
+ },
+ "ARG": {
+  "longstay": 62,
+  "pr": 55,
+  "routes": [
+   "Rentista/pensionado temp residence",
+   "Digital nomad (180+180 days)",
+   "Mercosur residence (members)",
+   "Religious-worker residence"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement"
+  ],
+  "prYears": 3,
+  "note": "Decree 366/2025: health insurance for entrants, income proof for PR, citizenship 2 yrs with NO exits; PR lost after 1 yr abroad.",
+  "est": false
+ },
+ "BRN": {
+  "longstay": 8,
+  "pr": 5,
+  "routes": [
+   "Employment pass"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Sharia penal code; residence via employment only.",
+  "est": true
+ },
+ "BGR": {
+  "longstay": 58,
+  "pr": 42,
+  "routes": [
+   "Pensioner D visa (pension ~min wage)",
+   "Digital nomad (~€31k/yr, since Dec 2025)",
+   "Company/self-employed",
+   "Volunteer permit"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Low-cost EU state; full Schengen 2025, euro 2026. DN residence opened Dec 2025 (1 yr + 1). Citizenship ~5 yrs after PR; renunciation usually required.",
+  "est": false
+ },
+ "EST": {
+  "longstay": 36,
+  "pr": 35,
+  "routes": [
+   "Digital nomad (~€4,500/mo)",
+   "Startup visa",
+   "Work permit",
+   "e-Residency (no residence)"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "DN visa ≤1 yr, high bar. Immigration quota on work. Citizenship 8 yrs + Estonian; no dual for naturalised.",
+  "est": false
+ },
+ "GRD": {
+  "longstay": 32,
+  "pr": 22,
+  "routes": [
+   "Citizenship by investment (~$235k)",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME",
+   "OECS"
+  ],
+  "prYears": null,
+  "note": "No formal nomad visa (sources conflict). CBI gives E-2 treaty access to US.",
+  "est": true
+ },
+ "SVK": {
+  "longstay": 30,
+  "pr": 32,
+  "routes": [
+   "Temporary residence (business)",
+   "Work permit",
+   "Student"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Business-based residence possible but bureaucratic. Citizenship 8 yrs; dual generally barred.",
+  "est": true
+ },
+ "MYS": {
+  "longstay": 48,
+  "pr": 10,
+  "routes": [
+   "DE Rantau ($24k/yr tech; $60k non-tech)",
+   "MM2H Silver ($150k deposit + property)",
+   "Sarawak MM2H (cheaper)",
+   "Professional Visit Pass (volunteers)"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "DE Rantau 12 + 12 mo. MM2H revamped 2024 (90 days/yr stay). PR rarely granted.",
+  "est": false
+ },
+ "CHL": {
+  "longstay": 50,
+  "pr": 55,
+  "routes": [
+   "Rentista/pensionado temp residence (apply abroad)",
+   "Mercosur temporary residence",
+   "Religious-worker subcategory",
+   "Tourist 90+90 days"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement"
+  ],
+  "prYears": 2,
+  "note": "2021 migration law requires applying from abroad (SERMIG online). PR after ~2 yrs; citizenship 5 yrs; dual allowed.",
+  "est": false
+ },
+ "ARE": {
+  "longstay": 58,
+  "pr": 15,
+  "routes": [
+   "Remote work visa (~$3,500/mo)",
+   "Retirement 55+ (AED 15k/mo or AED 1M property)",
+   "Golden visa (AED 2M property)",
+   "Free-zone freelance permit"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "GCC"
+  ],
+  "prYears": null,
+  "note": "Easy renewable residence for many nationalities, but no PR or realistic citizenship; land use and association rules restrictive.",
+  "est": true
+ },
+ "MLT": {
+  "longstay": 42,
+  "pr": 35,
+  "routes": [
+   "Nomad residence (€42k/yr)",
+   "Permanent residence programme (MPRP)",
+   "Global Residence Programme",
+   "Retirement programme"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "English-speaking but costly. Nomad permit renewable to 4 yrs. Golden passport struck down by EU court Apr 2025.",
+  "est": false
+ },
+ "BRA": {
+  "longstay": 70,
+  "pr": 62,
+  "routes": [
+   "Digital nomad VITEM XIV ($1,500/mo or $18k)",
+   "Retirement visa ($2,000/mo)",
+   "Volunteer visa (VITEM V, 1 yr)",
+   "Mercosur residence (members)"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement"
+  ],
+  "prYears": 4,
+  "note": "Naturalisation 4 yrs (1 with Brazilian spouse/child); dual allowed. eVisa reinstated for US/CAN/AUS 2025.",
+  "est": false
+ },
+ "MDV": {
+  "longstay": 10,
+  "pr": 2,
+  "routes": [
+   "Employment approval (resorts)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Islamic legal regime; residence only via employment; land not sold to foreigners.",
+  "est": true
+ },
+ "MEX": {
+  "longstay": 56,
+  "pr": 62,
+  "routes": [
+   "Temporary residence (~$4,400/mo or ~$73k savings)",
+   "Permanent residence for pensioners",
+   "Religious minister residence",
+   "FMM tourist ≤180 days (discretionary)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 4,
+  "note": "Solvency now UMA-based and varies by consulate. PR after 4 yrs temporary; citizenship 5 yrs; dual allowed. Tourist days often cut at entry.",
+  "est": false
+ },
+ "ECU": {
+  "longstay": 74,
+  "pr": 65,
+  "routes": [
+   "Jubilado/rentista/DN (3x SBU ≈$1,446/mo)",
+   "Volunteer/missionary temp residence",
+   "Investor residence",
+   "Mercosur/Andean residence"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement",
+   "Andean Community"
+  ],
+  "prYears": 2,
+  "note": "PR after 21 months temporary; citizenship 3 yrs; dual allowed. Criminal-record certificate needed for each visa since 2025. Security worsened 2024-26.",
+  "est": false
+ },
+ "BTN": {
+  "longstay": 3,
+  "pr": 1,
+  "routes": [
+   "Work permit only (sponsored)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "India–Bhutan (nationals only)"
+  ],
+  "prYears": null,
+  "note": "Tourism capped by SDF ($100/night); no residence routes for outsiders.",
+  "est": true
+ },
+ "CUB": {
+  "longstay": 8,
+  "pr": 4,
+  "routes": [
+   "Tourist visa ≤90 days",
+   "Temporary residence (rare)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Economic crisis, blackouts; tight state control of associations.",
+  "est": true
+ },
+ "THA": {
+  "longstay": 66,
+  "pr": 12,
+  "routes": [
+   "DTV (5-yr, 180 days/entry, ฿500k savings)",
+   "Retirement O/O-A (50+, ฿800k)",
+   "LTR (wealthy/professionals)",
+   "Non-O volunteer / Non-B NGO",
+   "Thailand Privilege"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 3,
+  "note": "DTV opened long stays to nearly all nationalities (remote work/soft-power courses). Visa-exempt cut to 30 days from 15 Sep 2026. PR quota tiny; land ownership barred.",
+  "est": false
+ },
+ "LTU": {
+  "longstay": 30,
+  "pr": 28,
+  "routes": [
+   "Startup visa",
+   "Work permit",
+   "Company owner residence"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Business route possible. Citizenship 10 yrs; dual nationality generally barred (2024 referendum failed).",
+  "est": true
+ },
+ "GEO": {
+  "longstay": 74,
+  "pr": 45,
+  "routes": [
+   "1-yr visa-free (~95 nations)",
+   "Property residence ($150k from Mar 2026)",
+   "Investment residence ($300k → PR)",
+   "Work permit (needed from Mar 2026)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 6,
+  "note": "One-year visa-free stays remain the key draw. 2025-26 tightening: work permits for foreigners incl. self-employed, higher property bar, stricter student/marriage permits.",
+  "est": false
+ },
+ "KNA": {
+  "longstay": 30,
+  "pr": 22,
+  "routes": [
+   "Citizenship by investment (~$250k)",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME",
+   "OECS"
+  ],
+  "prYears": null,
+  "note": "Residence otherwise via work; small and costly.",
+  "est": true
+ },
+ "TUR": {
+  "longstay": 48,
+  "pr": 30,
+  "routes": [
+   "Digital nomad ($3,000/mo, ~36 nations, 21-55)",
+   "Short-term residence (property ≥$200k)",
+   "Citizenship by investment ($400k)"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 8,
+  "note": "Tourist residence permits curtailed; renewals tougher since 2023. Long-term residence after 8 yrs; citizenship 5 yrs; dual allowed.",
+  "est": false
+ },
+ "PER": {
+  "longstay": 56,
+  "pr": 55,
+  "routes": [
+   "Rentista ($1,000/mo passive, in-country)",
+   "Volunteer/cooperante visa",
+   "Mercosur residence (members)",
+   "Tourist up to 183 days/yr"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement",
+   "Andean Community"
+  ],
+  "prYears": 3,
+  "note": "DN visa legislated 2023 but still not operational (Jul 2026). Volunteer visa notoriously bureaucratic. PR after 3 yrs; dual allowed.",
+  "est": false
+ },
+ "HUN": {
+  "longstay": 44,
+  "pr": 42,
+  "routes": [
+   "White Card nomad (~€3,000/mo)",
+   "Guest Investor (€250k fund)",
+   "Volunteer residence",
+   "Work permit"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 3,
+  "note": "White Card does not count toward PR. Guest Investor gives 10+10-yr residence. Citizenship 8 yrs; dual allowed.",
+  "est": false
+ },
+ "LCA": {
+  "longstay": 38,
+  "pr": 22,
+  "routes": [
+   "Remote-stay programme (est.)",
+   "Citizenship by investment (~$240k)",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME",
+   "OECS"
+  ],
+  "prYears": null,
+  "note": "Nomad-type stays offered; long-term residence mostly via investment.",
+  "est": true
+ },
+ "TON": {
+  "longstay": 28,
+  "pr": 8,
+  "routes": [
+   "Work/volunteer permit",
+   "Business residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Land cannot be sold to foreigners; small economy.",
+  "est": true
+ },
+ "OMN": {
+  "longstay": 28,
+  "pr": 8,
+  "routes": [
+   "Investor residence (OMR 250k)",
+   "Employer-sponsored work"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "GCC"
+  ],
+  "prYears": null,
+  "note": "Residence mostly employer-sponsored; investor residence for the wealthy.",
+  "est": true
+ },
+ "WSM": {
+  "longstay": 28,
+  "pr": 8,
+  "routes": [
+   "Work/volunteer permit",
+   "Investor residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Customary land; residence via work, volunteering programmes or investment.",
+  "est": true
+ },
+ "ARM": {
+  "longstay": 66,
+  "pr": 50,
+  "routes": [
+   "180 days visa-free (many nations)",
+   "Temporary residence (business/work)",
+   "Permanent residence after 3 yrs"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAEU"
+  ],
+  "prYears": 3,
+  "note": "Residence permits surged in 2026. From 1 Nov 2026 an online-only system and work-permission rules tighten; fees rise 2027. Dual citizenship allowed.",
+  "est": false
+ },
+ "SAU": {
+  "longstay": 24,
+  "pr": 8,
+  "routes": [
+   "Premium Residency tiers",
+   "Employer-sponsored work"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "GCC"
+  ],
+  "prYears": null,
+  "note": "Premium Residency for wealthy/skilled; religious practice and NGO activity restricted.",
+  "est": true
+ },
+ "VCT": {
+  "longstay": 30,
+  "pr": 22,
+  "routes": [
+   "Work permit",
+   "Visitor extensions"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME",
+   "OECS"
+  ],
+  "prYears": null,
+  "note": "Small island; few long-stay routes for non-CARICOM nationals.",
+  "est": true
+ },
+ "BHR": {
+  "longstay": 38,
+  "pr": 8,
+  "routes": [
+   "Golden residency (pension/income or BHD 200k property)",
+   "Self-sponsored work permits"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "GCC"
+  ],
+  "prYears": null,
+  "note": "Golden residence accessible to retirees with ~BHD 2,000/mo or property. No PR/citizenship path in practice.",
+  "est": true
+ },
+ "PLW": {
+  "longstay": 24,
+  "pr": 5,
+  "routes": [
+   "Work permit",
+   "Visitor (US 1 yr)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "'Digital residency' ID is not residence. COFA benefits only Palauans in US.",
+  "est": true
+ },
+ "MCO": {
+  "longstay": 18,
+  "pr": 15,
+  "routes": [
+   "Residence card (housing + ~€500k deposit)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 10,
+  "note": "Wealth-gated residence only. Naturalisation discretionary (10 yrs adult), renunciation required.",
+  "est": true
+ },
+ "DMA": {
+  "longstay": 42,
+  "pr": 25,
+  "routes": [
+   "Work in Nature (18 mo, $50k/yr)",
+   "Citizenship by investment (~$200k)"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME",
+   "OECS"
+  ],
+  "prYears": null,
+  "note": "Volcanic 'nature island', eco-tourism ethos; WIN visa 18 months. Hurricane risk.",
+  "est": false
+ },
+ "QAT": {
+  "longstay": 18,
+  "pr": 4,
+  "routes": [
+   "Employer-sponsored work",
+   "Property residence (high)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "GCC"
+  ],
+  "prYears": null,
+  "note": "Sponsorship-based; permanent residency extremely limited.",
+  "est": true
+ },
+ "LVA": {
+  "longstay": 38,
+  "pr": 32,
+  "routes": [
+   "Digital nomad (2.5x avg wage)",
+   "Property residence (€250k)",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EU/EEA"
+  ],
+  "prYears": 5,
+  "note": "Property-based residence is an option. Citizenship 10 yrs + Latvian; dual only with EU/NATO etc.",
+  "est": true
+ },
+ "SUR": {
+  "longstay": 35,
+  "pr": 28,
+  "routes": [
+   "Tourist card/e-visa",
+   "Residence permit (MVK) with sponsor/income",
+   "CSME skills"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME"
+  ],
+  "prYears": 5,
+  "note": "Dutch-speaking; residence permits obtainable but bureaucratic.",
+  "est": true
+ },
+ "IND": {
+  "longstay": 32,
+  "pr": 8,
+  "routes": [
+   "Entry (X) visa w/ host letter (e.g. Auroville)",
+   "e-Tourist (5-yr; 90-180 days/visit)",
+   "Employment visa (≥$25k salary)",
+   "Missionary/NGO visas"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "India–Nepal/Bhutan treaties (nationals only)"
+  ],
+  "prYears": null,
+  "note": "Auroville residents need Foundation recommendation letters; 2024-26 renewal delays/denials. Immigration & Foreigners Act 2025 in force. No PR; citizenship 12 yrs, no dual; OCI only for Indian origin.",
+  "est": false
+ },
+ "PAN": {
+  "longstay": 58,
+  "pr": 58,
+  "routes": [
+   "Pensionado ($1,000/mo lifetime pension)",
+   "Friendly Nations (~50 nations; job or $200k)",
+   "Short-stay remote worker (~$36k/yr)",
+   "Qualified investor ($300k-500k)"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 2,
+  "note": "Pensionado gives indefinite residence. Friendly Nations now 2-yr provisional before PR. Investor reduced bar reportedly ends Oct 2026.",
+  "est": false
+ },
+ "COL": {
+  "longstay": 70,
+  "pr": 55,
+  "routes": [
+   "Digital nomad V visa (~3x min wage ≈$1,300/mo)",
+   "Pensionado M (3x min wage)",
+   "Volunteer visitor visa",
+   "Mercosur M visa (members)",
+   "Rentista (~10x min wage)"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement",
+   "Andean Community"
+  ],
+  "prYears": 5,
+  "note": "Online e-visa system; DN time doesn't count toward residence. R visa now needs 5-yearly transfer. Citizenship 5 yrs (2 for Latin Americans); dual allowed.",
+  "est": false
+ },
+ "CHN": {
+  "longstay": 12,
+  "pr": 5,
+  "routes": [
+   "Work Z visa",
+   "Family Q visa",
+   "30-day visa-free (many, 2024-26)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Foreign NGOs tightly controlled (2017 law); PR ('green card') rare; no dual citizenship.",
+  "est": true
+ },
+ "VNM": {
+  "longstay": 32,
+  "pr": 5,
+  "routes": [
+   "e-Visa 90 days multi-entry (border runs)",
+   "Investor DT visas",
+   "Work permit LD",
+   "NGO staff visa",
+   "Golden visa pilot (Jul 2026, investors/talent)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Since Feb 2026 residence cards only for LD2/TT holders. Golden visa pilot under Res. 41/2026 capped at 8,000. PR/citizenship essentially closed.",
+  "est": false
+ },
+ "LKA": {
+  "longstay": 50,
+  "pr": 15,
+  "routes": [
+   "Digital nomad (Feb 2026, $2,000/mo)",
+   "My Dream Home (50/55+, $15k deposit)",
+   "Resident Guest scheme",
+   "NGO/religious residence visa"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "New DN visa (12 mo, renewable) launched Feb 2026. Retiree scheme 2 yrs renewable. Citizenship rare.",
+  "est": false
+ },
+ "SEN": {
+  "longstay": 40,
+  "pr": 25,
+  "routes": [
+   "Residence card (non-ECOWAS)",
+   "ECOWAS free movement",
+   "NGO registration"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": 5,
+  "note": "Stable democracy; visa-free entry for many; residence via local paperwork.",
+  "est": true
+ },
+ "XKX": {
+  "longstay": 42,
+  "pr": 28,
+  "routes": [
+   "Temporary residence (company/work)",
+   "90-day visa-free for many"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Small, inexpensive; residence mostly via local company or employment. Not universally recognised.",
+  "est": true
+ },
+ "VUT": {
+  "longstay": 45,
+  "pr": 20,
+  "routes": [
+   "Visitor 30 days, ext. to 120/yr",
+   "Residence on assured income",
+   "Volunteer work permit",
+   "Investor residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Assured-income residence accessible; land leasehold only (custom ownership). EU suspended visa-free for Vanuatu passports (CBI) 2024-25.",
+  "est": false
+ },
+ "MNE": {
+  "longstay": 56,
+  "pr": 40,
+  "routes": [
+   "Digital nomad permit (2+2 yrs)",
+   "Property owner residence (≥€200k)",
+   "Company founder residence"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "DN scheme framed to run to end-2026, extension unconfirmed. Property threshold raised late 2025. Citizenship 10 yrs, renunciation required.",
+  "est": false
+ },
+ "ZAF": {
+  "longstay": 50,
+  "pr": 45,
+  "routes": [
+   "Volunteer visa (≤3 yrs, registered NPO)",
+   "Remote work visa (R650,796/yr)",
+   "Retired person visa (R37,000/mo)",
+   "Points-based work visas"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Remote-work visa operational 2025. 2025 Constitutional Court ruling ended automatic loss of citizenship. Crime and Home Affairs delays are hurdles.",
+  "est": false
+ },
+ "CPV": {
+  "longstay": 52,
+  "pr": 35,
+  "routes": [
+   "Remote Working Cabo Verde (6+6 mo)",
+   "Temporary residence visa",
+   "ECOWAS free movement"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": 5,
+  "note": "Remote-work scheme limited to Europe/N. America/CPLP/ECOWAS nationals; stable democracy. PR after 5 yrs.",
+  "est": false
+ },
+ "IDN": {
+  "longstay": 52,
+  "pr": 15,
+  "routes": [
+   "E33G remote worker (~$60k/yr)",
+   "Second-home visa (~$130k deposit, 5-10 yrs)",
+   "Retirement KITAS (55+)",
+   "Social/volunteer visa (sponsor)",
+   "Golden visa (investment)"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Bali enforcement task force & deportations rose 2025-26; working on tourist/social visas risky. Land via Hak Pakai only. Citizenship 5 yrs, no dual.",
+  "est": false
+ },
+ "KWT": {
+  "longstay": 10,
+  "pr": 3,
+  "routes": [
+   "Employer-sponsored work"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "GCC"
+  ],
+  "prYears": null,
+  "note": "Restrictive; investor long-term residency (2026) only for KDIPA executives.",
+  "est": true
+ },
+ "BOL": {
+  "longstay": 62,
+  "pr": 55,
+  "routes": [
+   "Temporary residence 1-3 yrs (Law 370)",
+   "Mercosur residence (members)",
+   "Volunteer/religious temp stay",
+   "Rentista/retiree"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement",
+   "Andean Community"
+  ],
+  "prYears": 2,
+  "note": "Full Mercosur member 2024; online DIGEMIG window. PR in ~2-3 yrs; citizenship 3 yrs. Political/economic volatility.",
+  "est": false
+ },
+ "JAM": {
+  "longstay": 35,
+  "pr": 35,
+  "routes": [
+   "Visitor up to 6 mo (many nations)",
+   "Work permit",
+   "CSME skills certificate"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME"
+  ],
+  "prYears": 5,
+  "note": "English-speaking; no dedicated retiree/nomad scheme; crime concerns.",
+  "est": true
+ },
+ "RUS": {
+  "longstay": 18,
+  "pr": 25,
+  "routes": [
+   "'Shared values' residence (2024)",
+   "Temporary residence (quota)",
+   "Work patent"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAEU"
+  ],
+  "prYears": 3,
+  "note": "War and sanctions; foreign NGOs labelled 'undesirable'. Simplified residence for those opposing 'Western values' since 2024.",
+  "est": true
+ },
+ "BIH": {
+  "longstay": 44,
+  "pr": 30,
+  "routes": [
+   "Temporary residence via property",
+   "Company residence",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Property ownership can ground temporary residence; complex entity-level admin. Citizenship 8 yrs; dual only by treaty.",
+  "est": true
+ },
+ "DOM": {
+  "longstay": 58,
+  "pr": 55,
+  "routes": [
+   "Pensionado ($1,500/mo)",
+   "Rentista ($2,000/mo)",
+   "Investor (~$200k)",
+   "Tourist 30 days, paid extensions"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Residence visa obtained at consulate first; temporary then PR after ~4-5 yrs; citizenship ~2 yrs after PR.",
+  "est": false
+ },
+ "PRY": {
+  "longstay": 82,
+  "pr": 62,
+  "routes": [
+   "Temporary residence 2 yrs (no income test)",
+   "PR after 2 yrs temporary",
+   "Investor SUACE ($70k biz / $200k) → direct PR",
+   "Mercosur residence"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "Mercosur residence agreement"
+  ],
+  "prYears": 2,
+  "note": "Law 6984/2022: temporary first, no income/deposit proof; PR renewable 10 yrs (visit every 3 yrs). Citizenship 3 yrs after PR.",
+  "est": false
+ },
+ "TZA": {
+  "longstay": 42,
+  "pr": 12,
+  "routes": [
+   "Class C volunteer/missionary permit",
+   "Class C-2 retiree (55+)",
+   "Class A investor",
+   "Class B work"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": null,
+  "note": "Class C permits renewable but no path to PR; citizenship rare and no dual. Political space narrowed 2024-25.",
+  "est": false
+ },
+ "UZB": {
+  "longstay": 34,
+  "pr": 20,
+  "routes": [
+   "Investor residence ($250k / property $100-300k)",
+   "30-day visa-free",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "5-yr investor permits since Jun 2025; citizenship needs renunciation and Uzbek.",
+  "est": false
+ },
+ "GTM": {
+  "longstay": 52,
+  "pr": 55,
+  "routes": [
+   "Pensionado/rentista ($1,250/mo)",
+   "Temporary residence",
+   "CA-4 tourist 90 days + extension"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "CA-4"
+  ],
+  "prYears": 0,
+  "note": "Pensionado/rentista residence reported as permanent from start; Oct 2025 reforms dropped guarantor rule. Citizenship 5 yrs.",
+  "est": false
+ },
+ "PHL": {
+  "longstay": 64,
+  "pr": 30,
+  "routes": [
+   "Visa-waiver extensions to 36 months",
+   "SRRV retiree ($20k deposit at 50+)",
+   "Missionary 9(g) / NGO visas",
+   "13(a) spouse"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 0,
+  "note": "Easy long tourist stays for ~157 nationalities. DN visa authorised (EO 86, 2025) but not issuing as of Aug 2026. SRRV = indefinite residence; foreigners can't own land.",
+  "est": false
+ },
+ "GHA": {
+  "longstay": 45,
+  "pr": 30,
+  "routes": [
+   "Resident permit (volunteer/missionary/work)",
+   "Right of Abode (African diaspora)",
+   "ECOWAS free movement",
+   "Indefinite residence (~5 yrs)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": 5,
+  "note": "Stable democracy; English; welcoming to diaspora. Land via leasehold (≤50 yrs) for non-citizens.",
+  "est": false
+ },
+ "BLZ": {
+  "longstay": 70,
+  "pr": 68,
+  "routes": [
+   "Monthly tourist extension ($100/mo)",
+   "QRP retiree ($2,000/mo, 40+)",
+   "PR after 1 yr residence",
+   "Volunteer permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "CARICOM CSME"
+  ],
+  "prYears": 1,
+  "note": "English-speaking; PR possible after 1 yr continuous stay (≤14 days away). Citizenship 5 yrs. CARICOM full free movement for some members since 2024.",
+  "est": false
+ },
+ "FJI": {
+  "longstay": 45,
+  "pr": 20,
+  "routes": [
+   "Visitor 4 mo + extension to 6",
+   "Volunteer permit",
+   "Assured-income/retirement permit",
+   "Investor permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Retirement permit on assured income; volunteer permits common. Most land is customary (iTaukei) — leasehold only.",
+  "est": false
+ },
+ "NPL": {
+  "longstay": 36,
+  "pr": 5,
+  "routes": [
+   "Tourist visa (150 days/calendar yr)",
+   "Non-tourist visa (NGO/INGO, 1 yr)",
+   "Residential visa (~$20k/yr income)",
+   "Business/investor visa"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "India–Nepal treaty (nationals only)"
+  ],
+  "prYears": null,
+  "note": "NGO volunteering needs government-approved project/non-tourist visa; working on tourist visa is illegal. No PR; naturalisation essentially closed.",
+  "est": false
+ },
+ "KEN": {
+  "longstay": 45,
+  "pr": 30,
+  "routes": [
+   "Class N digital nomad (~$24k-55k/yr)",
+   "Class K assured-income residence",
+   "Special Pass (volunteers, ≤6 mo)",
+   "Class I missionary/charitable"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": 7,
+  "note": "Class N since Oct 2024 (income threshold sources conflict). Volunteering without permit is illegal. Citizenship 7 yrs; dual allowed.",
+  "est": false
+ },
+ "STP": {
+  "longstay": 34,
+  "pr": 15,
+  "routes": [
+   "Visa-free 15 days + residence permit",
+   "CPLP mobility"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Tiny, peaceful; limited admin; residence permits obtainable locally.",
+  "est": true
+ },
+ "MDA": {
+  "longstay": 44,
+  "pr": 35,
+  "routes": [
+   "Temporary residence (business/IT Park)",
+   "Volunteer residence",
+   "90/180 visa-free (EU etc.)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "EU candidate; residence obtainable via company or IT park. Citizenship 8 yrs; dual allowed.",
+  "est": true
+ },
+ "JOR": {
+  "longstay": 28,
+  "pr": 12,
+  "routes": [
+   "Investor residence",
+   "NGO staff permits",
+   "Work permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Many international NGOs; residence needs sponsor. Citizenship very rare.",
+  "est": true
+ },
+ "GUY": {
+  "longstay": 35,
+  "pr": 30,
+  "routes": [
+   "Visitor 30-90 days + extension",
+   "Work permit",
+   "CSME skills certificate"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CARICOM CSME"
+  ],
+  "prYears": null,
+  "note": "English-speaking; oil boom raising costs; land leases possible.",
+  "est": true
+ },
+ "LBN": {
+  "longstay": 14,
+  "pr": 4,
+  "routes": [
+   "Work/residence via sponsor"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Economic collapse and conflict spillover.",
+  "est": true
+ },
+ "MKD": {
+  "longstay": 44,
+  "pr": 38,
+  "routes": [
+   "Temporary residence (self-employed/company)",
+   "Work permit",
+   "Property-based (limited)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "Open Balkan"
+  ],
+  "prYears": 5,
+  "note": "No enacted DN visa (sources conflict). Low costs; EU candidate. Citizenship 8 yrs; dual restricted.",
+  "est": false
+ },
+ "MHL": {
+  "longstay": 18,
+  "pr": 3,
+  "routes": [
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Atolls; customary land; climate threat.",
+  "est": true
+ },
+ "ALB": {
+  "longstay": 64,
+  "pr": 42,
+  "routes": [
+   "US citizens 1-yr visa-free",
+   "Unique permit – digital nomad",
+   "Pensioner permit (~€9,800/yr pension)",
+   "Self-employed/company",
+   "Volunteer permit"
+  ],
+  "volunteer": true,
+  "nomad": true,
+  "retire": true,
+  "freeMove": [
+   "Open Balkan"
+  ],
+  "prYears": 5,
+  "note": "Law 79/2021 created nomad & pensioner permits; low costs; EU candidate. Others get 90/180 visa-free. Citizenship 5 yrs; dual allowed.",
+  "est": false
+ },
+ "NIC": {
+  "longstay": 32,
+  "pr": 30,
+  "routes": [
+   "Pensionado/rentista temp residence (~$1,000-1,200/mo)",
+   "CA-4 tourist"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "CA-4"
+  ],
+  "prYears": 3,
+  "note": "Law 694 incentives repealed 2024; residence renewed yearly. Regime has closed ~3,500+ NGOs incl. church groups (2025-26); detention/entry-refusal risk.",
+  "est": false
+ },
+ "UKR": {
+  "longstay": 6,
+  "pr": 12,
+  "routes": [
+   "Work/volunteer residence (martial law)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Full-scale war; martial law and security risks rule out new communities.",
+  "est": true
+ },
+ "BWA": {
+  "longstay": 30,
+  "pr": 25,
+  "routes": [
+   "Residence/work permit",
+   "Volunteer exemption (NGO)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 10,
+  "note": "Stable democracy but restrictive permits; land via lease.",
+  "est": true
+ },
+ "RWA": {
+  "longstay": 48,
+  "pr": 25,
+  "routes": [
+   "Visa on arrival (all nations)",
+   "Volunteer/NGO residence permit",
+   "Work permit (online)",
+   "Investor residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": 5,
+  "note": "Open visa policy and efficient e-services; tight political control of civil society.",
+  "est": true
+ },
+ "TUN": {
+  "longstay": 30,
+  "pr": 10,
+  "routes": [
+   "Residence card (self-funded/work)",
+   "90-day visa-free"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Authoritarian turn since 2021; foreign NGOs scrutinised.",
+  "est": true
+ },
+ "KHM": {
+  "longstay": 70,
+  "pr": 10,
+  "routes": [
+   "E-class visa renewable (6-12 mo)",
+   "ER retirement extension (55+)",
+   "EB business/NGO extension (work permit)",
+   "EG job-seeker"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Indefinitely renewable E-class extensions for almost any nationality; 2026 enforcement of work permits for EB. Foreigners can't own land.",
+  "est": false
+ },
+ "TUV": {
+  "longstay": 14,
+  "pr": 3,
+  "routes": [
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Tiny atoll nation; climate threat.",
+  "est": true
+ },
+ "SRB": {
+  "longstay": 56,
+  "pr": 45,
+  "routes": [
+   "Company/entrepreneur residence",
+   "Property owner residence",
+   "Single work+residence permit (3 yrs)",
+   "Volunteering residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "Open Balkan"
+  ],
+  "prYears": 3,
+  "note": "2024 law: online single permit, up to 3-yr temporary residence; PR after 3 yrs. Many nationalities visa-free 30-90 days. No DN visa.",
+  "est": false
+ },
+ "ETH": {
+  "longstay": 20,
+  "pr": 10,
+  "routes": [
+   "NGO/work residence",
+   "Investor residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Conflicts in Amhara/Oromia; CSO law liberalised 2019 then re-tightened.",
+  "est": true
+ },
+ "CIV": {
+  "longstay": 30,
+  "pr": 15,
+  "routes": [
+   "Residence card",
+   "ECOWAS free movement"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "Recovering economy; residence via work/business.",
+  "est": true
+ },
+ "FSM": {
+  "longstay": 18,
+  "pr": 3,
+  "routes": [
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Customary land; foreigners can't own land.",
+  "est": true
+ },
+ "GAB": {
+  "longstay": 15,
+  "pr": 8,
+  "routes": [
+   "Residence/work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CEMAC"
+  ],
+  "prYears": null,
+  "note": "Post-2023 coup transition; costly.",
+  "est": true
+ },
+ "SLV": {
+  "longstay": 50,
+  "pr": 52,
+  "routes": [
+   "Pensionado (~$1,226/mo, 3x min wage)",
+   "Rentista (~$1,635/mo)",
+   "Freedom Visa ($1M crypto)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "CA-4"
+  ],
+  "prYears": 1,
+  "note": "PR possible after 1 yr as pensioner/rentista. Security improved under state of exception, but civil liberties curtailed.",
+  "est": false
+ },
+ "KAZ": {
+  "longstay": 44,
+  "pr": 25,
+  "routes": [
+   "Neo Nomad visa ($3,000/mo, since Nov 2024)",
+   "Visa-free 30 days (90/180)",
+   "Investor residence",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EAEU"
+  ],
+  "prYears": 5,
+  "note": "Neo Nomad visa 1 yr + 1. Citizenship requires renunciation.",
+  "est": false
+ },
+ "MAR": {
+  "longstay": 45,
+  "pr": 20,
+  "routes": [
+   "90-day visa-free + carte de séjour (self-funded)",
+   "Type D long-stay visa",
+   "Retiree residence (self-funded)",
+   "Business residence"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 4,
+  "note": "No DN permit; self-funded residence card renewable yearly; 10-yr card after ~4 yrs. Association law requires approvals.",
+  "est": false
+ },
+ "AZE": {
+  "longstay": 24,
+  "pr": 20,
+  "routes": [
+   "Temporary residence (work/investment)",
+   "e-visa 30 days"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Authoritarian; foreign NGO activity heavily restricted.",
+  "est": true
+ },
+ "NAM": {
+  "longstay": 36,
+  "pr": 30,
+  "routes": [
+   "Digital nomad visa (6 mo)",
+   "Work permit (incl. volunteers)",
+   "Visa on arrival/e-visa"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 10,
+  "note": "Since Apr 2025 ~33 Western nationalities need visas (reciprocity). Volunteering requires a work permit applied for in Windhoek.",
+  "est": false
+ },
+ "COM": {
+  "longstay": 18,
+  "pr": 5,
+  "routes": [
+   "Work/residence permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Small island state; limited admin capacity.",
+  "est": true
+ },
+ "TLS": {
+  "longstay": 38,
+  "pr": 15,
+  "routes": [
+   "Visa on arrival 30 days + extension",
+   "NGO/work residence",
+   "Investor residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Many NGOs and aid workers; residence via sponsor; ASEAN member from 2025.",
+  "est": true
+ },
+ "HND": {
+  "longstay": 50,
+  "pr": 45,
+  "routes": [
+   "Pensionado ($1,500/mo)",
+   "Rentista ($2,500/mo)",
+   "CA-4 tourist 90 days"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [
+   "CA-4"
+  ],
+  "prYears": 3,
+  "note": "Files via local lawyer; modest fees (~$300). Crime high outside Bay Islands. Citizenship ~3 yrs after residence.",
+  "est": false
+ },
+ "MNG": {
+  "longstay": 28,
+  "pr": 10,
+  "routes": [
+   "Work/investor residence",
+   "Visa-free 30-90 days (many)",
+   "NGO staff permits"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Long cold winters; residence via work, investment or NGO registration.",
+  "est": true
+ },
+ "BEN": {
+  "longstay": 35,
+  "pr": 25,
+  "routes": [
+   "Residence card",
+   "Afro-descendant citizenship law (2024)",
+   "ECOWAS"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "2024 law offers citizenship to Afro-descendants; jihadist risk in north.",
+  "est": true
+ },
+ "IRN": {
+  "longstay": 4,
+  "pr": 3,
+  "routes": [
+   "Work residence (sponsor)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Closed to foreign-led communities; detention risk for Western nationals.",
+  "est": true
+ },
+ "TKM": {
+  "longstay": 2,
+  "pr": 1,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Closed, highly restrictive state.",
+  "est": true
+ },
+ "DZA": {
+  "longstay": 10,
+  "pr": 5,
+  "routes": [
+   "Work residence"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Restrictive visa regime; NGO law strict.",
+  "est": true
+ },
+ "GNQ": {
+  "longstay": 6,
+  "pr": 3,
+  "routes": [
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CEMAC"
+  ],
+  "prYears": null,
+  "note": "Highly authoritarian.",
+  "est": true
+ },
+ "KIR": {
+  "longstay": 14,
+  "pr": 3,
+  "routes": [
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Remote atolls; climate threat; very limited routes.",
+  "est": true
+ },
+ "ZMB": {
+  "longstay": 34,
+  "pr": 25,
+  "routes": [
+   "Temporary employment/volunteer permit",
+   "Investor permit",
+   "Visa-free for many (2023)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 10,
+  "note": "Peaceful, open visa policy since 2023; permits via Department of Immigration.",
+  "est": true
+ },
+ "LAO": {
+  "longstay": 28,
+  "pr": 5,
+  "routes": [
+   "Tourist visa + extensions",
+   "I-B3 long-term residence (savings)",
+   "INGO/NGO sponsored work visa"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Rules poorly documented; NGO work needs registered INGO sponsor. Remote work on tourist visa is a grey area.",
+  "est": false
+ },
+ "BLR": {
+  "longstay": 14,
+  "pr": 18,
+  "routes": [
+   "Temporary residence (work/study/investment)",
+   "30-day visa-free"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAEU"
+  ],
+  "prYears": 7,
+  "note": "Authoritarian, sanctions; foreign NGOs heavily restricted.",
+  "est": true
+ },
+ "UGA": {
+  "longstay": 45,
+  "pr": 20,
+  "routes": [
+   "Special pass / dependant pass",
+   "Volunteer/missionary permit",
+   "Investor/work permits"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": 10,
+  "note": "Many NGOs and missions; permits obtainable online; anti-LGBT law (2023) and election tensions.",
+  "est": true
+ },
+ "KGZ": {
+  "longstay": 52,
+  "pr": 25,
+  "routes": [
+   "Digital Nomad status (1 yr, renewable to 10)",
+   "60-day visa-free (many)",
+   "Investor residence (~$114k)"
+  ],
+  "volunteer": false,
+  "nomad": true,
+  "retire": false,
+  "freeMove": [
+   "EAEU"
+  ],
+  "prYears": 5,
+  "note": "Nomad status online, no work permit needed for IT-type remote work; eligibility lists may limit nationalities.",
+  "est": false
+ },
+ "MDG": {
+  "longstay": 34,
+  "pr": 15,
+  "routes": [
+   "Long-stay 'transformable' visa (retiree/investor)",
+   "NGO/volunteer residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Low cost; political instability; land via long lease.",
+  "est": true
+ },
+ "PRK": {
+  "longstay": 0,
+  "pr": 0,
+  "routes": [
+   "None"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Closed to foreign residence.",
+  "est": true
+ },
+ "SWZ": {
+  "longstay": 24,
+  "pr": 12,
+  "routes": [
+   "Residence/work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Absolute monarchy; Swazi Nation Land customary.",
+  "est": true
+ },
+ "SLE": {
+  "longstay": 30,
+  "pr": 15,
+  "routes": [
+   "Residence/work permit",
+   "ECOWAS"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "Post-conflict; NGO-heavy; infrastructure weak.",
+  "est": true
+ },
+ "SLB": {
+  "longstay": 22,
+  "pr": 6,
+  "routes": [
+   "Work/volunteer permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Customary land; unrest risk in Honiara.",
+  "est": true
+ },
+ "ZWE": {
+  "longstay": 24,
+  "pr": 15,
+  "routes": [
+   "Temporary employment permit",
+   "Investor/retired permits"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Economic instability; land tenure insecure.",
+  "est": true
+ },
+ "LBY": {
+  "longstay": 2,
+  "pr": 1,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Divided government; insecurity.",
+  "est": true
+ },
+ "TJK": {
+  "longstay": 18,
+  "pr": 8,
+  "routes": [
+   "Work/NGO permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Authoritarian; NGO space restricted.",
+  "est": true
+ },
+ "MWI": {
+  "longstay": 30,
+  "pr": 15,
+  "routes": [
+   "Temporary employment permit (volunteers)",
+   "Business residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 5,
+  "note": "Many NGOs/volunteers; permits slow.",
+  "est": true
+ },
+ "IRQ": {
+  "longstay": 8,
+  "pr": 3,
+  "routes": [
+   "Work/NGO residence (Kurdistan easier)"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Security risks; Kurdistan Region more accessible for NGO staff.",
+  "est": true
+ },
+ "GIN": {
+  "longstay": 18,
+  "pr": 8,
+  "routes": [
+   "Residence permit",
+   "ECOWAS"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "Military-led transition.",
+  "est": true
+ },
+ "EGY": {
+  "longstay": 38,
+  "pr": 8,
+  "routes": [
+   "Tourist residence (renewable, property owners)",
+   "Residence for retirees/self-funded",
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": true,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Renewable residence for property owners and self-funded foreigners; NGO law restrictive.",
+  "est": true
+ },
+ "GNB": {
+  "longstay": 18,
+  "pr": 8,
+  "routes": [
+   "Residence permit",
+   "ECOWAS"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "Chronic political instability.",
+  "est": true
+ },
+ "BFA": {
+  "longstay": 5,
+  "pr": 4,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "AES (left ECOWAS 2025)"
+  ],
+  "prYears": null,
+  "note": "Jihadist insurgency; junta rule.",
+  "est": true
+ },
+ "NRU": {
+  "longstay": 5,
+  "pr": 2,
+  "routes": [
+   "Work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Tiny; restrictive visa regime.",
+  "est": true
+ },
+ "LBR": {
+  "longstay": 24,
+  "pr": 10,
+  "routes": [
+   "Residence/work permit",
+   "ECOWAS"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "Citizenship limited to people 'of Negro descent'; NGO presence strong.",
+  "est": true
+ },
+ "VEN": {
+  "longstay": 8,
+  "pr": 12,
+  "routes": [
+   "Work/family residence"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Political and economic crisis; Mercosur membership suspended.",
+  "est": true
+ },
+ "DJI": {
+  "longstay": 14,
+  "pr": 5,
+  "routes": [
+   "Work residence"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Small, hot, costly; residence via work.",
+  "est": true
+ },
+ "PNG": {
+  "longstay": 22,
+  "pr": 8,
+  "routes": [
+   "Missionary/volunteer visa",
+   "Work permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Many missions; high security risk; customary land.",
+  "est": true
+ },
+ "GMB": {
+  "longstay": 35,
+  "pr": 20,
+  "routes": [
+   "Residence permit",
+   "ECOWAS"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "English-speaking; many volunteer projects; small.",
+  "est": true
+ },
+ "MMR": {
+  "longstay": 4,
+  "pr": 2,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Civil war since 2021.",
+  "est": true
+ },
+ "NGA": {
+  "longstay": 15,
+  "pr": 10,
+  "routes": [
+   "Work/expatriate quota permit",
+   "ECOWAS"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": 15,
+  "note": "Security risks; heavy bureaucracy.",
+  "est": true
+ },
+ "COG": {
+  "longstay": 12,
+  "pr": 6,
+  "routes": [
+   "Residence/work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CEMAC"
+  ],
+  "prYears": null,
+  "note": "Authoritarian; oil-dependent.",
+  "est": true
+ },
+ "PAK": {
+  "longstay": 8,
+  "pr": 3,
+  "routes": [
+   "Work/NGO visas (restricted)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "INGO registration tightly controlled; security concerns.",
+  "est": true
+ },
+ "MRT": {
+  "longstay": 14,
+  "pr": 5,
+  "routes": [
+   "Residence/work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Desert; restrictive civil-society space.",
+  "est": true
+ },
+ "SYR": {
+  "longstay": 3,
+  "pr": 2,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Post-conflict instability.",
+  "est": true
+ },
+ "BDI": {
+  "longstay": 10,
+  "pr": 5,
+  "routes": [
+   "NGO/work permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": null,
+  "note": "Repressive government; poverty.",
+  "est": true
+ },
+ "BGD": {
+  "longstay": 14,
+  "pr": 3,
+  "routes": [
+   "NGO visa",
+   "Employment visa"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "NGO staff visas via NGO Affairs Bureau; political volatility.",
+  "est": true
+ },
+ "MOZ": {
+  "longstay": 24,
+  "pr": 12,
+  "routes": [
+   "Work/NGO residence",
+   "Investor residence"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": 10,
+  "note": "Insurgency in Cabo Delgado; post-election unrest 2024-25.",
+  "est": true
+ },
+ "NER": {
+  "longstay": 5,
+  "pr": 4,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "AES (left ECOWAS 2025)"
+  ],
+  "prYears": null,
+  "note": "Junta rule; NGO expulsions.",
+  "est": true
+ },
+ "TGO": {
+  "longstay": 30,
+  "pr": 15,
+  "routes": [
+   "Residence card",
+   "ECOWAS"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "ECOWAS"
+  ],
+  "prYears": null,
+  "note": "Authoritarian drift (2024 constitution).",
+  "est": true
+ },
+ "AFG": {
+  "longstay": 2,
+  "pr": 1,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Taliban rule; foreigners at risk.",
+  "est": true
+ },
+ "TCD": {
+  "longstay": 8,
+  "pr": 4,
+  "routes": [
+   "NGO/work permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CEMAC"
+  ],
+  "prYears": null,
+  "note": "Insecure; humanitarian NGO presence only.",
+  "est": true
+ },
+ "CMR": {
+  "longstay": 14,
+  "pr": 8,
+  "routes": [
+   "Residence/work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CEMAC"
+  ],
+  "prYears": null,
+  "note": "Anglophone conflict and Boko Haram zones.",
+  "est": true
+ },
+ "AGO": {
+  "longstay": 14,
+  "pr": 8,
+  "routes": [
+   "Work visa (sponsor)"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Costly, bureaucratic residence.",
+  "est": true
+ },
+ "LSO": {
+  "longstay": 24,
+  "pr": 15,
+  "routes": [
+   "Residence/work permit"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Small mountain kingdom; land not sold to foreigners.",
+  "est": true
+ },
+ "MLI": {
+  "longstay": 6,
+  "pr": 4,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "AES (left ECOWAS 2025)"
+  ],
+  "prYears": null,
+  "note": "Jihadist insurgency; junta rule.",
+  "est": true
+ },
+ "YEM": {
+  "longstay": 2,
+  "pr": 1,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Active conflict.",
+  "est": true
+ },
+ "COD": {
+  "longstay": 6,
+  "pr": 4,
+  "routes": [
+   "NGO/work permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": null,
+  "note": "Conflict in the east; weak state.",
+  "est": true
+ },
+ "CAF": {
+  "longstay": 4,
+  "pr": 3,
+  "routes": [
+   "NGO permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "CEMAC"
+  ],
+  "prYears": null,
+  "note": "Armed conflict.",
+  "est": true
+ },
+ "HTI": {
+  "longstay": 2,
+  "pr": 5,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Gang violence; state collapse.",
+  "est": true
+ },
+ "SDN": {
+  "longstay": 2,
+  "pr": 2,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Civil war since 2023.",
+  "est": true
+ },
+ "ERI": {
+  "longstay": 2,
+  "pr": 1,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [],
+  "prYears": null,
+  "note": "Closed dictatorship.",
+  "est": true
+ },
+ "SSD": {
+  "longstay": 3,
+  "pr": 2,
+  "routes": [
+   "NGO permit"
+  ],
+  "volunteer": true,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": null,
+  "note": "Conflict and famine risk.",
+  "est": true
+ },
+ "SOM": {
+  "longstay": 2,
+  "pr": 2,
+  "routes": [
+   "None practical"
+  ],
+  "volunteer": false,
+  "nomad": false,
+  "retire": false,
+  "freeMove": [
+   "EAC"
+  ],
+  "prYears": null,
+  "note": "Active insurgency.",
+  "est": true
+ }
+}

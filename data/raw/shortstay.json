@@ -1,0 +1,1834 @@
+{
+"ABW": {
+"eq": 39.0,
+"freeCount": 80,
+"passports": 171,
+"pop": 24.8,
+"score": 31.9,
+"typDays": 30
+},
+"AFG": {
+"eq": 34.5,
+"freeCount": 0,
+"passports": 197,
+"pop": 35.3,
+"score": 34.9,
+"typDays": null
+},
+"AGO": {
+"eq": 43.8,
+"freeCount": 98,
+"passports": 197,
+"pop": 50.8,
+"score": 47.3,
+"typDays": 30
+},
+"AIA": {
+"eq": 57.0,
+"freeCount": 85,
+"passports": 173,
+"pop": 45.1,
+"score": 51.0,
+"typDays": 90
+},
+"ALB": {
+"eq": 69.0,
+"freeCount": 87,
+"passports": 197,
+"pop": 69.4,
+"score": 69.2,
+"typDays": 90
+},
+"AND": {
+"eq": 49.8,
+"freeCount": 98,
+"passports": 197,
+"pop": 46.4,
+"score": 48.1,
+"typDays": 90
+},
+"ARE": {
+"eq": 54.6,
+"freeCount": 92,
+"passports": 197,
+"pop": 49.7,
+"score": 52.1,
+"typDays": 90
+},
+"ARG": {
+"eq": 46.4,
+"freeCount": 90,
+"passports": 197,
+"pop": 34.1,
+"score": 40.2,
+"typDays": 90
+},
+"ARM": {
+"eq": 60.9,
+"freeCount": 102,
+"passports": 197,
+"pop": 64.5,
+"score": 62.7,
+"typDays": 180
+},
+"ASM": {
+"eq": 18.7,
+"freeCount": 8,
+"passports": 157,
+"pop": 17.2,
+"score": 17.9,
+"typDays": 30
+},
+"ATG": {
+"eq": 71.9,
+"freeCount": 111,
+"passports": 197,
+"pop": 65.6,
+"score": 68.7,
+"typDays": 180
+},
+"AUS": {
+"eq": 39.5,
+"freeCount": 46,
+"passports": 197,
+"pop": 44.4,
+"score": 41.9,
+"typDays": 90
+},
+"AUT": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"AZE": {
+"eq": 31.2,
+"freeCount": 30,
+"passports": 197,
+"pop": 39.4,
+"score": 35.3,
+"typDays": 90
+},
+"BDI": {
+"eq": 51.4,
+"freeCount": 192,
+"passports": 197,
+"pop": 51.0,
+"score": 51.2,
+"typDays": 30
+},
+"BEL": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.8,
+"score": 40.1,
+"typDays": 90
+},
+"BEN": {
+"eq": 53.0,
+"freeCount": 66,
+"passports": 197,
+"pop": 50.8,
+"score": 51.9,
+"typDays": 90
+},
+"BFA": {
+"eq": 42.0,
+"freeCount": 33,
+"passports": 197,
+"pop": 38.1,
+"score": 40.0,
+"typDays": 30
+},
+"BGD": {
+"eq": 48.4,
+"freeCount": 162,
+"passports": 197,
+"pop": 36.0,
+"score": 42.2,
+"typDays": 30
+},
+"BGR": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"BHR": {
+"eq": 34.2,
+"freeCount": 128,
+"passports": 197,
+"pop": 35.1,
+"score": 34.7,
+"typDays": 14
+},
+"BHS": {
+"eq": 75.7,
+"freeCount": 123,
+"passports": 197,
+"pop": 71.8,
+"score": 73.7,
+"typDays": 90
+},
+"BIH": {
+"eq": 50.8,
+"freeCount": 102,
+"passports": 197,
+"pop": 46.3,
+"score": 48.5,
+"typDays": 90
+},
+"BLR": {
+"eq": 38.6,
+"freeCount": 96,
+"passports": 197,
+"pop": 39.2,
+"score": 38.9,
+"typDays": 30
+},
+"BLZ": {
+"eq": 48.1,
+"freeCount": 105,
+"passports": 197,
+"pop": 32.8,
+"score": 40.5,
+"typDays": 90
+},
+"BMU": {
+"eq": 59.4,
+"freeCount": 101,
+"passports": 173,
+"pop": 35.1,
+"score": 47.3,
+"typDays": 180
+},
+"BOL": {
+"eq": 68.2,
+"freeCount": 149,
+"passports": 197,
+"pop": 45.1,
+"score": 56.7,
+"typDays": 90
+},
+"BRA": {
+"eq": 51.9,
+"freeCount": 103,
+"passports": 197,
+"pop": 43.5,
+"score": 47.7,
+"typDays": 90
+},
+"BRB": {
+"eq": 78.6,
+"freeCount": 176,
+"passports": 197,
+"pop": 79.0,
+"score": 78.8,
+"typDays": 90
+},
+"BRN": {
+"eq": 30.5,
+"freeCount": 63,
+"passports": 197,
+"pop": 32.2,
+"score": 31.4,
+"typDays": 90
+},
+"BTN": {
+"eq": 54.5,
+"freeCount": 3,
+"passports": 197,
+"pop": 62.9,
+"score": 58.7,
+"typDays": 365
+},
+"BWA": {
+"eq": 71.3,
+"freeCount": 104,
+"passports": 197,
+"pop": 64.0,
+"score": 67.6,
+"typDays": 90
+},
+"CAF": {
+"eq": 18.1,
+"freeCount": 15,
+"passports": 197,
+"pop": 14.1,
+"score": 16.1,
+"typDays": 90
+},
+"CAN": {
+"eq": 33.6,
+"freeCount": 54,
+"passports": 197,
+"pop": 24.2,
+"score": 28.9,
+"typDays": 180
+},
+"CHE": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"CHL": {
+"eq": 48.1,
+"freeCount": 93,
+"passports": 197,
+"pop": 37.2,
+"score": 42.7,
+"typDays": 90
+},
+"CHN": {
+"eq": 32.7,
+"freeCount": 81,
+"passports": 196,
+"pop": 23.6,
+"score": 28.1,
+"typDays": 30
+},
+"CIV": {
+"eq": 57.8,
+"freeCount": 25,
+"passports": 196,
+"pop": 57.1,
+"score": 57.5,
+"typDays": 90
+},
+"CMR": {
+"eq": 38.3,
+"freeCount": 6,
+"passports": 197,
+"pop": 38.7,
+"score": 38.5,
+"typDays": 90
+},
+"COD": {
+"eq": 23.6,
+"freeCount": 8,
+"passports": 197,
+"pop": 20.8,
+"score": 22.2,
+"typDays": 90
+},
+"COG": {
+"eq": 18.1,
+"freeCount": 15,
+"passports": 197,
+"pop": 14.5,
+"score": 16.3,
+"typDays": 90
+},
+"COK": {
+"eq": 60.2,
+"freeCount": 174,
+"passports": 174,
+"pop": 60.0,
+"score": 60.1,
+"typDays": 31
+},
+"COL": {
+"eq": 72.6,
+"freeCount": 102,
+"passports": 197,
+"pop": 65.6,
+"score": 69.1,
+"typDays": 90
+},
+"COM": {
+"eq": 51.0,
+"freeCount": 197,
+"passports": 197,
+"pop": 51.0,
+"score": 51.0,
+"typDays": 45
+},
+"CPV": {
+"eq": 49.9,
+"freeCount": 168,
+"passports": 197,
+"pop": 46.1,
+"score": 48.0,
+"typDays": 30
+},
+"CRI": {
+"eq": 47.4,
+"freeCount": 96,
+"passports": 197,
+"pop": 34.6,
+"score": 41.0,
+"typDays": 90
+},
+"CUB": {
+"eq": 50.2,
+"freeCount": 19,
+"passports": 197,
+"pop": 57.7,
+"score": 53.9,
+"typDays": 45
+},
+"CUW": {
+"eq": 48.7,
+"freeCount": 82,
+"passports": 169,
+"pop": 43.5,
+"score": 46.1,
+"typDays": 90
+},
+"CYM": {
+"eq": 55.7,
+"freeCount": 87,
+"passports": 173,
+"pop": 34.7,
+"score": 45.2,
+"typDays": 180
+},
+"CYP": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"CZE": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.6,
+"score": 40.0,
+"typDays": 90
+},
+"DEU": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.2,
+"score": 39.8,
+"typDays": 90
+},
+"DJI": {
+"eq": 48.2,
+"freeCount": 22,
+"passports": 197,
+"pop": 53.0,
+"score": 50.6,
+"typDays": 31
+},
+"DMA": {
+"eq": 70.7,
+"freeCount": 196,
+"passports": 197,
+"pop": 75.9,
+"score": 73.3,
+"typDays": 90
+},
+"DNK": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"DOM": {
+"eq": 46.4,
+"freeCount": 109,
+"passports": 197,
+"pop": 30.3,
+"score": 38.4,
+"typDays": 60
+},
+"DZA": {
+"eq": 14.9,
+"freeCount": 8,
+"passports": 197,
+"pop": 13.2,
+"score": 14.0,
+"typDays": 90
+},
+"ECU": {
+"eq": 77.3,
+"freeCount": 155,
+"passports": 197,
+"pop": 64.1,
+"score": 70.7,
+"typDays": 90
+},
+"EGY": {
+"eq": 39.3,
+"freeCount": 126,
+"passports": 197,
+"pop": 37.4,
+"score": 38.4,
+"typDays": 30
+},
+"ERI": {
+"eq": 13.4,
+"freeCount": 4,
+"passports": 197,
+"pop": 14.0,
+"score": 13.7,
+"typDays": 365
+},
+"ESP": {
+"eq": 49.4,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.5,
+"score": 40.0,
+"typDays": 90
+},
+"EST": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.7,
+"score": 40.0,
+"typDays": 90
+},
+"ETH": {
+"eq": 65.8,
+"freeCount": 115,
+"passports": 197,
+"pop": 71.0,
+"score": 68.4,
+"typDays": 90
+},
+"FIN": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.7,
+"score": 40.0,
+"typDays": 90
+},
+"FJI": {
+"eq": 61.7,
+"freeCount": 112,
+"passports": 197,
+"pop": 76.0,
+"score": 68.9,
+"typDays": 120
+},
+"FLK": {
+"eq": 24.7,
+"freeCount": 49,
+"passports": 170,
+"pop": 22.6,
+"score": 23.6,
+"typDays": 30
+},
+"FRA": {
+"eq": 49.4,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.3,
+"score": 39.9,
+"typDays": 90
+},
+"FRO": {
+"eq": 48.9,
+"freeCount": 78,
+"passports": 161,
+"pop": 29.3,
+"score": 39.1,
+"typDays": 90
+},
+"FSM": {
+"eq": 64.7,
+"freeCount": 197,
+"passports": 197,
+"pop": 63.2,
+"score": 63.9,
+"typDays": 30
+},
+"GAB": {
+"eq": 55.6,
+"freeCount": 9,
+"passports": 197,
+"pop": 52.7,
+"score": 54.1,
+"typDays": 90
+},
+"GBR": {
+"eq": 45.9,
+"freeCount": 84,
+"passports": 197,
+"pop": 30.0,
+"score": 37.9,
+"typDays": 180
+},
+"GEO": {
+"eq": 67.7,
+"freeCount": 102,
+"passports": 197,
+"pop": 58.2,
+"score": 63.0,
+"typDays": 365
+},
+"GGY": {
+"eq": 70.9,
+"freeCount": 49,
+"passports": 72,
+"pop": 62.8,
+"score": 66.8,
+"typDays": 180
+},
+"GHA": {
+"eq": 35.8,
+"freeCount": 65,
+"passports": 197,
+"pop": 44.0,
+"score": 39.9,
+"typDays": 60
+},
+"GIN": {
+"eq": 56.8,
+"freeCount": 24,
+"passports": 197,
+"pop": 56.4,
+"score": 56.6,
+"typDays": 90
+},
+"GMB": {
+"eq": 62.9,
+"freeCount": 134,
+"passports": 197,
+"pop": 52.3,
+"score": 57.6,
+"typDays": 90
+},
+"GNB": {
+"eq": 74.7,
+"freeCount": 195,
+"passports": 197,
+"pop": 75.0,
+"score": 74.8,
+"typDays": 90
+},
+"GNQ": {
+"eq": 50.6,
+"freeCount": 9,
+"passports": 197,
+"pop": 50.2,
+"score": 50.4,
+"typDays": 90
+},
+"GRC": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"GRD": {
+"eq": 57.8,
+"freeCount": 119,
+"passports": 197,
+"pop": 59.8,
+"score": 58.8,
+"typDays": 90
+},
+"GRL": {
+"eq": 49.1,
+"freeCount": 79,
+"passports": 162,
+"pop": 29.5,
+"score": 39.3,
+"typDays": 90
+},
+"GTM": {
+"eq": 45.2,
+"freeCount": 86,
+"passports": 197,
+"pop": 33.1,
+"score": 39.1,
+"typDays": 90
+},
+"GUM": {
+"eq": 29.6,
+"freeCount": 49,
+"passports": 172,
+"pop": 23.0,
+"score": 26.3,
+"typDays": 90
+},
+"GUY": {
+"eq": 43.3,
+"freeCount": 63,
+"passports": 197,
+"pop": 42.6,
+"score": 42.9,
+"typDays": 90
+},
+"HKG": {
+"eq": 67.7,
+"freeCount": 146,
+"passports": 184,
+"pop": 60.6,
+"score": 64.2,
+"typDays": 90
+},
+"HND": {
+"eq": 45.3,
+"freeCount": 87,
+"passports": 197,
+"pop": 32.7,
+"score": 39.0,
+"typDays": 90
+},
+"HRV": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"HTI": {
+"eq": 84.5,
+"freeCount": 188,
+"passports": 197,
+"pop": 85.2,
+"score": 84.8,
+"typDays": 90
+},
+"HUN": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"IDN": {
+"eq": 38.2,
+"freeCount": 99,
+"passports": 197,
+"pop": 47.0,
+"score": 42.6,
+"typDays": 30
+},
+"IMN": {
+"eq": 70.4,
+"freeCount": 48,
+"passports": 72,
+"pop": 63.3,
+"score": 66.9,
+"typDays": 180
+},
+"IND": {
+"eq": 38.1,
+"freeCount": 6,
+"passports": 197,
+"pop": 29.0,
+"score": 33.5,
+"typDays": 75
+},
+"IOT": {
+"eq": 12.0,
+"freeCount": 0,
+"passports": 148,
+"pop": 12.0,
+"score": 12.0,
+"typDays": null
+},
+"IRL": {
+"eq": 43.2,
+"freeCount": 75,
+"passports": 197,
+"pop": 29.5,
+"score": 36.4,
+"typDays": 90
+},
+"IRN": {
+"eq": 42.4,
+"freeCount": 109,
+"passports": 197,
+"pop": 38.3,
+"score": 40.3,
+"typDays": 30
+},
+"IRQ": {
+"eq": 37.2,
+"freeCount": 6,
+"passports": 197,
+"pop": 36.1,
+"score": 36.7,
+"typDays": 30
+},
+"ISL": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"ISR": {
+"eq": 47.1,
+"freeCount": 101,
+"passports": 197,
+"pop": 38.8,
+"score": 43.0,
+"typDays": 90
+},
+"ITA": {
+"eq": 49.4,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.4,
+"score": 39.9,
+"typDays": 90
+},
+"JAM": {
+"eq": 51.5,
+"freeCount": 122,
+"passports": 197,
+"pop": 57.5,
+"score": 54.5,
+"typDays": 30
+},
+"JEY": {
+"eq": 69.9,
+"freeCount": 47,
+"passports": 71,
+"pop": 63.1,
+"score": 66.5,
+"typDays": 180
+},
+"JOR": {
+"eq": 45.0,
+"freeCount": 144,
+"passports": 197,
+"pop": 45.1,
+"score": 45.1,
+"typDays": 30
+},
+"JPN": {
+"eq": 40.8,
+"freeCount": 72,
+"passports": 197,
+"pop": 43.5,
+"score": 42.2,
+"typDays": 90
+},
+"KAZ": {
+"eq": 49.5,
+"freeCount": 86,
+"passports": 197,
+"pop": 50.1,
+"score": 49.8,
+"typDays": 30
+},
+"KEN": {
+"eq": 81.0,
+"freeCount": 195,
+"passports": 197,
+"pop": 79.9,
+"score": 80.5,
+"typDays": 90
+},
+"KGZ": {
+"eq": 53.8,
+"freeCount": 84,
+"passports": 197,
+"pop": 52.7,
+"score": 53.3,
+"typDays": 30
+},
+"KHM": {
+"eq": 51.0,
+"freeCount": 197,
+"passports": 197,
+"pop": 49.8,
+"score": 50.4,
+"typDays": 30
+},
+"KIR": {
+"eq": 55.7,
+"freeCount": 121,
+"passports": 197,
+"pop": 71.9,
+"score": 63.8,
+"typDays": 90
+},
+"KNA": {
+"eq": 66.6,
+"freeCount": 126,
+"passports": 197,
+"pop": 71.1,
+"score": 68.8,
+"typDays": 90
+},
+"KOR": {
+"eq": 47.3,
+"freeCount": 110,
+"passports": 197,
+"pop": 39.3,
+"score": 43.3,
+"typDays": 90
+},
+"KWT": {
+"eq": 31.1,
+"freeCount": 58,
+"passports": 197,
+"pop": 23.4,
+"score": 27.2,
+"typDays": 90
+},
+"LAO": {
+"eq": 45.0,
+"freeCount": 166,
+"passports": 197,
+"pop": 46.1,
+"score": 45.6,
+"typDays": 30
+},
+"LBN": {
+"eq": 33.3,
+"freeCount": 99,
+"passports": 197,
+"pop": 33.1,
+"score": 33.2,
+"typDays": 30
+},
+"LBR": {
+"eq": 50.5,
+"freeCount": 73,
+"passports": 197,
+"pop": 49.0,
+"score": 49.7,
+"typDays": 90
+},
+"LBY": {
+"eq": 36.0,
+"freeCount": 5,
+"passports": 197,
+"pop": 34.4,
+"score": 35.2,
+"typDays": 90
+},
+"LCA": {
+"eq": 51.2,
+"freeCount": 144,
+"passports": 197,
+"pop": 47.0,
+"score": 49.1,
+"typDays": 42
+},
+"LIE": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"LKA": {
+"eq": 50.3,
+"freeCount": 188,
+"passports": 197,
+"pop": 49.6,
+"score": 50.0,
+"typDays": 30
+},
+"LSO": {
+"eq": 49.1,
+"freeCount": 77,
+"passports": 197,
+"pop": 37.1,
+"score": 43.1,
+"typDays": 90
+},
+"LTU": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.7,
+"score": 40.0,
+"typDays": 90
+},
+"LUX": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"LVA": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 31.2,
+"score": 40.3,
+"typDays": 90
+},
+"MAC": {
+"eq": 63.1,
+"freeCount": 182,
+"passports": 187,
+"pop": 59.8,
+"score": 61.5,
+"typDays": 30
+},
+"MAR": {
+"eq": 42.7,
+"freeCount": 79,
+"passports": 197,
+"pop": 56.4,
+"score": 49.6,
+"typDays": 90
+},
+"MCO": {
+"eq": 47.5,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.2,
+"score": 38.9,
+"typDays": 90
+},
+"MDA": {
+"eq": 65.7,
+"freeCount": 103,
+"passports": 197,
+"pop": 48.1,
+"score": 56.9,
+"typDays": 90
+},
+"MDG": {
+"eq": 71.6,
+"freeCount": 195,
+"passports": 197,
+"pop": 71.7,
+"score": 71.6,
+"typDays": 90
+},
+"MDV": {
+"eq": 52.0,
+"freeCount": 196,
+"passports": 197,
+"pop": 60.3,
+"score": 56.1,
+"typDays": 30
+},
+"MEX": {
+"eq": 41.7,
+"freeCount": 65,
+"passports": 197,
+"pop": 30.8,
+"score": 36.2,
+"typDays": 180
+},
+"MHL": {
+"eq": 47.1,
+"freeCount": 103,
+"passports": 197,
+"pop": 49.1,
+"score": 48.1,
+"typDays": 90
+},
+"MKD": {
+"eq": 42.7,
+"freeCount": 80,
+"passports": 197,
+"pop": 30.9,
+"score": 36.8,
+"typDays": 90
+},
+"MLI": {
+"eq": 22.3,
+"freeCount": 28,
+"passports": 197,
+"pop": 18.8,
+"score": 20.6,
+"typDays": 90
+},
+"MLT": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"MMR": {
+"eq": 21.8,
+"freeCount": 19,
+"passports": 197,
+"pop": 32.9,
+"score": 27.3,
+"typDays": 28
+},
+"MNE": {
+"eq": 49.5,
+"freeCount": 99,
+"passports": 197,
+"pop": 32.1,
+"score": 40.8,
+"typDays": 90
+},
+"MNG": {
+"eq": 41.8,
+"freeCount": 69,
+"passports": 197,
+"pop": 44.4,
+"score": 43.1,
+"typDays": 30
+},
+"MNP": {
+"eq": 27.3,
+"freeCount": 45,
+"passports": 163,
+"pop": 28.4,
+"score": 27.9,
+"typDays": 45
+},
+"MOZ": {
+"eq": 52.4,
+"freeCount": 188,
+"passports": 197,
+"pop": 48.7,
+"score": 50.6,
+"typDays": 30
+},
+"MRT": {
+"eq": 40.7,
+"freeCount": 17,
+"passports": 197,
+"pop": 38.7,
+"score": 39.7,
+"typDays": 60
+},
+"MSR": {
+"eq": 79.4,
+"freeCount": 105,
+"passports": 173,
+"pop": 76.3,
+"score": 77.9,
+"typDays": 180
+},
+"MUS": {
+"eq": 75.4,
+"freeCount": 182,
+"passports": 197,
+"pop": 75.7,
+"score": 75.5,
+"typDays": 90
+},
+"MWI": {
+"eq": 62.7,
+"freeCount": 148,
+"passports": 197,
+"pop": 51.6,
+"score": 57.1,
+"typDays": 90
+},
+"MYS": {
+"eq": 64.7,
+"freeCount": 166,
+"passports": 197,
+"pop": 62.2,
+"score": 63.5,
+"typDays": 30
+},
+"NAM": {
+"eq": 63.4,
+"freeCount": 118,
+"passports": 197,
+"pop": 63.0,
+"score": 63.2,
+"typDays": 90
+},
+"NCL": {
+"eq": 51.5,
+"freeCount": 84,
+"passports": 162,
+"pop": 36.6,
+"score": 44.0,
+"typDays": 90
+},
+"NER": {
+"eq": 19.0,
+"freeCount": 21,
+"passports": 197,
+"pop": 15.4,
+"score": 17.2,
+"typDays": 90
+},
+"NGA": {
+"eq": 50.1,
+"freeCount": 18,
+"passports": 197,
+"pop": 44.7,
+"score": 47.4,
+"typDays": 90
+},
+"NIC": {
+"eq": 58.7,
+"freeCount": 132,
+"passports": 197,
+"pop": 44.0,
+"score": 51.4,
+"typDays": 90
+},
+"NIU": {
+"eq": 57.3,
+"freeCount": 169,
+"passports": 174,
+"pop": 59.3,
+"score": 58.3,
+"typDays": 30
+},
+"NLD": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.8,
+"score": 40.1,
+"typDays": 90
+},
+"NOR": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.7,
+"score": 40.0,
+"typDays": 90
+},
+"NPL": {
+"eq": 69.7,
+"freeCount": 184,
+"passports": 197,
+"pop": 74.2,
+"score": 71.9,
+"typDays": 90
+},
+"NRU": {
+"eq": 16.7,
+"freeCount": 15,
+"passports": 197,
+"pop": 24.7,
+"score": 20.7,
+"typDays": 90
+},
+"NZL": {
+"eq": 34.4,
+"freeCount": 61,
+"passports": 197,
+"pop": 35.5,
+"score": 34.9,
+"typDays": 90
+},
+"OMN": {
+"eq": 31.2,
+"freeCount": 79,
+"passports": 197,
+"pop": 30.3,
+"score": 30.7,
+"typDays": 14
+},
+"PAK": {
+"eq": 54.8,
+"freeCount": 27,
+"passports": 197,
+"pop": 46.7,
+"score": 50.7,
+"typDays": 30
+},
+"PAN": {
+"eq": 59.3,
+"freeCount": 118,
+"passports": 197,
+"pop": 36.6,
+"score": 47.9,
+"typDays": 90
+},
+"PCN": {
+"eq": 41.8,
+"freeCount": 161,
+"passports": 162,
+"pop": 42.0,
+"score": 41.9,
+"typDays": 14
+},
+"PER": {
+"eq": 54.3,
+"freeCount": 104,
+"passports": 197,
+"pop": 38.9,
+"score": 46.6,
+"typDays": 90
+},
+"PHL": {
+"eq": 51.6,
+"freeCount": 162,
+"passports": 197,
+"pop": 47.4,
+"score": 49.5,
+"typDays": 30
+},
+"PLW": {
+"eq": 57.2,
+"freeCount": 195,
+"passports": 197,
+"pop": 54.5,
+"score": 55.8,
+"typDays": 30
+},
+"PNG": {
+"eq": 45.8,
+"freeCount": 24,
+"passports": 197,
+"pop": 42.7,
+"score": 44.3,
+"typDays": 60
+},
+"POL": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.4,
+"score": 39.8,
+"typDays": 90
+},
+"PRI": {
+"eq": 29.8,
+"freeCount": 43,
+"passports": 166,
+"pop": 24.1,
+"score": 26.9,
+"typDays": 90
+},
+"PRK": {
+"eq": 11.9,
+"freeCount": 0,
+"passports": 197,
+"pop": 11.4,
+"score": 11.7,
+"typDays": null
+},
+"PRT": {
+"eq": 49.4,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"PRY": {
+"eq": 40.3,
+"freeCount": 76,
+"passports": 197,
+"pop": 35.8,
+"score": 38.1,
+"typDays": 90
+},
+"PSE": {
+"eq": 75.2,
+"freeCount": 159,
+"passports": 171,
+"pop": 74.7,
+"score": 74.9,
+"typDays": null
+},
+"PYF": {
+"eq": 49.9,
+"freeCount": 80,
+"passports": 160,
+"pop": 34.8,
+"score": 42.4,
+"typDays": 90
+},
+"QAT": {
+"eq": 55.0,
+"freeCount": 95,
+"passports": 197,
+"pop": 58.3,
+"score": 56.7,
+"typDays": 90
+},
+"ROU": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.8,
+"score": 40.0,
+"typDays": 90
+},
+"RUS": {
+"eq": 43.2,
+"freeCount": 68,
+"passports": 197,
+"pop": 39.9,
+"score": 41.6,
+"typDays": 90
+},
+"RWA": {
+"eq": 59.3,
+"freeCount": 196,
+"passports": 197,
+"pop": 58.7,
+"score": 59.0,
+"typDays": 30
+},
+"SAU": {
+"eq": 36.4,
+"freeCount": 71,
+"passports": 197,
+"pop": 38.1,
+"score": 37.3,
+"typDays": 90
+},
+"SDN": {
+"eq": 14.5,
+"freeCount": 8,
+"passports": 197,
+"pop": 22.6,
+"score": 18.5,
+"typDays": 30
+},
+"SEN": {
+"eq": 59.7,
+"freeCount": 146,
+"passports": 197,
+"pop": 61.4,
+"score": 60.6,
+"typDays": 90
+},
+"SGP": {
+"eq": 60.0,
+"freeCount": 163,
+"passports": 197,
+"pop": 48.7,
+"score": 54.3,
+"typDays": 30
+},
+"SGS": {
+"eq": 12.0,
+"freeCount": 0,
+"passports": 144,
+"pop": 12.0,
+"score": 12.0,
+"typDays": null
+},
+"SHN": {
+"eq": 65.3,
+"freeCount": 78,
+"passports": 172,
+"pop": 57.0,
+"score": 61.2,
+"typDays": 183
+},
+"SLB": {
+"eq": 38.9,
+"freeCount": 80,
+"passports": 197,
+"pop": 34.4,
+"score": 36.7,
+"typDays": 90
+},
+"SLE": {
+"eq": 53.3,
+"freeCount": 123,
+"passports": 197,
+"pop": 52.9,
+"score": 53.1,
+"typDays": 30
+},
+"SLV": {
+"eq": 56.2,
+"freeCount": 88,
+"passports": 197,
+"pop": 37.8,
+"score": 47.0,
+"typDays": 90
+},
+"SMR": {
+"eq": 49.0,
+"freeCount": 97,
+"passports": 197,
+"pop": 45.9,
+"score": 47.5,
+"typDays": 90
+},
+"SOM": {
+"eq": 37.8,
+"freeCount": 12,
+"passports": 197,
+"pop": 37.7,
+"score": 37.7,
+"typDays": 30
+},
+"SPM": {
+"eq": 46.6,
+"freeCount": 71,
+"passports": 156,
+"pop": 25.4,
+"score": 36.0,
+"typDays": 90
+},
+"SRB": {
+"eq": 50.1,
+"freeCount": 87,
+"passports": 197,
+"pop": 55.0,
+"score": 52.6,
+"typDays": 90
+},
+"SSD": {
+"eq": 50.4,
+"freeCount": 5,
+"passports": 197,
+"pop": 50.5,
+"score": 50.5,
+"typDays": 90
+},
+"STP": {
+"eq": 30.9,
+"freeCount": 59,
+"passports": 197,
+"pop": 31.2,
+"score": 31.1,
+"typDays": 15
+},
+"SUR": {
+"eq": 75.3,
+"freeCount": 124,
+"passports": 197,
+"pop": 69.5,
+"score": 72.4,
+"typDays": 90
+},
+"SVK": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"SVN": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"SWE": {
+"eq": 49.3,
+"freeCount": 92,
+"passports": 197,
+"pop": 30.9,
+"score": 40.1,
+"typDays": 90
+},
+"SWZ": {
+"eq": 34.9,
+"freeCount": 93,
+"passports": 197,
+"pop": 25.4,
+"score": 30.2,
+"typDays": 30
+},
+"SXM": {
+"eq": 47.8,
+"freeCount": 79,
+"passports": 169,
+"pop": 37.1,
+"score": 42.4,
+"typDays": 90
+},
+"SYC": {
+"eq": 79.1,
+"freeCount": 197,
+"passports": 197,
+"pop": 79.0,
+"score": 79.0,
+"typDays": 90
+},
+"SYR": {
+"eq": 52.0,
+"freeCount": 34,
+"passports": 197,
+"pop": 52.9,
+"score": 52.4,
+"typDays": 30
+},
+"TCA": {
+"eq": 46.7,
+"freeCount": 78,
+"passports": 169,
+"pop": 61.3,
+"score": 54.0,
+"typDays": 90
+},
+"TCD": {
+"eq": 47.2,
+"freeCount": 17,
+"passports": 197,
+"pop": 50.5,
+"score": 48.8,
+"typDays": 90
+},
+"TGO": {
+"eq": 30.3,
+"freeCount": 22,
+"passports": 197,
+"pop": 29.2,
+"score": 29.7,
+"typDays": 11
+},
+"THA": {
+"eq": 57.5,
+"freeCount": 111,
+"passports": 197,
+"pop": 66.2,
+"score": 61.9,
+"typDays": 60
+},
+"TJK": {
+"eq": 48.9,
+"freeCount": 92,
+"passports": 197,
+"pop": 49.8,
+"score": 49.3,
+"typDays": 30
+},
+"TKM": {
+"eq": 12.6,
+"freeCount": 0,
+"passports": 197,
+"pop": 12.0,
+"score": 12.3,
+"typDays": null
+},
+"TLS": {
+"eq": 56.7,
+"freeCount": 197,
+"passports": 197,
+"pop": 53.7,
+"score": 55.2,
+"typDays": 30
+},
+"TON": {
+"eq": 31.5,
+"freeCount": 69,
+"passports": 197,
+"pop": 31.3,
+"score": 31.4,
+"typDays": 31
+},
+"TTO": {
+"eq": 61.8,
+"freeCount": 102,
+"passports": 197,
+"pop": 68.0,
+"score": 64.9,
+"typDays": 90
+},
+"TUN": {
+"eq": 50.5,
+"freeCount": 102,
+"passports": 197,
+"pop": 51.7,
+"score": 51.1,
+"typDays": 90
+},
+"TUR": {
+"eq": 51.1,
+"freeCount": 95,
+"passports": 197,
+"pop": 50.5,
+"score": 50.8,
+"typDays": 90
+},
+"TUV": {
+"eq": 57.3,
+"freeCount": 197,
+"passports": 197,
+"pop": 53.4,
+"score": 55.4,
+"typDays": 30
+},
+"TWN": {
+"eq": 38.5,
+"freeCount": 64,
+"passports": 186,
+"pop": 30.0,
+"score": 34.3,
+"typDays": 90
+},
+"TZA": {
+"eq": 75.2,
+"freeCount": 175,
+"passports": 197,
+"pop": 71.9,
+"score": 73.6,
+"typDays": 90
+},
+"UGA": {
+"eq": 63.6,
+"freeCount": 70,
+"passports": 197,
+"pop": 57.6,
+"score": 60.6,
+"typDays": 90
+},
+"UKR": {
+"eq": 47.0,
+"freeCount": 79,
+"passports": 197,
+"pop": 40.9,
+"score": 44.0,
+"typDays": 90
+},
+"URY": {
+"eq": 44.8,
+"freeCount": 85,
+"passports": 197,
+"pop": 33.4,
+"score": 39.1,
+"typDays": 90
+},
+"USA": {
+"eq": 27.0,
+"freeCount": 46,
+"passports": 197,
+"pop": 18.8,
+"score": 22.9,
+"typDays": 90
+},
+"UZB": {
+"eq": 42.5,
+"freeCount": 94,
+"passports": 197,
+"pop": 44.4,
+"score": 43.4,
+"typDays": 30
+},
+"VAT": {
+"eq": 46.6,
+"freeCount": 92,
+"passports": 197,
+"pop": 28.8,
+"score": 37.7,
+"typDays": 90
+},
+"VCT": {
+"eq": 75.3,
+"freeCount": 186,
+"passports": 197,
+"pop": 67.7,
+"score": 71.5,
+"typDays": 90
+},
+"VEN": {
+"eq": 54.2,
+"freeCount": 72,
+"passports": 197,
+"pop": 54.7,
+"score": 54.4,
+"typDays": 90
+},
+"VGB": {
+"eq": 42.6,
+"freeCount": 104,
+"passports": 173,
+"pop": 53.0,
+"score": 47.8,
+"typDays": 30
+},
+"VIR": {
+"eq": 28.8,
+"freeCount": 40,
+"passports": 164,
+"pop": 24.1,
+"score": 26.4,
+"typDays": 90
+},
+"VNM": {
+"eq": 54.6,
+"freeCount": 39,
+"passports": 197,
+"pop": 54.5,
+"score": 54.6,
+"typDays": 45
+},
+"VUT": {
+"eq": 60.6,
+"freeCount": 119,
+"passports": 197,
+"pop": 68.7,
+"score": 64.6,
+"typDays": 90
+},
+"WLF": {
+"eq": 50.2,
+"freeCount": 76,
+"passports": 152,
+"pop": 26.2,
+"score": 38.2,
+"typDays": 90
+},
+"WSM": {
+"eq": 75.1,
+"freeCount": 197,
+"passports": 197,
+"pop": 72.4,
+"score": 73.7,
+"typDays": 60
+},
+"XKX": {
+"eq": 56.3,
+"freeCount": 107,
+"passports": 184,
+"pop": 32.5,
+"score": 44.4,
+"typDays": 90
+},
+"YEM": {
+"eq": 15.9,
+"freeCount": 12,
+"passports": 197,
+"pop": 14.1,
+"score": 15.0,
+"typDays": 90
+},
+"ZAF": {
+"eq": 49.2,
+"freeCount": 97,
+"passports": 197,
+"pop": 66.3,
+"score": 57.8,
+"typDays": 90
+},
+"ZMB": {
+"eq": 72.3,
+"freeCount": 146,
+"passports": 197,
+"pop": 62.3,
+"score": 67.3,
+"typDays": 90
+},
+"ZWE": {
+"eq": 60.5,
+"freeCount": 144,
+"passports": 197,
+"pop": 52.9,
+"score": 56.7,
+"typDays": 30
+}
+}

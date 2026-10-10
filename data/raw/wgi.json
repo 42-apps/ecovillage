@@ -1,0 +1,1996 @@
+{
+ "_sources": [
+  {
+   "field": "rule,stab,reg,voice",
+   "name": "World Bank Worldwide Governance Indicators, 2025 revision (data year 2025; API last updated 2026-09-25)",
+   "url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_RL.EST?source=3&format=json",
+   "year": 2025,
+   "note": "Indicators GOV_WGI_RL.EST, GOV_WGI_PV.EST, GOV_WGI_RQ.EST, GOV_WGI_VA.EST; legacy *.PER.RNK percentile codes no longer served"
+  },
+  {
+   "field": "civicus",
+   "name": "CIVICUS Monitor ratings, People Power Under Attack 2025 (data last updated Dec 2025)",
+   "url": "https://monitor.civicus.org/",
+   "year": 2025
+  },
+  {
+   "field": "prop",
+   "name": "Heritage Foundation 2026 Index of Economic Freedom, Property Rights component",
+   "url": "https://static.heritage.org/index/data/2026/2026_indexofeconomicfreedom_data.xlsx",
+   "year": 2026
+  },
+  {
+   "field": "relig",
+   "name": "Freedom House, Freedom in the World 2026 (covers 2025), indicator D2 (0-4) x25",
+   "url": "https://freedomhouse.org/country/{slug}/freedom-world/2026",
+   "year": 2026
+  },
+  {
+   "field": "prop (estimates only)",
+   "name": "Freedom House FIW 2026 indicator G2 (property & business rights), used only as a predictor for missing Heritage values",
+   "url": "https://freedomhouse.org/countries/freedom-world/scores",
+   "year": 2026
+  }
+ ],
+ "_method": "WGI: the 2025 WGI revision no longer publishes percentile ranks through the API, so percentile rank was computed from the governance estimate (EST) for data year 2025 as 100*(economies ranked below + half of ties)/(N-1) across all 215 economies covered (incl. territories), reproducing the legacy WGI percentile definition (0=lowest, 100=highest). CIVICUS: current Monitor rating, lower-cased. prop: Heritage 2026 Property Rights score (0-100). For 13 places Heritage does not cover (AND, ATG, GRD, HKG, KNA, MAC, MCO, MHL, NRU, PLW, SMR, SSD, TUV) prop is an OLS estimate from WGI Rule of Law percentile and FH G2x25 (R2=0.93, n=183; MAC uses RL only, R2=0.92) and est=true. relig: Freedom House FIW 2026 indicator D2 (0-4) x25. Macau (not rated by FH or CIVICUS): relig=75 and civicus=repressed are reasoned estimates (Basic Law protections and generally respected worship, but post-2020 bans on commemorative gatherings, 2021 disqualification of pro-democracy candidates and the 2023 national-security-law expansion), est=true. est=true marks any record containing an estimated field; per-country notes are in research/gov_build_log.json.",
+ "ESP": {
+  "rule": 78.0,
+  "stab": 50.9,
+  "reg": 69.3,
+  "voice": 86.5,
+  "civicus": "narrowed",
+  "prop": 88.0,
+  "relig": 100,
+  "est": false
+ },
+ "CHE": {
+  "rule": 98.1,
+  "stab": 83.6,
+  "reg": 98.6,
+  "voice": 95.7,
+  "civicus": "narrowed",
+  "prop": 94.4,
+  "relig": 75,
+  "est": false
+ },
+ "AUS": {
+  "rule": 90.7,
+  "stab": 70.1,
+  "reg": 98.1,
+  "voice": 92.8,
+  "civicus": "narrowed",
+  "prop": 88.2,
+  "relig": 100,
+  "est": false
+ },
+ "PRT": {
+  "rule": 83.2,
+  "stab": 67.8,
+  "reg": 72.2,
+  "voice": 90.3,
+  "civicus": "open",
+  "prop": 88.9,
+  "relig": 100,
+  "est": false
+ },
+ "NZL": {
+  "rule": 96.3,
+  "stab": 85.5,
+  "reg": 99.5,
+  "voice": 98.1,
+  "civicus": "open",
+  "prop": 85.4,
+  "relig": 100,
+  "est": false
+ },
+ "ITA": {
+  "rule": 70.1,
+  "stab": 59.3,
+  "reg": 73.1,
+  "voice": 83.1,
+  "civicus": "obstructed",
+  "prop": 84.8,
+  "relig": 100,
+  "est": false
+ },
+ "JPN": {
+  "rule": 92.1,
+  "stab": 90.2,
+  "reg": 91.0,
+  "voice": 84.5,
+  "civicus": "open",
+  "prop": 94.2,
+  "relig": 100,
+  "est": false
+ },
+ "DEU": {
+  "rule": 93.9,
+  "stab": 52.3,
+  "reg": 90.6,
+  "voice": 96.1,
+  "civicus": "obstructed",
+  "prop": 95.5,
+  "relig": 75,
+  "est": false
+ },
+ "AUT": {
+  "rule": 95.8,
+  "stab": 60.7,
+  "reg": 85.8,
+  "voice": 93.2,
+  "civicus": "open",
+  "prop": 95.7,
+  "relig": 75,
+  "est": false
+ },
+ "FRA": {
+  "rule": 81.8,
+  "stab": 39.7,
+  "reg": 82.5,
+  "voice": 87.4,
+  "civicus": "obstructed",
+  "prop": 91.2,
+  "relig": 75,
+  "est": false
+ },
+ "DNK": {
+  "rule": 99.5,
+  "stab": 71.0,
+  "reg": 99.1,
+  "voice": 99.5,
+  "civicus": "open",
+  "prop": 99.9,
+  "relig": 100,
+  "est": false
+ },
+ "TWN": {
+  "rule": 86.0,
+  "stab": 79.0,
+  "reg": 89.6,
+  "voice": 82.6,
+  "civicus": "open",
+  "prop": 83.4,
+  "relig": 100,
+  "est": false
+ },
+ "NLD": {
+  "rule": 96.7,
+  "stab": 61.2,
+  "reg": 92.9,
+  "voice": 96.6,
+  "civicus": "narrowed",
+  "prop": 96.0,
+  "relig": 100,
+  "est": false
+ },
+ "GBR": {
+  "rule": 87.9,
+  "stab": 54.7,
+  "reg": 93.9,
+  "voice": 90.8,
+  "civicus": "obstructed",
+  "prop": 93.6,
+  "relig": 100,
+  "est": false
+ },
+ "NOR": {
+  "rule": 99.1,
+  "stab": 82.7,
+  "reg": 95.8,
+  "voice": 100.0,
+  "civicus": "open",
+  "prop": 99.6,
+  "relig": 100,
+  "est": false
+ },
+ "USA": {
+  "rule": 76.2,
+  "stab": 33.2,
+  "reg": 84.4,
+  "voice": 71.0,
+  "civicus": "obstructed",
+  "prop": 91.6,
+  "relig": 100,
+  "est": false
+ },
+ "KOR": {
+  "rule": 85.5,
+  "stab": 75.2,
+  "reg": 84.0,
+  "voice": 75.8,
+  "civicus": "narrowed",
+  "prop": 89.6,
+  "relig": 100,
+  "est": false
+ },
+ "CAN": {
+  "rule": 91.1,
+  "stab": 72.4,
+  "reg": 93.4,
+  "voice": 95.2,
+  "civicus": "open",
+  "prop": 85.9,
+  "relig": 75,
+  "est": false
+ },
+ "BEL": {
+  "rule": 87.4,
+  "stab": 50.5,
+  "reg": 90.1,
+  "voice": 94.7,
+  "civicus": "narrowed",
+  "prop": 91.1,
+  "relig": 75,
+  "est": false
+ },
+ "HKG": {
+  "rule": 79.9,
+  "stab": 69.6,
+  "reg": 96.2,
+  "voice": 36.2,
+  "civicus": "closed",
+  "prop": 80.8,
+  "relig": 75,
+  "est": true
+ },
+ "ISL": {
+  "rule": 94.4,
+  "stab": 93.0,
+  "reg": 85.4,
+  "voice": 92.3,
+  "civicus": "open",
+  "prop": 94.9,
+  "relig": 100,
+  "est": false
+ },
+ "SWE": {
+  "rule": 98.6,
+  "stab": 73.4,
+  "reg": 95.3,
+  "voice": 98.6,
+  "civicus": "open",
+  "prop": 96.2,
+  "relig": 100,
+  "est": false
+ },
+ "GRC": {
+  "rule": 59.3,
+  "stab": 54.2,
+  "reg": 68.9,
+  "voice": 75.4,
+  "civicus": "obstructed",
+  "prop": 78.0,
+  "relig": 75,
+  "est": false
+ },
+ "ISR": {
+  "rule": 73.4,
+  "stab": 14.0,
+  "reg": 88.7,
+  "voice": 60.9,
+  "civicus": "repressed",
+  "prop": 73.1,
+  "relig": 75,
+  "est": false
+ },
+ "FIN": {
+  "rule": 100.0,
+  "stab": 77.1,
+  "reg": 97.2,
+  "voice": 99.0,
+  "civicus": "open",
+  "prop": 99.9,
+  "relig": 100,
+  "est": false
+ },
+ "LUX": {
+  "rule": 97.2,
+  "stab": 86.4,
+  "reg": 97.6,
+  "voice": 97.1,
+  "civicus": "open",
+  "prop": 96.6,
+  "relig": 100,
+  "est": false
+ },
+ "IRL": {
+  "rule": 92.5,
+  "stab": 69.2,
+  "reg": 96.7,
+  "voice": 97.6,
+  "civicus": "open",
+  "prop": 94.4,
+  "relig": 100,
+  "est": false
+ },
+ "SMR": {
+  "rule": 90.2,
+  "stab": 96.3,
+  "reg": 79.7,
+  "voice": 89.4,
+  "civicus": "open",
+  "prop": 92.4,
+  "relig": 100,
+  "est": true
+ },
+ "SYC": {
+  "rule": 68.7,
+  "stab": 85.0,
+  "reg": 64.2,
+  "voice": 71.5,
+  "civicus": "narrowed",
+  "prop": 82.6,
+  "relig": 100,
+  "est": false
+ },
+ "HRV": {
+  "rule": 61.7,
+  "stab": 66.8,
+  "reg": 69.8,
+  "voice": 72.9,
+  "civicus": "narrowed",
+  "prop": 81.1,
+  "relig": 75,
+  "est": false
+ },
+ "POL": {
+  "rule": 66.8,
+  "stab": 67.3,
+  "reg": 78.8,
+  "voice": 74.4,
+  "civicus": "narrowed",
+  "prop": 71.8,
+  "relig": 100,
+  "est": false
+ },
+ "AND": {
+  "rule": 93.0,
+  "stab": 100.0,
+  "reg": 79.7,
+  "voice": 73.4,
+  "civicus": "open",
+  "prop": 94.6,
+  "relig": 75,
+  "est": true
+ },
+ "CZE": {
+  "rule": 84.6,
+  "stab": 80.4,
+  "reg": 87.3,
+  "voice": 88.4,
+  "civicus": "open",
+  "prop": 89.8,
+  "relig": 100,
+  "est": false
+ },
+ "CYP": {
+  "rule": 75.2,
+  "stab": 58.4,
+  "reg": 80.7,
+  "voice": 77.3,
+  "civicus": "narrowed",
+  "prop": 85.1,
+  "relig": 100,
+  "est": false
+ },
+ "SVN": {
+  "rule": 79.0,
+  "stab": 74.3,
+  "reg": 76.4,
+  "voice": 84.1,
+  "civicus": "open",
+  "prop": 87.6,
+  "relig": 100,
+  "est": false
+ },
+ "BRB": {
+  "rule": 74.3,
+  "stab": 91.1,
+  "reg": 67.9,
+  "voice": 83.6,
+  "civicus": "open",
+  "prop": 76.4,
+  "relig": 100,
+  "est": false
+ },
+ "MUS": {
+  "rule": 72.9,
+  "stab": 75.7,
+  "reg": 81.1,
+  "voice": 69.1,
+  "civicus": "narrowed",
+  "prop": 83.9,
+  "relig": 100,
+  "est": false
+ },
+ "SGP": {
+  "rule": 91.6,
+  "stab": 93.5,
+  "reg": 100.0,
+  "voice": 44.9,
+  "civicus": "repressed",
+  "prop": 89.2,
+  "relig": 75,
+  "est": false
+ },
+ "BHS": {
+  "rule": 57.0,
+  "stab": 79.9,
+  "reg": 49.5,
+  "voice": 70.5,
+  "civicus": "open",
+  "prop": 62.7,
+  "relig": 100,
+  "est": false
+ },
+ "ATG": {
+  "rule": 67.3,
+  "stab": 86.9,
+  "reg": 75.0,
+  "voice": 67.6,
+  "civicus": "narrowed",
+  "prop": 71.0,
+  "relig": 100,
+  "est": true
+ },
+ "CRI": {
+  "rule": 70.6,
+  "stab": 87.9,
+  "reg": 71.2,
+  "voice": 82.1,
+  "civicus": "narrowed",
+  "prop": 66.0,
+  "relig": 100,
+  "est": false
+ },
+ "ROU": {
+  "rule": 59.8,
+  "stab": 51.9,
+  "reg": 62.7,
+  "voice": 63.8,
+  "civicus": "narrowed",
+  "prop": 81.0,
+  "relig": 75,
+  "est": false
+ },
+ "MAC": {
+  "rule": 77.6,
+  "stab": 81.8,
+  "reg": 92.5,
+  "voice": 38.2,
+  "civicus": "repressed",
+  "prop": 80.4,
+  "relig": 75,
+  "est": true
+ },
+ "URY": {
+  "rule": 79.4,
+  "stab": 92.1,
+  "reg": 71.7,
+  "voice": 88.9,
+  "civicus": "open",
+  "prop": 87.4,
+  "relig": 100,
+  "est": false
+ },
+ "TTO": {
+  "rule": 39.7,
+  "stab": 59.8,
+  "reg": 44.8,
+  "voice": 66.7,
+  "civicus": "open",
+  "prop": 47.3,
+  "relig": 100,
+  "est": false
+ },
+ "ARG": {
+  "rule": 49.1,
+  "stab": 49.5,
+  "reg": 49.1,
+  "voice": 64.3,
+  "civicus": "obstructed",
+  "prop": 41.2,
+  "relig": 100,
+  "est": false
+ },
+ "BRN": {
+  "rule": 72.4,
+  "stab": 98.1,
+  "reg": 81.6,
+  "voice": 27.1,
+  "civicus": "repressed",
+  "prop": 66.1,
+  "relig": 25,
+  "est": false
+ },
+ "BGR": {
+  "rule": 50.0,
+  "stab": 53.7,
+  "reg": 65.1,
+  "voice": 58.9,
+  "civicus": "narrowed",
+  "prop": 75.8,
+  "relig": 75,
+  "est": false
+ },
+ "EST": {
+  "rule": 89.7,
+  "stab": 74.8,
+  "reg": 92.0,
+  "voice": 91.8,
+  "civicus": "open",
+  "prop": 93.6,
+  "relig": 100,
+  "est": false
+ },
+ "GRD": {
+  "rule": 69.6,
+  "stab": 88.8,
+  "reg": 52.8,
+  "voice": 65.2,
+  "civicus": "open",
+  "prop": 72.8,
+  "relig": 100,
+  "est": true
+ },
+ "SVK": {
+  "rule": 62.6,
+  "stab": 66.4,
+  "reg": 67.5,
+  "voice": 74.9,
+  "civicus": "narrowed",
+  "prop": 82.6,
+  "relig": 100,
+  "est": false
+ },
+ "MYS": {
+  "rule": 60.7,
+  "stab": 56.5,
+  "reg": 77.8,
+  "voice": 47.3,
+  "civicus": "obstructed",
+  "prop": 62.7,
+  "relig": 25,
+  "est": false
+ },
+ "CHL": {
+  "rule": 73.8,
+  "stab": 50.0,
+  "reg": 75.9,
+  "voice": 81.6,
+  "civicus": "narrowed",
+  "prop": 69.7,
+  "relig": 100,
+  "est": false
+ },
+ "ARE": {
+  "rule": 65.0,
+  "stab": 72.9,
+  "reg": 89.2,
+  "voice": 24.6,
+  "civicus": "closed",
+  "prop": 62.9,
+  "relig": 50,
+  "est": false
+ },
+ "MLT": {
+  "rule": 72.0,
+  "stab": 80.8,
+  "reg": 68.4,
+  "voice": 80.2,
+  "civicus": "narrowed",
+  "prop": 85.5,
+  "relig": 100,
+  "est": false
+ },
+ "BRA": {
+  "rule": 34.1,
+  "stab": 29.9,
+  "reg": 35.4,
+  "voice": 62.8,
+  "civicus": "obstructed",
+  "prop": 49.2,
+  "relig": 100,
+  "est": false
+ },
+ "MDV": {
+  "rule": 51.4,
+  "stab": 43.9,
+  "reg": 38.2,
+  "voice": 37.7,
+  "civicus": "obstructed",
+  "prop": 52.2,
+  "relig": 0,
+  "est": false
+ },
+ "MEX": {
+  "rule": 15.0,
+  "stab": 20.6,
+  "reg": 42.9,
+  "voice": 41.5,
+  "civicus": "repressed",
+  "prop": 37.6,
+  "relig": 100,
+  "est": false
+ },
+ "ECU": {
+  "rule": 18.7,
+  "stab": 20.1,
+  "reg": 25.0,
+  "voice": 48.3,
+  "civicus": "obstructed",
+  "prop": 33.2,
+  "relig": 100,
+  "est": false
+ },
+ "BTN": {
+  "rule": 74.8,
+  "stab": 94.4,
+  "reg": 48.6,
+  "voice": 56.5,
+  "civicus": "obstructed",
+  "prop": 69.2,
+  "relig": 50,
+  "est": false
+ },
+ "CUB": {
+  "rule": 16.8,
+  "stab": 55.6,
+  "reg": 4.2,
+  "voice": 9.7,
+  "civicus": "closed",
+  "prop": 27.7,
+  "relig": 75,
+  "est": false
+ },
+ "THA": {
+  "rule": 48.1,
+  "stab": 22.4,
+  "reg": 58.5,
+  "voice": 36.7,
+  "civicus": "repressed",
+  "prop": 41.8,
+  "relig": 75,
+  "est": false
+ },
+ "LTU": {
+  "rule": 89.3,
+  "stab": 76.2,
+  "reg": 91.5,
+  "voice": 87.9,
+  "civicus": "open",
+  "prop": 91.8,
+  "relig": 100,
+  "est": false
+ },
+ "GEO": {
+  "rule": 52.8,
+  "stab": 25.2,
+  "reg": 75.5,
+  "voice": 39.1,
+  "civicus": "repressed",
+  "prop": 53.0,
+  "relig": 50,
+  "est": false
+ },
+ "KNA": {
+  "rule": 69.2,
+  "stab": 84.1,
+  "reg": 72.6,
+  "voice": 68.1,
+  "civicus": "open",
+  "prop": 72.5,
+  "relig": 100,
+  "est": true
+ },
+ "TUR": {
+  "rule": 25.2,
+  "stab": 15.0,
+  "reg": 45.3,
+  "voice": 22.2,
+  "civicus": "repressed",
+  "prop": 36.4,
+  "relig": 50,
+  "est": false
+ },
+ "PER": {
+  "rule": 28.5,
+  "stab": 24.8,
+  "reg": 58.0,
+  "voice": 48.8,
+  "civicus": "repressed",
+  "prop": 44.0,
+  "relig": 100,
+  "est": false
+ },
+ "HUN": {
+  "rule": 56.5,
+  "stab": 60.3,
+  "reg": 62.3,
+  "voice": 49.3,
+  "civicus": "obstructed",
+  "prop": 67.3,
+  "relig": 75,
+  "est": false
+ },
+ "LCA": {
+  "rule": 66.4,
+  "stab": 84.6,
+  "reg": 61.3,
+  "voice": 72.5,
+  "civicus": "open",
+  "prop": 64.3,
+  "relig": 100,
+  "est": false
+ },
+ "TON": {
+  "rule": 75.7,
+  "stab": 92.5,
+  "reg": 42.5,
+  "voice": 73.9,
+  "civicus": "narrowed",
+  "prop": 71.1,
+  "relig": 100,
+  "est": false
+ },
+ "OMN": {
+  "rule": 63.6,
+  "stab": 64.5,
+  "reg": 78.3,
+  "voice": 22.7,
+  "civicus": "closed",
+  "prop": 71.8,
+  "relig": 50,
+  "est": false
+ },
+ "WSM": {
+  "rule": 83.6,
+  "stab": 93.9,
+  "reg": 50.5,
+  "voice": 78.7,
+  "civicus": "open",
+  "prop": 77.1,
+  "relig": 75,
+  "est": false
+ },
+ "ARM": {
+  "rule": 43.0,
+  "stab": 28.5,
+  "reg": 60.8,
+  "voice": 53.6,
+  "civicus": "narrowed",
+  "prop": 48.6,
+  "relig": 50,
+  "est": false
+ },
+ "SAU": {
+  "rule": 58.4,
+  "stab": 42.5,
+  "reg": 76.9,
+  "voice": 6.3,
+  "civicus": "closed",
+  "prop": 51.4,
+  "relig": 0,
+  "est": false
+ },
+ "VCT": {
+  "rule": 68.2,
+  "stab": 88.3,
+  "reg": 59.0,
+  "voice": 69.6,
+  "civicus": "open",
+  "prop": 65.2,
+  "relig": 100,
+  "est": false
+ },
+ "BHR": {
+  "rule": 54.7,
+  "stab": 31.8,
+  "reg": 83.5,
+  "voice": 11.6,
+  "civicus": "closed",
+  "prop": 60.9,
+  "relig": 25,
+  "est": false
+ },
+ "PLW": {
+  "rule": 85.0,
+  "stab": 91.6,
+  "reg": 70.3,
+  "voice": 80.7,
+  "civicus": "open",
+  "prop": 84.8,
+  "relig": 100,
+  "est": true
+ },
+ "MCO": {
+  "rule": 95.3,
+  "stab": 89.7,
+  "reg": 94.8,
+  "voice": 79.7,
+  "civicus": "open",
+  "prop": 92.9,
+  "relig": 100,
+  "est": true
+ },
+ "DMA": {
+  "rule": 62.1,
+  "stab": 78.5,
+  "reg": 56.6,
+  "voice": 65.7,
+  "civicus": "narrowed",
+  "prop": 65.8,
+  "relig": 100,
+  "est": false
+ },
+ "QAT": {
+  "rule": 65.4,
+  "stab": 81.3,
+  "reg": 83.0,
+  "voice": 15.0,
+  "civicus": "repressed",
+  "prop": 66.2,
+  "relig": 50,
+  "est": false
+ },
+ "LVA": {
+  "rule": 84.1,
+  "stab": 71.5,
+  "reg": 84.9,
+  "voice": 87.0,
+  "civicus": "open",
+  "prop": 88.8,
+  "relig": 100,
+  "est": false
+ },
+ "SUR": {
+  "rule": 43.9,
+  "stab": 65.0,
+  "reg": 19.3,
+  "voice": 58.0,
+  "civicus": "narrowed",
+  "prop": 40.5,
+  "relig": 100,
+  "est": false
+ },
+ "IND": {
+  "rule": 47.2,
+  "stab": 21.0,
+  "reg": 45.8,
+  "voice": 46.4,
+  "civicus": "repressed",
+  "prop": 48.3,
+  "relig": 50,
+  "est": false
+ },
+ "PAN": {
+  "rule": 42.5,
+  "stab": 53.3,
+  "reg": 47.6,
+  "voice": 64.7,
+  "civicus": "narrowed",
+  "prop": 56.7,
+  "relig": 100,
+  "est": false
+ },
+ "COL": {
+  "rule": 31.3,
+  "stab": 12.6,
+  "reg": 43.9,
+  "voice": 51.2,
+  "civicus": "repressed",
+  "prop": 43.1,
+  "relig": 100,
+  "est": false
+ },
+ "CHN": {
+  "rule": 37.4,
+  "stab": 43.0,
+  "reg": 48.1,
+  "voice": 6.8,
+  "civicus": "closed",
+  "prop": 40.9,
+  "relig": 0,
+  "est": false
+ },
+ "VNM": {
+  "rule": 45.3,
+  "stab": 47.2,
+  "reg": 47.2,
+  "voice": 16.9,
+  "civicus": "closed",
+  "prop": 47.3,
+  "relig": 25,
+  "est": false
+ },
+ "LKA": {
+  "rule": 44.4,
+  "stab": 40.7,
+  "reg": 40.6,
+  "voice": 50.2,
+  "civicus": "repressed",
+  "prop": 47.3,
+  "relig": 75,
+  "est": false
+ },
+ "SEN": {
+  "rule": 44.9,
+  "stab": 36.4,
+  "reg": 42.0,
+  "voice": 54.6,
+  "civicus": "obstructed",
+  "prop": 57.4,
+  "relig": 100,
+  "est": false
+ },
+ "XKX": {
+  "rule": 53.7,
+  "stab": 35.5,
+  "reg": 43.4,
+  "voice": 52.7,
+  "civicus": "narrowed",
+  "prop": 50.6,
+  "relig": 50,
+  "est": false
+ },
+ "VUT": {
+  "rule": 64.5,
+  "stab": 76.6,
+  "reg": 39.6,
+  "voice": 67.1,
+  "civicus": "narrowed",
+  "prop": 62.1,
+  "relig": 100,
+  "est": false
+ },
+ "MNE": {
+  "rule": 56.1,
+  "stab": 58.9,
+  "reg": 60.4,
+  "voice": 62.3,
+  "civicus": "narrowed",
+  "prop": 60.9,
+  "relig": 75,
+  "est": false
+ },
+ "ZAF": {
+  "rule": 52.3,
+  "stab": 30.4,
+  "reg": 50.9,
+  "voice": 72.0,
+  "civicus": "obstructed",
+  "prop": 48.8,
+  "relig": 100,
+  "est": false
+ },
+ "CPV": {
+  "rule": 63.1,
+  "stab": 73.8,
+  "reg": 53.8,
+  "voice": 76.8,
+  "civicus": "open",
+  "prop": 72.7,
+  "relig": 100,
+  "est": false
+ },
+ "IDN": {
+  "rule": 43.5,
+  "stab": 17.3,
+  "reg": 57.5,
+  "voice": 45.9,
+  "civicus": "obstructed",
+  "prop": 39.7,
+  "relig": 25,
+  "est": false
+ },
+ "KWT": {
+  "rule": 55.6,
+  "stab": 57.9,
+  "reg": 66.0,
+  "voice": 27.5,
+  "civicus": "repressed",
+  "prop": 42.0,
+  "relig": 50,
+  "est": false
+ },
+ "BOL": {
+  "rule": 9.3,
+  "stab": 37.4,
+  "reg": 9.9,
+  "voice": 44.4,
+  "civicus": "obstructed",
+  "prop": 20.2,
+  "relig": 100,
+  "est": false
+ },
+ "JAM": {
+  "rule": 50.9,
+  "stab": 62.1,
+  "reg": 54.2,
+  "voice": 68.6,
+  "civicus": "open",
+  "prop": 66.8,
+  "relig": 100,
+  "est": false
+ },
+ "RUS": {
+  "rule": 9.8,
+  "stab": 13.1,
+  "reg": 10.8,
+  "voice": 13.0,
+  "civicus": "closed",
+  "prop": 18.6,
+  "relig": 25,
+  "est": false
+ },
+ "BIH": {
+  "rule": 40.7,
+  "stab": 30.8,
+  "reg": 37.7,
+  "voice": 42.0,
+  "civicus": "obstructed",
+  "prop": 46.9,
+  "relig": 75,
+  "est": false
+ },
+ "DOM": {
+  "rule": 47.7,
+  "stab": 65.4,
+  "reg": 59.9,
+  "voice": 59.4,
+  "civicus": "narrowed",
+  "prop": 53.9,
+  "relig": 100,
+  "est": false
+ },
+ "PRY": {
+  "rule": 30.8,
+  "stab": 49.1,
+  "reg": 52.4,
+  "voice": 46.9,
+  "civicus": "obstructed",
+  "prop": 44.2,
+  "relig": 100,
+  "est": false
+ },
+ "TZA": {
+  "rule": 32.7,
+  "stab": 26.6,
+  "reg": 33.0,
+  "voice": 30.4,
+  "civicus": "repressed",
+  "prop": 45.2,
+  "relig": 50,
+  "est": false
+ },
+ "UZB": {
+  "rule": 29.4,
+  "stab": 45.8,
+  "reg": 32.5,
+  "voice": 18.4,
+  "civicus": "closed",
+  "prop": 43.1,
+  "relig": 25,
+  "est": false
+ },
+ "GTM": {
+  "rule": 19.2,
+  "stab": 34.6,
+  "reg": 40.1,
+  "voice": 40.1,
+  "civicus": "repressed",
+  "prop": 39.1,
+  "relig": 100,
+  "est": false
+ },
+ "PHL": {
+  "rule": 35.0,
+  "stab": 16.8,
+  "reg": 59.4,
+  "voice": 42.5,
+  "civicus": "repressed",
+  "prop": 45.8,
+  "relig": 100,
+  "est": false
+ },
+ "GHA": {
+  "rule": 51.9,
+  "stab": 44.9,
+  "reg": 44.3,
+  "voice": 59.9,
+  "civicus": "obstructed",
+  "prop": 50.2,
+  "relig": 75,
+  "est": false
+ },
+ "BLZ": {
+  "rule": 39.3,
+  "stab": 72.0,
+  "reg": 31.6,
+  "voice": 56.0,
+  "civicus": "narrowed",
+  "prop": 46.3,
+  "relig": 100,
+  "est": false
+ },
+ "FJI": {
+  "rule": 61.2,
+  "stab": 78.0,
+  "reg": 55.2,
+  "voice": 57.0,
+  "civicus": "narrowed",
+  "prop": 59.9,
+  "relig": 100,
+  "est": false
+ },
+ "NPL": {
+  "rule": 42.1,
+  "stab": 27.1,
+  "reg": 26.4,
+  "voice": 45.4,
+  "civicus": "obstructed",
+  "prop": 38.8,
+  "relig": 50,
+  "est": false
+ },
+ "KEN": {
+  "rule": 34.6,
+  "stab": 12.1,
+  "reg": 39.2,
+  "voice": 40.6,
+  "civicus": "repressed",
+  "prop": 40.2,
+  "relig": 50,
+  "est": false
+ },
+ "STP": {
+  "rule": 36.9,
+  "stab": 62.6,
+  "reg": 14.6,
+  "voice": 55.6,
+  "civicus": "open",
+  "prop": 55.2,
+  "relig": 100,
+  "est": false
+ },
+ "MDA": {
+  "rule": 45.8,
+  "stab": 38.8,
+  "reg": 51.4,
+  "voice": 58.5,
+  "civicus": "narrowed",
+  "prop": 40.4,
+  "relig": 75,
+  "est": false
+ },
+ "JOR": {
+  "rule": 55.1,
+  "stab": 32.7,
+  "reg": 64.6,
+  "voice": 31.9,
+  "civicus": "repressed",
+  "prop": 52.3,
+  "relig": 50,
+  "est": false
+ },
+ "GUY": {
+  "rule": 41.6,
+  "stab": 51.4,
+  "reg": 36.8,
+  "voice": 51.7,
+  "civicus": "narrowed",
+  "prop": 46.7,
+  "relig": 100,
+  "est": false
+ },
+ "LBN": {
+  "rule": 17.8,
+  "stab": 11.2,
+  "reg": 17.5,
+  "voice": 35.3,
+  "civicus": "obstructed",
+  "prop": 21.8,
+  "relig": 75,
+  "est": false
+ },
+ "MKD": {
+  "rule": 46.3,
+  "stab": 57.5,
+  "reg": 70.8,
+  "voice": 55.1,
+  "civicus": "narrowed",
+  "prop": 56.2,
+  "relig": 75,
+  "est": false
+ },
+ "MHL": {
+  "rule": 80.8,
+  "stab": 98.8,
+  "reg": 23.1,
+  "voice": 79.2,
+  "civicus": "open",
+  "prop": 81.5,
+  "relig": 100,
+  "est": true
+ },
+ "ALB": {
+  "rule": 50.5,
+  "stab": 45.3,
+  "reg": 63.7,
+  "voice": 54.1,
+  "civicus": "narrowed",
+  "prop": 57.6,
+  "relig": 100,
+  "est": false
+ },
+ "NIC": {
+  "rule": 6.1,
+  "stab": 42.1,
+  "reg": 14.2,
+  "voice": 3.9,
+  "civicus": "closed",
+  "prop": 23.8,
+  "relig": 25,
+  "est": false
+ },
+ "UKR": {
+  "rule": 26.2,
+  "stab": 31.3,
+  "reg": 41.5,
+  "voice": 47.8,
+  "civicus": "obstructed",
+  "prop": 21.6,
+  "relig": 75,
+  "est": false
+ },
+ "BWA": {
+  "rule": 58.9,
+  "stab": 82.2,
+  "reg": 65.6,
+  "voice": 61.8,
+  "civicus": "narrowed",
+  "prop": 71.7,
+  "relig": 100,
+  "est": false
+ },
+ "RWA": {
+  "rule": 53.3,
+  "stab": 48.1,
+  "reg": 61.8,
+  "voice": 30.9,
+  "civicus": "repressed",
+  "prop": 60.3,
+  "relig": 50,
+  "est": false
+ },
+ "TUN": {
+  "rule": 38.8,
+  "stab": 18.7,
+  "reg": 32.1,
+  "voice": 33.8,
+  "civicus": "repressed",
+  "prop": 55.7,
+  "relig": 75,
+  "est": false
+ },
+ "KHM": {
+  "rule": 18.2,
+  "stab": 56.1,
+  "reg": 30.7,
+  "voice": 7.2,
+  "civicus": "repressed",
+  "prop": 38.1,
+  "relig": 75,
+  "est": false
+ },
+ "TUV": {
+  "rule": 88.8,
+  "stab": 95.8,
+  "reg": 35.8,
+  "voice": 89.9,
+  "civicus": "open",
+  "prop": 87.8,
+  "relig": 100,
+  "est": true
+ },
+ "SRB": {
+  "rule": 41.1,
+  "stab": 32.2,
+  "reg": 56.1,
+  "voice": 38.6,
+  "civicus": "repressed",
+  "prop": 57.2,
+  "relig": 100,
+  "est": false
+ },
+ "ETH": {
+  "rule": 22.4,
+  "stab": 5.1,
+  "reg": 23.6,
+  "voice": 15.9,
+  "civicus": "closed",
+  "prop": 22.1,
+  "relig": 25,
+  "est": false
+ },
+ "CIV": {
+  "rule": 33.2,
+  "stab": 18.2,
+  "reg": 46.2,
+  "voice": 35.7,
+  "civicus": "obstructed",
+  "prop": 43.9,
+  "relig": 75,
+  "est": false
+ },
+ "FSM": {
+  "rule": 82.2,
+  "stab": 98.8,
+  "reg": 20.8,
+  "voice": 78.3,
+  "civicus": "open",
+  "prop": 75.3,
+  "relig": 100,
+  "est": false
+ },
+ "GAB": {
+  "rule": 19.6,
+  "stab": 46.7,
+  "reg": 24.1,
+  "voice": 29.5,
+  "civicus": "obstructed",
+  "prop": 30.0,
+  "relig": 75,
+  "est": false
+ },
+ "SLV": {
+  "rule": 27.1,
+  "stab": 46.3,
+  "reg": 46.7,
+  "voice": 31.4,
+  "civicus": "repressed",
+  "prop": 42.7,
+  "relig": 100,
+  "est": false
+ },
+ "KAZ": {
+  "rule": 37.9,
+  "stab": 35.0,
+  "reg": 54.7,
+  "voice": 26.6,
+  "civicus": "repressed",
+  "prop": 54.9,
+  "relig": 25,
+  "est": false
+ },
+ "MAR": {
+  "rule": 40.2,
+  "stab": 23.4,
+  "reg": 53.3,
+  "voice": 32.9,
+  "civicus": "obstructed",
+  "prop": 55.2,
+  "relig": 50,
+  "est": false
+ },
+ "AZE": {
+  "rule": 36.0,
+  "stab": 39.3,
+  "reg": 55.7,
+  "voice": 11.1,
+  "civicus": "closed",
+  "prop": 53.3,
+  "relig": 0,
+  "est": false
+ },
+ "NAM": {
+  "rule": 60.3,
+  "stab": 68.2,
+  "reg": 57.1,
+  "voice": 60.4,
+  "civicus": "narrowed",
+  "prop": 63.1,
+  "relig": 100,
+  "est": false
+ },
+ "COM": {
+  "rule": 21.0,
+  "stab": 34.1,
+  "reg": 11.3,
+  "voice": 23.7,
+  "civicus": "obstructed",
+  "prop": 25.3,
+  "relig": 25,
+  "est": false
+ },
+ "TLS": {
+  "rule": 29.9,
+  "stab": 65.9,
+  "reg": 22.6,
+  "voice": 63.3,
+  "civicus": "narrowed",
+  "prop": 43.5,
+  "relig": 75,
+  "est": false
+ },
+ "HND": {
+  "rule": 15.4,
+  "stab": 28.0,
+  "reg": 27.8,
+  "voice": 34.8,
+  "civicus": "repressed",
+  "prop": 35.7,
+  "relig": 100,
+  "est": false
+ },
+ "MNG": {
+  "rule": 48.6,
+  "stab": 63.6,
+  "reg": 51.9,
+  "voice": 57.5,
+  "civicus": "obstructed",
+  "prop": 49.2,
+  "relig": 100,
+  "est": false
+ },
+ "BEN": {
+  "rule": 36.4,
+  "stab": 29.0,
+  "reg": 41.0,
+  "voice": 39.6,
+  "civicus": "obstructed",
+  "prop": 46.4,
+  "relig": 100,
+  "est": false
+ },
+ "IRN": {
+  "rule": 12.6,
+  "stab": 8.4,
+  "reg": 4.7,
+  "voice": 8.7,
+  "civicus": "closed",
+  "prop": 20.2,
+  "relig": 0,
+  "est": false
+ },
+ "TKM": {
+  "rule": 7.9,
+  "stab": 52.8,
+  "reg": 1.9,
+  "voice": 1.9,
+  "civicus": "closed",
+  "prop": 17.4,
+  "relig": 0,
+  "est": false
+ },
+ "DZA": {
+  "rule": 29.0,
+  "stab": 19.2,
+  "reg": 19.8,
+  "voice": 23.2,
+  "civicus": "repressed",
+  "prop": 27.7,
+  "relig": 25,
+  "est": false
+ },
+ "GNQ": {
+  "rule": 6.5,
+  "stab": 37.9,
+  "reg": 7.1,
+  "voice": 3.4,
+  "civicus": "closed",
+  "prop": 16.9,
+  "relig": 25,
+  "est": false
+ },
+ "KIR": {
+  "rule": 78.5,
+  "stab": 89.3,
+  "reg": 36.3,
+  "voice": 81.2,
+  "civicus": "open",
+  "prop": 69.6,
+  "relig": 100,
+  "est": false
+ },
+ "ZMB": {
+  "rule": 33.6,
+  "stab": 40.2,
+  "reg": 34.9,
+  "voice": 41.1,
+  "civicus": "obstructed",
+  "prop": 43.9,
+  "relig": 75,
+  "est": false
+ },
+ "LAO": {
+  "rule": 30.4,
+  "stab": 63.1,
+  "reg": 25.9,
+  "voice": 7.7,
+  "civicus": "closed",
+  "prop": 41.1,
+  "relig": 25,
+  "est": false
+ },
+ "BLR": {
+  "rule": 11.2,
+  "stab": 36.0,
+  "reg": 9.0,
+  "voice": 5.8,
+  "civicus": "closed",
+  "prop": 20.0,
+  "relig": 25,
+  "est": false
+ },
+ "UGA": {
+  "rule": 28.0,
+  "stab": 15.9,
+  "reg": 29.7,
+  "voice": 25.6,
+  "civicus": "repressed",
+  "prop": 42.2,
+  "relig": 75,
+  "est": false
+ },
+ "KGZ": {
+  "rule": 22.9,
+  "stab": 41.1,
+  "reg": 38.7,
+  "voice": 29.0,
+  "civicus": "repressed",
+  "prop": 22.9,
+  "relig": 50,
+  "est": false
+ },
+ "MDG": {
+  "rule": 22.0,
+  "stab": 24.3,
+  "reg": 17.9,
+  "voice": 34.3,
+  "civicus": "repressed",
+  "prop": 39.8,
+  "relig": 75,
+  "est": false
+ },
+ "PRK": {
+  "rule": 7.0,
+  "stab": 44.4,
+  "reg": 0.5,
+  "voice": 1.0,
+  "civicus": "closed",
+  "prop": 16.3,
+  "relig": 0,
+  "est": false
+ },
+ "SWZ": {
+  "rule": 26.6,
+  "stab": 22.0,
+  "reg": 25.5,
+  "voice": 12.6,
+  "civicus": "closed",
+  "prop": 42.5,
+  "relig": 50,
+  "est": false
+ },
+ "SLE": {
+  "rule": 24.8,
+  "stab": 29.4,
+  "reg": 12.3,
+  "voice": 37.2,
+  "civicus": "obstructed",
+  "prop": 32.9,
+  "relig": 100,
+  "est": false
+ },
+ "SLB": {
+  "rule": 54.2,
+  "stab": 68.7,
+  "reg": 13.7,
+  "voice": 70.0,
+  "civicus": "narrowed",
+  "prop": 55.8,
+  "relig": 100,
+  "est": false
+ },
+ "ZWE": {
+  "rule": 12.1,
+  "stab": 15.4,
+  "reg": 8.5,
+  "voice": 14.5,
+  "civicus": "repressed",
+  "prop": 19.4,
+  "relig": 75,
+  "est": false
+ },
+ "LBY": {
+  "rule": 5.1,
+  "stab": 5.6,
+  "reg": 3.8,
+  "voice": 13.5,
+  "civicus": "repressed",
+  "prop": 6.3,
+  "relig": 25,
+  "est": false
+ },
+ "TJK": {
+  "rule": 11.7,
+  "stab": 33.6,
+  "reg": 18.9,
+  "voice": 4.3,
+  "civicus": "closed",
+  "prop": 28.4,
+  "relig": 0,
+  "est": false
+ },
+ "MWI": {
+  "rule": 46.7,
+  "stab": 36.9,
+  "reg": 30.2,
+  "voice": 49.8,
+  "civicus": "obstructed",
+  "prop": 49.5,
+  "relig": 100,
+  "est": false
+ },
+ "IRQ": {
+  "rule": 8.9,
+  "stab": 4.7,
+  "reg": 12.7,
+  "voice": 30.0,
+  "civicus": "closed",
+  "prop": 8.3,
+  "relig": 25,
+  "est": false
+ },
+ "GIN": {
+  "rule": 13.1,
+  "stab": 17.8,
+  "reg": 13.2,
+  "voice": 20.8,
+  "civicus": "repressed",
+  "prop": 21.3,
+  "relig": 75,
+  "est": false
+ },
+ "EGY": {
+  "rule": 27.6,
+  "stab": 14.5,
+  "reg": 34.4,
+  "voice": 8.2,
+  "civicus": "closed",
+  "prop": 35.5,
+  "relig": 25,
+  "est": false
+ },
+ "GNB": {
+  "rule": 10.3,
+  "stab": 23.8,
+  "reg": 9.4,
+  "voice": 24.2,
+  "civicus": "obstructed",
+  "prop": 28.4,
+  "relig": 75,
+  "est": false
+ },
+ "BFA": {
+  "rule": 23.4,
+  "stab": 6.1,
+  "reg": 28.3,
+  "voice": 19.8,
+  "civicus": "repressed",
+  "prop": 17.6,
+  "relig": 50,
+  "est": false
+ },
+ "NRU": {
+  "rule": 57.9,
+  "stab": 87.4,
+  "reg": 31.1,
+  "voice": 66.2,
+  "civicus": "obstructed",
+  "prop": 63.7,
+  "relig": 100,
+  "est": true
+ },
+ "LBR": {
+  "rule": 24.3,
+  "stab": 38.3,
+  "reg": 17.0,
+  "voice": 50.7,
+  "civicus": "obstructed",
+  "prop": 40.4,
+  "relig": 75,
+  "est": false
+ },
+ "VEN": {
+  "rule": 0.0,
+  "stab": 10.3,
+  "reg": 0.9,
+  "voice": 4.8,
+  "civicus": "closed",
+  "prop": 0.0,
+  "relig": 75,
+  "est": false
+ },
+ "DJI": {
+  "rule": 20.1,
+  "stab": 26.2,
+  "reg": 16.0,
+  "voice": 14.0,
+  "civicus": "closed",
+  "prop": 30.4,
+  "relig": 50,
+  "est": false
+ },
+ "PNG": {
+  "rule": 32.2,
+  "stab": 22.9,
+  "reg": 29.2,
+  "voice": 43.0,
+  "civicus": "obstructed",
+  "prop": 45.0,
+  "relig": 100,
+  "est": false
+ },
+ "GMB": {
+  "rule": 38.3,
+  "stab": 43.5,
+  "reg": 27.4,
+  "voice": 43.5,
+  "civicus": "obstructed",
+  "prop": 55.4,
+  "relig": 50,
+  "est": false
+ },
+ "MMR": {
+  "rule": 3.7,
+  "stab": 2.3,
+  "reg": 6.1,
+  "voice": 1.4,
+  "civicus": "closed",
+  "prop": 5.7,
+  "relig": 25,
+  "est": false
+ },
+ "NGA": {
+  "rule": 21.5,
+  "stab": 7.0,
+  "reg": 26.9,
+  "voice": 33.3,
+  "civicus": "repressed",
+  "prop": 29.7,
+  "relig": 25,
+  "est": false
+ },
+ "COG": {
+  "rule": 10.7,
+  "stab": 25.7,
+  "reg": 10.4,
+  "voice": 15.5,
+  "civicus": "repressed",
+  "prop": 28.7,
+  "relig": 75,
+  "est": false
+ },
+ "PAK": {
+  "rule": 17.3,
+  "stab": 3.7,
+  "reg": 15.6,
+  "voice": 21.7,
+  "civicus": "repressed",
+  "prop": 25.7,
+  "relig": 25,
+  "est": false
+ },
+ "MRT": {
+  "rule": 25.7,
+  "stab": 19.6,
+  "reg": 24.5,
+  "voice": 28.0,
+  "civicus": "obstructed",
+  "prop": 32.6,
+  "relig": 50,
+  "est": false
+ },
+ "SYR": {
+  "rule": 2.8,
+  "stab": 0.9,
+  "reg": 2.4,
+  "voice": 9.2,
+  "civicus": "closed",
+  "prop": 4.0,
+  "relig": 50,
+  "est": false
+ },
+ "BDI": {
+  "rule": 7.5,
+  "stab": 11.7,
+  "reg": 16.5,
+  "voice": 10.6,
+  "civicus": "closed",
+  "prop": 27.2,
+  "relig": 75,
+  "est": false
+ },
+ "BGD": {
+  "rule": 23.8,
+  "stab": 13.6,
+  "reg": 15.1,
+  "voice": 32.4,
+  "civicus": "repressed",
+  "prop": 32.1,
+  "relig": 50,
+  "est": false
+ },
+ "MOZ": {
+  "rule": 14.5,
+  "stab": 8.9,
+  "reg": 21.7,
+  "voice": 28.5,
+  "civicus": "repressed",
+  "prop": 29.7,
+  "relig": 75,
+  "est": false
+ },
+ "NER": {
+  "rule": 15.9,
+  "stab": 6.5,
+  "reg": 21.2,
+  "voice": 21.3,
+  "civicus": "repressed",
+  "prop": 16.6,
+  "relig": 50,
+  "est": false
+ },
+ "TGO": {
+  "rule": 31.8,
+  "stab": 16.4,
+  "reg": 34.0,
+  "voice": 25.1,
+  "civicus": "repressed",
+  "prop": 43.6,
+  "relig": 75,
+  "est": false
+ },
+ "AFG": {
+  "rule": 2.3,
+  "stab": 3.3,
+  "reg": 6.6,
+  "voice": 0.5,
+  "civicus": "closed",
+  "prop": 3.6,
+  "relig": 0,
+  "est": false
+ },
+ "TCD": {
+  "rule": 8.4,
+  "stab": 9.3,
+  "reg": 11.8,
+  "voice": 12.1,
+  "civicus": "repressed",
+  "prop": 17.2,
+  "relig": 25,
+  "est": false
+ },
+ "CMR": {
+  "rule": 13.6,
+  "stab": 7.9,
+  "reg": 20.3,
+  "voice": 17.4,
+  "civicus": "repressed",
+  "prop": 28.1,
+  "relig": 50,
+  "est": false
+ },
+ "AGO": {
+  "rule": 16.4,
+  "stab": 27.6,
+  "reg": 22.2,
+  "voice": 26.1,
+  "civicus": "repressed",
+  "prop": 36.9,
+  "relig": 50,
+  "est": false
+ },
+ "LSO": {
+  "rule": 35.5,
+  "stab": 41.6,
+  "reg": 33.5,
+  "voice": 53.1,
+  "civicus": "obstructed",
+  "prop": 41.7,
+  "relig": 100,
+  "est": false
+ },
+ "MLI": {
+  "rule": 14.0,
+  "stab": 0.5,
+  "reg": 18.4,
+  "voice": 17.9,
+  "civicus": "repressed",
+  "prop": 13.8,
+  "relig": 50,
+  "est": false
+ },
+ "YEM": {
+  "rule": 1.4,
+  "stab": 0.0,
+  "reg": 5.7,
+  "voice": 5.3,
+  "civicus": "closed",
+  "prop": 3.5,
+  "relig": 25,
+  "est": false
+ },
+ "COD": {
+  "rule": 4.7,
+  "stab": 1.9,
+  "reg": 7.5,
+  "voice": 19.3,
+  "civicus": "repressed",
+  "prop": 15.4,
+  "relig": 75,
+  "est": false
+ },
+ "CAF": {
+  "rule": 4.2,
+  "stab": 7.5,
+  "reg": 8.0,
+  "voice": 16.4,
+  "civicus": "repressed",
+  "prop": 5.6,
+  "relig": 0,
+  "est": false
+ },
+ "HTI": {
+  "rule": 5.6,
+  "stab": 10.7,
+  "reg": 5.2,
+  "voice": 18.8,
+  "civicus": "repressed",
+  "prop": 6.6,
+  "relig": 50,
+  "est": false
+ },
+ "SDN": {
+  "rule": 1.9,
+  "stab": 2.8,
+  "reg": 2.8,
+  "voice": 2.4,
+  "civicus": "closed",
+  "prop": 6.5,
+  "relig": 50,
+  "est": false
+ },
+ "ERI": {
+  "rule": 3.3,
+  "stab": 21.5,
+  "reg": 0.0,
+  "voice": 0.0,
+  "civicus": "closed",
+  "prop": 4.8,
+  "relig": 25,
+  "est": false
+ },
+ "SSD": {
+  "rule": 0.9,
+  "stab": 9.8,
+  "reg": 1.4,
+  "voice": 2.9,
+  "civicus": "repressed",
+  "prop": 8.6,
+  "relig": 25,
+  "est": true
+ },
+ "SOM": {
+  "rule": 0.5,
+  "stab": 1.4,
+  "reg": 3.3,
+  "voice": 10.1,
+  "civicus": "repressed",
+  "prop": 0.8,
+  "relig": 0,
+  "est": false
+ }
+}

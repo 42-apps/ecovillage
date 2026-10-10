@@ -1,0 +1,3346 @@
+{
+ "_sources": {
+  "rain": "World Bank WDI AG.LND.PRCP.MM (FAO AQUASTAT long-term avg), latest value 2022 (ISR 2021): https://api.worldbank.org/v2/country/all/indicator/AG.LND.PRCP.MM ; gaps: WB Climate Change Knowledge Portal CRU TS4.08 1991-2020 country means https://cckpapi.worldbank.org/cckp/v1/ ; Taiwan WRA",
+  "waterStress": "WRI Aqueduct 4.0 country rankings (2023, baseline 1979-2019, bws, weight=Tot): https://files.wri.org/aqueduct/aqueduct-4-0-country-rankings.zip ; fallback FAO SDG 6.4.2 via WB ER.H2O.FWST.ZS (2022): https://api.worldbank.org/v2/country/all/indicator/ER.H2O.FWST.ZS",
+  "renewWater": "World Bank WDI ER.H2O.INTR.PC (FAO AQUASTAT), 2022 (ISR 2021): https://api.worldbank.org/v2/country/all/indicator/ER.H2O.INTR.PC",
+  "arable": "World Bank WDI AG.LND.ARBL.ZS (FAOSTAT), 2024 (NIC 2022): https://api.worldbank.org/v2/country/all/indicator/AG.LND.ARBL.ZS",
+  "forest": "World Bank WDI AG.LND.FRST.ZS (FAO FRA), 2024 (MCO,NRU,NIC 2023): https://api.worldbank.org/v2/country/all/indicator/AG.LND.FRST.ZS",
+  "density": "World Bank WDI EN.POP.DNST, 2024 (NIC 2023): https://api.worldbank.org/v2/country/all/indicator/EN.POP.DNST",
+  "pvout": "World Bank/ESMAP & Solargis, Global Photovoltaic Power Potential by Country (2020), avg practical potential PVOUT Level 1: https://datacatalogfiles.worldbank.org/ddh-published/0038379/1/DR0046831/solargis_pvpotential_countryranking_2020_data.xlsx ; gaps: Global Solar Atlas API point samples (2026) https://api.globalsolaratlas.info/data/lta",
+  "landPrice": "Eurostat apri_lprc (2024; IT 2020; MT 2023): https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/apri_lprc ; USDA ERS farmland value (2026): https://www.ers.usda.gov/topics/farm-economy/land-use-land-value-tenure/farmland-value ; others: reasoned order-of-magnitude estimates from national statistics/agency reports known to 2025 (Destatis, Savills, Rural Bank, REINZ, FCC/StatCan, MGAP-DIEA, etc.) and listings",
+  "growing": "Judgement score informed by CRU TS4.08 1991-2020 monthly temperature & precipitation (WB CCKP) length-of-growing-period proxy, arable %, soils and irrigation potential",
+  "fx": "EUR->USD annual avg: 2014 1.329, 2018 1.181, 2020 1.142, 2023 1.081, 2024 1.082"
+ },
+ "_method": "rain/renewWater/arable/forest/density = latest non-empty WDI value (mrnev=1). waterStress = Aqueduct 4.0 baseline water stress country score 0-5 (weighted by total gross demand). Where Aqueduct has NoData (mostly small islands) the FAO SDG 6.4.2 freshwater-withdrawal stress % was converted with Aqueduct's own scale: score = clamp(ln(r/0.1)/ln2 + 1, 0, 5), r = stress/100 (correlation with Aqueduct where both exist r=0.70; FAO tends to rate arid exporters lower). Remaining gaps (Taiwan, HK, Macau, Monaco, Kosovo, Pacific atolls etc.) are reasoned estimates; see _waterStressSource. pvout = Solargis/World Bank 2020 country average practical potential (Level 1), kWh/kWp/day; NOR/SWE/RUS/CAN averaged only up to 60N; Kosovo taken from code XKO; TWN/MCO/FIN from Global Solar Atlas point samples; ISL estimated (outside satellite coverage). landPrice = typical rural/agricultural land for a community outside prime/tourist zones, USD/ha, order-of-magnitude. EU members use Eurostat national arable-land average (converted at the annual EUR/USD rate of the data year) except Portugal (national figure skewed by tiny northern plots; Alentejo/interior used) and Belgium (2014 data uprated). City-states with no rural land (MCO, MAC, SGP, HKG) carry deliberately extreme urban/development values; PRK is null (no market). Notes flag foreign-ownership limits where significant. growing = 0-100 judgement of food-growing conditions for the best realistic regions blended with the national average: season length (CRU monthly T>=~10C and P>=0.5*Thornthwaite PET), soil fertility, rainfall reliability, irrigation potential. est=true if ANY field for that country is an estimate (see _estFields for which). Raw downloads in research/raw_res/; build script research/build_resources.py.",
+ "_built": "2026-10-10",
+ "_waterStressSource": {
+  "ESP": "aqueduct4",
+  "CHE": "aqueduct4",
+  "AUS": "aqueduct4",
+  "PRT": "aqueduct4",
+  "NZL": "aqueduct4",
+  "ITA": "aqueduct4",
+  "JPN": "aqueduct4",
+  "DEU": "aqueduct4",
+  "AUT": "aqueduct4",
+  "FRA": "aqueduct4",
+  "DNK": "aqueduct4",
+  "TWN": "estimate",
+  "NLD": "aqueduct4",
+  "GBR": "aqueduct4",
+  "NOR": "aqueduct4",
+  "USA": "aqueduct4",
+  "KOR": "aqueduct4",
+  "CAN": "aqueduct4",
+  "BEL": "aqueduct4",
+  "HKG": "estimate",
+  "ISL": "aqueduct4",
+  "SWE": "aqueduct4",
+  "GRC": "aqueduct4",
+  "ISR": "aqueduct4",
+  "FIN": "aqueduct4",
+  "LUX": "aqueduct4",
+  "IRL": "aqueduct4",
+  "SMR": "aqueduct4",
+  "SYC": "estimate",
+  "HRV": "aqueduct4",
+  "POL": "aqueduct4",
+  "AND": "aqueduct4",
+  "CZE": "aqueduct4",
+  "CYP": "aqueduct4",
+  "SVN": "aqueduct4",
+  "BRB": "fao642_converted",
+  "MUS": "fao642_converted",
+  "SGP": "fao642_converted",
+  "BHS": "estimate",
+  "ATG": "fao642_converted",
+  "CRI": "aqueduct4",
+  "ROU": "aqueduct4",
+  "MAC": "estimate",
+  "URY": "aqueduct4",
+  "TTO": "fao642_converted",
+  "ARG": "aqueduct4",
+  "BRN": "aqueduct4",
+  "BGR": "aqueduct4",
+  "EST": "aqueduct4",
+  "GRD": "fao642_converted",
+  "SVK": "aqueduct4",
+  "MYS": "aqueduct4",
+  "CHL": "aqueduct4",
+  "ARE": "aqueduct4",
+  "MLT": "fao642_converted",
+  "BRA": "aqueduct4",
+  "MDV": "fao642_converted",
+  "MEX": "aqueduct4",
+  "ECU": "aqueduct4",
+  "BTN": "aqueduct4",
+  "CUB": "aqueduct4",
+  "THA": "aqueduct4",
+  "LTU": "aqueduct4",
+  "GEO": "aqueduct4",
+  "KNA": "fao642_converted",
+  "TUR": "aqueduct4",
+  "PER": "aqueduct4",
+  "HUN": "aqueduct4",
+  "LCA": "fao642_converted",
+  "TON": "estimate",
+  "OMN": "aqueduct4",
+  "WSM": "estimate",
+  "ARM": "aqueduct4",
+  "SAU": "aqueduct4",
+  "VCT": "fao642_converted",
+  "BHR": "aqueduct4",
+  "PLW": "estimate",
+  "MCO": "estimate",
+  "DMA": "fao642_converted",
+  "QAT": "aqueduct4",
+  "LVA": "aqueduct4",
+  "SUR": "aqueduct4",
+  "IND": "aqueduct4",
+  "PAN": "aqueduct4",
+  "COL": "aqueduct4",
+  "CHN": "aqueduct4",
+  "VNM": "aqueduct4",
+  "LKA": "aqueduct4",
+  "SEN": "aqueduct4",
+  "XKX": "estimate",
+  "VUT": "estimate",
+  "MNE": "aqueduct4",
+  "ZAF": "aqueduct4",
+  "CPV": "fao642_converted",
+  "IDN": "aqueduct4",
+  "KWT": "aqueduct4",
+  "BOL": "aqueduct4",
+  "JAM": "aqueduct4",
+  "RUS": "aqueduct4",
+  "BIH": "aqueduct4",
+  "DOM": "aqueduct4",
+  "PRY": "aqueduct4",
+  "TZA": "aqueduct4",
+  "UZB": "aqueduct4",
+  "GTM": "aqueduct4",
+  "PHL": "aqueduct4",
+  "GHA": "aqueduct4",
+  "BLZ": "aqueduct4",
+  "FJI": "fao642_converted",
+  "NPL": "aqueduct4",
+  "KEN": "aqueduct4",
+  "STP": "fao642_converted",
+  "MDA": "aqueduct4",
+  "JOR": "aqueduct4",
+  "GUY": "aqueduct4",
+  "LBN": "aqueduct4",
+  "MKD": "aqueduct4",
+  "MHL": "estimate",
+  "ALB": "aqueduct4",
+  "NIC": "aqueduct4",
+  "UKR": "aqueduct4",
+  "BWA": "aqueduct4",
+  "RWA": "aqueduct4",
+  "TUN": "aqueduct4",
+  "KHM": "aqueduct4",
+  "TUV": "estimate",
+  "SRB": "aqueduct4",
+  "ETH": "aqueduct4",
+  "CIV": "aqueduct4",
+  "FSM": "estimate",
+  "GAB": "aqueduct4",
+  "SLV": "aqueduct4",
+  "KAZ": "aqueduct4",
+  "MAR": "aqueduct4",
+  "AZE": "aqueduct4",
+  "NAM": "aqueduct4",
+  "COM": "fao642_converted",
+  "TLS": "aqueduct4",
+  "HND": "aqueduct4",
+  "MNG": "aqueduct4",
+  "BEN": "aqueduct4",
+  "IRN": "aqueduct4",
+  "TKM": "aqueduct4",
+  "DZA": "aqueduct4",
+  "GNQ": "aqueduct4",
+  "KIR": "estimate",
+  "ZMB": "aqueduct4",
+  "LAO": "aqueduct4",
+  "BLR": "aqueduct4",
+  "UGA": "aqueduct4",
+  "KGZ": "aqueduct4",
+  "MDG": "aqueduct4",
+  "PRK": "aqueduct4",
+  "SWZ": "aqueduct4",
+  "SLE": "aqueduct4",
+  "SLB": "estimate",
+  "ZWE": "aqueduct4",
+  "LBY": "aqueduct4",
+  "TJK": "aqueduct4",
+  "MWI": "aqueduct4",
+  "IRQ": "aqueduct4",
+  "GIN": "aqueduct4",
+  "EGY": "aqueduct4",
+  "GNB": "aqueduct4",
+  "BFA": "aqueduct4",
+  "NRU": "estimate",
+  "LBR": "aqueduct4",
+  "VEN": "aqueduct4",
+  "DJI": "aqueduct4",
+  "PNG": "aqueduct4",
+  "GMB": "aqueduct4",
+  "MMR": "aqueduct4",
+  "NGA": "aqueduct4",
+  "COG": "aqueduct4",
+  "PAK": "aqueduct4",
+  "MRT": "aqueduct4",
+  "SYR": "aqueduct4",
+  "BDI": "aqueduct4",
+  "BGD": "aqueduct4",
+  "MOZ": "aqueduct4",
+  "NER": "aqueduct4",
+  "TGO": "aqueduct4",
+  "AFG": "aqueduct4",
+  "TCD": "aqueduct4",
+  "CMR": "aqueduct4",
+  "AGO": "aqueduct4",
+  "LSO": "aqueduct4",
+  "MLI": "aqueduct4",
+  "YEM": "aqueduct4",
+  "COD": "aqueduct4",
+  "CAF": "aqueduct4",
+  "HTI": "aqueduct4",
+  "SDN": "aqueduct4",
+  "ERI": "aqueduct4",
+  "SSD": "aqueduct4",
+  "SOM": "aqueduct4"
+ },
+ "_estFields": {
+  "CHE": [
+   "landPrice"
+  ],
+  "AUS": [
+   "landPrice"
+  ],
+  "PRT": [
+   "landPrice"
+  ],
+  "NZL": [
+   "landPrice"
+  ],
+  "JPN": [
+   "landPrice"
+  ],
+  "DEU": [
+   "landPrice"
+  ],
+  "TWN": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "arable",
+   "forest",
+   "density",
+   "pvout",
+   "landPrice"
+  ],
+  "GBR": [
+   "landPrice"
+  ],
+  "NOR": [
+   "landPrice"
+  ],
+  "KOR": [
+   "landPrice"
+  ],
+  "CAN": [
+   "landPrice"
+  ],
+  "BEL": [
+   "landPrice"
+  ],
+  "HKG": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "forest",
+   "landPrice"
+  ],
+  "ISL": [
+   "pvout",
+   "landPrice"
+  ],
+  "ISR": [
+   "landPrice"
+  ],
+  "FIN": [
+   "pvout"
+  ],
+  "SMR": [
+   "rain",
+   "renewWater",
+   "landPrice"
+  ],
+  "SYC": [
+   "waterStress",
+   "renewWater",
+   "landPrice"
+  ],
+  "AND": [
+   "rain",
+   "landPrice"
+  ],
+  "CYP": [
+   "landPrice"
+  ],
+  "BRB": [
+   "landPrice"
+  ],
+  "MUS": [
+   "landPrice"
+  ],
+  "SGP": [
+   "landPrice"
+  ],
+  "BHS": [
+   "waterStress",
+   "landPrice"
+  ],
+  "ATG": [
+   "landPrice"
+  ],
+  "CRI": [
+   "landPrice"
+  ],
+  "MAC": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "arable",
+   "forest",
+   "landPrice"
+  ],
+  "URY": [
+   "landPrice"
+  ],
+  "TTO": [
+   "landPrice"
+  ],
+  "ARG": [
+   "landPrice"
+  ],
+  "BRN": [
+   "landPrice"
+  ],
+  "GRD": [
+   "landPrice"
+  ],
+  "MYS": [
+   "landPrice"
+  ],
+  "CHL": [
+   "landPrice"
+  ],
+  "ARE": [
+   "landPrice"
+  ],
+  "BRA": [
+   "landPrice"
+  ],
+  "MDV": [
+   "landPrice"
+  ],
+  "MEX": [
+   "landPrice"
+  ],
+  "ECU": [
+   "landPrice"
+  ],
+  "BTN": [
+   "landPrice"
+  ],
+  "CUB": [
+   "landPrice"
+  ],
+  "THA": [
+   "landPrice"
+  ],
+  "GEO": [
+   "landPrice"
+  ],
+  "KNA": [
+   "landPrice"
+  ],
+  "TUR": [
+   "landPrice"
+  ],
+  "PER": [
+   "landPrice"
+  ],
+  "LCA": [
+   "landPrice"
+  ],
+  "TON": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "landPrice"
+  ],
+  "OMN": [
+   "landPrice"
+  ],
+  "WSM": [
+   "waterStress",
+   "renewWater",
+   "landPrice"
+  ],
+  "ARM": [
+   "landPrice"
+  ],
+  "SAU": [
+   "landPrice"
+  ],
+  "VCT": [
+   "landPrice"
+  ],
+  "BHR": [
+   "landPrice"
+  ],
+  "PLW": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "landPrice"
+  ],
+  "MCO": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "arable",
+   "pvout",
+   "landPrice"
+  ],
+  "DMA": [
+   "landPrice"
+  ],
+  "QAT": [
+   "landPrice"
+  ],
+  "SUR": [
+   "landPrice"
+  ],
+  "IND": [
+   "landPrice"
+  ],
+  "PAN": [
+   "landPrice"
+  ],
+  "COL": [
+   "landPrice"
+  ],
+  "CHN": [
+   "landPrice"
+  ],
+  "VNM": [
+   "landPrice"
+  ],
+  "LKA": [
+   "landPrice"
+  ],
+  "SEN": [
+   "landPrice"
+  ],
+  "XKX": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "arable",
+   "forest",
+   "density",
+   "landPrice"
+  ],
+  "VUT": [
+   "waterStress",
+   "landPrice"
+  ],
+  "MNE": [
+   "rain",
+   "renewWater",
+   "landPrice"
+  ],
+  "ZAF": [
+   "landPrice"
+  ],
+  "CPV": [
+   "landPrice"
+  ],
+  "IDN": [
+   "landPrice"
+  ],
+  "KWT": [
+   "landPrice"
+  ],
+  "BOL": [
+   "landPrice"
+  ],
+  "JAM": [
+   "landPrice"
+  ],
+  "RUS": [
+   "landPrice"
+  ],
+  "BIH": [
+   "landPrice"
+  ],
+  "DOM": [
+   "landPrice"
+  ],
+  "PRY": [
+   "landPrice"
+  ],
+  "TZA": [
+   "landPrice"
+  ],
+  "UZB": [
+   "landPrice"
+  ],
+  "GTM": [
+   "landPrice"
+  ],
+  "PHL": [
+   "landPrice"
+  ],
+  "GHA": [
+   "landPrice"
+  ],
+  "BLZ": [
+   "landPrice"
+  ],
+  "FJI": [
+   "landPrice"
+  ],
+  "NPL": [
+   "landPrice"
+  ],
+  "KEN": [
+   "landPrice"
+  ],
+  "STP": [
+   "landPrice"
+  ],
+  "MDA": [
+   "landPrice"
+  ],
+  "JOR": [
+   "landPrice"
+  ],
+  "GUY": [
+   "landPrice"
+  ],
+  "LBN": [
+   "landPrice"
+  ],
+  "MKD": [
+   "landPrice"
+  ],
+  "MHL": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "landPrice"
+  ],
+  "ALB": [
+   "landPrice"
+  ],
+  "NIC": [
+   "landPrice"
+  ],
+  "UKR": [
+   "landPrice"
+  ],
+  "BWA": [
+   "landPrice"
+  ],
+  "RWA": [
+   "landPrice"
+  ],
+  "TUN": [
+   "landPrice"
+  ],
+  "KHM": [
+   "landPrice"
+  ],
+  "TUV": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "arable",
+   "landPrice"
+  ],
+  "SRB": [
+   "rain",
+   "landPrice"
+  ],
+  "ETH": [
+   "landPrice"
+  ],
+  "CIV": [
+   "landPrice"
+  ],
+  "FSM": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "landPrice"
+  ],
+  "GAB": [
+   "landPrice"
+  ],
+  "SLV": [
+   "landPrice"
+  ],
+  "KAZ": [
+   "landPrice"
+  ],
+  "MAR": [
+   "landPrice"
+  ],
+  "AZE": [
+   "landPrice"
+  ],
+  "NAM": [
+   "landPrice"
+  ],
+  "COM": [
+   "landPrice"
+  ],
+  "TLS": [
+   "landPrice"
+  ],
+  "HND": [
+   "landPrice"
+  ],
+  "MNG": [
+   "landPrice"
+  ],
+  "BEN": [
+   "landPrice"
+  ],
+  "IRN": [
+   "landPrice"
+  ],
+  "TKM": [
+   "landPrice"
+  ],
+  "DZA": [
+   "landPrice"
+  ],
+  "GNQ": [
+   "landPrice"
+  ],
+  "KIR": [
+   "rain",
+   "waterStress",
+   "renewWater",
+   "landPrice"
+  ],
+  "ZMB": [
+   "landPrice"
+  ],
+  "LAO": [
+   "landPrice"
+  ],
+  "BLR": [
+   "landPrice"
+  ],
+  "UGA": [
+   "landPrice"
+  ],
+  "KGZ": [
+   "landPrice"
+  ],
+  "MDG": [
+   "landPrice"
+  ],
+  "PRK": [
+   "landPrice"
+  ],
+  "SWZ": [
+   "landPrice"
+  ],
+  "SLE": [
+   "landPrice"
+  ],
+  "SLB": [
+   "waterStress",
+   "landPrice"
+  ],
+  "ZWE": [
+   "landPrice"
+  ],
+  "LBY": [
+   "landPrice"
+  ],
+  "TJK": [
+   "landPrice"
+  ],
+  "MWI": [
+   "landPrice"
+  ],
+  "IRQ": [
+   "landPrice"
+  ],
+  "GIN": [
+   "landPrice"
+  ],
+  "EGY": [
+   "landPrice"
+  ],
+  "GNB": [
+   "landPrice"
+  ],
+  "BFA": [
+   "landPrice"
+  ],
+  "NRU": [
+   "rain",
+   "waterStress",
+   "arable",
+   "landPrice"
+  ],
+  "LBR": [
+   "landPrice"
+  ],
+  "VEN": [
+   "landPrice"
+  ],
+  "DJI": [
+   "landPrice"
+  ],
+  "PNG": [
+   "landPrice"
+  ],
+  "GMB": [
+   "landPrice"
+  ],
+  "MMR": [
+   "landPrice"
+  ],
+  "NGA": [
+   "landPrice"
+  ],
+  "COG": [
+   "landPrice"
+  ],
+  "PAK": [
+   "landPrice"
+  ],
+  "MRT": [
+   "landPrice"
+  ],
+  "SYR": [
+   "landPrice"
+  ],
+  "BDI": [
+   "landPrice"
+  ],
+  "BGD": [
+   "landPrice"
+  ],
+  "MOZ": [
+   "landPrice"
+  ],
+  "NER": [
+   "landPrice"
+  ],
+  "TGO": [
+   "landPrice"
+  ],
+  "AFG": [
+   "landPrice"
+  ],
+  "TCD": [
+   "landPrice"
+  ],
+  "CMR": [
+   "landPrice"
+  ],
+  "AGO": [
+   "landPrice"
+  ],
+  "LSO": [
+   "landPrice"
+  ],
+  "MLI": [
+   "landPrice"
+  ],
+  "YEM": [
+   "landPrice"
+  ],
+  "COD": [
+   "landPrice"
+  ],
+  "CAF": [
+   "landPrice"
+  ],
+  "HTI": [
+   "landPrice"
+  ],
+  "SDN": [
+   "landPrice"
+  ],
+  "ERI": [
+   "landPrice"
+  ],
+  "SSD": [
+   "landPrice"
+  ],
+  "SOM": [
+   "landPrice"
+  ]
+ },
+ "ESP": {
+  "rain": 636,
+  "waterStress": 3.94,
+  "renewWater": 2327,
+  "arable": 22.8,
+  "forest": 38.2,
+  "density": 97.8,
+  "pvout": 4.41,
+  "landPrice": 13800,
+  "landPriceNote": "Eurostat 2024 arable avg EUR12.8k/ha; Aragon/Castile ~EUR6.5k, Andalucia ~EUR21k",
+  "growing": 68,
+  "est": false
+ },
+ "CHE": {
+  "rain": 1537,
+  "waterStress": 0.41,
+  "renewWater": 4603,
+  "arable": 10.1,
+  "forest": 32.0,
+  "density": 227.9,
+  "pvout": 3.36,
+  "landPrice": 80000,
+  "landPriceNote": "Ag land ~CHF7/m2; BGBB limits buyers to self-farming farmers",
+  "growing": 58,
+  "est": true
+ },
+ "AUS": {
+  "rain": 534,
+  "waterStress": 2.91,
+  "renewWater": 18909,
+  "arable": 4.1,
+  "forest": 17.4,
+  "density": 3.5,
+  "pvout": 4.71,
+  "landPrice": 6000,
+  "landPriceNote": "Rural Bank national median ~AUD7-9k/ha incl. vast grazing; coastal NSW/Vic far higher",
+  "growing": 52,
+  "est": true
+ },
+ "PRT": {
+  "rain": 854,
+  "waterStress": 3.26,
+  "renewWater": 3642,
+  "arable": 9.3,
+  "forest": 36.6,
+  "density": 116.7,
+  "pvout": 4.32,
+  "landPrice": 10800,
+  "landPriceNote": "Alentejo/interior ~EUR5.7-15k/ha; Eurostat nat. avg EUR76.6k skewed by tiny northern plots",
+  "growing": 72,
+  "est": true
+ },
+ "NZL": {
+  "rain": 1732,
+  "waterStress": 0.05,
+  "renewWater": 64349,
+  "arable": 2.0,
+  "forest": 38.9,
+  "density": 20.1,
+  "pvout": 3.68,
+  "landPrice": 18000,
+  "landPriceNote": "REINZ median all farms ~NZD30k/ha; OIO consent for foreign buyers",
+  "growing": 82,
+  "est": true
+ },
+ "ITA": {
+  "rain": 832,
+  "waterStress": 3.34,
+  "renewWater": 3093,
+  "arable": 23.5,
+  "forest": 31.8,
+  "density": 199.4,
+  "pvout": 3.99,
+  "landPrice": 40500,
+  "landPriceNote": "Eurostat 2020 arable avg EUR35.4k/ha; inland south/Sardinia ~EUR15-16k",
+  "growing": 74,
+  "est": false
+ },
+ "JPN": {
+  "rain": 1668,
+  "waterStress": 1.97,
+  "renewWater": 3437,
+  "arable": 11.0,
+  "forest": 68.3,
+  "density": 340.1,
+  "pvout": 3.45,
+  "landPrice": 40000,
+  "landPriceNote": "Avg paddy ~JPY1.1M/10a; Hokkaido/depopulated areas far cheaper; Farmland Act limits",
+  "growing": 74,
+  "est": true
+ },
+ "DEU": {
+  "rain": 700,
+  "waterStress": 2.04,
+  "renewWater": 1286,
+  "arable": 33.4,
+  "forest": 32.8,
+  "density": 239.0,
+  "pvout": 2.96,
+  "landPrice": 36000,
+  "landPriceNote": "Destatis avg sale ~EUR33k/ha (2023); Brandenburg ~EUR15k; buyer approval (GrdstVG)",
+  "growing": 70,
+  "est": true
+ },
+ "AUT": {
+  "rain": 1110,
+  "waterStress": 0.26,
+  "renewWater": 6083,
+  "arable": 16.0,
+  "forest": 47.3,
+  "density": 111.2,
+  "pvout": 3.26,
+  "landPrice": 40700,
+  "landPriceNote": "Eurostat 2024 arable avg EUR37.6k/ha",
+  "growing": 62,
+  "est": false
+ },
+ "FRA": {
+  "rain": 867,
+  "waterStress": 1.92,
+  "renewWater": 2933,
+  "arable": 31.3,
+  "forest": 32.9,
+  "density": 127.2,
+  "pvout": 3.39,
+  "landPrice": 6900,
+  "landPriceNote": "Eurostat 2024 arable avg EUR6.4k/ha; SAFER pre-emption rights",
+  "growing": 80,
+  "est": false
+ },
+ "DNK": {
+  "rain": 703,
+  "waterStress": 0.95,
+  "renewWater": 1016,
+  "arable": 58.9,
+  "forest": 16.0,
+  "density": 149.4,
+  "pvout": 2.84,
+  "landPrice": 24300,
+  "landPriceNote": "Eurostat 2024 arable avg EUR22.5k/ha",
+  "growing": 66,
+  "est": false
+ },
+ "TWN": {
+  "rain": 2500,
+  "waterStress": 2.3,
+  "renewWater": 2860,
+  "arable": 16.0,
+  "forest": 60.7,
+  "density": 647.0,
+  "pvout": 3.55,
+  "landPrice": 300000,
+  "landPriceNote": "Farmland ~NTD3-10k/ping in south/east; non-farmer build limits",
+  "growing": 82,
+  "est": true
+ },
+ "NLD": {
+  "rain": 778,
+  "waterStress": 1.58,
+  "renewWater": 621,
+  "arable": 29.8,
+  "forest": 11.0,
+  "density": 534.4,
+  "pvout": 2.86,
+  "landPrice": 104500,
+  "landPriceNote": "Eurostat 2024 arable avg EUR96.6k/ha; most expensive in EU",
+  "growing": 72,
+  "est": false
+ },
+ "GBR": {
+  "rain": 1220,
+  "waterStress": 1.3,
+  "renewWater": 2144,
+  "arable": 25.3,
+  "forest": 13.5,
+  "density": 286.4,
+  "pvout": 2.61,
+  "landPrice": 25000,
+  "landPriceNote": "Savills: England arable ~GBP10k/ac; Wales/Scotland grazing much cheaper",
+  "growing": 66,
+  "est": true
+ },
+ "NOR": {
+  "rain": 1414,
+  "waterStress": 0.19,
+  "renewWater": 70000,
+  "arable": 2.2,
+  "forest": 33.2,
+  "density": 15.3,
+  "pvout": 2.76,
+  "landPrice": 10000,
+  "landPriceNote": "Farm land cheap per daa but concession law restricts buyers",
+  "growing": 30,
+  "est": true
+ },
+ "USA": {
+  "rain": 715,
+  "waterStress": 2.6,
+  "renewWater": 8437,
+  "arable": 16.6,
+  "forest": 33.8,
+  "density": 37.2,
+  "pvout": 4.36,
+  "landPrice": 11100,
+  "landPriceNote": "USDA ERS 2026 avg farm real estate $4,500/ac; pasture $2,000/ac",
+  "growing": 74,
+  "est": false
+ },
+ "KOR": {
+  "rain": 1274,
+  "waterStress": 2.38,
+  "renewWater": 1255,
+  "arable": 13.3,
+  "forest": 64.4,
+  "density": 530.2,
+  "pvout": 3.82,
+  "landPrice": 200000,
+  "landPriceNote": "Rural farmland ~KRW20-60k/m2; Farmland Act limits non-farmers",
+  "growing": 70,
+  "est": true
+ },
+ "CAN": {
+  "rain": 537,
+  "waterStress": 1.23,
+  "renewWater": 73170,
+  "arable": 4.3,
+  "forest": 42.0,
+  "density": 4.7,
+  "pvout": 3.82,
+  "landPrice": 8000,
+  "landPriceNote": "StatCan/FCC avg ~CAD5k/acre farmland; Prairies cheaper, Ontario/BC dearer",
+  "growing": 40,
+  "est": true
+ },
+ "BEL": {
+  "rain": 847,
+  "waterStress": 4.41,
+  "renewWater": 1027,
+  "arable": 28.3,
+  "forest": 22.0,
+  "density": 388.9,
+  "pvout": 2.92,
+  "landPrice": 50000,
+  "landPriceNote": "Eurostat 2014 EUR38.5k/ha uprated; Wallonia ~EUR25-30k, Flanders far higher",
+  "growing": 70,
+  "est": true
+ },
+ "HKG": {
+  "rain": 2099,
+  "waterStress": 2.0,
+  "renewWater": 140,
+  "arable": 1.9,
+  "forest": 26.0,
+  "density": 7165.8,
+  "pvout": 3.27,
+  "landPrice": 3000000,
+  "landPriceNote": "New Territories ag land priced for development potential",
+  "growing": 55,
+  "est": true
+ },
+ "ISL": {
+  "rain": 1940,
+  "waterStress": 0,
+  "renewWater": 445023,
+  "arable": 1.2,
+  "forest": 0.6,
+  "density": 3.8,
+  "pvout": 2.1,
+  "landPrice": 5000,
+  "landPriceNote": "Remote farms cheap; EEA residency required to buy",
+  "growing": 12,
+  "est": true
+ },
+ "SWE": {
+  "rain": 624,
+  "waterStress": 0.78,
+  "renewWater": 16306,
+  "arable": 6.2,
+  "forest": 68.6,
+  "density": 26.0,
+  "pvout": 2.84,
+  "landPrice": 11600,
+  "landPriceNote": "Eurostat 2024 arable avg EUR10.7k/ha; Norrland far cheaper",
+  "growing": 38,
+  "est": false
+ },
+ "GRC": {
+  "rain": 652,
+  "waterStress": 4.34,
+  "renewWater": 5557,
+  "arable": 14.2,
+  "forest": 36.9,
+  "density": 80.7,
+  "pvout": 4.14,
+  "landPrice": 15500,
+  "landPriceNote": "Eurostat 2024 arable avg EUR14.3k/ha; N. Greece ~EUR7-11k",
+  "growing": 66,
+  "est": false
+ },
+ "ISR": {
+  "rain": 435,
+  "waterStress": 4.94,
+  "renewWater": 80,
+  "arable": 11.9,
+  "forest": 6.8,
+  "density": 462.2,
+  "pvout": 5.08,
+  "landPrice": 150000,
+  "landPriceNote": "~93% state land (leases); periphery private ag land still very costly",
+  "growing": 50,
+  "est": true
+ },
+ "FIN": {
+  "rain": 536,
+  "waterStress": 0.81,
+  "renewWater": 19258,
+  "arable": 7.4,
+  "forest": 74.2,
+  "density": 18.5,
+  "pvout": 2.65,
+  "landPrice": 9400,
+  "landPriceNote": "Eurostat 2024 arable avg EUR8.7k/ha",
+  "growing": 32,
+  "est": true
+ },
+ "LUX": {
+  "rain": 934,
+  "waterStress": 2.93,
+  "renewWater": 1531,
+  "arable": 23.8,
+  "forest": 34.5,
+  "density": 263.0,
+  "pvout": 2.95,
+  "landPrice": 52100,
+  "landPriceNote": "Eurostat 2024 arable avg EUR48.2k/ha",
+  "growing": 66,
+  "est": false
+ },
+ "IRL": {
+  "rain": 1118,
+  "waterStress": 0.36,
+  "renewWater": 9400,
+  "arable": 6.3,
+  "forest": 12.0,
+  "density": 78.3,
+  "pvout": 2.51,
+  "landPrice": 54500,
+  "landPriceNote": "Eurostat 2024 arable avg EUR50.4k/ha",
+  "growing": 70,
+  "est": false
+ },
+ "SMR": {
+  "rain": 865,
+  "waterStress": 4.45,
+  "renewWater": 540,
+  "arable": 20.5,
+  "forest": 16.3,
+  "density": 555.2,
+  "pvout": 3.76,
+  "landPrice": 45000,
+  "landPriceNote": "Like Emilia-Romagna/Marche hills; tiny land market",
+  "growing": 70,
+  "est": true
+ },
+ "SYC": {
+  "rain": 2330,
+  "waterStress": 2.0,
+  "renewWater": 3000,
+  "arable": 0.3,
+  "forest": 58.5,
+  "density": 265.5,
+  "pvout": 4.35,
+  "landPrice": 150000,
+  "landPriceNote": "Scarce land; foreigner purchase needs approval + high duty",
+  "growing": 60,
+  "est": true
+ },
+ "HRV": {
+  "rain": 1113,
+  "waterStress": 0.17,
+  "renewWater": 9778,
+  "arable": 15.2,
+  "forest": 34.8,
+  "density": 69.1,
+  "pvout": 3.63,
+  "landPrice": 6500,
+  "landPriceNote": "Eurostat 2024 arable avg EUR6k/ha",
+  "growing": 72,
+  "est": false
+ },
+ "POL": {
+  "rain": 600,
+  "waterStress": 1.66,
+  "renewWater": 1456,
+  "arable": 36.6,
+  "forest": 31.0,
+  "density": 119.4,
+  "pvout": 2.98,
+  "landPrice": 17400,
+  "landPriceNote": "Eurostat 2024 arable avg EUR16.1k/ha; buyer must be a farmer (restrictions)",
+  "growing": 64,
+  "est": false
+ },
+ "AND": {
+  "rain": 1043,
+  "waterStress": 3.54,
+  "renewWater": 3960,
+  "arable": 0.3,
+  "forest": 38.9,
+  "density": 175.1,
+  "pvout": 4.2,
+  "landPrice": 150000,
+  "landPriceNote": "Mountain microstate; scarce flat land; foreign investment authorisation",
+  "growing": 30,
+  "est": true
+ },
+ "CZE": {
+  "rain": 677,
+  "waterStress": 1.84,
+  "renewWater": 1232,
+  "arable": 32.7,
+  "forest": 38.4,
+  "density": 141.3,
+  "pvout": 3.05,
+  "landPrice": 16100,
+  "landPriceNote": "Eurostat 2024 arable avg EUR14.8k/ha",
+  "growing": 64,
+  "est": false
+ },
+ "CYP": {
+  "rain": 498,
+  "waterStress": 5,
+  "renewWater": 586,
+  "arable": 10.4,
+  "forest": 18.6,
+  "density": 147.0,
+  "pvout": 4.7,
+  "landPrice": 35000,
+  "landPriceNote": "Rural ag plots ~EUR2-5/m2 away from coast; non-EU buyers need permit",
+  "growing": 50,
+  "est": true
+ },
+ "SVN": {
+  "rain": 1162,
+  "waterStress": 0.53,
+  "renewWater": 8840,
+  "arable": 8.8,
+  "forest": 61.8,
+  "density": 105.7,
+  "pvout": 3.43,
+  "landPrice": 30700,
+  "landPriceNote": "Eurostat 2024 arable avg EUR28.3k/ha; 5-yr residence rule for non-EU",
+  "growing": 68,
+  "est": false
+ },
+ "BRB": {
+  "rain": 1422,
+  "waterStress": 4.13,
+  "renewWater": 283,
+  "arable": 16.2,
+  "forest": 14.6,
+  "density": 655.4,
+  "pvout": 4.72,
+  "landPrice": 100000,
+  "landPriceNote": "Small island; ag land rarely sold",
+  "growing": 66,
+  "est": true
+ },
+ "MUS": {
+  "rain": 2041,
+  "waterStress": 2.2,
+  "renewWater": 2179,
+  "arable": 35.3,
+  "forest": 19.1,
+  "density": 622.9,
+  "pvout": 4.21,
+  "landPrice": 120000,
+  "landPriceNote": "Ag land ~MUR2-5M/arpent; foreigners via IRS/PDS schemes only",
+  "growing": 72,
+  "est": true
+ },
+ "SGP": {
+  "rain": 2497,
+  "waterStress": 2.73,
+  "renewWater": 106,
+  "arable": 0.8,
+  "forest": 21.8,
+  "density": 8329.0,
+  "pvout": 3.55,
+  "landPrice": 5000000,
+  "landPriceNote": "No freehold farmland; short state agri-leases only",
+  "growing": 45,
+  "est": true
+ },
+ "BHS": {
+  "rain": 1292,
+  "waterStress": 3.0,
+  "renewWater": 1761,
+  "arable": 0.8,
+  "forest": 50.9,
+  "density": 40.1,
+  "pvout": 4.55,
+  "landPrice": 30000,
+  "landPriceNote": "Out-island land; Nassau/resort zones far higher",
+  "growing": 45,
+  "est": true
+ },
+ "ATG": {
+  "rain": 1030,
+  "waterStress": 0.76,
+  "renewWater": 560,
+  "arable": 9.1,
+  "forest": 17.9,
+  "density": 213.0,
+  "pvout": 4.77,
+  "landPrice": 50000,
+  "landPriceNote": "Small island; alien landholding licence",
+  "growing": 45,
+  "est": true
+ },
+ "CRI": {
+  "rain": 2926,
+  "waterStress": 0.65,
+  "renewWater": 22236,
+  "arable": 3.3,
+  "forest": 59.1,
+  "density": 101.5,
+  "pvout": 4.09,
+  "landPrice": 15000,
+  "landPriceNote": "Inland rural ~USD1-3/m2; beach zones far higher",
+  "growing": 88,
+  "est": true
+ },
+ "ROU": {
+  "rain": 637,
+  "waterStress": 1.19,
+  "renewWater": 2225,
+  "arable": 36.4,
+  "forest": 30.2,
+  "density": 82.8,
+  "pvout": 3.52,
+  "landPrice": 9400,
+  "landPriceNote": "Eurostat 2024 arable avg EUR8.7k/ha; pre-emption for locals",
+  "growing": 72,
+  "est": false
+ },
+ "MAC": {
+  "rain": 1944,
+  "waterStress": 2.0,
+  "renewWater": 40,
+  "arable": 0.0,
+  "forest": 10.0,
+  "density": 20630.6,
+  "pvout": 3.4,
+  "landPrice": 20000000,
+  "landPriceNote": "No rural land; urban land only",
+  "growing": 45,
+  "est": true
+ },
+ "URY": {
+  "rain": 1300,
+  "waterStress": 1.83,
+  "renewWater": 27190,
+  "arable": 12.4,
+  "forest": 11.5,
+  "density": 19.4,
+  "pvout": 4.3,
+  "landPrice": 3700,
+  "landPriceNote": "MGAP-DIEA avg sale price ~USD3.7k/ha (2023-24)",
+  "growing": 84,
+  "est": true
+ },
+ "TTO": {
+  "rain": 2200,
+  "waterStress": 2.02,
+  "renewWater": 2812,
+  "arable": 5.8,
+  "forest": 44.2,
+  "density": 266.8,
+  "pvout": 4.35,
+  "landPrice": 25000,
+  "landPriceNote": "Ag land scarce; state leases common",
+  "growing": 75,
+  "est": true
+ },
+ "ARG": {
+  "rain": 591,
+  "waterStress": 1.83,
+  "renewWater": 6431,
+  "arable": 17.1,
+  "forest": 17.1,
+  "density": 16.7,
+  "pvout": 4.6,
+  "landPrice": 3000,
+  "landPriceNote": "Prime Pampa USD10-15k/ha; marginal regions ~USD1-4k; foreign caps",
+  "growing": 78,
+  "est": true
+ },
+ "BRN": {
+  "rain": 2722,
+  "waterStress": 0,
+  "renewWater": 18666,
+  "arable": 0.8,
+  "forest": 72.1,
+  "density": 87.8,
+  "pvout": 3.9,
+  "landPrice": 30000,
+  "landPriceNote": "Land largely state; foreigners cannot own land",
+  "growing": 72,
+  "est": true
+ },
+ "BGR": {
+  "rain": 608,
+  "waterStress": 1.46,
+  "renewWater": 3248,
+  "arable": 32.2,
+  "forest": 36.4,
+  "density": 59.3,
+  "pvout": 3.7,
+  "landPrice": 9400,
+  "landPriceNote": "Eurostat 2024 arable avg EUR8.7k/ha",
+  "growing": 70,
+  "est": false
+ },
+ "EST": {
+  "rain": 626,
+  "waterStress": 1.22,
+  "renewWater": 9423,
+  "arable": 16.5,
+  "forest": 57.2,
+  "density": 32.1,
+  "pvout": 2.84,
+  "landPrice": 7600,
+  "landPriceNote": "Eurostat 2024 arable avg EUR7k/ha",
+  "growing": 52,
+  "est": false
+ },
+ "GRD": {
+  "rain": 2350,
+  "waterStress": 0.5,
+  "renewWater": 1711,
+  "arable": 8.7,
+  "forest": 51.5,
+  "density": 340.7,
+  "pvout": 4.45,
+  "landPrice": 40000,
+  "landPriceNote": "Small island; alien landholding licence",
+  "growing": 78,
+  "est": true
+ },
+ "SVK": {
+  "rain": 824,
+  "waterStress": 1.62,
+  "renewWater": 2320,
+  "arable": 27.1,
+  "forest": 40.3,
+  "density": 112.8,
+  "pvout": 3.27,
+  "landPrice": 6300,
+  "landPriceNote": "Eurostat 2024 arable avg EUR5.8k/ha; farmer/residency rules",
+  "growing": 66,
+  "est": false
+ },
+ "MYS": {
+  "rain": 2875,
+  "waterStress": 1.03,
+  "renewWater": 16717,
+  "arable": 2.6,
+  "forest": 57.7,
+  "density": 108.2,
+  "pvout": 3.74,
+  "landPrice": 25000,
+  "landPriceNote": "Rural ag land ~MYR40-80k/acre; foreigner price thresholds",
+  "growing": 82,
+  "est": true
+ },
+ "CHL": {
+  "rain": 1522,
+  "waterStress": 4.47,
+  "renewWater": 45262,
+  "arable": 1.9,
+  "forest": 24.5,
+  "density": 26.6,
+  "pvout": 5.36,
+  "landPrice": 8000,
+  "landPriceNote": "Central valley ~USD15-25k/ha; south ~USD5k",
+  "growing": 68,
+  "est": true
+ },
+ "ARE": {
+  "rain": 78,
+  "waterStress": 5.0,
+  "renewWater": 15,
+  "arable": 0.8,
+  "forest": 4.6,
+  "density": 154.7,
+  "pvout": 5.0,
+  "landPrice": 50000,
+  "landPriceNote": "Farms mostly citizen-only grants; limited freehold for foreigners",
+  "growing": 8,
+  "est": true
+ },
+ "MLT": {
+  "rain": 560,
+  "waterStress": 3.86,
+  "renewWater": 95,
+  "arable": 22.2,
+  "forest": 1.5,
+  "density": 1805.0,
+  "pvout": 4.56,
+  "landPrice": 290400,
+  "landPriceNote": "Eurostat 2023 arable avg EUR268.6k/ha; tiny plots, very scarce",
+  "growing": 40,
+  "est": false
+ },
+ "BRA": {
+  "rain": 1761,
+  "waterStress": 1.04,
+  "renewWater": 26918,
+  "arable": 6.7,
+  "forest": 58.5,
+  "density": 25.4,
+  "pvout": 4.4,
+  "landPrice": 4000,
+  "landPriceNote": "Avg ~BRL15-25k/ha; pasture cheaper; foreign purchase limits",
+  "growing": 88,
+  "est": true
+ },
+ "MDV": {
+  "rain": 1972,
+  "waterStress": 1.65,
+  "renewWater": 57,
+  "arable": 13.1,
+  "forest": 12.5,
+  "density": 1771.1,
+  "pvout": 4.44,
+  "landPrice": 300000,
+  "landPriceNote": "Islands state-owned; leases only; extreme scarcity",
+  "growing": 25,
+  "est": true
+ },
+ "MEX": {
+  "rain": 758,
+  "waterStress": 4.0,
+  "renewWater": 3180,
+  "arable": 10.3,
+  "forest": 34.2,
+  "density": 67.3,
+  "pvout": 4.92,
+  "landPrice": 6000,
+  "landPriceNote": "Rural ~MXN50-200k/ha; ejido rules; restricted zone near coasts/borders",
+  "growing": 64,
+  "est": true
+ },
+ "ECU": {
+  "rain": 2274,
+  "waterStress": 0.66,
+  "renewWater": 24821,
+  "arable": 3.7,
+  "forest": 49.7,
+  "density": 73.0,
+  "pvout": 3.4,
+  "landPrice": 5000,
+  "landPriceNote": "Rural Andes/coast ~USD3-10k/ha",
+  "growing": 86,
+  "est": true
+ },
+ "BTN": {
+  "rain": 2200,
+  "waterStress": 0.37,
+  "renewWater": 99883,
+  "arable": 2.6,
+  "forest": 70.4,
+  "density": 20.8,
+  "pvout": 3.92,
+  "landPrice": 30000,
+  "landPriceNote": "Foreigners cannot own land",
+  "growing": 60,
+  "est": true
+ },
+ "CUB": {
+  "rain": 1335,
+  "waterStress": 1.65,
+  "renewWater": 3447,
+  "arable": 28.0,
+  "forest": 34.9,
+  "density": 105.8,
+  "pvout": 4.54,
+  "landPrice": 2000,
+  "landPriceNote": "Land market essentially closed; state usufruct",
+  "growing": 80,
+  "est": true
+ },
+ "THA": {
+  "rain": 1622,
+  "waterStress": 3.62,
+  "renewWater": 3130,
+  "arable": 30.8,
+  "forest": 38.7,
+  "density": 140.3,
+  "pvout": 4.06,
+  "landPrice": 20000,
+  "landPriceNote": "Isan ~THB100-300k/rai; foreigners cannot own land",
+  "growing": 80,
+  "est": true
+ },
+ "LTU": {
+  "rain": 656,
+  "waterStress": 2.14,
+  "renewWater": 5460,
+  "arable": 36.7,
+  "forest": 35.4,
+  "density": 46.1,
+  "pvout": 2.87,
+  "landPrice": 6000,
+  "landPriceNote": "Eurostat 2024 arable avg EUR5.6k/ha; purchase limits for non-farmers",
+  "growing": 58,
+  "est": false
+ },
+ "GEO": {
+  "rain": 1026,
+  "waterStress": 0.93,
+  "renewWater": 15658,
+  "arable": 3.9,
+  "forest": 44.6,
+  "density": 66.7,
+  "pvout": 3.71,
+  "landPrice": 2000,
+  "landPriceNote": "Kakheti/Imereti ~USD1-3k/ha; foreign farmland ownership largely banned",
+  "growing": 72,
+  "est": true
+ },
+ "KNA": {
+  "rain": 1427,
+  "waterStress": 3.35,
+  "renewWater": 514,
+  "arable": 19.2,
+  "forest": 42.1,
+  "density": 179.5,
+  "pvout": 4.65,
+  "landPrice": 60000,
+  "landPriceNote": "Small island; alien landholding licence",
+  "growing": 62,
+  "est": true
+ },
+ "TUR": {
+  "rain": 593,
+  "waterStress": 3.39,
+  "renewWater": 2671,
+  "arable": 26.3,
+  "forest": 29.5,
+  "density": 111.1,
+  "pvout": 4.32,
+  "landPrice": 6000,
+  "landPriceNote": "Anatolia ~USD2-5k/ha; Aegean/Med coast much higher",
+  "growing": 64,
+  "est": true
+ },
+ "PER": {
+  "rain": 1738,
+  "waterStress": 3.74,
+  "renewWater": 49021,
+  "arable": 3.1,
+  "forest": 52.7,
+  "density": 26.7,
+  "pvout": 4.9,
+  "landPrice": 4000,
+  "landPriceNote": "Sierra/selva ~USD1-3k/ha; irrigated coast ~USD15-30k",
+  "growing": 62,
+  "est": true
+ },
+ "HUN": {
+  "rain": 589,
+  "waterStress": 0.43,
+  "renewWater": 625,
+  "arable": 45.2,
+  "forest": 22.8,
+  "density": 104.8,
+  "pvout": 3.44,
+  "landPrice": 6500,
+  "landPriceNote": "Eurostat 2024 arable avg EUR6k/ha; foreigners barred from buying farmland",
+  "growing": 70,
+  "est": false
+ },
+ "LCA": {
+  "rain": 2301,
+  "waterStress": 1.52,
+  "renewWater": 1678,
+  "arable": 4.4,
+  "forest": 53.8,
+  "density": 294.7,
+  "pvout": 4.52,
+  "landPrice": 40000,
+  "landPriceNote": "Small island; alien landholding licence",
+  "growing": 72,
+  "est": true
+ },
+ "TON": {
+  "rain": 1717,
+  "waterStress": 1.5,
+  "renewWater": 1800,
+  "arable": 30.3,
+  "forest": 12.1,
+  "density": 144.7,
+  "pvout": 4.01,
+  "landPrice": 10000,
+  "landPriceNote": "All land Crown/noble estates; lease only",
+  "growing": 70,
+  "est": true
+ },
+ "OMN": {
+  "rain": 125,
+  "waterStress": 5,
+  "renewWater": 296,
+  "arable": 0.3,
+  "forest": 0.0,
+  "density": 17.1,
+  "pvout": 5.17,
+  "landPrice": 15000,
+  "landPriceNote": "Interior farm land; foreigners only in ITCs",
+  "growing": 12,
+  "est": true
+ },
+ "WSM": {
+  "rain": 2880,
+  "waterStress": 0.5,
+  "renewWater": 13000,
+  "arable": 4.1,
+  "forest": 57.6,
+  "density": 78.4,
+  "pvout": 4.05,
+  "landPrice": 20000,
+  "landPriceNote": "~80% customary; limited freehold",
+  "growing": 82,
+  "est": true
+ },
+ "ARM": {
+  "rain": 562,
+  "waterStress": 2.99,
+  "renewWater": 2310,
+  "arable": 15.7,
+  "forest": 11.8,
+  "density": 107.6,
+  "pvout": 4.11,
+  "landPrice": 3000,
+  "landPriceNote": "Rural land ~USD2-4k/ha; foreigners cannot own land (lease)",
+  "growing": 52,
+  "est": true
+ },
+ "SAU": {
+  "rain": 59,
+  "waterStress": 4.98,
+  "renewWater": 75,
+  "arable": 2.0,
+  "forest": 1.3,
+  "density": 16.4,
+  "pvout": 5.16,
+  "landPrice": 20000,
+  "landPriceNote": "Farm land in Qassim/south; foreign ownership restricted",
+  "growing": 8,
+  "est": true
+ },
+ "VCT": {
+  "rain": 1583,
+  "waterStress": 0.66,
+  "renewWater": 980,
+  "arable": 5.1,
+  "forest": 73.4,
+  "density": 258.7,
+  "pvout": 4.27,
+  "landPrice": 30000,
+  "landPriceNote": "Small island; alien landholding licence",
+  "growing": 75,
+  "est": true
+ },
+ "BHR": {
+  "rain": 83,
+  "waterStress": 5,
+  "renewWater": 3,
+  "arable": 2.6,
+  "forest": 4.9,
+  "density": 1985.8,
+  "pvout": 4.87,
+  "landPrice": 200000,
+  "landPriceNote": "Very scarce land; citizens/GCC mostly",
+  "growing": 8,
+  "est": true
+ },
+ "PLW": {
+  "rain": 3411,
+  "waterStress": 0.5,
+  "renewWater": 43000,
+  "arable": 0.7,
+  "forest": 90.8,
+  "density": 38.5,
+  "pvout": 4.0,
+  "landPrice": 50000,
+  "landPriceNote": "Foreigners cannot own land; leases",
+  "growing": 60,
+  "est": true
+ },
+ "MCO": {
+  "rain": 819,
+  "waterStress": 2.3,
+  "renewWater": 13,
+  "arable": 0.0,
+  "forest": 0,
+  "density": 18536.9,
+  "pvout": 4.09,
+  "landPrice": 100000000,
+  "landPriceNote": "No rural land; urban land only (~EUR50k+/m2 built)",
+  "growing": 30,
+  "est": true
+ },
+ "DMA": {
+  "rain": 2083,
+  "waterStress": 1.0,
+  "renewWater": 2993,
+  "arable": 7.3,
+  "forest": 76.4,
+  "density": 88.2,
+  "pvout": 3.97,
+  "landPrice": 15000,
+  "landPriceNote": "Rural land; alien landholding licence",
+  "growing": 80,
+  "est": true
+ },
+ "QAT": {
+  "rain": 74,
+  "waterStress": 5,
+  "renewWater": 21,
+  "arable": 1.8,
+  "forest": 0.1,
+  "density": 248.7,
+  "pvout": 4.92,
+  "landPrice": 100000,
+  "landPriceNote": "Ag plots state-allocated to citizens",
+  "growing": 6,
+  "est": true
+ },
+ "LVA": {
+  "rain": 667,
+  "waterStress": 0.57,
+  "renewWater": 9014,
+  "arable": 21.8,
+  "forest": 55.6,
+  "density": 30.0,
+  "pvout": 2.85,
+  "landPrice": 5200,
+  "landPriceNote": "Eurostat 2024 arable avg EUR4.8k/ha; buyer conditions apply",
+  "growing": 55,
+  "est": false
+ },
+ "SUR": {
+  "rain": 2331,
+  "waterStress": 1.67,
+  "renewWater": 158867,
+  "arable": 0.3,
+  "forest": 91.5,
+  "density": 4.0,
+  "pvout": 4.27,
+  "landPrice": 2000,
+  "landPriceNote": "Mostly state land; leases",
+  "growing": 70,
+  "est": true
+ },
+ "IND": {
+  "rain": 1083,
+  "waterStress": 4.11,
+  "renewWater": 1014,
+  "arable": 51.7,
+  "forest": 24.4,
+  "density": 488.0,
+  "pvout": 4.32,
+  "landPrice": 20000,
+  "landPriceNote": "Rural ag land ~INR5-10 lakh/acre remote; foreigners/OCI cannot buy farmland",
+  "growing": 72,
+  "est": true
+ },
+ "PAN": {
+  "rain": 2928,
+  "waterStress": 0.75,
+  "renewWater": 31040,
+  "arable": 6.7,
+  "forest": 62.2,
+  "density": 60.9,
+  "pvout": 3.97,
+  "landPrice": 8000,
+  "landPriceNote": "Rural interior ~USD5-15k/ha",
+  "growing": 82,
+  "est": true
+ },
+ "COL": {
+  "rain": 3240,
+  "waterStress": 0.5,
+  "renewWater": 41459,
+  "arable": 2.7,
+  "forest": 53.7,
+  "density": 47.7,
+  "pvout": 4.05,
+  "landPrice": 5000,
+  "landPriceNote": "Rural ~COP10-30M/ha; Llanos cheaper; land-restitution claims",
+  "growing": 88,
+  "est": true
+ },
+ "CHN": {
+  "rain": 645,
+  "waterStress": 2.8,
+  "renewWater": 1992,
+  "arable": 11.6,
+  "forest": 24.0,
+  "density": 150.1,
+  "pvout": 3.88,
+  "landPrice": 20000,
+  "landPriceNote": "Collective land: use rights lease only (~CNY800-1,500/mu/yr capitalised)",
+  "growing": 62,
+  "est": true
+ },
+ "VNM": {
+  "rain": 1821,
+  "waterStress": 2.11,
+  "renewWater": 3606,
+  "arable": 21.5,
+  "forest": 47.1,
+  "density": 322.2,
+  "pvout": 3.55,
+  "landPrice": 25000,
+  "landPriceNote": "State land; use-right transfers ~VND0.5-1.5bn/ha; foreigners cannot hold",
+  "growing": 80,
+  "est": true
+ },
+ "LKA": {
+  "rain": 1712,
+  "waterStress": 2.36,
+  "renewWater": 2380,
+  "arable": 22.2,
+  "forest": 34.4,
+  "density": 354.3,
+  "pvout": 4.21,
+  "landPrice": 30000,
+  "landPriceNote": "Rural land ~LKR20-50k/perch; foreigners 99-yr lease only",
+  "growing": 82,
+  "est": true
+ },
+ "SEN": {
+  "rain": 686,
+  "waterStress": 2.22,
+  "renewWater": 1462,
+  "arable": 19.9,
+  "forest": 45.0,
+  "density": 96.1,
+  "pvout": 4.58,
+  "landPrice": 4000,
+  "landPriceNote": "National domain land; leases",
+  "growing": 45,
+  "est": true
+ },
+ "XKX": {
+  "rain": 891,
+  "waterStress": 2.0,
+  "renewWater": 1700,
+  "arable": 25.0,
+  "forest": 44.7,
+  "density": 146.0,
+  "pvout": 3.7,
+  "landPrice": 10000,
+  "landPriceNote": "Ag land ~EUR5-15k/ha",
+  "growing": 62,
+  "est": true
+ },
+ "VUT": {
+  "rain": 2000,
+  "waterStress": 0.3,
+  "renewWater": 31944,
+  "arable": 1.6,
+  "forest": 74.6,
+  "density": 26.9,
+  "pvout": 3.53,
+  "landPrice": 10000,
+  "landPriceNote": "Customary land; 75-yr leases only",
+  "growing": 82,
+  "est": true
+ },
+ "MNE": {
+  "rain": 1445,
+  "waterStress": 0.72,
+  "renewWater": 23000,
+  "arable": 0.7,
+  "forest": 61.5,
+  "density": 46.4,
+  "pvout": 3.82,
+  "landPrice": 15000,
+  "landPriceNote": "Northern rural land ~EUR1-3/m2; coast far higher",
+  "growing": 58,
+  "est": true
+ },
+ "ZAF": {
+  "rain": 495,
+  "waterStress": 4.17,
+  "renewWater": 718,
+  "arable": 9.9,
+  "forest": 18.8,
+  "density": 52.8,
+  "pvout": 5.0,
+  "landPrice": 2500,
+  "landPriceNote": "Mixed farms ~ZAR20-60k/ha; grazing far cheaper; land-reform uncertainty",
+  "growing": 52,
+  "est": true
+ },
+ "CPV": {
+  "rain": 228,
+  "waterStress": 3.58,
+  "renewWater": 577,
+  "arable": 18.0,
+  "forest": 12.5,
+  "density": 130.2,
+  "pvout": 4.68,
+  "landPrice": 15000,
+  "landPriceNote": "Arid islands; scarce farmable land",
+  "growing": 22,
+  "est": true
+ },
+ "IDN": {
+  "rain": 2702,
+  "waterStress": 2.67,
+  "renewWater": 7240,
+  "arable": 9.3,
+  "forest": 50.7,
+  "density": 149.8,
+  "pvout": 3.77,
+  "landPrice": 10000,
+  "landPriceNote": "Outer islands ~IDR50-200M/ha; Java/Bali far higher; no foreign freehold",
+  "growing": 86,
+  "est": true
+ },
+ "KWT": {
+  "rain": 121,
+  "waterStress": 5,
+  "renewWater": 0,
+  "arable": 0.4,
+  "forest": 0.4,
+  "density": 274.8,
+  "pvout": 4.82,
+  "landPrice": 100000,
+  "landPriceNote": "Ag plots state-leased to citizens",
+  "growing": 5,
+  "est": true
+ },
+ "BOL": {
+  "rain": 1146,
+  "waterStress": 0.16,
+  "renewWater": 25130,
+  "arable": 5.6,
+  "forest": 50.2,
+  "density": 11.4,
+  "pvout": 4.94,
+  "landPrice": 1500,
+  "landPriceNote": "Lowland farmland ~USD1-3k/ha; altiplano cheap",
+  "growing": 62,
+  "est": true
+ },
+ "JAM": {
+  "rain": 2051,
+  "waterStress": 0,
+  "renewWater": 3812,
+  "arable": 11.5,
+  "forest": 56.5,
+  "density": 262.2,
+  "pvout": 4.39,
+  "landPrice": 15000,
+  "landPriceNote": "Rural farmland ~USD10-20k/ha",
+  "growing": 76,
+  "est": true
+ },
+ "RUS": {
+  "rain": 460,
+  "waterStress": 1.17,
+  "renewWater": 29895,
+  "arable": 7.4,
+  "forest": 50.8,
+  "density": 8.8,
+  "pvout": 3.36,
+  "landPrice": 600,
+  "landPriceNote": "Ag land ~RUB20-60k/ha outside Moscow; foreigners lease only",
+  "growing": 45,
+  "est": true
+ },
+ "BIH": {
+  "rain": 1028,
+  "waterStress": 0.4,
+  "renewWater": 11077,
+  "arable": 8.0,
+  "forest": 42.2,
+  "density": 61.8,
+  "pvout": 3.57,
+  "landPrice": 5000,
+  "landPriceNote": "Rural farmland ~EUR3-7k/ha",
+  "growing": 64,
+  "est": true
+ },
+ "DOM": {
+  "rain": 1410,
+  "waterStress": 1.6,
+  "renewWater": 2092,
+  "arable": 21.7,
+  "forest": 46.7,
+  "density": 237.1,
+  "pvout": 4.57,
+  "landPrice": 10000,
+  "landPriceNote": "Rural farmland ~USD5-15k/ha",
+  "growing": 80,
+  "est": true
+ },
+ "PRY": {
+  "rain": 1130,
+  "waterStress": 0.0,
+  "renewWater": 17307,
+  "arable": 11.5,
+  "forest": 36.5,
+  "density": 17.5,
+  "pvout": 4.28,
+  "landPrice": 2500,
+  "landPriceNote": "Chaco ~USD0.5-1k/ha; eastern cropland ~USD5k+",
+  "growing": 82,
+  "est": true
+ },
+ "TZA": {
+  "rain": 1071,
+  "waterStress": 1.91,
+  "renewWater": 1298,
+  "arable": 15.5,
+  "forest": 49.6,
+  "density": 77.6,
+  "pvout": 4.51,
+  "landPrice": 1500,
+  "landPriceNote": "State/village land; derivative rights for foreigners",
+  "growing": 66,
+  "est": true
+ },
+ "UZB": {
+  "rain": 206,
+  "waterStress": 3.63,
+  "renewWater": 468,
+  "arable": 9.2,
+  "forest": 8.8,
+  "density": 82.9,
+  "pvout": 4.27,
+  "landPrice": 1000,
+  "landPriceNote": "Ag land state-owned, lease only",
+  "growing": 38,
+  "est": true
+ },
+ "GTM": {
+  "rain": 1996,
+  "waterStress": 1.03,
+  "renewWater": 6118,
+  "arable": 17.5,
+  "forest": 33.1,
+  "density": 171.8,
+  "pvout": 4.39,
+  "landPrice": 6000,
+  "landPriceNote": "Rural farmland ~USD4-10k/ha",
+  "growing": 80,
+  "est": true
+ },
+ "PHL": {
+  "rain": 2348,
+  "waterStress": 2.03,
+  "renewWater": 4203,
+  "arable": 18.7,
+  "forest": 24.8,
+  "density": 388.5,
+  "pvout": 3.93,
+  "landPrice": 15000,
+  "landPriceNote": "Rural ag ~PHP0.3-2M/ha; foreigners cannot own land",
+  "growing": 82,
+  "est": true
+ },
+ "GHA": {
+  "rain": 1187,
+  "waterStress": 0.11,
+  "renewWater": 914,
+  "arable": 20.7,
+  "forest": 30.9,
+  "density": 151.3,
+  "pvout": 4.02,
+  "landPrice": 3000,
+  "landPriceNote": "Customary land; foreigners 50-yr lease max",
+  "growing": 70,
+  "est": true
+ },
+ "BLZ": {
+  "rain": 1705,
+  "waterStress": 0.07,
+  "renewWater": 37891,
+  "arable": 4.6,
+  "forest": 58.0,
+  "density": 18.3,
+  "pvout": 4.18,
+  "landPrice": 4000,
+  "landPriceNote": "Rural acreage ~USD1-3k/acre",
+  "growing": 76,
+  "est": true
+ },
+ "FJI": {
+  "rain": 2592,
+  "waterStress": 0.0,
+  "renewWater": 31052,
+  "arable": 4.2,
+  "forest": 61.7,
+  "density": 50.7,
+  "pvout": 3.82,
+  "landPrice": 15000,
+  "landPriceNote": "Freehold only ~8% of land; iTaukei land leasable",
+  "growing": 80,
+  "est": true
+ },
+ "NPL": {
+  "rain": 1500,
+  "waterStress": 3.18,
+  "renewWater": 6670,
+  "arable": 12.6,
+  "forest": 43.6,
+  "density": 206.8,
+  "pvout": 4.0,
+  "landPrice": 30000,
+  "landPriceNote": "Terai rural land ~NPR1-3 lakh/kattha; foreigners cannot own land",
+  "growing": 66,
+  "est": true
+ },
+ "KEN": {
+  "rain": 630,
+  "waterStress": 0.79,
+  "renewWater": 382,
+  "arable": 11.5,
+  "forest": 6.6,
+  "density": 97.2,
+  "pvout": 4.5,
+  "landPrice": 8000,
+  "landPriceNote": "Remote ~KES0.3-1M/acre; foreigners 99-yr leasehold only",
+  "growing": 62,
+  "est": true
+ },
+ "STP": {
+  "rain": 3200,
+  "waterStress": 0.0,
+  "renewWater": 9633,
+  "arable": 4.2,
+  "forest": 57.6,
+  "density": 245.3,
+  "pvout": 3.47,
+  "landPrice": 5000,
+  "landPriceNote": "Small island; state land leases",
+  "growing": 82,
+  "est": true
+ },
+ "MDA": {
+  "rain": 450,
+  "waterStress": 1.26,
+  "renewWater": 641,
+  "arable": 56.4,
+  "forest": 11.3,
+  "density": 83.5,
+  "pvout": 3.45,
+  "landPrice": 2500,
+  "landPriceNote": "Ag land ~EUR2-3k/ha; foreigners cannot buy farmland",
+  "growing": 66,
+  "est": true
+ },
+ "JOR": {
+  "rain": 111,
+  "waterStress": 4.62,
+  "renewWater": 61,
+  "arable": 2.3,
+  "forest": 0.8,
+  "density": 130.1,
+  "pvout": 5.32,
+  "landPrice": 20000,
+  "landPriceNote": "Arid rural land ~JOD1-3k/dunam; Jordan Valley higher",
+  "growing": 18,
+  "est": true
+ },
+ "GUY": {
+  "rain": 2387,
+  "waterStress": 2.7,
+  "renewWater": 293317,
+  "arable": 0.4,
+  "forest": 87.1,
+  "density": 3.9,
+  "pvout": 4.2,
+  "landPrice": 1000,
+  "landPriceNote": "Mostly state land; leases",
+  "growing": 68,
+  "est": true
+ },
+ "LBN": {
+  "rain": 661,
+  "waterStress": 5,
+  "renewWater": 836,
+  "arable": 10.8,
+  "forest": 13.8,
+  "density": 567.5,
+  "pvout": 4.83,
+  "landPrice": 80000,
+  "landPriceNote": "Bekaa/mountain land ~USD10-30/m2; foreigner purchase caps",
+  "growing": 58,
+  "est": true
+ },
+ "MKD": {
+  "rain": 619,
+  "waterStress": 3.01,
+  "renewWater": 2948,
+  "arable": 16.2,
+  "forest": 40.8,
+  "density": 72.3,
+  "pvout": 3.88,
+  "landPrice": 4000,
+  "landPriceNote": "Rural farmland ~EUR2-6k/ha",
+  "growing": 60,
+  "est": true
+ },
+ "MHL": {
+  "rain": 2670,
+  "waterStress": 2.5,
+  "renewWater": 600,
+  "arable": 2.8,
+  "forest": 53.6,
+  "density": 207.4,
+  "pvout": 4.24,
+  "landPrice": 50000,
+  "landPriceNote": "Atolls; customary land leases",
+  "growing": 22,
+  "est": true
+ },
+ "ALB": {
+  "rain": 1485,
+  "waterStress": 3.47,
+  "renewWater": 10972,
+  "arable": 21.5,
+  "forest": 34.3,
+  "density": 86.8,
+  "pvout": 4.04,
+  "landPrice": 7000,
+  "landPriceNote": "Rural land ~EUR0.5-1/m2 inland; coastal far higher; title issues",
+  "growing": 66,
+  "est": true
+ },
+ "NIC": {
+  "rain": 2280,
+  "waterStress": 0.21,
+  "renewWater": 23209,
+  "arable": 12.5,
+  "forest": 25.8,
+  "density": 56.7,
+  "pvout": 4.11,
+  "landPrice": 3000,
+  "landPriceNote": "Rural land ~USD1-5k/ha; title disputes",
+  "growing": 76,
+  "est": true
+ },
+ "UKR": {
+  "rain": 565,
+  "waterStress": 1.37,
+  "renewWater": 1342,
+  "arable": 56.8,
+  "forest": 17.3,
+  "density": 65.3,
+  "pvout": 3.3,
+  "landPrice": 1200,
+  "landPriceNote": "Post-2021 market ~USD1-1.5k/ha; foreigners barred; war risk",
+  "growing": 72,
+  "est": true
+ },
+ "BWA": {
+  "rain": 416,
+  "waterStress": 4.66,
+  "renewWater": 984,
+  "arable": 0.5,
+  "forest": 27.8,
+  "density": 4.4,
+  "pvout": 5.11,
+  "landPrice": 1000,
+  "landPriceNote": "Freehold scarce; mostly tribal/state land",
+  "growing": 25,
+  "est": true
+ },
+ "RWA": {
+  "rain": 1212,
+  "waterStress": 0,
+  "renewWater": 696,
+  "arable": 48.9,
+  "forest": 26.1,
+  "density": 599.9,
+  "pvout": 4.1,
+  "landPrice": 10000,
+  "landPriceNote": "Very dense; state leases (99 yr)",
+  "growing": 78,
+  "est": true
+ },
+ "TUN": {
+  "rain": 207,
+  "waterStress": 4.28,
+  "renewWater": 346,
+  "arable": 17.8,
+  "forest": 4.4,
+  "density": 79.0,
+  "pvout": 4.74,
+  "landPrice": 6000,
+  "landPriceNote": "Farmland ~TND10-30k/ha; foreigners cannot own ag land",
+  "growing": 40,
+  "est": true
+ },
+ "KHM": {
+  "rain": 1904,
+  "waterStress": 1.87,
+  "renewWater": 7011,
+  "arable": 23.3,
+  "forest": 37.6,
+  "density": 99.9,
+  "pvout": 4.12,
+  "landPrice": 6000,
+  "landPriceNote": "Farmland ~USD3-10k/ha; foreigners cannot own land",
+  "growing": 70,
+  "est": true
+ },
+ "TUV": {
+  "rain": 2820,
+  "waterStress": 3.0,
+  "renewWater": 400,
+  "arable": 0.0,
+  "forest": 39.6,
+  "density": 371,
+  "pvout": 4.27,
+  "landPrice": 100000,
+  "landPriceNote": "Atolls; ~26 km2 total; customary, extreme scarcity",
+  "growing": 18,
+  "est": true
+ },
+ "SRB": {
+  "rain": 764,
+  "waterStress": 1.24,
+  "renewWater": 1261,
+  "arable": 29.0,
+  "forest": 39.2,
+  "density": 75.2,
+  "pvout": 3.52,
+  "landPrice": 7000,
+  "landPriceNote": "Vojvodina ~EUR8-12k/ha; central/south ~EUR3-5k; foreigners restricted",
+  "growing": 70,
+  "est": true
+ },
+ "ETH": {
+  "rain": 848,
+  "waterStress": 0.96,
+  "renewWater": 973,
+  "arable": 14.6,
+  "forest": 23.8,
+  "density": 117.7,
+  "pvout": 4.7,
+  "landPrice": 500,
+  "landPriceNote": "All land state-owned; lease only",
+  "growing": 62,
+  "est": true
+ },
+ "CIV": {
+  "rain": 1348,
+  "waterStress": 0,
+  "renewWater": 2528,
+  "arable": 15.7,
+  "forest": 12.1,
+  "density": 100.4,
+  "pvout": 4.0,
+  "landPrice": 2000,
+  "landPriceNote": "Customary land; foreigners cannot own rural land",
+  "growing": 74,
+  "est": true
+ },
+ "FSM": {
+  "rain": 3930,
+  "waterStress": 0.5,
+  "renewWater": 12000,
+  "arable": 3.4,
+  "forest": 92.1,
+  "density": 161.4,
+  "pvout": 3.89,
+  "landPrice": 15000,
+  "landPriceNote": "Foreigners cannot own land; leases",
+  "growing": 64,
+  "est": true
+ },
+ "GAB": {
+  "rain": 1831,
+  "waterStress": 0,
+  "renewWater": 67469,
+  "arable": 1.3,
+  "forest": 91.4,
+  "density": 9.9,
+  "pvout": 3.6,
+  "landPrice": 1500,
+  "landPriceNote": "State land; leases",
+  "growing": 62,
+  "est": true
+ },
+ "SLV": {
+  "rain": 1784,
+  "waterStress": 1.95,
+  "renewWater": 2489,
+  "arable": 34.8,
+  "forest": 33.0,
+  "density": 305.9,
+  "pvout": 4.83,
+  "landPrice": 15000,
+  "landPriceNote": "Dense; rural land ~USD1-2/m2",
+  "growing": 72,
+  "est": true
+ },
+ "KAZ": {
+  "rain": 250,
+  "waterStress": 2.51,
+  "renewWater": 3212,
+  "arable": 11.3,
+  "forest": 1.3,
+  "density": 7.6,
+  "pvout": 3.69,
+  "landPrice": 300,
+  "landPriceNote": "Ag land state-leased; foreigners barred from ag land",
+  "growing": 32,
+  "est": true
+ },
+ "MAR": {
+  "rain": 346,
+  "waterStress": 3.99,
+  "renewWater": 777,
+  "arable": 15.8,
+  "forest": 12.8,
+  "density": 85.3,
+  "pvout": 5.01,
+  "landPrice": 8000,
+  "landPriceNote": "Rural land ~MAD50-150k/ha; foreigners cannot own ag land (lease)",
+  "growing": 45,
+  "est": true
+ },
+ "AZE": {
+  "rain": 447,
+  "waterStress": 2.47,
+  "renewWater": 800,
+  "arable": 25.3,
+  "forest": 14.6,
+  "density": 123.4,
+  "pvout": 3.82,
+  "landPrice": 3000,
+  "landPriceNote": "Rural land ~USD2-5k/ha; foreigners cannot own land",
+  "growing": 50,
+  "est": true
+ },
+ "NAM": {
+  "rain": 285,
+  "waterStress": 4.18,
+  "renewWater": 2132,
+  "arable": 1.0,
+  "forest": 9.8,
+  "density": 3.7,
+  "pvout": 5.38,
+  "landPrice": 400,
+  "landPriceNote": "Commercial rangeland ~NAD3-6k/ha",
+  "growing": 15,
+  "est": true
+ },
+ "COM": {
+  "rain": 900,
+  "waterStress": 0.0,
+  "renewWater": 1439,
+  "arable": 29.6,
+  "forest": 17.8,
+  "density": 463.5,
+  "pvout": 4.29,
+  "landPrice": 5000,
+  "landPriceNote": "Small islands; customary",
+  "growing": 70,
+  "est": true
+ },
+ "TLS": {
+  "rain": 1500,
+  "waterStress": 1.77,
+  "renewWater": 5999,
+  "arable": 7.5,
+  "forest": 71.0,
+  "density": 94.2,
+  "pvout": 4.34,
+  "landPrice": 3000,
+  "landPriceNote": "Unclear titles; foreigners cannot own land",
+  "growing": 58,
+  "est": true
+ },
+ "HND": {
+  "rain": 1976,
+  "waterStress": 0.11,
+  "renewWater": 8664,
+  "arable": 9.1,
+  "forest": 52.8,
+  "density": 96.8,
+  "pvout": 4.26,
+  "landPrice": 4000,
+  "landPriceNote": "Rural land ~USD2-6k/ha; title insecurity",
+  "growing": 74,
+  "est": true
+ },
+ "MNG": {
+  "rain": 241,
+  "waterStress": 3.13,
+  "renewWater": 10135,
+  "arable": 0.7,
+  "forest": 9.1,
+  "density": 2.3,
+  "pvout": 4.76,
+  "landPrice": 500,
+  "landPriceNote": "Land ownership citizens only; foreigners lease",
+  "growing": 15,
+  "est": true
+ },
+ "BEN": {
+  "rain": 1039,
+  "waterStress": 0.0,
+  "renewWater": 749,
+  "arable": 32.3,
+  "forest": 28.1,
+  "density": 128.3,
+  "pvout": 4.2,
+  "landPrice": 2500,
+  "landPriceNote": "Customary land; leases",
+  "growing": 64,
+  "est": true
+ },
+ "IRN": {
+  "rain": 228,
+  "waterStress": 4.65,
+  "renewWater": 1435,
+  "arable": 9.7,
+  "forest": 6.6,
+  "density": 56.4,
+  "pvout": 4.92,
+  "landPrice": 5000,
+  "landPriceNote": "Rural land; sanctions and currency volatility",
+  "growing": 32,
+  "est": true
+ },
+ "TKM": {
+  "rain": 161,
+  "waterStress": 3.74,
+  "renewWater": 194,
+  "arable": 3.5,
+  "forest": 5.0,
+  "density": 15.9,
+  "pvout": 4.37,
+  "landPrice": 500,
+  "landPriceNote": "Land state-owned; very closed",
+  "growing": 18,
+  "est": true
+ },
+ "DZA": {
+  "rain": 89,
+  "waterStress": 3.87,
+  "renewWater": 247,
+  "arable": 3.2,
+  "forest": 0.7,
+  "density": 19.7,
+  "pvout": 4.92,
+  "landPrice": 3000,
+  "landPriceNote": "Ag land largely state-owned (concessions)",
+  "growing": 25,
+  "est": true
+ },
+ "GNQ": {
+  "rain": 2156,
+  "waterStress": 0,
+  "renewWater": 14416,
+  "arable": 1.9,
+  "forest": 86.1,
+  "density": 67.5,
+  "pvout": 3.67,
+  "landPrice": 2000,
+  "landPriceNote": "State land; leases",
+  "growing": 72,
+  "est": true
+ },
+ "KIR": {
+  "rain": 1421,
+  "waterStress": 2.5,
+  "renewWater": 450,
+  "arable": 2.5,
+  "forest": 1.3,
+  "density": 165.9,
+  "pvout": 4.82,
+  "landPrice": 30000,
+  "landPriceNote": "Atolls; customary land, leases; very scarce",
+  "growing": 22,
+  "est": true
+ },
+ "ZMB": {
+  "rain": 1020,
+  "waterStress": 0.85,
+  "renewWater": 3980,
+  "arable": 5.1,
+  "forest": 60.5,
+  "density": 28.7,
+  "pvout": 4.83,
+  "landPrice": 1000,
+  "landPriceNote": "Titled farmland ~USD0.5-2k/ha; customary land",
+  "growing": 60,
+  "est": true
+ },
+ "LAO": {
+  "rain": 1834,
+  "waterStress": 0.74,
+  "renewWater": 25188,
+  "arable": 5.3,
+  "forest": 56.6,
+  "density": 33.7,
+  "pvout": 3.87,
+  "landPrice": 5000,
+  "landPriceNote": "State land; leases/concessions",
+  "growing": 74,
+  "est": true
+ },
+ "BLR": {
+  "rain": 618,
+  "waterStress": 1.18,
+  "renewWater": 3684,
+  "arable": 27.2,
+  "forest": 44.1,
+  "density": 45.0,
+  "pvout": 2.95,
+  "landPrice": 500,
+  "landPriceNote": "Ag land state-owned, lease only",
+  "growing": 58,
+  "est": true
+ },
+ "UGA": {
+  "rain": 1180,
+  "waterStress": 0.2,
+  "renewWater": 824,
+  "arable": 43.6,
+  "forest": 11.9,
+  "density": 249.4,
+  "pvout": 4.46,
+  "landPrice": 5000,
+  "landPriceNote": "Rural ~UGX5-20M/acre; mailo/customary tenure",
+  "growing": 84,
+  "est": true
+ },
+ "KGZ": {
+  "rain": 533,
+  "waterStress": 3.28,
+  "renewWater": 7015,
+  "arable": 6.7,
+  "forest": 6.5,
+  "density": 37.7,
+  "pvout": 4.11,
+  "landPrice": 2000,
+  "landPriceNote": "Rural land; foreigners cannot own ag land",
+  "growing": 40,
+  "est": true
+ },
+ "MDG": {
+  "rain": 1513,
+  "waterStress": 0.9,
+  "renewWater": 11072,
+  "arable": 5.2,
+  "forest": 17.3,
+  "density": 54.9,
+  "pvout": 4.76,
+  "landPrice": 1000,
+  "landPriceNote": "Foreigners cannot own land; 99-yr lease",
+  "growing": 66,
+  "est": true
+ },
+ "PRK": {
+  "rain": 1054,
+  "waterStress": 2.32,
+  "renewWater": 2545,
+  "arable": 19.1,
+  "forest": 64.1,
+  "density": 220.1,
+  "pvout": 3.92,
+  "landPrice": null,
+  "landPriceNote": "No private land market",
+  "growing": 52,
+  "est": true
+ },
+ "SWZ": {
+  "rain": 788,
+  "waterStress": 0.31,
+  "renewWater": 2166,
+  "arable": 10.3,
+  "forest": 25.3,
+  "density": 72.3,
+  "pvout": 4.32,
+  "landPrice": 2000,
+  "landPriceNote": "Mostly Swazi Nation (customary) land",
+  "growing": 64,
+  "est": true
+ },
+ "SLE": {
+  "rain": 2526,
+  "waterStress": 0,
+  "renewWater": 19331,
+  "arable": 21.9,
+  "forest": 34.0,
+  "density": 119.7,
+  "pvout": 4.09,
+  "landPrice": 1000,
+  "landPriceNote": "Provinces: leasehold only for non-natives",
+  "growing": 70,
+  "est": true
+ },
+ "SLB": {
+  "rain": 3028,
+  "waterStress": 0.1,
+  "renewWater": 57229,
+  "arable": 0.8,
+  "forest": 89.8,
+  "density": 29.3,
+  "pvout": 3.69,
+  "landPrice": 3000,
+  "landPriceNote": "Customary land; leases",
+  "growing": 76,
+  "est": true
+ },
+ "ZWE": {
+  "rain": 657,
+  "waterStress": 2.17,
+  "renewWater": 763,
+  "arable": 10.4,
+  "forest": 35.7,
+  "density": 43.0,
+  "pvout": 4.86,
+  "landPrice": 500,
+  "landPriceNote": "State land since reform; 99-yr leases",
+  "growing": 55,
+  "est": true
+ },
+ "LBY": {
+  "rain": 56,
+  "waterStress": 4.81,
+  "renewWater": 97,
+  "arable": 1.0,
+  "forest": 0.1,
+  "density": 4.2,
+  "pvout": 5.12,
+  "landPrice": 3000,
+  "landPriceNote": "Unstable; insecure tenure",
+  "growing": 10,
+  "est": true
+ },
+ "TJK": {
+  "rain": 691,
+  "waterStress": 2.34,
+  "renewWater": 6232,
+  "arable": 6.1,
+  "forest": 3.1,
+  "density": 76.3,
+  "pvout": 4.34,
+  "landPrice": 1000,
+  "landPriceNote": "Land state-owned; use rights only",
+  "growing": 35,
+  "est": true
+ },
+ "MWI": {
+  "rain": 1181,
+  "waterStress": 0.75,
+  "renewWater": 785,
+  "arable": 42.4,
+  "forest": 22.0,
+  "density": 229.7,
+  "pvout": 4.6,
+  "landPrice": 2000,
+  "landPriceNote": "Dense; customary land; leases",
+  "growing": 62,
+  "est": true
+ },
+ "IRQ": {
+  "rain": 216,
+  "waterStress": 4.15,
+  "renewWater": 799,
+  "arable": 11.3,
+  "forest": 1.6,
+  "density": 106.1,
+  "pvout": 4.68,
+  "landPrice": 5000,
+  "landPriceNote": "Much ag land state-owned/leased; insecure tenure",
+  "growing": 30,
+  "est": true
+ },
+ "GIN": {
+  "rain": 1651,
+  "waterStress": 0.36,
+  "renewWater": 16080,
+  "arable": 24.7,
+  "forest": 20.0,
+  "density": 60.0,
+  "pvout": 4.44,
+  "landPrice": 1000,
+  "landPriceNote": "Customary land",
+  "growing": 72,
+  "est": true
+ },
+ "EGY": {
+  "rain": 18,
+  "waterStress": 4.85,
+  "renewWater": 9,
+  "arable": 3.3,
+  "forest": 0.0,
+  "density": 117.1,
+  "pvout": 5.25,
+  "landPrice": 15000,
+  "landPriceNote": "Desert reclamation land far cheaper than Nile valley (~USD100k+/ha)",
+  "growing": 30,
+  "est": true
+ },
+ "GNB": {
+  "rain": 1577,
+  "waterStress": 0.31,
+  "renewWater": 7599,
+  "arable": 16.1,
+  "forest": 74.8,
+  "density": 78.3,
+  "pvout": 4.46,
+  "landPrice": 800,
+  "landPriceNote": "State land; leases",
+  "growing": 62,
+  "est": true
+ },
+ "BFA": {
+  "rain": 748,
+  "waterStress": 1.65,
+  "renewWater": 555,
+  "arable": 28.9,
+  "forest": 12.3,
+  "density": 86.1,
+  "pvout": 4.57,
+  "landPrice": 1000,
+  "landPriceNote": "Customary land; insecurity",
+  "growing": 38,
+  "est": true
+ },
+ "NRU": {
+  "rain": 2435,
+  "waterStress": 3.5,
+  "renewWater": 847,
+  "arable": 0.0,
+  "forest": 0,
+  "density": 568.9,
+  "pvout": 4.65,
+  "landPrice": 100000,
+  "landPriceNote": "Mined-out phosphate island; customary; scarce",
+  "growing": 15,
+  "est": true
+ },
+ "LBR": {
+  "rain": 2391,
+  "waterStress": 0,
+  "renewWater": 37221,
+  "arable": 5.2,
+  "forest": 66.1,
+  "density": 58.3,
+  "pvout": 3.88,
+  "landPrice": 800,
+  "landPriceNote": "Customary land; leases",
+  "growing": 72,
+  "est": true
+ },
+ "VEN": {
+  "rain": 2044,
+  "waterStress": 1.82,
+  "renewWater": 28533,
+  "arable": 2.9,
+  "forest": 53.4,
+  "density": 32.2,
+  "pvout": 4.35,
+  "landPrice": 1500,
+  "landPriceNote": "Expropriation risk; insecure tenure",
+  "growing": 72,
+  "est": true
+ },
+ "DJI": {
+  "rain": 220,
+  "waterStress": 3.18,
+  "renewWater": 264,
+  "arable": 0.2,
+  "forest": 0.3,
+  "density": 50.4,
+  "pvout": 4.8,
+  "landPrice": 2000,
+  "landPriceNote": "Arid; state land",
+  "growing": 6,
+  "est": true
+ },
+ "PNG": {
+  "rain": 3142,
+  "waterStress": 0,
+  "renewWater": 78505,
+  "arable": 0.7,
+  "forest": 75.2,
+  "density": 23.4,
+  "pvout": 3.69,
+  "landPrice": 1000,
+  "landPriceNote": "97% customary land; leases only",
+  "growing": 76,
+  "est": true
+ },
+ "GMB": {
+  "rain": 836,
+  "waterStress": 0.02,
+  "renewWater": 1138,
+  "arable": 58.1,
+  "forest": 21.3,
+  "density": 272.7,
+  "pvout": 4.57,
+  "landPrice": 3000,
+  "landPriceNote": "Leases; small country",
+  "growing": 50,
+  "est": true
+ },
+ "MMR": {
+  "rain": 2091,
+  "waterStress": 2.13,
+  "renewWater": 18654,
+  "arable": 16.9,
+  "forest": 42.0,
+  "density": 83.5,
+  "pvout": 4.14,
+  "landPrice": 3000,
+  "landPriceNote": "Insecure tenure; conflict; foreigners barred",
+  "growing": 76,
+  "est": true
+ },
+ "NGA": {
+  "rain": 1150,
+  "waterStress": 0.8,
+  "renewWater": 990,
+  "arable": 40.8,
+  "forest": 18.9,
+  "density": 255.5,
+  "pvout": 4.3,
+  "landPrice": 3000,
+  "landPriceNote": "State-held (Land Use Act); certificates of occupancy",
+  "growing": 66,
+  "est": true
+ },
+ "COG": {
+  "rain": 1646,
+  "waterStress": 0.01,
+  "renewWater": 36785,
+  "arable": 1.6,
+  "forest": 64.0,
+  "density": 18.5,
+  "pvout": 3.77,
+  "landPrice": 800,
+  "landPriceNote": "State/customary land",
+  "growing": 68,
+  "est": true
+ },
+ "PAK": {
+  "rain": 494,
+  "waterStress": 3.79,
+  "renewWater": 226,
+  "arable": 39.8,
+  "forest": 4.1,
+  "density": 326.0,
+  "pvout": 4.71,
+  "landPrice": 12000,
+  "landPriceNote": "Punjab/Sindh farmland ~PKR1-3M/acre",
+  "growing": 48,
+  "est": true
+ },
+ "MRT": {
+  "rain": 92,
+  "waterStress": 2.73,
+  "renewWater": 82,
+  "arable": 0.4,
+  "forest": 1.0,
+  "density": 5.0,
+  "pvout": 4.75,
+  "landPrice": 300,
+  "landPriceNote": "Arid; state/customary",
+  "growing": 8,
+  "est": true
+ },
+ "SYR": {
+  "rain": 252,
+  "waterStress": 4.01,
+  "renewWater": 318,
+  "arable": 24.0,
+  "forest": 2.9,
+  "density": 134.4,
+  "pvout": 4.85,
+  "landPrice": 3000,
+  "landPriceNote": "Conflict-affected; property rights insecure",
+  "growing": 38,
+  "est": true
+ },
+ "BDI": {
+  "rain": 1274,
+  "waterStress": 0,
+  "renewWater": 755,
+  "arable": 43.7,
+  "forest": 10.9,
+  "density": 547.0,
+  "pvout": 4.17,
+  "landPrice": 5000,
+  "landPriceNote": "Very dense; small plots",
+  "growing": 72,
+  "est": true
+ },
+ "BGD": {
+  "rain": 2666,
+  "waterStress": 2.66,
+  "renewWater": 620,
+  "arable": 60.5,
+  "forest": 14.4,
+  "density": 1333.4,
+  "pvout": 3.88,
+  "landPrice": 150000,
+  "landPriceNote": "Dense; rural land ~BDT0.5-1.5 lakh/decimal",
+  "growing": 74,
+  "est": true
+ },
+ "MOZ": {
+  "rain": 1032,
+  "waterStress": 0.37,
+  "renewWater": 3071,
+  "arable": 10.5,
+  "forest": 41.3,
+  "density": 44.0,
+  "pvout": 4.43,
+  "landPrice": 500,
+  "landPriceNote": "All land state-owned; DUAT use rights",
+  "growing": 62,
+  "est": true
+ },
+ "NER": {
+  "rain": 151,
+  "waterStress": 3.47,
+  "renewWater": 138,
+  "arable": 14.0,
+  "forest": 0.8,
+  "density": 21.3,
+  "pvout": 4.84,
+  "landPrice": 500,
+  "landPriceNote": "Customary land; insecurity",
+  "growing": 15,
+  "est": true
+ },
+ "TGO": {
+  "rain": 1168,
+  "waterStress": 0.0,
+  "renewWater": 1425,
+  "arable": 48.7,
+  "forest": 22.5,
+  "density": 154.6,
+  "pvout": 4.12,
+  "landPrice": 2500,
+  "landPriceNote": "Customary land; leases",
+  "growing": 66,
+  "est": true
+ },
+ "AFG": {
+  "rain": 327,
+  "waterStress": 3.37,
+  "renewWater": 1162,
+  "arable": 12.0,
+  "forest": 1.9,
+  "density": 65.4,
+  "pvout": 5.02,
+  "landPrice": 5000,
+  "landPriceNote": "Insecure tenure; conflict legacy",
+  "growing": 28,
+  "est": true
+ },
+ "TCD": {
+  "rain": 322,
+  "waterStress": 0.85,
+  "renewWater": 813,
+  "arable": 4.2,
+  "forest": 3.0,
+  "density": 16.1,
+  "pvout": 4.84,
+  "landPrice": 300,
+  "landPriceNote": "Customary land; insecurity",
+  "growing": 22,
+  "est": true
+ },
+ "CMR": {
+  "rain": 1604,
+  "waterStress": 0.01,
+  "renewWater": 9880,
+  "arable": 13.1,
+  "forest": 40.7,
+  "density": 61.6,
+  "pvout": 4.28,
+  "landPrice": 1500,
+  "landPriceNote": "State/customary land; leases",
+  "growing": 74,
+  "est": true
+ },
+ "AGO": {
+  "rain": 1010,
+  "waterStress": 1.13,
+  "renewWater": 4153,
+  "arable": 3.7,
+  "forest": 51.2,
+  "density": 30.4,
+  "pvout": 4.66,
+  "landPrice": 1000,
+  "landPriceNote": "State land; surface rights leases",
+  "growing": 58,
+  "est": true
+ },
+ "LSO": {
+  "rain": 788,
+  "waterStress": 2.95,
+  "renewWater": 2288,
+  "arable": 19.0,
+  "forest": 1.1,
+  "density": 77.0,
+  "pvout": 5.13,
+  "landPrice": 1000,
+  "landPriceNote": "Land not saleable; leases",
+  "growing": 35,
+  "est": true
+ },
+ "MLI": {
+  "rain": 282,
+  "waterStress": 0.68,
+  "renewWater": 2600,
+  "arable": 5.5,
+  "forest": 8.7,
+  "density": 20.1,
+  "pvout": 4.68,
+  "landPrice": 800,
+  "landPriceNote": "Customary land; insecurity",
+  "growing": 22,
+  "est": true
+ },
+ "YEM": {
+  "rain": 167,
+  "waterStress": 4.69,
+  "renewWater": 55,
+  "arable": 2.2,
+  "forest": 1.0,
+  "density": 76.9,
+  "pvout": 5.21,
+  "landPrice": 3000,
+  "landPriceNote": "Conflict; insecure tenure",
+  "growing": 15,
+  "est": true
+ },
+ "COD": {
+  "rain": 1543,
+  "waterStress": 0.01,
+  "renewWater": 8789,
+  "arable": 7.3,
+  "forest": 61.5,
+  "density": 48.2,
+  "pvout": 4.26,
+  "landPrice": 500,
+  "landPriceNote": "State/customary land; insecurity",
+  "growing": 78,
+  "est": true
+ },
+ "CAF": {
+  "rain": 1343,
+  "waterStress": 0.01,
+  "renewWater": 27658,
+  "arable": 2.9,
+  "forest": 72.5,
+  "density": 8.6,
+  "pvout": 4.47,
+  "landPrice": 300,
+  "landPriceNote": "Conflict; customary",
+  "growing": 66,
+  "est": true
+ },
+ "HTI": {
+  "rain": 1440,
+  "waterStress": 1.6,
+  "renewWater": 1131,
+  "arable": 36.5,
+  "forest": 13.5,
+  "density": 427.2,
+  "pvout": 4.68,
+  "landPrice": 5000,
+  "landPriceNote": "Insecure titles; instability",
+  "growing": 58,
+  "est": true
+ },
+ "SDN": {
+  "rain": 250,
+  "waterStress": 1.46,
+  "renewWater": 81,
+  "arable": 11.2,
+  "forest": 11.9,
+  "density": 27.0,
+  "pvout": 4.94,
+  "landPrice": 800,
+  "landPriceNote": "Conflict; state/customary",
+  "growing": 20,
+  "est": true
+ },
+ "ERI": {
+  "rain": 384,
+  "waterStress": 3.94,
+  "renewWater": 821,
+  "arable": 5.7,
+  "forest": 12.0,
+  "density": 29.3,
+  "pvout": 4.89,
+  "landPrice": 500,
+  "landPriceNote": "State land; closed economy",
+  "growing": 15,
+  "est": true
+ },
+ "SSD": {
+  "rain": 900,
+  "waterStress": 1.39,
+  "renewWater": 2359,
+  "arable": 3.8,
+  "forest": 11.3,
+  "density": 18.9,
+  "pvout": 4.46,
+  "landPrice": 500,
+  "landPriceNote": "Conflict; customary",
+  "growing": 50,
+  "est": true
+ },
+ "SOM": {
+  "rain": 282,
+  "waterStress": 1.67,
+  "renewWater": 337,
+  "arable": 1.8,
+  "forest": 7.8,
+  "density": 30.3,
+  "pvout": 4.76,
+  "landPrice": 500,
+  "landPriceNote": "Insecure; customary",
+  "growing": 15,
+  "est": true
+ }
+}

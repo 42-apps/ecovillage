@@ -1,0 +1,2196 @@
+{
+ "ESP": {
+  "eco": 92,
+  "ecoCount": 150,
+  "examples": [
+   "Matavenero",
+   "Lakabe",
+   "Los Portales",
+   "Arterra Bizimodu"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "70 GEN-mapped projects (2nd only to USA) and dozens of re-inhabited abandoned villages; suelo rústico rules make new rural dwellings hard, so buying an old aldea is the usual route.",
+  "est": false
+ },
+ "CHE": {
+  "eco": 68,
+  "ecoCount": 40,
+  "examples": [
+   "Schweibenalp",
+   "Schloss Glarisegg",
+   "Herzfeld Sennrüti",
+   "Clos du Doubs"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 20,
+  "note": "Strong cooperative-housing culture, but strict zoning outside building zones and very high land prices; homeschooling rules vary by canton.",
+  "est": false
+ },
+ "AUS": {
+  "eco": 90,
+  "ecoCount": 200,
+  "examples": [
+   "Crystal Waters",
+   "Narara Ecovillage",
+   "Moora Moora",
+   "Tuntable Falls Co-op"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 55,
+  "note": "Permaculture's birthplace; NSW/Qld 'multiple occupancy' and community-title zoning enabled Crystal Waters and Northern Rivers communities; council approval still needed.",
+  "est": false
+ },
+ "PRT": {
+  "eco": 92,
+  "ecoCount": 100,
+  "examples": [
+   "Tamera",
+   "Aldeia das Amoreiras",
+   "Mosaic Village",
+   "Awakened Life Project"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 50,
+  "note": "Europe's fastest-growing ecovillage scene (Alentejo/Centro); cheap rural land but RAN/REN farmland & reserve zoning limit new builds, so buy land with ruins or existing licences.",
+  "est": false
+ },
+ "NZL": {
+  "eco": 72,
+  "ecoCount": 50,
+  "examples": [
+   "Tui Community",
+   "Earthsong",
+   "Otamatea Eco-Village",
+   "Atamai Village"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 55,
+  "note": "Established network of 1970s-90s communities; Building Act consents required but off-grid, composting toilets and small dwellings are workable; homeschool needs MoE exemption.",
+  "est": false
+ },
+ "ITA": {
+  "eco": 88,
+  "ecoCount": 100,
+  "examples": [
+   "Damanhur",
+   "Torri Superiore",
+   "Popolo Elfico",
+   "Comune di Bagnaia"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 35,
+  "note": "RIVE network plus Damanhur precedent; thousands of depopulated borghi to restore; istruzione parentale legal with annual exam, but new rural construction is tightly controlled.",
+  "est": false
+ },
+ "JPN": {
+  "eco": 55,
+  "ecoCount": 50,
+  "examples": [
+   "Konohana Family",
+   "Yamagishi communities",
+   "Atarashiki-mura",
+   "Well Yokodai"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 35,
+  "note": "Old communal precedents (Atarashiki-mura 1918, Yamagishi) and millions of empty akiya; farmland law restricts building on agricultural land and foreigners face rural integration hurdles.",
+  "est": false
+ },
+ "DEU": {
+  "eco": 98,
+  "ecoCount": 400,
+  "examples": [
+   "Sieben Linden",
+   "ZEGG",
+   "Schloss Tempelhof",
+   "Kommune Niederkaufungen"
+  ],
+  "homeschool": "banned",
+  "offgrid": 25,
+  "note": "Densest mature community scene in Europe (eurotopia, Kommuja, GEN-D); but homeschooling is banned and Außenbereich (§35 BauGB) bars new rural settlements, so groups buy estates.",
+  "est": false
+ },
+ "AUT": {
+  "eco": 65,
+  "ecoCount": 40,
+  "examples": [
+   "Lebensgut Miteinander",
+   "Leben in Gemeinschaft",
+   "Sonnenhafen",
+   "Grafenauenland"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 25,
+  "note": "Active GEN/community network; home education legal with annual exams (tightened 2021); Grünland zoning makes new rural dwellings difficult.",
+  "est": false
+ },
+ "FRA": {
+  "eco": 92,
+  "ecoCount": 1600,
+  "examples": [
+   "Plum Village",
+   "Taizé Community",
+   "Longo Maï (Limans)",
+   "Écolonie"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 40,
+  "note": "Cooperative Oasis has recorded 1,600+ eco-lieux projects; ALUR law recognises 'habitat leger' (yurts/tiny homes) but home education now needs prior authorisation (2022).",
+  "est": false
+ },
+ "DNK": {
+  "eco": 88,
+  "ecoCount": 150,
+  "examples": [
+   "Christiania",
+   "Svanholm",
+   "Dyssekilde",
+   "Munksøgård"
+  ],
+  "homeschool": "legal",
+  "offgrid": 30,
+  "note": "~30 ecovillages in LØS plus hundreds of bofællesskaber cohousing groups; homeschooling legal; rural zoning (landzone) strict but ecovillages get local-plan approval.",
+  "est": false
+ },
+ "TWN": {
+  "eco": 25,
+  "ecoCount": 5,
+  "examples": [],
+  "homeschool": "regulated",
+  "offgrid": 25,
+  "note": "Experimental Education Act (2014) gives strong legal room for alternative/community schools; farmland-house rules and high land prices restrict new settlements.",
+  "est": true
+ },
+ "NLD": {
+  "eco": 60,
+  "ecoCount": 40,
+  "examples": [
+   "Ecodorp Boekel",
+   "EVA-Lanxmeer",
+   "Aardehuizen (Olst)",
+   "Noordeland"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 15,
+  "note": "Ecodorpen network of ~30 initiatives, often municipal plots; extremely tight spatial planning and homeschooling only via narrow exemptions.",
+  "est": false
+ },
+ "GBR": {
+  "eco": 88,
+  "ecoCount": 200,
+  "examples": [
+   "Findhorn Ecovillage",
+   "Lammas (Tir y Gafel)",
+   "Brithdir Mawr",
+   "Redfield Community"
+  ],
+  "homeschool": "legal",
+  "offgrid": 25,
+  "note": "Findhorn precedent and ~170 established communities (Diggers & Dreamers); home education fully legal; Wales' One Planet Development policy is the only easy route to rural self-build.",
+  "est": false
+ },
+ "NOR": {
+  "eco": 50,
+  "ecoCount": 15,
+  "examples": [
+   "Hurdal Ecovillage",
+   "Camphill Vallersund Gard"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 35,
+  "note": "Small scene centred on Hurdal; homeschooling legal under municipal supervision; concession and agricultural land rules limit buying and building rural plots.",
+  "est": false
+ },
+ "USA": {
+  "eco": 100,
+  "ecoCount": 1200,
+  "examples": [
+   "The Farm",
+   "Twin Oaks",
+   "Earthaven",
+   "EcoVillage at Ithaca"
+  ],
+  "homeschool": "legal",
+  "offgrid": 70,
+  "note": "Largest ecosystem: FIC directory ~1,600 listings, 114 GEN-mapped; homeschooling legal everywhere; many rural counties have no building codes, though zoning varies hugely.",
+  "est": false
+ },
+ "KOR": {
+  "eco": 40,
+  "ecoCount": 20,
+  "examples": [
+   "Seonae Ville",
+   "Irang Ecovillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "Strong maeul (village) community-building movement and alternative schools; homeschooling legally grey but tolerated; farmland and building permits restrictive.",
+  "est": true
+ },
+ "CAN": {
+  "eco": 80,
+  "ecoCount": 150,
+  "examples": [
+   "Cité Écologique",
+   "O.U.R. Ecovillage",
+   "Yarrow Ecovillage",
+   "Whole Village"
+  ],
+  "homeschool": "legal",
+  "offgrid": 60,
+  "note": "Mature scene, esp. BC & Quebec; homeschooling legal in all provinces; rural zoning varies - BC's Agricultural Land Reserve limits extra dwellings.",
+  "est": false
+ },
+ "BEL": {
+  "eco": 50,
+  "ecoCount": 20,
+  "examples": [
+   "Kasteel Nieuwenhoven",
+   "Het Abtshof",
+   "Les 4 Sources",
+   "Les Passerelles"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 25,
+  "note": "Growing habitat groupe/cohousing movement; home education is a constitutional right (with exams); dense planning limits rural self-build.",
+  "est": true
+ },
+ "HKG": {
+  "eco": 5,
+  "ecoCount": 1,
+  "examples": [
+   "Nam Chung (PNEC)"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 3,
+  "note": "Essentially no land for a new community; homeschooling handled case-by-case by the Education Bureau.",
+  "est": true
+ },
+ "ISL": {
+  "eco": 30,
+  "ecoCount": 2,
+  "examples": [
+   "Sólheimar"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 35,
+  "note": "Sólheimar (1930) is a world-class precedent; geothermal energy abundant; homeschooling requires a certified teacher.",
+  "est": true
+ },
+ "SWE": {
+  "eco": 65,
+  "ecoCount": 40,
+  "examples": [
+   "Ängsbacka",
+   "Suderbyn",
+   "Understenshöjden",
+   "Hagaby"
+  ],
+  "homeschool": "banned",
+  "offgrid": 40,
+  "note": "Long ekoby tradition and allemansrätt culture; cheap rural land, but homeschooling effectively banned since 2011 - a community would need its own approved friskola.",
+  "est": false
+ },
+ "GRC": {
+  "eco": 50,
+  "ecoCount": 25,
+  "examples": [
+   "Kalikalos",
+   "Telaithrion Project",
+   "Ecoliving Paradeisi"
+  ],
+  "homeschool": "banned",
+  "offgrid": 50,
+  "note": "Young but growing permaculture/ecovillage scene; cheap rural land, permissive in practice; homeschooling illegal.",
+  "est": false
+ },
+ "ISR": {
+  "eco": 80,
+  "ecoCount": 290,
+  "examples": [
+   "Kibbutz Lotan",
+   "Degania Alef",
+   "Neve Shalom / Wahat al-Salam",
+   "Kibbutz Ketura"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 25,
+  "note": "~270 kibbutzim (126,000 people, 2010) are the world's largest intentional-community precedent; but 93% state land and tight planning make new settlements political.",
+  "est": false
+ },
+ "FIN": {
+  "eco": 45,
+  "ecoCount": 15,
+  "examples": [
+   "Keuruu Ecovillage",
+   "Livonsaaren yhteisökylä",
+   "Tarkkila"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 45,
+  "note": "Small scene; home education legal with municipal progress checks; abundant cheap forest land, building permits needed but rural rules relatively flexible.",
+  "est": false
+ },
+ "LUX": {
+  "eco": 20,
+  "ecoCount": 3,
+  "examples": [
+   "Aerdscheff"
+  ],
+  "homeschool": "legal",
+  "offgrid": 15,
+  "note": "Tiny scene and very expensive land; homeschooling legal with notification.",
+  "est": true
+ },
+ "IRL": {
+  "eco": 55,
+  "ecoCount": 25,
+  "examples": [
+   "Cloughjordan Ecovillage",
+   "Hollies Centre",
+   "Camphill communities"
+  ],
+  "homeschool": "legal",
+  "offgrid": 30,
+  "note": "Cloughjordan is Ireland's flagship; a dozen-plus Camphill communities; home education is a constitutional right; one-off rural housing faces planning scrutiny.",
+  "est": true
+ },
+ "SMR": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "banned",
+  "offgrid": 10,
+  "note": "Microstate with no known communities and very limited land.",
+  "est": true
+ },
+ "SYC": {
+  "eco": 5,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 25,
+  "note": "No known communities; land scarce and foreign land purchases need government sanction.",
+  "est": true
+ },
+ "HRV": {
+  "eco": 25,
+  "ecoCount": 10,
+  "examples": [
+   "Vestigium",
+   "Academia Libera Histriensis"
+  ],
+  "homeschool": "banned",
+  "offgrid": 40,
+  "note": "Small emerging scene (Istria, Slavonia) with cheap abandoned farmsteads; homeschooling illegal.",
+  "est": true
+ },
+ "POL": {
+  "eco": 30,
+  "ecoCount": 10,
+  "examples": [
+   "Bhrugu Aranya"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 40,
+  "note": "Few established ecovillages but cheap rural land; home education legal (54,836 children, 2024); farmland purchase restricted to farmers by 2016 law.",
+  "est": true
+ },
+ "AND": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "banned",
+  "offgrid": 15,
+  "note": "No known communities; tiny, mountainous and expensive.",
+  "est": true
+ },
+ "CZE": {
+  "eco": 40,
+  "ecoCount": 20,
+  "examples": [
+   "Spoluzemě Vrábsko",
+   "Zeměsouznění"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 40,
+  "note": "New GEN Czechoslovakia network (2024); individual home education legal at primary level; cheap rural property in border regions.",
+  "est": true
+ },
+ "CYP": {
+  "eco": 15,
+  "ecoCount": 3,
+  "examples": [
+   "Tris Elies Ecovillage",
+   "Büyükkonuk eco-village (north)"
+  ],
+  "homeschool": "banned",
+  "offgrid": 35,
+  "note": "A handful of eco-tourism villages; homeschooling illegal; divided island complicates land titles.",
+  "est": true
+ },
+ "SVN": {
+  "eco": 35,
+  "ecoCount": 10,
+  "examples": [
+   "Sunny Hill",
+   "Naravice Ecovillage",
+   "Holistic Center Manas"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 35,
+  "note": "Small permaculture scene; home education legal with annual exams; agricultural land building limits.",
+  "est": true
+ },
+ "BRB": {
+  "eco": 5,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "No known communities; small island, high land costs.",
+  "est": true
+ },
+ "MUS": {
+  "eco": 12,
+  "ecoCount": 1,
+  "examples": [
+   "Mauritius Ecovillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "One GEN-listed initiative; land expensive and foreign purchase limited to approved schemes.",
+  "est": true
+ },
+ "SGP": {
+  "eco": 5,
+  "ecoCount": 1,
+  "examples": [
+   "Ground-Up Initiative"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 2,
+  "note": "Urban farm community only; no land for a settlement; homeschool needs MOE exemption.",
+  "est": true
+ },
+ "BHS": {
+  "eco": 5,
+  "ecoCount": 1,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "No established communities; island land costly; hurricane building codes.",
+  "est": true
+ },
+ "ATG": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "No known communities.",
+  "est": true
+ },
+ "CRI": {
+  "eco": 72,
+  "ecoCount": 50,
+  "examples": [
+   "Pachamama",
+   "Rancho Mastatal",
+   "Ecoaldea Tacotal",
+   "Fundación Durika"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 60,
+  "note": "~30 GEN-mapped projects and a big regenerative/expat scene; easy foreign land ownership; homeschooling not legal for citizens (exam-based 'educación abierta' is the workaround).",
+  "est": false
+ },
+ "ROU": {
+  "eco": 35,
+  "ecoCount": 15,
+  "examples": [
+   "Aurora Community",
+   "Kászonszék Ökofalu",
+   "Ecotopia Romania"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 60,
+  "note": "Cheap land and depopulating villages in Transylvania; permissive rural building; homeschooling only for special circumstances.",
+  "est": false
+ },
+ "MAC": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 2,
+  "note": "No land available.",
+  "est": true
+ },
+ "URY": {
+  "eco": 35,
+  "ecoCount": 10,
+  "examples": [
+   "Ecoaldea Tierra Madre",
+   "Mahua Ashram"
+  ],
+  "homeschool": "legal",
+  "offgrid": 60,
+  "note": "Small scene; stable, easy for foreigners to buy land; home education confirmed legal by 2020 amendment.",
+  "est": true
+ },
+ "TTO": {
+  "eco": 8,
+  "ecoCount": 1,
+  "examples": [
+   "Blue Star Tapovan"
+  ],
+  "homeschool": "legal",
+  "offgrid": 50,
+  "note": "One known spiritual community; homeschooling legal.",
+  "est": true
+ },
+ "ARG": {
+  "eco": 62,
+  "ecoCount": 40,
+  "examples": [
+   "Ecovilla Gaia (Navarro)",
+   "Eco Yoga Park",
+   "Itekoa",
+   "Comunidad Madre Tierra"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 65,
+  "note": "Gaia (1992) is a regional pioneer and GEN training hub; cheap land; home education needs provincial permission; border security zones restrict foreign buyers.",
+  "est": false
+ },
+ "BRN": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 25,
+  "note": "No known communities.",
+  "est": true
+ },
+ "BGR": {
+  "eco": 35,
+  "ecoCount": 15,
+  "examples": [
+   "Little Forest Ecovillage",
+   "Magic Mountain",
+   "Vegetarium",
+   "Ura Gora"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 60,
+  "note": "Cheap village houses attract a growing foreign eco-scene; permissive rural building; homeschooling restricted to special cases.",
+  "est": false
+ },
+ "EST": {
+  "eco": 40,
+  "ecoCount": 15,
+  "examples": [
+   "Lilleoru",
+   "Kaveri Kogukond",
+   "Gaia School"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 50,
+  "note": "Active Estonian community network and Gaia education; home education legal under school supervision; plentiful forest land.",
+  "est": true
+ },
+ "GRD": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities.",
+  "est": true
+ },
+ "SVK": {
+  "eco": 30,
+  "ecoCount": 10,
+  "examples": [
+   "Zaježka",
+   "White Carpathians Vrbovce",
+   "Lovinka"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 45,
+  "note": "A few rural ecovillage projects; individual education legal for ages 6-15; low land prices.",
+  "est": true
+ },
+ "MYS": {
+  "eco": 20,
+  "ecoCount": 5,
+  "examples": [
+   "Green Valley Ecovillage",
+   "Pouik Pouik Farm"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 45,
+  "note": "Small scene; foreigners face minimum-price rules for land; homeschooling allowed with Education Ministry exemption.",
+  "est": true
+ },
+ "CHL": {
+  "eco": 55,
+  "ecoCount": 30,
+  "examples": [
+   "Comunidad Ecológica de Peñalolén",
+   "El Manzano",
+   "Ecoaldea La Montaña",
+   "Lemulawen"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 55,
+  "note": "Solid scene incl. Peñalolén (1980s) and many parcelas de agrado projects; homeschool legal via exámenes libres; DL 3516 rural-parcel subdivisions face tightening rules.",
+  "est": false
+ },
+ "ARE": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "legal",
+  "offgrid": 10,
+  "note": "No intentional communities; Masdar is a state eco-city; homeschooling legal for expats.",
+  "est": true
+ },
+ "MLT": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "banned",
+  "offgrid": 10,
+  "note": "No known communities; very little rural land; homeschooling illegal.",
+  "est": true
+ },
+ "BRA": {
+  "eco": 78,
+  "ecoCount": 100,
+  "examples": [
+   "Piracanga",
+   "Céu do Mapiá",
+   "Arca Verde",
+   "Terra Una"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 60,
+  "note": "Large ecovila movement (CASA Brasil, IPEC); cheap land but foreign rural ownership capped; homeschooling unregulated after 2018 Supreme Court ruling.",
+  "est": false
+ },
+ "MDV": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 10,
+  "note": "No known communities; land leased from state.",
+  "est": true
+ },
+ "MEX": {
+  "eco": 75,
+  "ecoCount": 80,
+  "examples": [
+   "Huehuecoyotl",
+   "Las Cañadas",
+   "Los Horcones"
+  ],
+  "homeschool": "legal",
+  "offgrid": 70,
+  "note": "GEN co-founder Huehuecoyotl (Tepoztlán) and 44 GEN-mapped sites; self-build widely tolerated; avoid ejido land titles and foreign 'restricted zone' coastline.",
+  "est": false
+ },
+ "ECU": {
+  "eco": 58,
+  "ecoCount": 40,
+  "examples": [
+   "Chambalabamba",
+   "Comuna de Rhiannon",
+   "Finca Sagrada",
+   "Atahualpa Habaspamba"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 65,
+  "note": "Constitution grants Rights of Nature; Vilcabamba/Andes expat-eco cluster; home education (educación en casa) is regulated by the Education Ministry.",
+  "est": false
+ },
+ "BTN": {
+  "eco": 5,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "Gross National Happiness ethos, but foreigners cannot own land and entry is tightly controlled.",
+  "est": true
+ },
+ "CUB": {
+  "eco": 5,
+  "ecoCount": 1,
+  "examples": [
+   "Ramaviva"
+  ],
+  "homeschool": "banned",
+  "offgrid": 25,
+  "note": "Strong state-backed urban agroecology/permaculture, but private land and independent schooling are not possible.",
+  "est": true
+ },
+ "THA": {
+  "eco": 55,
+  "ecoCount": 30,
+  "examples": [
+   "Pun Pun",
+   "Wongsanit Ashram",
+   "Panya Project",
+   "Santi Asoke"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 50,
+  "note": "Thriving natural-building/permaculture scene around Chiang Mai and Asoke Buddhist communities; foreigners cannot own land (leases/Thai partners).",
+  "est": false
+ },
+ "LTU": {
+  "eco": 28,
+  "ecoCount": 8,
+  "examples": [
+   "Kardokai Ecovillage",
+   "Lively Village"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 45,
+  "note": "Small scene; home education legal under school supervision.",
+  "est": true
+ },
+ "GEO": {
+  "eco": 20,
+  "ecoCount": 5,
+  "examples": [
+   "Ecovillage Georgia",
+   "Kochbaani ecovillage (Kakheti)"
+  ],
+  "homeschool": "banned",
+  "offgrid": 60,
+  "note": "Cheap land and liberal building practice attract new projects; foreigners restricted from buying farmland; homeschooling not legally provided.",
+  "est": true
+ },
+ "KNA": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "No known communities.",
+  "est": true
+ },
+ "TUR": {
+  "eco": 40,
+  "ecoCount": 20,
+  "examples": [
+   "Dedetepe",
+   "Belentepe Permaculture Farm",
+   "Güneşköy",
+   "İmece Evi"
+  ],
+  "homeschool": "banned",
+  "offgrid": 40,
+  "note": "Active permaculture/eco-farm network (TaTuTa); homeschooling illegal; agricultural land building and foreign ownership rules restrictive.",
+  "est": false
+ },
+ "PER": {
+  "eco": 45,
+  "ecoCount": 20,
+  "examples": [
+   "Eco Truly Park",
+   "Kapievi Ecoaldea",
+   "Halcyon Community"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 65,
+  "note": "Sacred Valley/Andes spiritual-eco cluster; informal rural building common; home education legal with Ministry registration.",
+  "est": false
+ },
+ "HUN": {
+  "eco": 45,
+  "ecoCount": 20,
+  "examples": [
+   "Krishna Valley",
+   "Gyűrűfű",
+   "Dombfalva"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 50,
+  "note": "Krishna Valley and Gyűrűfű are long-running precedents; cheap rural land; homeschooling effectively curtailed since 2019; foreigners limited on farmland.",
+  "est": false
+ },
+ "LCA": {
+  "eco": 5,
+  "ecoCount": 1,
+  "examples": [
+   "Balenbouche Estate"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "One estate community; small island.",
+  "est": true
+ },
+ "TON": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Land cannot be sold to foreigners (lease only).",
+  "est": true
+ },
+ "OMN": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 25,
+  "note": "No known communities.",
+  "est": true
+ },
+ "WSM": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Most land is customary and inalienable; leases only.",
+  "est": true
+ },
+ "ARM": {
+  "eco": 12,
+  "ecoCount": 2,
+  "examples": [
+   "Ecoashram",
+   "Elves of Armenia eco-project"
+  ],
+  "homeschool": "banned",
+  "offgrid": 55,
+  "note": "A couple of small projects; homeschooling illegal; cheap land.",
+  "est": true
+ },
+ "SAU": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 20,
+  "note": "No intentional communities; strict social and land controls.",
+  "est": true
+ },
+ "VCT": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities.",
+  "est": true
+ },
+ "BHR": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 8,
+  "note": "No land available.",
+  "est": true
+ },
+ "PLW": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "Foreigners cannot own land.",
+  "est": true
+ },
+ "MCO": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 2,
+  "note": "No land available.",
+  "est": true
+ },
+ "DMA": {
+  "eco": 8,
+  "ecoCount": 1,
+  "examples": [
+   "Beyond Vitality"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "One GEN-listed project; volcanic 'nature island' with cheap land.",
+  "est": true
+ },
+ "QAT": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 10,
+  "note": "No known communities.",
+  "est": true
+ },
+ "LVA": {
+  "eco": 25,
+  "ecoCount": 8,
+  "examples": [],
+  "homeschool": "regulated",
+  "offgrid": 55,
+  "note": "Small rural eco-homestead scene; home education legal under school supervision.",
+  "est": true
+ },
+ "SUR": {
+  "eco": 5,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "legal",
+  "offgrid": 60,
+  "note": "No known communities; homeschooling legal.",
+  "est": true
+ },
+ "IND": {
+  "eco": 78,
+  "ecoCount": 80,
+  "examples": [
+   "Auroville",
+   "Sadhana Forest",
+   "Timbaktu Collective",
+   "Govardhan Ecovillage"
+  ],
+  "homeschool": "legal",
+  "offgrid": 50,
+  "note": "Auroville (1968) is the template; strong ashram/Gandhian precedent; NIOS open schooling legal; foreigners cannot buy farmland - needs Indian trust/society ownership.",
+  "est": false
+ },
+ "PAN": {
+  "eco": 20,
+  "ecoCount": 5,
+  "examples": [
+   "El Valle de la Luna",
+   "Isekai"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Expat-friendly land purchase; small eco-scene; homeschooling legal status unclear.",
+  "est": true
+ },
+ "COL": {
+  "eco": 70,
+  "ecoCount": 60,
+  "examples": [
+   "Atlántida",
+   "Aldeafeliz",
+   "Nashira",
+   "Gaviotas"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 60,
+  "note": "31 GEN-mapped sites, CASA Colombia network and Gaviotas (1971) precedent; home education regulated with validation exams; check security and land-restitution history.",
+  "est": false
+ },
+ "CHN": {
+  "eco": 30,
+  "ecoCount": 20,
+  "examples": [
+   "Hua Dao Ecovillage",
+   "Fayu International Ecovillage",
+   "Qiandao Eco-village"
+  ],
+  "homeschool": "banned",
+  "offgrid": 20,
+  "note": "Rural-revitalisation eco-villages exist but land is collectively owned; foreigners cannot buy land and homeschooling is illegal.",
+  "est": false
+ },
+ "VNM": {
+  "eco": 8,
+  "ecoCount": 3,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "Only eco-tourism projects; all land state-owned, foreigners cannot hold rural land.",
+  "est": true
+ },
+ "LKA": {
+  "eco": 50,
+  "ecoCount": 10,
+  "examples": [
+   "Sarvodaya villages",
+   "Tabbowa Eco Village",
+   "Mantra Life",
+   "The Woods"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Sarvodaya movement active in ~15,000 villages (2006) - a huge village-self-help precedent; foreigners restricted from freehold land.",
+  "est": false
+ },
+ "SEN": {
+  "eco": 55,
+  "ecoCount": 50,
+  "examples": [
+   "Guédé Chantier",
+   "Mbame",
+   "Ngaparou",
+   "Adunam"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Government ecovillage agency (ANEV, 2008) and GENSEN network - one of the few states that promotes ecovillages officially; land via commune allocation.",
+  "est": true
+ },
+ "XKX": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "No known communities.",
+  "est": true
+ },
+ "VUT": {
+  "eco": 10,
+  "ecoCount": 1,
+  "examples": [
+   "Edenhope Nature Preserve"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Customary land; leases only.",
+  "est": true
+ },
+ "MNE": {
+  "eco": 5,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "banned",
+  "offgrid": 50,
+  "note": "No known communities; homeschooling illegal.",
+  "est": true
+ },
+ "ZAF": {
+  "eco": 50,
+  "ecoCount": 25,
+  "examples": [
+   "Lynedoch EcoVillage",
+   "Kuthumba",
+   "Khula Dhamma",
+   "Berg-en-Dal"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 50,
+  "note": "Active ecovillage/permaculture scene in Western Cape; home education legal with provincial registration; SANS 10400 building rules apply, rural approval possible.",
+  "est": false
+ },
+ "CPV": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "No known communities; arid islands.",
+  "est": true
+ },
+ "IDN": {
+  "eco": 42,
+  "ecoCount": 25,
+  "examples": [
+   "Terramana",
+   "Six Degrees Off-Grid",
+   "Dome Lombok",
+   "Bali Ecovillage"
+  ],
+  "homeschool": "legal",
+  "offgrid": 50,
+  "note": "Bali's eco/Green School scene; homeschooling (sekolah rumah) legal; foreigners can only lease land (Hak Pakai/PMA company).",
+  "est": false
+ },
+ "KWT": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 10,
+  "note": "No known communities.",
+  "est": true
+ },
+ "BOL": {
+  "eco": 25,
+  "ecoCount": 8,
+  "examples": [
+   "Ecoaldea Paititi",
+   "Espiral de Luz",
+   "Sachawasi"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 65,
+  "note": "Small scene; Pachamama law recognises Rights of Mother Earth; cheap land.",
+  "est": true
+ },
+ "JAM": {
+  "eco": 10,
+  "ecoCount": 2,
+  "examples": [
+   "Source Farm"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "One established eco-farm community.",
+  "est": true
+ },
+ "RUS": {
+  "eco": 70,
+  "ecoCount": 350,
+  "examples": [
+   "Kovcheg",
+   "Grishino",
+   "Yasna Sloboda",
+   "Anastasia kin-domain settlements"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 65,
+  "note": "~5-6 Anastasia 'kin domain' settlements per region (12,000 settlers, 2016); family education legal; cheap land, but political and sanctions risk for foreigners.",
+  "est": false
+ },
+ "BIH": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "banned",
+  "offgrid": 55,
+  "note": "No known communities; homeschooling illegal.",
+  "est": true
+ },
+ "DOM": {
+  "eco": 15,
+  "ecoCount": 4,
+  "examples": [
+   "Aldea Ecológica Gaia",
+   "Almarte"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Few projects; easy foreign land purchase.",
+  "est": true
+ },
+ "PRY": {
+  "eco": 20,
+  "ecoCount": 5,
+  "examples": [
+   "Mennonite Chaco colonies",
+   "Bruderhof (Paraguay)"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 70,
+  "note": "Mennonite colonies (since 1927) show communal settlement works; cheap land, easy residency; few ecovillages.",
+  "est": true
+ },
+ "TZA": {
+  "eco": 18,
+  "ecoCount": 3,
+  "examples": [
+   "Al-Mizan Children's Eco-Village",
+   "Assalam Community (Zanzibar)"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "All land is state; foreigners only via TIC investment leases.",
+  "est": true
+ },
+ "UZB": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "No known communities.",
+  "est": true
+ },
+ "GTM": {
+  "eco": 20,
+  "ecoCount": 3,
+  "examples": [],
+  "homeschool": "banned",
+  "offgrid": 65,
+  "note": "Lake Atitlán permaculture scene; homeschooling illegal per Wikipedia table.",
+  "est": true
+ },
+ "PHL": {
+  "eco": 35,
+  "ecoCount": 15,
+  "examples": [
+   "Maia Earth Village",
+   "Isinilang na Maharlika Ecovillage",
+   "Hilway Ecovillage"
+  ],
+  "homeschool": "legal",
+  "offgrid": 50,
+  "note": "Homeschooling formally recognised by DepEd; foreigners cannot own land (60/40 rule).",
+  "est": false
+ },
+ "GHA": {
+  "eco": 35,
+  "ecoCount": 20,
+  "examples": [
+   "Abibiman",
+   "Obrobibini Peace Complex",
+   "WildRain Ecovillage",
+   "Unity Ecovillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "16 GEN-mapped projects, GEN Africa activity; customary land via chiefs; foreigners get 50-year leases.",
+  "est": false
+ },
+ "BLZ": {
+  "eco": 25,
+  "ecoCount": 4,
+  "examples": [
+   "Maya Mountain Research Farm",
+   "Better in Belize"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 70,
+  "note": "Easy freehold purchase for foreigners; permissive rural building.",
+  "est": true
+ },
+ "FJI": {
+  "eco": 10,
+  "ecoCount": 1,
+  "examples": [
+   "Fiji Ecovillage Transition Project"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Mostly iTaukei customary land; leases only.",
+  "est": true
+ },
+ "NPL": {
+  "eco": 45,
+  "ecoCount": 20,
+  "examples": [
+   "Himalayan Permaculture Centre",
+   "Chisapani Ecovillage",
+   "The Unity Eco Village"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "17 GEN-mapped projects and strong permaculture NGO network; foreigners cannot own land.",
+  "est": false
+ },
+ "KEN": {
+  "eco": 35,
+  "ecoCount": 15,
+  "examples": [
+   "Sadhana Forest Kenya",
+   "Mfangano Island Ecovillage",
+   "Badilisha"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Active permaculture/GEN Africa scene; foreigners limited to 99-year leaseholds; homeschooling status contested.",
+  "est": false
+ },
+ "STP": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities.",
+  "est": true
+ },
+ "MDA": {
+  "eco": 15,
+  "ecoCount": 2,
+  "examples": [
+   "Schastlivoe"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Cheap land and permissive building; foreigners cannot buy farmland.",
+  "est": true
+ },
+ "JOR": {
+  "eco": 18,
+  "ecoCount": 2,
+  "examples": [
+   "Greening the Desert (PRI Jordan)",
+   "Mafraq Domes"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "Greening the Desert permaculture demo site; arid, water-scarce.",
+  "est": true
+ },
+ "GUY": {
+  "eco": 8,
+  "ecoCount": 2,
+  "examples": [
+   "Moraro indigenous community",
+   "Stushbush"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Little known activity.",
+  "est": true
+ },
+ "LBN": {
+  "eco": 12,
+  "ecoCount": 1,
+  "examples": [
+   "Green Village Lebanon"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "One project; severe economic/political instability.",
+  "est": true
+ },
+ "MKD": {
+  "eco": 12,
+  "ecoCount": 1,
+  "examples": [
+   "Green Commune Belica"
+  ],
+  "homeschool": "banned",
+  "offgrid": 55,
+  "note": "One small commune; homeschooling illegal.",
+  "est": true
+ },
+ "MHL": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 35,
+  "note": "Atoll nation; customary land.",
+  "est": true
+ },
+ "ALB": {
+  "eco": 8,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "regulated",
+  "offgrid": 60,
+  "note": "No established communities yet; cheap coastal/hill land; homeschooling legal with regulation (2012).",
+  "est": true
+ },
+ "NIC": {
+  "eco": 25,
+  "ecoCount": 5,
+  "examples": [
+   "Finca El Zopilote",
+   "Inanitah",
+   "Primera Semilla"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 65,
+  "note": "Ometepe island eco-scene; political risk since 2018.",
+  "est": true
+ },
+ "UKR": {
+  "eco": 40,
+  "ecoCount": 60,
+  "examples": [
+   "New Mayapur",
+   "Raduga",
+   "Dubravushka"
+  ],
+  "homeschool": "regulated",
+  "offgrid": 55,
+  "note": "Pre-war GEN Ukraine & Anastasia-style settlements; family education legal; war makes new projects unrealistic.",
+  "est": false
+ },
+ "BWA": {
+  "eco": 8,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "legal",
+  "offgrid": 50,
+  "note": "No known communities; homeschooling legal; tribal land allocations.",
+  "est": true
+ },
+ "RWA": {
+  "eco": 15,
+  "ecoCount": 3,
+  "examples": [
+   "Red Rocks Rwanda",
+   "Kinigi Eco Center"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "Strict planning (imidugudu villagisation, thatch bans); stable governance.",
+  "est": true
+ },
+ "TUN": {
+  "eco": 12,
+  "ecoCount": 1,
+  "examples": [
+   "GDA Sidi Amor"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "One agroecology community near Tunis.",
+  "est": true
+ },
+ "KHM": {
+  "eco": 20,
+  "ecoCount": 4,
+  "examples": [
+   "Hariharalaya",
+   "Sonas Village",
+   "Koh Kong Eco Community"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "Foreigners cannot own land.",
+  "est": true
+ },
+ "TUV": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "Atoll nation; no land for outsiders.",
+  "est": true
+ },
+ "SRB": {
+  "eco": 12,
+  "ecoCount": 2,
+  "examples": [
+   "Pyramid Village",
+   "Visočka Ržana project"
+  ],
+  "homeschool": "restricted",
+  "offgrid": 60,
+  "note": "Cheap abandoned villages; homeschooling only for health reasons per Wikipedia table.",
+  "est": true
+ },
+ "ETH": {
+  "eco": 15,
+  "ecoCount": 4,
+  "examples": [
+   "Green Academy Yayu",
+   "Strawberry Fields Eco-lodge"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "All land is state-owned; leases only; civil-conflict risk.",
+  "est": true
+ },
+ "CIV": {
+  "eco": 8,
+  "ecoCount": 1,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "One GEN-listed ecovillage project.",
+  "est": true
+ },
+ "FSM": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities; foreigners cannot own land.",
+  "est": true
+ },
+ "GAB": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities.",
+  "est": true
+ },
+ "SLV": {
+  "eco": 8,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "legal",
+  "offgrid": 55,
+  "note": "No known communities; homeschooling legal.",
+  "est": true
+ },
+ "KAZ": {
+  "eco": 12,
+  "ecoCount": 1,
+  "examples": [
+   "Umai Ecovillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "First ecovillage project near Almaty (2019).",
+  "est": true
+ },
+ "MAR": {
+  "eco": 22,
+  "ecoCount": 5,
+  "examples": [
+   "Bled Ecolo",
+   "Penyon Bay Ecological Village"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "Growing permaculture/eco-lodge scene; foreigners cannot buy agricultural land.",
+  "est": false
+ },
+ "AZE": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "regulated",
+  "offgrid": 45,
+  "note": "No known communities.",
+  "est": true
+ },
+ "NAM": {
+  "eco": 15,
+  "ecoCount": 2,
+  "examples": [
+   "Omuthiya Natural Springs EcoVillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Small; vast cheap land, arid.",
+  "est": true
+ },
+ "COM": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities.",
+  "est": true
+ },
+ "TLS": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities; foreigners cannot own land.",
+  "est": true
+ },
+ "HND": {
+  "eco": 8,
+  "ecoCount": 1,
+  "examples": [
+   "Villa Garifuna"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 65,
+  "note": "One listed project; high crime risk.",
+  "est": true
+ },
+ "MNG": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No ecovillages found; nomadic land-use culture; land leasing possible.",
+  "est": true
+ },
+ "BEN": {
+  "eco": 10,
+  "ecoCount": 1,
+  "examples": [
+   "Eco-Benin"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Community ecotourism projects.",
+  "est": true
+ },
+ "IRN": {
+  "eco": 10,
+  "ecoCount": 1,
+  "examples": [
+   "Zanasouj Ecovillage"
+  ],
+  "homeschool": "banned",
+  "offgrid": 35,
+  "note": "One ecovillage near Qazvin; strong state control.",
+  "est": true
+ },
+ "TKM": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 25,
+  "note": "No known communities; closed state.",
+  "est": true
+ },
+ "DZA": {
+  "eco": 8,
+  "ecoCount": 2,
+  "examples": [
+   "Arc-en-Ciel Algérie"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 35,
+  "note": "Few projects.",
+  "est": true
+ },
+ "GNQ": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 35,
+  "note": "No known communities.",
+  "est": true
+ },
+ "KIR": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "Atoll nation; no land for outsiders.",
+  "est": true
+ },
+ "ZMB": {
+  "eco": 15,
+  "ecoCount": 2,
+  "examples": [
+   "Kwasha Mukwenu",
+   "Rescope Programme"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Permaculture networks; customary land via chiefs.",
+  "est": true
+ },
+ "LAO": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "No known communities; foreigners cannot own land.",
+  "est": true
+ },
+ "BLR": {
+  "eco": 15,
+  "ecoCount": 1,
+  "examples": [
+   "Chyrvony Kastrychnik"
+  ],
+  "homeschool": "banned",
+  "offgrid": 40,
+  "note": "A few rural eco-homesteads; authoritarian state, homeschooling illegal.",
+  "est": true
+ },
+ "UGA": {
+  "eco": 33,
+  "ecoCount": 15,
+  "examples": [
+   "SINA (Social Innovation Academy)",
+   "Bulemba Rwenzori Ecovillage",
+   "Lake Bunyonyi Ecovillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "12 GEN-mapped projects incl. SINA youth communities; mailo/customary land; foreigners only lease.",
+  "est": false
+ },
+ "KGZ": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "No known communities.",
+  "est": true
+ },
+ "MDG": {
+  "eco": 12,
+  "ecoCount": 1,
+  "examples": [
+   "Ecovillage Madagascar"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Foreigners cannot own land.",
+  "est": true
+ },
+ "PRK": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "banned",
+  "offgrid": 0,
+  "note": "Not possible.",
+  "est": true
+ },
+ "SWZ": {
+  "eco": 5,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Swazi Nation Land allocated by chiefs.",
+  "est": true
+ },
+ "SLE": {
+  "eco": 10,
+  "ecoCount": 1,
+  "examples": [
+   "Synergee Salone"
+  ],
+  "homeschool": "banned",
+  "offgrid": 55,
+  "note": "Homeschooling illegal per Wikipedia table.",
+  "est": true
+ },
+ "SLB": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Customary land; no known communities.",
+  "est": true
+ },
+ "ZWE": {
+  "eco": 35,
+  "ecoCount": 10,
+  "examples": [
+   "Kufunda Village",
+   "Chikukwa permaculture villages",
+   "SCOPE Chitubu"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Kufunda and Chikukwa are respected African permaculture precedents; land tenure insecure for outsiders.",
+  "est": true
+ },
+ "LBY": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 35,
+  "note": "Conflict zone; no communities.",
+  "est": true
+ },
+ "TJK": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "No known communities.",
+  "est": true
+ },
+ "MWI": {
+  "eco": 15,
+  "ecoCount": 1,
+  "examples": [
+   "Chikwa Eco Village Center"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Strong permaculture NGOs (e.g., Kusamala); customary land.",
+  "est": true
+ },
+ "IRQ": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 35,
+  "note": "Insecure; no known communities.",
+  "est": true
+ },
+ "GIN": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "No known communities.",
+  "est": true
+ },
+ "EGY": {
+  "eco": 30,
+  "ecoCount": 4,
+  "examples": [
+   "Sekem",
+   "Wahat Sekem (Minya)",
+   "Habiba Community"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "Sekem (1977) is a celebrated biodynamic desert-reclamation community; building on Nile farmland is banned, desert land via state allocation.",
+  "est": true
+ },
+ "GNB": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "No known communities.",
+  "est": true
+ },
+ "BFA": {
+  "eco": 20,
+  "ecoCount": 1,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Strong agroecology roots (zai pits, Pierre Rabhi's work); severe insecurity since 2016.",
+  "est": true
+ },
+ "NRU": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 20,
+  "note": "No land available.",
+  "est": true
+ },
+ "LBR": {
+  "eco": 8,
+  "ecoCount": 1,
+  "examples": [
+   "Macoda Eco-Ville"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Foreigners cannot own land.",
+  "est": true
+ },
+ "VEN": {
+  "eco": 12,
+  "ecoCount": 4,
+  "examples": [
+   "Aldeas de Paz",
+   "Ecoaldea Alborada"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Political/economic crisis.",
+  "est": true
+ },
+ "DJI": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "No known communities.",
+  "est": true
+ },
+ "PNG": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "97% customary land; leases only.",
+  "est": true
+ },
+ "GMB": {
+  "eco": 20,
+  "ecoCount": 4,
+  "examples": [
+   "People's Coast Ecovillage Network",
+   "Bambako Eco Farm"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 60,
+  "note": "Coastal ecovillage network; small, English-speaking.",
+  "est": true
+ },
+ "MMR": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "Civil war; no known communities.",
+  "est": true
+ },
+ "NGA": {
+  "eco": 15,
+  "ecoCount": 1,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Little ecovillage activity; insecurity in many states.",
+  "est": true
+ },
+ "COG": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities.",
+  "est": true
+ },
+ "PAK": {
+  "eco": 15,
+  "ecoCount": 5,
+  "examples": [
+   "Amriti Ecovillage",
+   "Hussainabad Ecovillage (Skardu)"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "A few rural development ecovillages.",
+  "est": false
+ },
+ "MRT": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "No known communities.",
+  "est": true
+ },
+ "SYR": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 30,
+  "note": "Conflict zone.",
+  "est": true
+ },
+ "BDI": {
+  "eco": 10,
+  "ecoCount": 2,
+  "examples": [
+   "Perfect Village Communities"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Small NGO projects.",
+  "est": true
+ },
+ "BGD": {
+  "eco": 10,
+  "ecoCount": 2,
+  "examples": [
+   "Bioscience Agro Ecovillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "Very dense; flood risk.",
+  "est": true
+ },
+ "MOZ": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "State-owned land (DUAT rights).",
+  "est": true
+ },
+ "NER": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Insecurity.",
+  "est": true
+ },
+ "TGO": {
+  "eco": 12,
+  "ecoCount": 3,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "GEN-listed ecovillage development projects.",
+  "est": true
+ },
+ "AFG": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "Not feasible under current regime.",
+  "est": true
+ },
+ "TCD": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Insecurity.",
+  "est": true
+ },
+ "CMR": {
+  "eco": 25,
+  "ecoCount": 5,
+  "examples": [
+   "Ndanifor Permaculture Eco-Village",
+   "Bafut Ecovillage"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Ndanifor is a regional permaculture hub; Anglophone-region conflict risk.",
+  "est": false
+ },
+ "AGO": {
+  "eco": 2,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 45,
+  "note": "No known communities.",
+  "est": true
+ },
+ "LSO": {
+  "eco": 3,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "No known communities.",
+  "est": true
+ },
+ "MLI": {
+  "eco": 10,
+  "ecoCount": 1,
+  "examples": [
+   "Ecovillage Pentiérébougou"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Severe insecurity.",
+  "est": true
+ },
+ "YEM": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "War zone.",
+  "est": true
+ },
+ "COD": {
+  "eco": 25,
+  "ecoCount": 11,
+  "examples": [
+   "Kiyaya Ecovillage",
+   "Mingadi éco-communauté"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "11 GEN-listed projects; very insecure in the east.",
+  "est": false
+ },
+ "CAF": {
+  "eco": 3,
+  "ecoCount": 2,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Conflict zone.",
+  "est": true
+ },
+ "HTI": {
+  "eco": 10,
+  "ecoCount": 2,
+  "examples": [
+   "Vilaj Espwa",
+   "Sadhana Forest Haiti"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 55,
+  "note": "Severe insecurity.",
+  "est": true
+ },
+ "SDN": {
+  "eco": 5,
+  "ecoCount": 2,
+  "examples": [
+   "Eco-Peace Project"
+  ],
+  "homeschool": "unclear",
+  "offgrid": 40,
+  "note": "War zone.",
+  "est": true
+ },
+ "ERI": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 20,
+  "note": "Closed state.",
+  "est": true
+ },
+ "SSD": {
+  "eco": 1,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Conflict zone.",
+  "est": true
+ },
+ "SOM": {
+  "eco": 0,
+  "ecoCount": 0,
+  "examples": [],
+  "homeschool": "unclear",
+  "offgrid": 50,
+  "note": "Conflict zone.",
+  "est": true
+ },
+ "_sources": {
+  "GEN map": "Global Ecovillage Network directory (ecovillage.org/map), 1,337 community listings scraped Oct 2026; 1,098 with coordinates reverse-geocoded to countries with Natural Earth 1:50m boundaries. Per-country GEN counts are a floor for ecoCount.",
+  "FIC": "Foundation for Intentional Community directory (ic.org/directory) - 1,610 listings total.",
+  "national networks": {
+   "USA": "FIC directory ~1,610 listings (ic.org, Oct 2026)",
+   "FRA": "Cooperative Oasis: 1,600+ eco-lieux projects recorded",
+   "GBR": "Diggers & Dreamers 13th ed.: 84+85 existing, 10+17 developing communities",
+   "DNK": "LOS (okosamfund.dk): ~30 ecovillages",
+   "DEU": "GEN Deutschland: 23 network communities; eurotopia/Kommuja",
+   "ISR": "Wikipedia Kibbutz: 270 kibbutzim, 126,000 people (2010)",
+   "RUS": "Wikipedia Anastasianism: 5-6 settlements/region, ~12,000 settlers (2016)",
+   "LKA": "Wikipedia Sarvodaya: ~15,000 villages (2006)",
+   "ITA": "RIVE (ecovillaggi.it): 20 communities at 2026 winter gathering",
+   "JPN": "Wikipedia Yamagishi movement (~1,200 members 2008); konohana-family.org"
+  },
+  "homeschool": "Wikipedia 'Homeschooling international status and statistics' (country tables + per-country sections, incl. HSLDA-cited entries); 'unclear' where no source found. Ecuador from author knowledge.",
+  "pins": "ecovillages.json coordinates from Wikipedia/Wikidata (P625), GEN map markers, OpenStreetMap Nominatim, Japan GSI geocoder; founding year/population from Wikipedia/Wikidata, GEN listings (self-reported 'Founding year'/'Total') or the community's own site.",
+  "other": "Land-ownership, zoning and legal notes from author knowledge of national law (not re-verified this session; web search quota was exhausted)."
+ },
+ "_method": {
+  "eco": "0-100 judgement score of the existing ecovillage/intentional-community ecosystem: density of GEN-mapped projects, national networks and directories, long-lived precedent communities (10+ yrs), permaculture/regenerative culture. Anchors: USA 100, Germany 98, Portugal/Spain/France 92.",
+  "ecoCount": "Order-of-magnitude count of known ecovillages + intentional communities (max of GEN map count and national directory/network estimates; cohousing included only where noted).",
+  "examples": "Up to 4 notable existing communities; names from GEN listings, Wikipedia or national networks.",
+  "homeschool": "legal = permitted with minimal oversight; regulated = permitted with registration/exams/exemption; restricted = only narrow exceptions or prior authorisation; banned = illegal; unclear = no clear legal provision or source.",
+  "offgrid": "0-100 judgement of how permissive building/zoning/utility rules are for rural self-build, natural building, composting toilets, off-grid utilities and multiple dwellings (de-facto enforcement considered). Does not score land-ownership limits for foreigners (noted in 'note').",
+  "est": "true = thin data (fewer than 5 GEN-mapped projects and no national directory figure), values largely expert-estimated; false = eco/ecoCount anchored on counted directory data.",
+  "generated": "2026-10-11"
+ }
+}

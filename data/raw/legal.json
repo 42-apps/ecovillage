@@ -1,0 +1,1821 @@
+{
+ "ESP": {
+  "land": 85,
+  "landNote": "No nationality limits on rural land; non-EU buyers need defence authorisation in some strategic zones (parts of islands, Ceuta/Melilla). Building on suelo rústico tightly limited.",
+  "entity": 75,
+  "entityNote": "Asociación sin ánimo de lucro, Fundación or Cooperativa; foreigners with NIE may found; utilidad pública status and Ley 49/2002 tax regime available.",
+  "funding": 95,
+  "fundingNote": "No restrictions on foreign donations; standard AML/transparency rules.",
+  "est": false
+ },
+ "CHE": {
+  "land": 20,
+  "landNote": "BGBB: farmland generally only for self-cultivating farmers, with price caps; Lex Koller limits non-resident foreigners. Building outside zones barely possible.",
+  "entity": 85,
+  "entityNote": "Verein (no registration needed), Genossenschaft or Stiftung; foreigners may found; cantonal tax exemption for public-benefit bodies.",
+  "funding": 95,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "AUS": {
+  "land": 65,
+  "landNote": "FIRB approval needed for agricultural land above A$15m cumulative and for vacant land; farmland registered with ATO; established homes banned to 2027.",
+  "entity": 85,
+  "entityNote": "Incorporated association, company limited by guarantee or co-op; ACNC charity; strong precedent (Crystal Waters, multiple-occupancy zoning).",
+  "funding": 92,
+  "fundingNote": "No restrictions; Foreign Influence Transparency Scheme covers political activity only.",
+  "est": false
+ },
+ "PRT": {
+  "land": 90,
+  "landNote": "No restrictions on foreign ownership of rural land; rústico land (RAN/REN zones) generally cannot be built on without licensing. Tamera precedent.",
+  "entity": 80,
+  "entityNote": "Associação sem fins lucrativos, Fundação or Cooperativa; foreigners may be founders; 'Associação na Hora' fast-track; public-utility status possible.",
+  "funding": 95,
+  "fundingNote": "No restrictions on foreign funding.",
+  "est": false
+ },
+ "NZL": {
+  "land": 40,
+  "landNote": "Rural land over 5 ha is 'sensitive': OIO consent with benefit test and farmland advertising rules; 2025 reform eased business tests, not farmland.",
+  "entity": 85,
+  "entityNote": "Incorporated society (2022 Act), charitable trust or co-op; foreigners may found; Charities Services registration.",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "ITA": {
+  "land": 82,
+  "landNote": "EU buyers free; non-EU buyers subject to a reciprocity test. Neighbouring farmers hold prelazione agraria (pre-emption) on farmland sales.",
+  "entity": 70,
+  "entityNote": "Associazione (APS/ODV), Fondazione or Cooperativa under the Third Sector Code (RUNTS register); foreigners may found; bureaucratic but proven (Damanhur).",
+  "funding": 95,
+  "fundingNote": "No restrictions on foreign donations.",
+  "est": false
+ },
+ "JPN": {
+  "land": 65,
+  "landNote": "No nationality limits, but farmland (nochi) needs Agricultural Committee permit and buyer must farm; forest/other land free. Foreign-buyer rules under review 2026.",
+  "entity": 65,
+  "entityNote": "General incorporated association (ippan shadan hojin) via notary, or NPO hojin (prefecture approval ~4 months); foreigners may be directors.",
+  "funding": 88,
+  "fundingNote": "No restrictions on foreign donations.",
+  "est": false
+ },
+ "DEU": {
+  "land": 65,
+  "landNote": "No nationality limits, but farmland sales above ~1-2 ha (varies by Land) need Grundstückverkehrsgesetz approval; farmers may pre-empt. Außenbereich building restricted.",
+  "entity": 85,
+  "entityNote": "Eingetragener Verein (e.V.), Genossenschaft (eG), gGmbH or Stiftung; foreigners may found; Gemeinnützigkeit tax status; strong precedent (Sieben Linden, ZEGG).",
+  "funding": 92,
+  "fundingNote": "No restrictions on foreign donations.",
+  "est": false
+ },
+ "AUT": {
+  "land": 40,
+  "landNote": "State Grundverkehrsgesetze: farm/forest purchases need authority approval, usually favouring active farmers; non-EU buyers need extra permit. Tyrol/Vorarlberg strictest.",
+  "entity": 80,
+  "entityNote": "Verein (simple notification, ~4-6 weeks), Genossenschaft or Privatstiftung; foreigners may found; gemeinnützig tax status available.",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "FRA": {
+  "land": 72,
+  "landNote": "No nationality limits, but SAFER can pre-empt farmland sales and 'contrôle des structures' governs farming use; PLU zoning limits new dwellings.",
+  "entity": 85,
+  "entityNote": "Association loi 1901 (simple declaration), SCIC, SCI, fonds de dotation or fondation; foreigners may found; habitat participatif recognised (ALUR 2014).",
+  "funding": 88,
+  "fundingNote": "No ban; since 2021 associations must declare foreign donations above about EUR 153k and the state may object.",
+  "est": false
+ },
+ "DNK": {
+  "land": 50,
+  "landNote": "Non-residents need Civilstyrelsen permit (rarely granted for non-EU); farm properties carry a 10-year residence duty (can be met by a tenant). Landzone building limited.",
+  "entity": 80,
+  "entityNote": "Forening, andelsforening or almennyttig fond; foreigners may found; strong bofællesskab/økosamfund precedent (Svanholm, Christiania).",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "TWN": {
+  "land": 25,
+  "landNote": "Land Act Art. 17: foreigners cannot acquire farmland, forest or fishery land; reciprocity for other land.",
+  "entity": 50,
+  "entityNote": "Association or foundation (zaituan faren) needs ministry approval; foreigners may join.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "NLD": {
+  "land": 88,
+  "landNote": "No restrictions on foreign ownership; strict zoning (omgevingsplan) limits housing on agricultural land.",
+  "entity": 85,
+  "entityNote": "Vereniging, Stichting or Coöperatie via notary; foreigners may found; ANBI public-benefit tax status.",
+  "funding": 95,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "GBR": {
+  "land": 95,
+  "landNote": "No restrictions on foreign ownership; overseas companies must join the Register of Overseas Entities. Planning permission for rural dwellings is the real hurdle.",
+  "entity": 92,
+  "entityNote": "Charity (CIO/CLG), Community Land Trust, co-op or Community Benefit Society; foreigners may be trustees; Findhorn and Lammas precedents.",
+  "funding": 95,
+  "fundingNote": "No restrictions on foreign donations to charities (political donations excepted).",
+  "est": false
+ },
+ "NOR": {
+  "land": 60,
+  "landNote": "Konsesjonsloven: farm/forest property needs a concession (price control, possible residence/operating duty); no nationality bar.",
+  "entity": 85,
+  "entityNote": "Forening, stiftelse or samvirkeforetak; foreigners may found; Frivillighetsregisteret; tax-exempt status.",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "USA": {
+  "land": 85,
+  "landNote": "Most states impose no limits; about a dozen restrict nonresident aliens on farmland and many 2023-26 laws target 'foreign adversary' buyers. AFIDA reporting.",
+  "entity": 95,
+  "entityNote": "501(c)(3) nonprofit, community land trust, housing co-op or LLC; foreigners may be directors; fast; deep precedent (Twin Oaks, Earthhaven).",
+  "funding": 95,
+  "fundingNote": "No restrictions on foreign donations to charities.",
+  "est": false
+ },
+ "KOR": {
+  "land": 55,
+  "landNote": "Foreigners may buy with report; farmland needs a Farmland Acquisition Qualification Certificate (must farm); permit zones for foreigners near Seoul since 2025.",
+  "entity": 55,
+  "entityNote": "Non-profit corporation needs ministry approval; unincorporated associations easier; foreigners may participate.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "CAN": {
+  "land": 65,
+  "landNote": "Federal home-buyer ban (to 2027) covers urban areas only; provinces limit non-resident farmland (SK 10 ac, AB 20 ac, MB 40 ac, QC/PEI approval). BC/ON/Atlantic mostly open.",
+  "entity": 85,
+  "entityNote": "Federal/provincial non-profit corporation, registered charity, housing co-op or CLT; foreign directors allowed in most provinces.",
+  "funding": 95,
+  "fundingNote": "No restrictions on foreign donations.",
+  "est": false
+ },
+ "BEL": {
+  "land": 85,
+  "landNote": "No nationality restrictions; tenant-farmer pre-emption on farmland; regional zoning plans limit building in agricultural areas.",
+  "entity": 80,
+  "entityNote": "ASBL/VZW, fondation or cooperative (SC); foreigners may found; tax-deductible gift approval available.",
+  "funding": 92,
+  "fundingNote": "No general restrictions on foreign donations.",
+  "est": false
+ },
+ "HKG": {
+  "land": 50,
+  "landNote": "All land is government leasehold; foreigners may buy, but large rural tracts are essentially unavailable.",
+  "entity": 65,
+  "entityNote": "Company limited by guarantee with s.88 charity status; foreigners may be directors.",
+  "funding": 65,
+  "fundingNote": "National Security Law era: foreign-linked groups face scrutiny.",
+  "est": true
+ },
+ "ISL": {
+  "land": 55,
+  "landNote": "Non-EEA buyers need ministry permission; reportedly since 2020 large acquisitions (land over ~50 ha or multiple properties) need ministerial approval.",
+  "entity": 75,
+  "entityNote": "Félagasamtök (association) or sjálfseignarstofnun (self-owning foundation); foreigners may found.",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": true
+ },
+ "SWE": {
+  "land": 90,
+  "landNote": "No restrictions on foreign ownership of rural land; detaljplan and strandskydd rules limit building.",
+  "entity": 85,
+  "entityNote": "Ideell förening, ekonomisk förening (co-op) or stiftelse; foreigners may found; quick registration.",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "GRC": {
+  "land": 68,
+  "landNote": "EU buyers free; non-EU need a permit in border regions (Law 1892/1990), covering many islands and northern prefectures. Agricultural zoning limits building.",
+  "entity": 60,
+  "entityNote": "Somateio (association: court registration, 20+ members) or civil non-profit company; slow courts; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No general limits; NGOs working with migrants must join a special registry.",
+  "est": false
+ },
+ "ISR": {
+  "land": 35,
+  "landNote": "~93% of land is state (ILA) land under 49/98-year leases; foreign acquisition needs approval. Kibbutz/moshav communities are a strong precedent.",
+  "entity": 70,
+  "entityNote": "Amuta (non-profit association), easy registration; foreigners may found; public-benefit company possible.",
+  "funding": 50,
+  "fundingNote": "2016 law requires disclosure of foreign-state funding; 80% tax bill (2025) not enacted as of mid-2025.",
+  "est": false
+ },
+ "FIN": {
+  "land": 70,
+  "landNote": "Non-EU/EEA buyers need Ministry of Defence approval (since 2020); purchases by Russian nationals tightened. EU buyers unrestricted.",
+  "entity": 85,
+  "entityNote": "Rekisteröity yhdistys, osuuskunta or säätiö; foreigners may found (some board residence rules).",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "LUX": {
+  "land": 80,
+  "landNote": "No nationality restrictions, but rural land is scarce, very expensive and strictly zoned.",
+  "entity": 80,
+  "entityNote": "ASBL or fondation; foreigners may found; public-utility status by decree.",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "IRL": {
+  "land": 92,
+  "landNote": "No restrictions on foreign ownership of farmland (former Land Commission consent for non-EU buyers removed); rural one-off housing permission is strict.",
+  "entity": 78,
+  "entityNote": "Company limited by guarantee (CLG) registered with the Charities Regulator, or co-operative; one EEA-resident director (or bond) required.",
+  "funding": 92,
+  "fundingNote": "No restrictions on charity donations; foreign donations barred only for political purposes.",
+  "est": false
+ },
+ "SMR": {
+  "land": 20,
+  "landNote": "Non-residents reportedly need Congress of State authorisation to buy real estate; very little rural land.",
+  "entity": 50,
+  "entityNote": "Associazione or fondazione; registration with state; foreign founders limited.",
+  "funding": 80,
+  "fundingNote": "Likely no specific restrictions.",
+  "est": true
+ },
+ "SYC": {
+  "land": 35,
+  "landNote": "Non-Seychellois need ministerial sanction; moratorium lifted 2025 with SCR 10m minimum for dwellings; little land.",
+  "entity": 55,
+  "entityNote": "Association (Registration of Associations Act) or foundation; foreigners may participate.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": false
+ },
+ "HRV": {
+  "land": 55,
+  "landNote": "EU buyers free since July 2023; third-country nationals barred from agricultural land except reciprocity/inheritance; a Croatian-registered entity is the usual route.",
+  "entity": 65,
+  "entityNote": "Udruga (association), zaklada (foundation) or zadruga (co-op); foreigners may found; registration ~30 days.",
+  "funding": 85,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "POL": {
+  "land": 25,
+  "landNote": "Farmland plots over 1 ha generally only for individual farmers or with KOWR consent (2016 Act); non-EEA buyers also need Interior Ministry permit.",
+  "entity": 70,
+  "entityNote": "Stowarzyszenie or fundacja (KRS registration); foreigners may found foundations; OPP public-benefit status.",
+  "funding": 85,
+  "fundingNote": "No restrictions on foreign funding.",
+  "est": false
+ },
+ "AND": {
+  "land": 30,
+  "landNote": "Foreign buyers need government foreign-investment authorisation; very little rural land, much of it communal (comú).",
+  "entity": 55,
+  "entityNote": "Associació or fundació registered with the government; small jurisdiction.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "CZE": {
+  "land": 85,
+  "landNote": "No restrictions on foreign ownership of real estate including farmland.",
+  "entity": 80,
+  "entityNote": "Spolek, ústav, nadace or družstvo via court register; foreigners may found.",
+  "funding": 90,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "CYP": {
+  "land": 45,
+  "landNote": "Non-EU buyers need Council of Ministers permit, normally limited to one property of ~4,000 m2; large rural estates impractical. North under separate control.",
+  "entity": 65,
+  "entityNote": "Association or foundation (Law 104(I)/2017) or company limited by guarantee; foreigners may found.",
+  "funding": 88,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "SVN": {
+  "land": 55,
+  "landNote": "EU buyers free; non-EU by reciprocity. Farmland sales need administrative approval with a pre-emption order favouring farmers.",
+  "entity": 70,
+  "entityNote": "Društvo (society), zavod (institute) or ustanova (foundation); foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No restrictions.",
+  "est": true
+ },
+ "BRB": {
+  "land": 80,
+  "landNote": "Foreigners may buy; register with the Central Bank for exchange control.",
+  "entity": 70,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 88,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "MUS": {
+  "land": 40,
+  "landNote": "Non-citizens need EDB authorisation and buy only within approved schemes (PDS/IRS/Smart City); farmland generally unavailable.",
+  "entity": 65,
+  "entityNote": "Association, foundation (Foundations Act 2012) or trust; foreigners may found.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "SGP": {
+  "land": 15,
+  "landNote": "No rural land; landed property needs approval under the Residential Property Act; state land on 99-year leases.",
+  "entity": 65,
+  "entityNote": "Society or company limited by guarantee; IPC charity status.",
+  "funding": 60,
+  "fundingNote": "Foreign Interference (Countermeasures) Act 2021; political/foreign donations disclosure.",
+  "est": true
+ },
+ "BHS": {
+  "land": 70,
+  "landNote": "International Persons Landholding Act: permit needed for more than 5 acres or multiple parcels.",
+  "entity": 65,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 88,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "ATG": {
+  "land": 65,
+  "landNote": "Non-citizen landholding licence required (fee reportedly ~5% of value).",
+  "entity": 55,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "CRI": {
+  "land": 88,
+  "landNote": "Foreigners may own land freely; only the coastal Maritime Zone is concession-based with foreign-ownership limits.",
+  "entity": 70,
+  "entityNote": "Asociación (Ley 218), Fundación (Ley 5338) or cooperativa; foreigners may found; public-utility status by application.",
+  "funding": 90,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "ROU": {
+  "land": 40,
+  "landNote": "Law 17/2014 (amended 2020): farmland outside towns goes through a pre-emption chain; otherwise buyers need 5 yrs Romanian domicile + farming. Non-EU by reciprocity.",
+  "entity": 65,
+  "entityNote": "Asociație or fundație (OG 26/2000) via court; foreigners may found; public-utility status possible.",
+  "funding": 85,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "MAC": {
+  "land": 30,
+  "landNote": "Land is state-owned and leased; tiny territory with no rural tracts.",
+  "entity": 45,
+  "entityNote": "Associations registered with Identification Bureau; limited civic space.",
+  "funding": 60,
+  "fundingNote": "No explicit ban, but political scrutiny of foreign links.",
+  "est": true
+ },
+ "URY": {
+  "land": 92,
+  "landNote": "No restrictions on foreign ownership; companies holding rural land must have registered (nominative) shares.",
+  "entity": 70,
+  "entityNote": "Asociación civil or fundación; personería jurídica from MEC can take many months.",
+  "funding": 90,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "TTO": {
+  "land": 60,
+  "landNote": "Foreign Investment Act: licence needed above ~1 acre residential or ~5 acres commercial.",
+  "entity": 65,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "ARG": {
+  "land": 65,
+  "landNote": "DNU 70/2023 repealed Ley 26.737 caps on foreign rural land; repeal back in force after Oct 2026 Supreme Court ruling, but Congress may still void it.",
+  "entity": 55,
+  "entityNote": "Asociación civil or fundación via IGJ/provincial registries; slow; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No restrictions on foreign donations.",
+  "est": false
+ },
+ "BRN": {
+  "land": 8,
+  "landNote": "Foreigners cannot own land; leasehold only with approval.",
+  "entity": 15,
+  "entityNote": "Societies need government approval; very limited civic space.",
+  "funding": 20,
+  "fundingNote": "Foreign funding subject to state control.",
+  "est": true
+ },
+ "BGR": {
+  "land": 45,
+  "landNote": "Foreign individuals generally cannot own land directly (EU citizens excepted); usual route is a Bulgarian company. Farmland rules for foreign-held firms unclear.",
+  "entity": 65,
+  "entityNote": "Sdruzhenie (association) or fondatsia, public-benefit registration; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No restrictions.",
+  "est": true
+ },
+ "EST": {
+  "land": 65,
+  "landNote": "Agricultural/forest land over 10 ha: buyer needs recent farming record or local approval; non-EEA/OECD buyers need consent; border zones restricted.",
+  "entity": 85,
+  "entityNote": "MTÜ (non-profit association) or SA (foundation), online registration; foreigners/e-residents may found.",
+  "funding": 92,
+  "fundingNote": "No restrictions.",
+  "est": true
+ },
+ "GRD": {
+  "land": 60,
+  "landNote": "Alien Landholding licence required (fee reportedly ~10% of value).",
+  "entity": 55,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "SVK": {
+  "land": 35,
+  "landNote": "Act 140/2014: farmland must first be offered to local farmers; outside buyers generally need a Slovak farming record. Non-agricultural land unrestricted.",
+  "entity": 65,
+  "entityNote": "Občianske združenie (civic association), nadácia or nezisková organizácia; foreigners may found.",
+  "funding": 65,
+  "fundingNote": "2025 donor-disclosure NGO amendment struck down by Constitutional Court (end-2025); political pressure on foreign-funded NGOs persists.",
+  "est": true
+ },
+ "MYS": {
+  "land": 35,
+  "landNote": "Foreign buyers need state consent and a minimum price (often RM1m+); Malay reserve and much agricultural land barred to foreigners.",
+  "entity": 45,
+  "entityNote": "Society (ROS) or company limited by guarantee; foreign founders face extra checks.",
+  "funding": 70,
+  "fundingNote": "No general ban; societies report funding.",
+  "est": true
+ },
+ "CHL": {
+  "land": 88,
+  "landNote": "Foreigners may buy rural land freely; nationals of neighbouring countries barred in border zones.",
+  "entity": 70,
+  "entityNote": "Corporación or fundación under Law 20.500 via municipality; foreigners may found.",
+  "funding": 88,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "ARE": {
+  "land": 25,
+  "landNote": "Foreigners own only in designated freehold zones; no agricultural land.",
+  "entity": 15,
+  "entityNote": "Civil associations need ministry licence; founders must largely be citizens; no independent NGO sector.",
+  "funding": 15,
+  "fundingNote": "Foreign funding requires government approval.",
+  "est": true
+ },
+ "MLT": {
+  "land": 35,
+  "landNote": "Non-EU and non-resident buyers need AIP permit (usually one residence); rural land scarce and heavily protected.",
+  "entity": 70,
+  "entityNote": "Voluntary organisation, foundation or association enrolled with the Commissioner for VOs; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No restrictions; enrolled VOs must disclose donors.",
+  "est": false
+ },
+ "BRA": {
+  "land": 45,
+  "landNote": "Law 5.709/71: foreigners and foreign-controlled firms need INCRA approval and face area caps (e.g. 25% of a municipality); reform bill PL 2963/19 pending.",
+  "entity": 60,
+  "entityNote": "Associação, Fundação or Cooperativa via cartório; foreigners may found; OSCIP/CEBAS status slow.",
+  "funding": 85,
+  "fundingNote": "No restrictions on foreign donations; standard reporting.",
+  "est": false
+ },
+ "MDV": {
+  "land": 15,
+  "landNote": "Foreigners cannot own land (except mega-investment exception); leases up to 99 years.",
+  "entity": 30,
+  "entityNote": "Associations registered with the state; restrictive associations law.",
+  "funding": 40,
+  "fundingNote": "Foreign funding subject to government oversight.",
+  "est": true
+ },
+ "MEX": {
+  "land": 50,
+  "landNote": "Restricted zone (100 km borders/50 km coasts) only via bank fideicomiso; farmland only via Mexican firm with <=49% foreign 'T' shares; ejido land not sold to foreigners.",
+  "entity": 60,
+  "entityNote": "Asociación Civil (A.C.) via notary; foreigners may be associates; 'donataria autorizada' status from SAT is bureaucratic.",
+  "funding": 80,
+  "fundingNote": "No ban on foreign donations; donatarias face SAT reporting and spending rules.",
+  "est": false
+ },
+ "ECU": {
+  "land": 75,
+  "landNote": "Foreigners may own land except within 20 km of borders and other security zones (military authorisation); Galápagos special regime.",
+  "entity": 45,
+  "entityNote": "Fundación or corporación approved by a ministry; 2025 Ley de Transparencia Social adds SEPS registration and risk-based reporting.",
+  "funding": 40,
+  "fundingNote": "2025 Ley de Transparencia Social: donor registry, fund freezes, suspensions; under court challenge.",
+  "est": false
+ },
+ "BTN": {
+  "land": 2,
+  "landNote": "Foreigners cannot own land in Bhutan.",
+  "entity": 10,
+  "entityNote": "CSO Act: founders must be Bhutanese; CSO Authority approval.",
+  "funding": 20,
+  "fundingNote": "Foreign funds need government clearance.",
+  "est": true
+ },
+ "CUB": {
+  "land": 3,
+  "landNote": "Foreigners cannot own rural land; only state joint ventures.",
+  "entity": 4,
+  "entityNote": "Associations need a state sponsor and approval.",
+  "funding": 5,
+  "fundingNote": "Foreign funds tightly controlled; independent groups prosecuted.",
+  "est": true
+ },
+ "THA": {
+  "land": 15,
+  "landNote": "Foreigners cannot own land; leases capped at 30 years (2025 Supreme Court voided pre-agreed renewals); 99-year lease proposal stalled.",
+  "entity": 45,
+  "entityNote": "Thai foundation (mulanithi) or association; boards that are majority-foreign are treated as alien for land.",
+  "funding": 70,
+  "fundingNote": "Foreign funding allowed; draft NPO control bill not enacted.",
+  "est": false
+ },
+ "LTU": {
+  "land": 45,
+  "landNote": "Farmland only for EU/EEA/NATO/OECD nationals with 3 yrs farming experience or approval; 500 ha cap; neighbour pre-emption.",
+  "entity": 75,
+  "entityNote": "Asociacija, viešoji įstaiga (VšĮ) or labdaros fondas; foreigners may found.",
+  "funding": 88,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "GEO": {
+  "land": 20,
+  "landNote": "Constitution reserves agricultural land for citizens and Georgian firms without a dominant foreign owner; non-agricultural land open.",
+  "entity": 25,
+  "entityNote": "NNLE registration is quick, but 2024 foreign-influence and 2025 FARA laws bring stigma and criminal penalties.",
+  "funding": 5,
+  "fundingNote": "Foreign grants need government approval since 2025; a 2026 law criminalises unapproved foreign funding.",
+  "est": false
+ },
+ "KNA": {
+  "land": 60,
+  "landNote": "Alien Landholding licence required (fee reportedly ~10% of value).",
+  "entity": 55,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "TUR": {
+  "land": 50,
+  "landNote": "Foreign individuals capped at 30 ha nationwide and 10% of a district; military/security zones excluded; Turkish firms with foreign capital need permits.",
+  "entity": 40,
+  "entityNote": "Dernek (association) or vakıf (foundation); foreign residents may found; heavy oversight under Law 7262 (2020).",
+  "funding": 45,
+  "fundingNote": "Foreign funds must be notified to the Interior Ministry; 2020 law allows suspension of NGO boards.",
+  "est": false
+ },
+ "PER": {
+  "land": 75,
+  "landNote": "Foreigners have equal rights except within 50 km of borders (needs Supreme Decree).",
+  "entity": 55,
+  "entityNote": "Asociación civil or fundación registered with SUNARP; foreigners may found.",
+  "funding": 35,
+  "fundingNote": "2025 Law 32301: APCI prior approval for foreign-funded projects; sanctions for 'improper use'.",
+  "est": false
+ },
+ "HUN": {
+  "land": 15,
+  "landNote": "2013 Land Act: farmland only for registered farmers (Hungarian/EU), cap 300 ha; legal entities cannot buy farmland.",
+  "entity": 55,
+  "entityNote": "Egyesület (association) or alapítvány (foundation) via court registration; foreigners may found; public-benefit status.",
+  "funding": 35,
+  "fundingNote": "Sovereignty Protection Office (2023) probes foreign-funded groups; 2025 'transparency' bill postponed; post-2026 status unverified.",
+  "est": false
+ },
+ "LCA": {
+  "land": 65,
+  "landNote": "Aliens Landholding licence required for non-citizens.",
+  "entity": 55,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "TON": {
+  "land": 15,
+  "landNote": "All land vested in Crown/nobles; foreigners cannot own; leases up to 99 years with Cabinet consent.",
+  "entity": 45,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "OMN": {
+  "land": 18,
+  "landNote": "Foreigners own only in Integrated Tourism Complexes.",
+  "entity": 10,
+  "entityNote": "Civil associations need ministry licence; founders must largely be citizens; no independent NGO sector.",
+  "funding": 12,
+  "fundingNote": "Foreign funding requires ministry approval.",
+  "est": true
+ },
+ "WSM": {
+  "land": 25,
+  "landNote": "~80% customary land, leasable only with approval; freehold sales to foreigners need Head of State consent.",
+  "entity": 55,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "ARM": {
+  "land": 30,
+  "landNote": "Constitution bars foreigners from owning land (buildings OK); Armenian-registered companies, even foreign-owned, can own land.",
+  "entity": 70,
+  "entityNote": "Public organisation or foundation; foreigners may found; online registration.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "SAU": {
+  "land": 20,
+  "landNote": "Non-Saudi ownership limited to approved zones (new law effective 2026), excluding Makkah/Madinah; no farmland.",
+  "entity": 8,
+  "entityNote": "Civil associations need ministry licence; founders must largely be citizens; no independent NGO sector.",
+  "funding": 10,
+  "fundingNote": "Foreign funding requires government approval.",
+  "est": true
+ },
+ "VCT": {
+  "land": 60,
+  "landNote": "Aliens Landholding licence required (fee reportedly ~10% of value).",
+  "entity": 55,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "BHR": {
+  "land": 20,
+  "landNote": "Foreigners own only in designated freehold areas.",
+  "entity": 12,
+  "entityNote": "Civil associations need ministry licence; founders must largely be citizens; no independent NGO sector.",
+  "funding": 12,
+  "fundingNote": "Foreign funding requires ministry approval.",
+  "est": true
+ },
+ "PLW": {
+  "land": 15,
+  "landNote": "Constitution bars non-citizens from owning land; leases up to 99 years.",
+  "entity": 50,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "MCO": {
+  "land": 2,
+  "landNote": "No rural land exists in this tiny urban state; buying apartments is otherwise open to foreigners.",
+  "entity": 50,
+  "entityNote": "Association (Law 1.355) or fondation requiring sovereign authorisation.",
+  "funding": 80,
+  "fundingNote": "Likely no specific restrictions.",
+  "est": true
+ },
+ "DMA": {
+  "land": 65,
+  "landNote": "Alien Landholding licence required (fee reportedly ~10% of value).",
+  "entity": 55,
+  "entityNote": "Non-profit company or registered charity under local Companies/Charities Acts; foreigners may be directors; small registries.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "QAT": {
+  "land": 12,
+  "landNote": "Foreigners own only in designated zones; no rural land.",
+  "entity": 8,
+  "entityNote": "Civil associations need ministry licence; founders must largely be citizens; no independent NGO sector.",
+  "funding": 10,
+  "fundingNote": "Foreign funding requires government approval.",
+  "est": true
+ },
+ "LVA": {
+  "land": 40,
+  "landNote": "Farmland buyers must be registered farmers, pass a local commission and (non-citizens) show Latvian language skills; 2,000 ha cap; non-residents excluded.",
+  "entity": 75,
+  "entityNote": "Biedrība (association) or nodibinājums (foundation); foreigners may found; public-benefit status.",
+  "funding": 90,
+  "fundingNote": "No restrictions.",
+  "est": false
+ },
+ "SUR": {
+  "land": 40,
+  "landNote": "Most land is state domain granted as long-term lease (grondhuur); foreigners need extra permission.",
+  "entity": 50,
+  "entityNote": "Stichting (foundation) common; foreigners may found.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "IND": {
+  "land": 8,
+  "landNote": "Non-resident foreigners cannot buy land; even OCIs/NRIs barred from farmland; state ceiling laws. Auroville exists only via a 1988 Act of Parliament.",
+  "entity": 45,
+  "entityNote": "Trust, society or Section 8 company; foreigners may be founders but face FCRA and security scrutiny.",
+  "funding": 12,
+  "fundingNote": "FCRA: prior registration, designated SBI account, no sub-granting; 2026 rules tighten further; 22k licences cancelled.",
+  "est": false
+ },
+ "PAN": {
+  "land": 80,
+  "landNote": "Foreigners may own land except within 10 km of borders; many rural parcels are possession rights (ROP), not titled.",
+  "entity": 70,
+  "entityNote": "Asociación sin fines de lucro (MINGOB) or Fundación de Interés Privado; foreigners may found.",
+  "funding": 88,
+  "fundingNote": "No significant restrictions.",
+  "est": false
+ },
+ "COL": {
+  "land": 80,
+  "landNote": "No foreign ownership limits; former state 'baldío' land has UAF accumulation limits; foreign investment must be registered with the central bank.",
+  "entity": 70,
+  "entityNote": "ESAL: asociación, fundación or corporación via Cámara de Comercio; foreigners may found; Régimen Tributario Especial.",
+  "funding": 85,
+  "fundingNote": "No restrictions on foreign donations.",
+  "est": false
+ },
+ "CHN": {
+  "land": 3,
+  "landNote": "All land state/collective-owned; foreigners only get urban land-use rights; rural collective land off-limits.",
+  "entity": 5,
+  "entityNote": "Social organisations need a state sponsor; Overseas NGO Law restricts foreign founders.",
+  "funding": 5,
+  "fundingNote": "Overseas NGO Law: foreign funding only via registered/filed INGOs under police oversight.",
+  "est": false
+ },
+ "VNM": {
+  "land": 8,
+  "landNote": "All land owned by 'the people'; foreigners cannot hold farmland use rights; foreign firms lease from the state.",
+  "entity": 8,
+  "entityNote": "Independent associations tightly controlled; foreign NGOs need registration.",
+  "funding": 10,
+  "fundingNote": "Foreign aid needs state approval; environmental NGO leaders jailed.",
+  "est": true
+ },
+ "LKA": {
+  "land": 30,
+  "landNote": "Land (Restrictions on Alienation) Act bars foreign freehold; leases up to 99 years (lease tax abolished 2016); BOI projects may differ.",
+  "entity": 45,
+  "entityNote": "Voluntary social service organisation (NGO Secretariat), trust or guarantee company; extra scrutiny.",
+  "funding": 45,
+  "fundingNote": "Foreign funds to NGOs monitored by NGO Secretariat; restrictive NGO bill floated.",
+  "est": false
+ },
+ "SEN": {
+  "land": 30,
+  "landNote": "Rural land mostly national domain (not saleable); foreigners via leases (bail) or titled plots.",
+  "entity": 50,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 55,
+  "fundingNote": "NGO agreement and reporting required.",
+  "est": true
+ },
+ "XKX": {
+  "land": 60,
+  "landNote": "Foreigners may own real estate; no specific farmland ban reported, but cadastre/ownership disputes are common.",
+  "entity": 60,
+  "entityNote": "NGO (association or foundation) registered with the Ministry of Public Administration; foreigners may found.",
+  "funding": 80,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "VUT": {
+  "land": 35,
+  "landNote": "Constitution: land belongs to custom owners; foreigners lease up to 75 years.",
+  "entity": 55,
+  "entityNote": "Charitable association (Charitable Associations Act); foreigners may found.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "MNE": {
+  "land": 45,
+  "landNote": "Foreigners may buy buildings/construction land but not farmland, forests or border areas directly; a Montenegrin company is the usual route.",
+  "entity": 65,
+  "entityNote": "NVO (association or foundation) registered with the ministry; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "ZAF": {
+  "land": 75,
+  "landNote": "Foreigners may own freehold incl. farmland; Expropriation Act (signed 2025) adds uncertainty; proposed foreign farmland ban never enacted.",
+  "entity": 80,
+  "entityNote": "Non-profit company (NPC), trust or voluntary association; NPO registration; SARS PBO tax exemption; foreigners may found.",
+  "funding": 90,
+  "fundingNote": "No restrictions on foreign donations.",
+  "est": false
+ },
+ "CPV": {
+  "land": 85,
+  "landNote": "No restrictions on foreigners buying property.",
+  "entity": 65,
+  "entityNote": "Associação or fundação; foreigners may found.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "IDN": {
+  "land": 30,
+  "landNote": "Freehold (Hak Milik) for citizens only; foreigners get Hak Pakai on residential land; PT PMA firms can hold HGB/HGU rights.",
+  "entity": 45,
+  "entityNote": "Yayasan (foundation): foreigners may co-found with >=IDR 100m assets; at least one Indonesian manager; notary + ministry approval.",
+  "funding": 50,
+  "fundingNote": "Foreign funds to local NGOs need government registration/approval; INGOs need MoU.",
+  "est": false
+ },
+ "KWT": {
+  "land": 5,
+  "landNote": "Non-GCC foreigners essentially cannot own land.",
+  "entity": 8,
+  "entityNote": "Civil associations need ministry licence; founders must largely be citizens; no independent NGO sector.",
+  "funding": 10,
+  "fundingNote": "Foreign funding requires government approval.",
+  "est": true
+ },
+ "BOL": {
+  "land": 40,
+  "landNote": "Foreigners cannot own land within 50 km of borders nor receive state land; agrarian ceilings; tenure disputes.",
+  "entity": 30,
+  "entityNote": "NGO legal personality requires alignment with state development plans (Law 351).",
+  "funding": 30,
+  "fundingNote": "Decree 1597 lets the state revoke NGO status; foreign NGOs expelled in the past.",
+  "est": true
+ },
+ "JAM": {
+  "land": 85,
+  "landNote": "No restrictions on foreign ownership of land.",
+  "entity": 70,
+  "entityNote": "Company limited by guarantee registered as a charity; foreigners may be directors.",
+  "funding": 88,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "RUS": {
+  "land": 12,
+  "landNote": "Foreigners barred from owning agricultural land and border-area land; leases (up to 49 years) possible.",
+  "entity": 10,
+  "entityNote": "NKO registration heavily scrutinised; foreign founders face extra checks and liquidation risk.",
+  "funding": 3,
+  "fundingNote": "Foreign-agent and 'undesirable organisation' laws criminalise many foreign-funded groups.",
+  "est": false
+ },
+ "BIH": {
+  "land": 45,
+  "landNote": "Foreigners may own on reciprocity; farmland usually via a local company; rules differ between FBiH and Republika Srpska.",
+  "entity": 55,
+  "entityNote": "Udruženje or fondacija at state or entity level; complex multi-level registration.",
+  "funding": 55,
+  "fundingNote": "Republika Srpska adopted a 'foreign agents' NPO registry law (Feb 2025); Federation unrestricted.",
+  "est": true
+ },
+ "DOM": {
+  "land": 85,
+  "landNote": "Foreigners may own land without nationality restrictions; title (deslinde) verification essential.",
+  "entity": 60,
+  "entityNote": "Asociación sin fines de lucro (Law 122-05); foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "PRY": {
+  "land": 80,
+  "landNote": "Free, except nationals of neighbouring countries barred from rural land within 50 km of borders (Law 2532/05).",
+  "entity": 55,
+  "entityNote": "Asociación or fundación; Law 7363 (2024) adds a registry and annual reports.",
+  "funding": 50,
+  "fundingNote": "Law 7363 (in force Oct 2025) requires registration/reporting of foreign-funded NGOs; constitutional challenges pending.",
+  "est": false
+ },
+ "TZA": {
+  "land": 20,
+  "landNote": "All land vested in the President; non-citizens only via TIC derivative rights for investment projects.",
+  "entity": 40,
+  "entityNote": "NGO registration under NGO Act (2019 amendments tighten).",
+  "funding": 40,
+  "fundingNote": "NGOs must disclose funding sources and agreements to the Registrar.",
+  "est": true
+ },
+ "UZB": {
+  "land": 5,
+  "landNote": "Agricultural land state-owned; foreigners only lease non-agricultural land.",
+  "entity": 15,
+  "entityNote": "NNO registration is difficult and slow; foreign founders face restrictions.",
+  "funding": 15,
+  "fundingNote": "Foreign grants need prior Ministry of Justice approval.",
+  "est": true
+ },
+ "GTM": {
+  "land": 70,
+  "landNote": "Foreigners may own land except within 15 km of borders; titling disputes and land conflicts common.",
+  "entity": 50,
+  "entityNote": "Asociación or fundación; 2020 NGO law (Decreto 4-2020) lets the state cancel NGOs.",
+  "funding": 40,
+  "fundingNote": "Decreto 4-2020 requires registration of foreign-funded NGOs and allows cancellation.",
+  "est": true
+ },
+ "PHL": {
+  "land": 35,
+  "landNote": "Constitution bars foreign land ownership (60% Filipino firms only); RA 12252 (2025) allows investor leases up to 99 years incl. agri/eco uses.",
+  "entity": 65,
+  "entityNote": "Non-stock non-profit corporation with SEC; foreigners may be trustees for most purposes.",
+  "funding": 70,
+  "fundingNote": "No general limits; SEC anti-terror-financing checks; red-tagging risk.",
+  "est": false
+ },
+ "GHA": {
+  "land": 35,
+  "landNote": "Non-citizens limited to leases of up to 50 years (Land Act 2020); customary land via chiefs.",
+  "entity": 60,
+  "entityNote": "Company limited by guarantee plus NGO registration.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "BLZ": {
+  "land": 75,
+  "landNote": "Freehold open to foreigners; Aliens Landholding rules may require a licence for larger rural holdings.",
+  "entity": 65,
+  "entityNote": "Non-profit company or NGO registered under the NGO Act; foreigners may be directors.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "FJI": {
+  "land": 40,
+  "landNote": "~87% iTaukei land leasable only (up to 99 yrs via TLTB); freehold (~8%) needs Land Sales Act consent for non-residents.",
+  "entity": 55,
+  "entityNote": "Charitable trust or incorporated society; foreigners may found.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "NPL": {
+  "land": 5,
+  "landNote": "Foreigners cannot own land in Nepal.",
+  "entity": 20,
+  "entityNote": "Local NGOs need Nepali founders; foreign NGOs need Social Welfare Council agreement.",
+  "funding": 25,
+  "fundingNote": "Foreign funds need Social Welfare Council project approval.",
+  "est": true
+ },
+ "KEN": {
+  "land": 15,
+  "landNote": "Non-citizens hold leasehold (max 99 yrs) only; farmland deals with foreigners or foreign-owned firms void under Land Control Act.",
+  "entity": 60,
+  "entityNote": "Trust, company limited by guarantee or PBO (PBO Act in force 2024); foreigners may found.",
+  "funding": 70,
+  "fundingNote": "No legal cap on foreign funding; past 15% cap proposals defeated.",
+  "est": false
+ },
+ "STP": {
+  "land": 25,
+  "landNote": "Most land state-owned; access via aforamento/long lease.",
+  "entity": 50,
+  "entityNote": "Associação; small registry.",
+  "funding": 70,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "MDA": {
+  "land": 25,
+  "landNote": "Foreigners and companies with foreign capital barred from owning agricultural and forest land; leasing allowed.",
+  "entity": 65,
+  "entityNote": "Asociație obștească, fundație or instituție privată; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "JOR": {
+  "land": 40,
+  "landNote": "Foreigners need ministerial/Cabinet approval and reciprocity; agricultural land faces extra conditions.",
+  "entity": 35,
+  "entityNote": "Society (Law 51/2008) via ministry; foreign membership limited.",
+  "funding": 25,
+  "fundingNote": "Each foreign donation needs prior Cabinet approval.",
+  "est": true
+ },
+ "GUY": {
+  "land": 60,
+  "landNote": "Private titled land open to foreigners; much land is state land leased with government approval.",
+  "entity": 55,
+  "entityNote": "Friendly society, company limited by guarantee or trust; foreigners may be directors.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "LBN": {
+  "land": 45,
+  "landNote": "Foreigners need a decree above 3,000 m2; foreign ownership capped at ~3% per district.",
+  "entity": 55,
+  "entityNote": "Association by notification (1909 law); liberal regime; state dysfunction.",
+  "funding": 80,
+  "fundingNote": "No restrictions on foreign funding.",
+  "est": true
+ },
+ "MKD": {
+  "land": 45,
+  "landNote": "Foreigners may acquire construction land on reciprocity; agricultural land not directly (lease or Macedonian company).",
+  "entity": 65,
+  "entityNote": "Association or foundation registered with Central Registry; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "MHL": {
+  "land": 15,
+  "landNote": "Land customary (weto); non-citizens lease only.",
+  "entity": 45,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "ALB": {
+  "land": 30,
+  "landNote": "Foreigners cannot buy agricultural land, forests or pastures; long leases (up to 99 years) allowed; buildings and their plots allowed.",
+  "entity": 60,
+  "entityNote": "Shoqatë (association), fondacion or qendër via Tirana court; foreigners may found.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "NIC": {
+  "land": 15,
+  "landNote": "Private ownership allowed, but government has confiscated properties of dissidents and NGOs since 2018.",
+  "entity": 2,
+  "entityNote": "Over 5,000 NGOs cancelled since 2018; registration effectively closed.",
+  "funding": 0,
+  "fundingNote": "2020 Foreign Agents Law and later rules effectively ban independent foreign-funded NGOs.",
+  "est": false
+ },
+ "UKR": {
+  "land": 8,
+  "landNote": "Foreigners and foreign-owned firms barred from farmland until a referendum (not held); 50 km border ban; war risk. Leases possible.",
+  "entity": 60,
+  "entityNote": "Hromadska orhanizatsiia (NGO) or charitable foundation; foreigners may found; fast registration.",
+  "funding": 85,
+  "fundingNote": "No restrictions on foreign funding.",
+  "est": false
+ },
+ "BWA": {
+  "land": 35,
+  "landNote": "Tribal land reserved for citizens; freehold farmland to non-citizens needs ministerial consent (Land Control Act); state land leased.",
+  "entity": 60,
+  "entityNote": "Society (Societies Act) or trust; foreigners may participate.",
+  "funding": 80,
+  "fundingNote": "No significant restrictions.",
+  "est": false
+ },
+ "RWA": {
+  "land": 40,
+  "landNote": "Foreigners receive long-term (emphyteutic) leases rather than freehold; clear cadastre.",
+  "entity": 40,
+  "entityNote": "National NGO registration with RGB; must align with government plans; admin-cost caps.",
+  "funding": 40,
+  "fundingNote": "Foreign-funded NGOs must spend most funds on programmes aligned with state priorities.",
+  "est": true
+ },
+ "TUN": {
+  "land": 15,
+  "landNote": "Foreigners barred from agricultural land; other purchases need governor permission.",
+  "entity": 35,
+  "entityNote": "Association under Decree 88/2011 (declaration), but crackdown since 2023.",
+  "funding": 30,
+  "fundingNote": "Foreign funding increasingly targeted; restrictive draft law.",
+  "est": true
+ },
+ "KHM": {
+  "land": 30,
+  "landNote": "Only Khmer citizens and 51%-Khmer firms own land; foreigners use registered long-term leases (up to 50 years).",
+  "entity": 35,
+  "entityNote": "LANGO 2015: registration with Interior Ministry; political-neutrality duty.",
+  "funding": 40,
+  "fundingNote": "LANGO requires reporting of foreign funds; arbitrary closures.",
+  "est": true
+ },
+ "TUV": {
+  "land": 10,
+  "landNote": "All land customary; foreigners lease only; tiny atolls.",
+  "entity": 35,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 70,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "SRB": {
+  "land": 35,
+  "landNote": "Foreigners buy on reciprocity; agricultural land generally barred to foreigners (EU citizens only under strict residence/farming conditions).",
+  "entity": 65,
+  "entityNote": "Udruženje (association) or fondacija via business registry, quick; foreigners may found.",
+  "funding": 65,
+  "fundingNote": "No legal limit yet, but 2025 police raids on foreign-funded NGOs and a 'foreign agents' bill tabled in 2024.",
+  "est": true
+ },
+ "ETH": {
+  "land": 10,
+  "landNote": "All land state-owned; foreigners lease via investment permits.",
+  "entity": 40,
+  "entityNote": "CSO Proclamation 2019 allows foreign founders, but the regulator suspended many CSOs in 2024-25.",
+  "funding": 50,
+  "fundingNote": "2019 law removed foreign-funding caps; 2025 draft amendments would curb governance funding.",
+  "est": false
+ },
+ "CIV": {
+  "land": 15,
+  "landNote": "Rural land ownership reserved for the state and Ivorian individuals; foreigners lease (emphyteutic).",
+  "entity": 50,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 60,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "FSM": {
+  "land": 12,
+  "landNote": "Non-citizens cannot own land; state-limited lease terms.",
+  "entity": 40,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "GAB": {
+  "land": 30,
+  "landNote": "Foreigners may hold titled land with approvals; most land state domain.",
+  "entity": 35,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 50,
+  "fundingNote": "No explicit ban; political oversight.",
+  "est": true
+ },
+ "SLV": {
+  "land": 65,
+  "landNote": "Foreigners may own rural land where their country grants reciprocity; rules otherwise liberal.",
+  "entity": 35,
+  "entityNote": "Asociación or fundación registration slow; NGOs under heavy political pressure.",
+  "funding": 12,
+  "fundingNote": "2025 Foreign Agents Law: 30% tax on foreign donations, mandatory registration, heavy fines.",
+  "est": false
+ },
+ "KAZ": {
+  "land": 8,
+  "landNote": "Sale and lease of agricultural land to foreigners and firms with foreign participation banned (2021).",
+  "entity": 35,
+  "entityNote": "Public association or private foundation; foreign founders face residency limits.",
+  "funding": 35,
+  "fundingNote": "Recipients of foreign funds must report to a public registry; tax-authority scrutiny.",
+  "est": false
+ },
+ "MAR": {
+  "land": 30,
+  "landNote": "Foreign individuals barred from farmland outside urban perimeters; Law 62-19 (2021) lets SA companies with foreign shareholders buy with regional approval.",
+  "entity": 55,
+  "entityNote": "Association (Dahir 1958) by declaration; foreigners may found; public-utility status rare.",
+  "funding": 55,
+  "fundingNote": "Foreign funds must be declared to the Secretariat General within 30 days.",
+  "est": false
+ },
+ "AZE": {
+  "land": 10,
+  "landNote": "Foreigners cannot own land; leases only.",
+  "entity": 8,
+  "entityNote": "NGO registration routinely refused; foreign founders face barriers.",
+  "funding": 3,
+  "fundingNote": "Every foreign grant needs state registration; most foreign-funded NGOs shut since 2014.",
+  "est": false
+ },
+ "NAM": {
+  "land": 25,
+  "landNote": "Farmland sales to foreigners need ministerial consent (state pre-emption); 2025 Land Bill would ban foreign acquisition of commercial farmland.",
+  "entity": 65,
+  "entityNote": "Not-for-gain (Section 21) company, trust or welfare organisation; foreigners may found.",
+  "funding": 85,
+  "fundingNote": "No significant restrictions.",
+  "est": false
+ },
+ "COM": {
+  "land": 25,
+  "landNote": "Customary and state land; foreigners via leases.",
+  "entity": 35,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 55,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "TLS": {
+  "land": 20,
+  "landNote": "Constitution reserves land ownership to nationals; foreigners lease (reportedly up to 50 years).",
+  "entity": 45,
+  "entityNote": "Non-profit association or foundation; registration with Ministry of Justice.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "HND": {
+  "land": 40,
+  "landNote": "Constitution bars foreigners from owning land within 40 km of borders and coasts (tourism exceptions); land titling weak.",
+  "entity": 50,
+  "entityNote": "Asociación civil or fundación via URSAC; slow procedures.",
+  "funding": 65,
+  "fundingNote": "No legal ban; NGOs subject to registration and AML reporting.",
+  "est": true
+ },
+ "MNG": {
+  "land": 25,
+  "landNote": "Constitution reserves land ownership to citizens; foreign-invested firms get possession/use rights for set terms.",
+  "entity": 50,
+  "entityNote": "NGO registration with the State Registration Office; foreigners may participate.",
+  "funding": 70,
+  "fundingNote": "No major restrictions reported.",
+  "est": true
+ },
+ "BEN": {
+  "land": 30,
+  "landNote": "Land code restricts rural acquisition by foreigners; leases common.",
+  "entity": 50,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 60,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "IRN": {
+  "land": 5,
+  "landNote": "Foreigners need permission to own property; non-Muslim and foreign ownership restricted.",
+  "entity": 3,
+  "entityNote": "Independent NGOs heavily repressed.",
+  "funding": 3,
+  "fundingNote": "Foreign funding treated as a security threat.",
+  "est": true
+ },
+ "TKM": {
+  "land": 2,
+  "landNote": "All land state-owned; foreigners have no secure tenure.",
+  "entity": 2,
+  "entityNote": "Independent NGOs essentially impossible to register.",
+  "funding": 2,
+  "fundingNote": "Foreign grants require state approval; closed civic space.",
+  "est": true
+ },
+ "DZA": {
+  "land": 8,
+  "landNote": "Foreigners barred from agricultural land; strict controls.",
+  "entity": 12,
+  "entityNote": "Associations Law 12-06 requires authorisation.",
+  "funding": 8,
+  "fundingNote": "Foreign funding requires prior approval.",
+  "est": true
+ },
+ "GNQ": {
+  "land": 8,
+  "landNote": "Land under tight state control; foreigners need approvals.",
+  "entity": 8,
+  "entityNote": "Independent associations repressed.",
+  "funding": 8,
+  "fundingNote": "Foreign funding controlled.",
+  "est": true
+ },
+ "KIR": {
+  "land": 15,
+  "landNote": "Native land; foreigners lease only with government approval.",
+  "entity": 40,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 70,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "ZMB": {
+  "land": 35,
+  "landNote": "Non-citizens may hold land only with presidential consent (investors/residents); 99-year leasehold.",
+  "entity": 40,
+  "entityNote": "NGO Act 2009 registration; periodic government reviews.",
+  "funding": 55,
+  "fundingNote": "No explicit ban; NGO Act gives broad oversight.",
+  "est": true
+ },
+ "LAO": {
+  "land": 12,
+  "landNote": "Foreigners cannot own land; state leases/concessions up to ~50 years.",
+  "entity": 10,
+  "entityNote": "Associations under Decree 238 need extensive state approval.",
+  "funding": 10,
+  "fundingNote": "Foreign funding requires government approval.",
+  "est": true
+ },
+ "BLR": {
+  "land": 3,
+  "landNote": "Land largely state-owned; foreigners cannot own farmland; leases only; political risk extreme.",
+  "entity": 3,
+  "entityNote": "NGO registration effectively closed; over 1,000 NGOs liquidated since 2021.",
+  "funding": 2,
+  "fundingNote": "Foreign aid needs prior state registration; acting for unregistered groups is criminalised.",
+  "est": false
+ },
+ "UGA": {
+  "land": 35,
+  "landNote": "Non-citizens cannot hold freehold or mailo land; leasehold up to 99 years.",
+  "entity": 30,
+  "entityNote": "NGO Act 2016: permits and district MoUs; 54 NGOs suspended in 2021.",
+  "funding": 35,
+  "fundingNote": "Foreign-funded NGOs heavily scrutinised; accounts frozen in the past.",
+  "est": true
+ },
+ "KGZ": {
+  "land": 10,
+  "landNote": "Foreigners cannot own agricultural land; leases possible.",
+  "entity": 25,
+  "entityNote": "Registration possible, but 2024 'foreign representatives' law brings unannounced inspections.",
+  "funding": 20,
+  "fundingNote": "2024 law: foreign-funded NGOs doing 'political activity' must register as foreign representatives.",
+  "est": false
+ },
+ "MDG": {
+  "land": 25,
+  "landNote": "Foreigners cannot own land directly; long leases or approved investment companies.",
+  "entity": 40,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 60,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "PRK": {
+  "land": 0,
+  "landNote": "No private land; foreign residence tightly controlled.",
+  "entity": 0,
+  "entityNote": "No independent organisations permitted.",
+  "funding": 0,
+  "fundingNote": "Closed state.",
+  "est": true
+ },
+ "SWZ": {
+  "land": 30,
+  "landNote": "Swazi Nation Land under chiefs; title-deed land needs Land Control Board consent for foreigners.",
+  "entity": 40,
+  "entityNote": "Company limited by guarantee or society; restrictive environment.",
+  "funding": 50,
+  "fundingNote": "Civic space restricted; few formal funding rules.",
+  "est": true
+ },
+ "SLE": {
+  "land": 30,
+  "landNote": "Provinces: customary land leasable (2022 laws allow ~50+21 yr leases); Western Area purchases limited for non-citizens.",
+  "entity": 45,
+  "entityNote": "NGO registration and agreement with planning ministry.",
+  "funding": 55,
+  "fundingNote": "NGO policy requires reporting of foreign funds.",
+  "est": true
+ },
+ "SLB": {
+  "land": 25,
+  "landNote": "Foreigners cannot hold perpetual estates; fixed-term estates (up to 75 yrs); customary land disputes.",
+  "entity": 45,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "ZWE": {
+  "land": 5,
+  "landNote": "Agricultural land nationalised (2005); leases mainly for citizens; tenure insecure.",
+  "entity": 15,
+  "entityNote": "PVO registration discretionary and politicised.",
+  "funding": 15,
+  "fundingNote": "2025 PVO Amendment Act: scrutiny of funding sources, power to suspend boards and seize assets.",
+  "est": false
+ },
+ "LBY": {
+  "land": 3,
+  "landNote": "Foreigners cannot own property; conflict.",
+  "entity": 5,
+  "entityNote": "Civil society tightly restricted.",
+  "funding": 5,
+  "fundingNote": "Foreign funding requires approval; NGOs targeted.",
+  "est": true
+ },
+ "TJK": {
+  "land": 3,
+  "landNote": "All land state-owned; foreigners only obtain limited use rights.",
+  "entity": 10,
+  "entityNote": "Public associations tightly controlled; frequent liquidations.",
+  "funding": 10,
+  "fundingNote": "Foreign funding must be registered with the state; heavy surveillance.",
+  "est": true
+ },
+ "MWI": {
+  "land": 25,
+  "landNote": "Land Act 2016: non-citizens leasehold only, for investment purposes.",
+  "entity": 40,
+  "entityNote": "NGO Act (2022 amendment raised fees and penalties).",
+  "funding": 55,
+  "fundingNote": "No explicit ban; NGO Authority oversight.",
+  "est": true
+ },
+ "IRQ": {
+  "land": 10,
+  "landNote": "Foreigners generally cannot own land (limited exceptions incl. Kurdistan Region).",
+  "entity": 20,
+  "entityNote": "NGO Directorate registration; heavy oversight.",
+  "funding": 25,
+  "fundingNote": "Foreign funds require approval; operational restrictions.",
+  "est": true
+ },
+ "GIN": {
+  "land": 25,
+  "landNote": "Land code allows private titles; foreigners need approvals.",
+  "entity": 30,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 40,
+  "fundingNote": "Junta-era oversight of NGOs.",
+  "est": true
+ },
+ "EGY": {
+  "land": 15,
+  "landNote": "Foreigners barred from agricultural land (Law 15/1963); desert land via state; Sinai restricted.",
+  "entity": 15,
+  "entityNote": "NGO Law 149/2019 heavily state-controlled.",
+  "funding": 8,
+  "fundingNote": "Foreign funds need ministry approval; NGOs prosecuted (Case 173).",
+  "est": true
+ },
+ "GNB": {
+  "land": 20,
+  "landNote": "Land state-owned; concessions.",
+  "entity": 35,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 50,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "BFA": {
+  "land": 20,
+  "landNote": "Land tenure law restricts rural acquisition; insecurity.",
+  "entity": 15,
+  "entityNote": "Junta has dissolved many associations since 2024.",
+  "funding": 15,
+  "fundingNote": "Foreign-funded NGOs suspended or expelled.",
+  "est": true
+ },
+ "NRU": {
+  "land": 5,
+  "landNote": "Land owned by Nauruans; leases need Presidential consent; tiny island.",
+  "entity": 30,
+  "entityNote": "Incorporated society or charitable trust under local law; foreigners may participate; small registries.",
+  "funding": 60,
+  "fundingNote": "Limited civic space; small state.",
+  "est": true
+ },
+ "LBR": {
+  "land": 20,
+  "landNote": "Constitution reserves land ownership to citizens; foreigners lease (up to ~50 years).",
+  "entity": 45,
+  "entityNote": "NGO accreditation with planning ministry.",
+  "funding": 65,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "VEN": {
+  "land": 8,
+  "landNote": "Foreigners may formally own land, but expropriations and agrarian law make tenure insecure.",
+  "entity": 5,
+  "entityNote": "NGO registry under 2024 NGO law; arbitrary closures.",
+  "funding": 3,
+  "fundingNote": "2024 NGO oversight law requires disclosing funders; foreign funding treated as suspect.",
+  "est": false
+ },
+ "DJI": {
+  "land": 30,
+  "landNote": "Foreigners may hold land with approvals; much land state-owned.",
+  "entity": 30,
+  "entityNote": "Associations need ministry authorisation.",
+  "funding": 35,
+  "fundingNote": "Limited civic space; foreign funding monitored.",
+  "est": true
+ },
+ "PNG": {
+  "land": 25,
+  "landNote": "About 97% customary land; foreigners access via state lease-lease-back or ILG leases (up to 99 yrs), often contested.",
+  "entity": 45,
+  "entityNote": "Association (Associations Incorporation Act) or company; foreigners may participate.",
+  "funding": 75,
+  "fundingNote": "No significant restrictions.",
+  "est": true
+ },
+ "GMB": {
+  "land": 35,
+  "landNote": "Non-citizens hold leasehold only.",
+  "entity": 50,
+  "entityNote": "NGO registration with NGO Affairs Agency.",
+  "funding": 60,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "MMR": {
+  "land": 5,
+  "landNote": "1987 law bars foreigners from owning land; civil war; leases only via investment approvals.",
+  "entity": 4,
+  "entityNote": "2022 Organization Registration Law criminalises unregistered groups.",
+  "funding": 4,
+  "fundingNote": "Military regime controls all foreign funding.",
+  "est": true
+ },
+ "NGA": {
+  "land": 25,
+  "landNote": "Land Use Act: land under state governors; certificates of occupancy (99 yrs) need governor consent; foreigners via a Nigerian company.",
+  "entity": 45,
+  "entityNote": "Incorporated trustees (CAC); foreigners may be trustees; CAMA 2020 lets regulator suspend trustees.",
+  "funding": 60,
+  "fundingNote": "No explicit cap on foreign funding; periodic NGO-regulation bills.",
+  "est": true
+ },
+ "COG": {
+  "land": 20,
+  "landNote": "State domain dominates; foreigners need approvals.",
+  "entity": 30,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 45,
+  "fundingNote": "Foreign-funded NGOs face scrutiny.",
+  "est": true
+ },
+ "PAK": {
+  "land": 20,
+  "landNote": "Foreigners need Interior Ministry clearance; local entity route; security issues.",
+  "entity": 20,
+  "entityNote": "Societies/trusts face security vetting; INGOs tightly regulated.",
+  "funding": 15,
+  "fundingNote": "Local NGOs need EAD MoU/approval for foreign funds; INGOs expelled.",
+  "est": true
+ },
+ "MRT": {
+  "land": 15,
+  "landNote": "Land largely state/customary; foreigners via concessions.",
+  "entity": 40,
+  "entityNote": "2021 associations law moved to declaration regime.",
+  "funding": 45,
+  "fundingNote": "Foreign funding subject to oversight.",
+  "est": true
+ },
+ "SYR": {
+  "land": 3,
+  "landNote": "Conflict-affected; foreign ownership requires approval; no secure tenure.",
+  "entity": 3,
+  "entityNote": "Associations tightly controlled.",
+  "funding": 5,
+  "fundingNote": "Foreign funding heavily restricted.",
+  "est": true
+ },
+ "BDI": {
+  "land": 10,
+  "landNote": "Land disputes widespread; foreigners need approvals.",
+  "entity": 15,
+  "entityNote": "Restrictive NGO laws (2017).",
+  "funding": 10,
+  "fundingNote": "Foreign funds must go through central bank and state oversight.",
+  "est": true
+ },
+ "BGD": {
+  "land": 25,
+  "landNote": "Foreigners need government approval; usually via a local company; land disputes common.",
+  "entity": 35,
+  "entityNote": "Society or trust; NGO Affairs Bureau registration for foreign-funded work.",
+  "funding": 25,
+  "fundingNote": "Foreign Donations Act 2016: each foreign-funded project needs NGOAB prior approval.",
+  "est": true
+ },
+ "MOZ": {
+  "land": 20,
+  "landNote": "All land state-owned; foreigners obtain DUAT use rights (up to 50 yrs renewable) via approved investment project.",
+  "entity": 45,
+  "entityNote": "Associação registration; newer NPO law tightened oversight.",
+  "funding": 55,
+  "fundingNote": "No explicit ban; increasing AML scrutiny.",
+  "est": true
+ },
+ "NER": {
+  "land": 15,
+  "landNote": "Insecurity; customary/state land.",
+  "entity": 15,
+  "entityNote": "Junta suspended many NGOs.",
+  "funding": 15,
+  "fundingNote": "Foreign-funded NGOs restricted.",
+  "est": true
+ },
+ "TGO": {
+  "land": 30,
+  "landNote": "Foreigners may acquire with approvals; customary land complex.",
+  "entity": 40,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 45,
+  "fundingNote": "Foreign-funded NGOs monitored.",
+  "est": true
+ },
+ "AFG": {
+  "land": 2,
+  "landNote": "Taliban rule; no secure tenure for foreigners.",
+  "entity": 2,
+  "entityNote": "NGOs heavily restricted; women barred from NGO work.",
+  "funding": 2,
+  "fundingNote": "Foreign funding tightly controlled by de facto authorities.",
+  "est": true
+ },
+ "TCD": {
+  "land": 15,
+  "landNote": "Land largely state/customary; foreigners via concessions.",
+  "entity": 20,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 35,
+  "fundingNote": "Foreign-funded groups face scrutiny.",
+  "est": true
+ },
+ "CMR": {
+  "land": 25,
+  "landNote": "National-domain land; foreigners need approvals; titling slow.",
+  "entity": 30,
+  "entityNote": "Associations by declaration; NGO status needs approval.",
+  "funding": 30,
+  "fundingNote": "2024: authorities ordered declarations/monitoring of foreign funds; suspensions.",
+  "est": true
+ },
+ "AGO": {
+  "land": 20,
+  "landNote": "All land originally state-owned; foreigners get surface rights via investment approvals.",
+  "entity": 25,
+  "entityNote": "Associations need state recognition; restrictive NGO statute.",
+  "funding": 35,
+  "fundingNote": "Foreign-funded NGOs face heavy oversight.",
+  "est": true
+ },
+ "LSO": {
+  "land": 15,
+  "landNote": "Land Act 2010: foreigners hold land title only via enterprises with Basotho participation.",
+  "entity": 45,
+  "entityNote": "Society or company limited by guarantee.",
+  "funding": 70,
+  "fundingNote": "No major legal restrictions reported.",
+  "est": true
+ },
+ "MLI": {
+  "land": 20,
+  "landNote": "Insecurity; customary land; approvals needed.",
+  "entity": 15,
+  "entityNote": "Junta restrictions on associations.",
+  "funding": 12,
+  "fundingNote": "Ban on French-funded NGOs (2022); heavy control.",
+  "est": true
+ },
+ "YEM": {
+  "land": 3,
+  "landNote": "Conflict; no secure tenure.",
+  "entity": 5,
+  "entityNote": "Fragmented authorities; NGOs harassed.",
+  "funding": 5,
+  "fundingNote": "Foreign funding heavily controlled by authorities.",
+  "est": true
+ },
+ "COD": {
+  "land": 20,
+  "landNote": "All land state-owned; foreigners get ordinary concessions (limited term); perpetual concessions for Congolese only.",
+  "entity": 30,
+  "entityNote": "ASBL needs Justice Ministry authorisation; slow.",
+  "funding": 45,
+  "fundingNote": "No explicit ban; insecurity and oversight.",
+  "est": true
+ },
+ "CAF": {
+  "land": 15,
+  "landNote": "Fragile state; weak land administration.",
+  "entity": 20,
+  "entityNote": "Association by declaration (French-style law); NGO status needs a ministry agreement; foreigners may found.",
+  "funding": 40,
+  "fundingNote": "No explicit ban; insecurity.",
+  "est": true
+ },
+ "HTI": {
+  "land": 20,
+  "landNote": "Constitution limits foreign ownership (one residence per district); weak titles; severe insecurity.",
+  "entity": 30,
+  "entityNote": "NGO registration with planning ministry; weak state capacity.",
+  "funding": 60,
+  "fundingNote": "No legal ban, but operating environment extremely insecure.",
+  "est": true
+ },
+ "SDN": {
+  "land": 3,
+  "landNote": "Civil war; no secure tenure.",
+  "entity": 8,
+  "entityNote": "Civil society heavily restricted.",
+  "funding": 8,
+  "fundingNote": "Foreign funding controlled; humanitarian access curtailed.",
+  "est": true
+ },
+ "ERI": {
+  "land": 1,
+  "landNote": "All land state-owned; no foreign tenure.",
+  "entity": 1,
+  "entityNote": "No independent NGOs permitted.",
+  "funding": 1,
+  "fundingNote": "Foreign NGOs expelled.",
+  "est": true
+ },
+ "SSD": {
+  "land": 8,
+  "landNote": "Land community-owned; foreigners lease only; conflict.",
+  "entity": 15,
+  "entityNote": "NGO Act 2016 restrictive.",
+  "funding": 25,
+  "fundingNote": "NGO Act limits admin spending; heavy oversight.",
+  "est": true
+ },
+ "SOM": {
+  "land": 5,
+  "landNote": "Fragile state; no secure land administration for foreigners.",
+  "entity": 15,
+  "entityNote": "Registration fragmented across federal/state levels.",
+  "funding": 40,
+  "fundingNote": "Few formal limits; insecurity dominates.",
+  "est": true
+ },
+ "_method": "0-100 sub-scores. land: freedom of a foreign-founded group to hold 50-2,000 ha rural land long-term (100 free freehold; 70 permit/caps; 40 local-majority entity or long lease; 15 short lease; 0 impossible). entity: ease of forming a nonprofit/co-op/foundation with foreign founders. funding: freedom to receive foreign donations. Scored from statutes and 2024-26 reports; est=true if unverified.",
+ "_sources": [
+  "abogados.com.ar - Ley de Tierras Rurales / DNU 70/2023 status (2024-2026)",
+  "https://www.anbariloche.com.ar/noticias/2026/10/07/119319-odarda-se-suma-al-reclamo-para-recuperar-la-ley-de-tierras-rurales",
+  "https://www.machadomeyer.com.br/en/recent-publications/publications/real-estate/new-bill-proposes-regulations-on-the-acquisition-of-rural-property-by-foreigners",
+  "https://insightplus.bakermckenzie.com/bm/projects/philippines-president-ferdinand-marcos-jr-signs-amendment-to-investors-lease-act",
+  "https://ft.lk/opinion/rules-pertaining-to-sale-or-lease-of-land-to-foreigners/14-349910",
+  "https://adaderana.lk/news/33288 (Sri Lanka lease tax removal)",
+  "https://jam-news.net/foreigners-will-no-longer-be-able-to-buy-land-in-georgia-after-16-december-what-does-the-new-law-say/",
+  "https://www.occrp.org/en/news/georgia-tightens-control-over-foreign-funding-for-ngos-and-media",
+  "https://www.hrw.org/news/2026/07/08/georgia-new-laws-devastate-independent-civic-groups",
+  "https://chapmantripp.com/trends-insights/revamped-overseas-investment-regime/",
+  "https://www.buddlefindlay.com/insights/flagship-overseas-investment-reforms-passed/",
+  "https://telex.hu/english/2025/06/04/hungarian-parliament-to-postpone-vote-on-russian-style-law-until-after-summer-recess",
+  "https://www.timesofisrael.com/ministers-vote-to-back-bill-levying-80-tax-on-foreign-state-funding-of-israeli-ngos/",
+  "https://www.mccarthy.ca/en/insights/blogs/lay-land/two-year-extension-prohibition-purchase-residential-property-non-canadians",
+  "https://legal500.com/developments/?p=37974 (Croatia agricultural land)",
+  "https://www.bangkokpost.com/property/2874558/legal-rejig-needed-for-foreign-land-leases",
+  "https://www.lexis.com.ec/noticias/ley-de-transparencia-social-promulgada-en-el-registro-oficial",
+  "https://latamjournalismreview.org/articles/peruvian-demands-official-clearance-for-foreign-funded-ngos-and-news-outlets/",
+  "https://www.thevillager.com.na/top-stories/2025/govt-seeks-to-prohibit-foreign-agricultural-land-ownership/",
+  "https://mg.co.za/news/africa/2025-10-08-namibia-tables-sweeping-land-bill-to-expand-farm-expropriation-powers/",
+  "https://practiceguidesdev.chambers.com/practice-guides/doing-business-in-2022/morocco",
+  "https://crhoy.com/mundo/el-salvador-aprueba-ley-de-bukele-que-grava-con-30-las-donaciones-a-las-ong/",
+  "https://www.nippon.com/en/news/yjj2026012300323",
+  "https://www.uaex.uada.edu/media-resources/news/2026/august/08-11-2026-ark-nalc-foreign-ownership.aspx",
+  "https://philea.eu/controversial-slovakian-ngo-bill-declared-unconstitutional/",
+  "https://www.idea.int/democracytracker/report/ethiopia/june-2025",
+  "https://www.jurist.org/news/2025/04/zimbabwe-president-signs-law-to-curb-civic-space/",
+  "https://monitor.civicus.org/explore/president-enacts-controversial-law-restricting-civil-society/ (Paraguay Law 7363)",
+  "https://emerhub.com/indonesia/foundation-in-indonesia/",
+  "https://nation.sc/articles/25439/removal-of-moratorium-on-purchase-of-residential-land-by-non-seychellois",
+  "https://landportal.org/library/resources/lex-faoc039063/land-control-act-chapter-3211 (Botswana)",
+  "https://resourcehub.bakermckenzie.com/en/resources/global-corporate-real-estate-guide/latin-america/mexico/topics/real-estate-law",
+  "https://roedl.com/insights/foreign-ownership-land-kenya",
+  "https://new.kenyalaw.org/akn/ke/act/1967/34",
+  "https://www.aljazeera.com/news/2021/2/25/kazakh-president-orders-ban-on-foreign-ownership-of-farmland",
+  "https://omct.org/en/resources/statements/kyrgyzstan-civil-society-under-threat-as-president-japarov-signs-repressive-foreign-representatives-law",
+  "https://multilaw.com/Multilaw/RealEstate/Real_Estate_Guide_Turkey.aspx",
+  "https://www.eng.civilstyrelsen.dk/acquisition-of-real-property/faq/how-do-you-find-out-if-you-need-permission-to-buy-real-property",
+  "https://www.lovguiden.dk/praksisoversigt/landbrugsejendomme-erhvervelse-bopaelspligt",
+  "https://law.ch/rechtsgebiet/baeuerliches-bodenrecht/",
+  "https://eng.lsm.lv/article/economy/economy/saeima-passes-law-restricting-farmland-sales-to-those-with-latvian-language.a236865/",
+  "https://baltic-lawfirm.eu (Lithuania agricultural land)",
+  "https://mondaq.com/real-estate/920844/ukrainian-parliament-approves-lifting-ban-on-the-sale-of-private-agricultural-land",
+  "https://cpj.org/2025/03/bosnian-serbs-adopt-foreign-agent-law-targeting-independent-media/",
+  "https://www.hrw.org/news/2026/07/17/india-new-foreign-funding-rules-tighten-control-over-civil-society-and-undermine",
+  "https://assets.kpmg.com/content/dam/kpmgsites/in/pdf/2026/06/KPMG-Flash-News-FCRA-Amendments-2026.pdf",
+  "https://foreigninvestment.gov.au (FIRB guidance notes)",
+  "https://sofiaglobe.com (Bulgaria farmland restrictions)",
+  "https://www.pwc.ro/en/tax-legal/alerts/the-law-no--175-2020---in-force-as-of-13-october-2020--establish.html",
+  "https://www.nik.gov.pl/en/news/how-foreigners-buy-agricultural-properties-in-poland.html",
+  "CIVICUS Monitor ratings (research/civicus_parsed.json) - cross-check for funding estimates",
+  "Background expert knowledge of national land/NGO statutes; ICNL Civic Freedom Monitor and World Bank Doing Business/B-READY used as general reference (not fetched per country)"
+ ]
+}

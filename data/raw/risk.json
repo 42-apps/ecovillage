@@ -1,0 +1,2963 @@
+{
+ "ESP": {
+  "ndgain": 61.7,
+  "ndgainVuln": 0.323,
+  "wri": 9.74,
+  "inform": 2.5,
+  "hazards": [
+   "wildfire",
+   "drought",
+   "extreme heat",
+   "flood",
+   "earthquake"
+  ],
+  "heat": 66,
+  "note": "Iberian hotspot: hotter, drier summers, 44°C+ heat in south, desertification, megafires & DANA floods (Valencia 2024); Atlantic north stays mild.",
+  "est": true
+ },
+ "CHE": {
+  "ndgain": 68.9,
+  "ndgainVuln": 0.296,
+  "wri": 1.15,
+  "inform": 1.9,
+  "hazards": [
+   "flood",
+   "landslide",
+   "earthquake",
+   "cold/snow",
+   "drought"
+  ],
+  "heat": 92,
+  "note": "Glacier loss threatens summer water & hydropower; more rockfall/landslides and heavy-rain floods; lowland heatwaves rising but climate stays mild.",
+  "est": true
+ },
+ "AUS": {
+  "ndgain": 67.9,
+  "ndgainVuln": 0.3,
+  "wri": 19.92,
+  "inform": 2.4,
+  "hazards": [
+   "wildfire",
+   "drought",
+   "extreme heat",
+   "flood",
+   "tropical cyclone"
+  ],
+  "heat": 55,
+  "note": "Megafire and multi-year drought risk rising; extreme heat in interior/north; temperate SE/SW coasts and Tasmania far more resilient.",
+  "est": true
+ },
+ "PRT": {
+  "ndgain": 61.0,
+  "ndgainVuln": 0.352,
+  "wri": 5.36,
+  "inform": 1.9,
+  "hazards": [
+   "wildfire",
+   "drought",
+   "extreme heat",
+   "earthquake",
+   "flood"
+  ],
+  "heat": 72,
+  "note": "Hotter, drier interior (Alentejo) with severe fire seasons & water stress; Atlantic coast and north stay milder; Lisbon quake/tsunami history.",
+  "est": true
+ },
+ "NZL": {
+  "ndgain": 66.2,
+  "ndgainVuln": 0.297,
+  "wri": 14.74,
+  "inform": 1.6,
+  "hazards": [
+   "earthquake",
+   "volcano",
+   "flood",
+   "landslide",
+   "tsunami"
+  ],
+  "heat": 98,
+  "note": "Mild maritime climate projected to stay comfortable; main risks are Alpine Fault/Hikurangi quakes, volcanism and heavier storms/floods.",
+  "est": false
+ },
+ "ITA": {
+  "ndgain": 62.2,
+  "ndgainVuln": 0.357,
+  "wri": 10.98,
+  "inform": 3.1,
+  "hazards": [
+   "earthquake",
+   "extreme heat",
+   "flood",
+   "drought",
+   "volcano"
+  ],
+  "heat": 70,
+  "note": "Mediterranean hotspot: 40°C+ summers in south & Po Valley, drought, wildfires; high quake, volcano and flood/landslide risk; Alpine north milder.",
+  "est": true
+ },
+ "JPN": {
+  "ndgain": 65.7,
+  "ndgainVuln": 0.353,
+  "wri": 22.69,
+  "inform": 2.0,
+  "hazards": [
+   "earthquake",
+   "tsunami",
+   "tropical cyclone",
+   "flood",
+   "volcano"
+  ],
+  "heat": 66,
+  "note": "Among highest quake/tsunami/typhoon exposure; humid summer heat rising fast in Kanto/Kansai; Hokkaido and Tohoku stay temperate.",
+  "est": true
+ },
+ "DEU": {
+  "ndgain": 69.2,
+  "ndgainVuln": 0.296,
+  "wri": 4.29,
+  "inform": 2.4,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 85,
+  "note": "Moderate risk: heavy-rain floods (Ahr 2021), summer droughts and heatwaves increasing; overall stays temperate and well-adapted.",
+  "est": false
+ },
+ "AUT": {
+  "ndgain": 67.8,
+  "ndgainVuln": 0.323,
+  "wri": 1.37,
+  "inform": 2.5,
+  "hazards": [
+   "flood",
+   "landslide",
+   "cold/snow",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 90,
+  "note": "Alpine glacier retreat, flash floods, landslides/avalanches; eastern lowlands (Vienna) get more heat & drought; climate remains mild.",
+  "est": true
+ },
+ "FRA": {
+  "ndgain": 65.9,
+  "ndgainVuln": 0.321,
+  "wri": 5.92,
+  "inform": 2.6,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood",
+   "wildfire",
+   "sea-level rise"
+  ],
+  "heat": 82,
+  "note": "Heatwaves (2003, 46°C in 2019) and drought growing in south; wildfire belt spreading north; Atlantic coast SLR/erosion; Brittany/north mild.",
+  "est": false
+ },
+ "DNK": {
+  "ndgain": 68.3,
+  "ndgainVuln": 0.342,
+  "wri": 1.13,
+  "inform": 1.5,
+  "hazards": [
+   "sea-level rise",
+   "flood"
+  ],
+  "heat": 98,
+  "note": "Low-lying coasts face sea-level rise and storm surge; cloudburst floods; otherwise a mild, stable maritime climate.",
+  "est": false
+ },
+ "TWN": {
+  "ndgain": 67.0,
+  "ndgainVuln": 0.36,
+  "wri": 19.3,
+  "inform": 2.2,
+  "hazards": [
+   "earthquake",
+   "tropical cyclone",
+   "flood",
+   "landslide",
+   "tsunami"
+  ],
+  "heat": 50,
+  "note": "Very high quake & typhoon exposure, landslides; hot humid lowland summers intensifying. Index values estimated (not in ND-GAIN/WRI/INFORM).",
+  "est": true
+ },
+ "NLD": {
+  "ndgain": 64.4,
+  "ndgainVuln": 0.371,
+  "wri": 4.5,
+  "inform": 2.5,
+  "hazards": [
+   "sea-level rise",
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 91,
+  "note": "A quarter of land below sea level: long-term SLR is the defining risk, managed by world-class dikes; climate stays mild.",
+  "est": true
+ },
+ "GBR": {
+  "ndgain": 68.6,
+  "ndgainVuln": 0.282,
+  "wri": 4.95,
+  "inform": 2.2,
+  "hazards": [
+   "flood",
+   "sea-level rise",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 98,
+  "note": "Mild maritime climate stays comfortable; risks are river/coastal flooding, erosion & SLR, and occasional heatwaves (40°C in 2022).",
+  "est": false
+ },
+ "NOR": {
+  "ndgain": 71.8,
+  "ndgainVuln": 0.263,
+  "wri": 2.66,
+  "inform": 2.0,
+  "hazards": [
+   "landslide",
+   "flood",
+   "cold/snow",
+   "sea-level rise"
+  ],
+  "heat": 97,
+  "note": "Very low climate stress; landslides/avalanches, rockslide-generated fjord tsunamis and heavier rain floods; long dark winters.",
+  "est": false
+ },
+ "USA": {
+  "ndgain": 65.7,
+  "ndgainVuln": 0.317,
+  "wri": 24.17,
+  "inform": 3.3,
+  "hazards": [
+   "tropical cyclone",
+   "wildfire",
+   "flood",
+   "earthquake",
+   "extreme heat"
+  ],
+  "heat": 62,
+  "note": "Big regional spread: Gulf/Atlantic hurricanes, western fire & drought, CA/PNW quakes, southern heat; Pacific NW & New England most resilient.",
+  "est": true
+ },
+ "KOR": {
+  "ndgain": 68.3,
+  "ndgainVuln": 0.356,
+  "wri": 10.2,
+  "inform": 2.0,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "extreme heat",
+   "landslide"
+  ],
+  "heat": 70,
+  "note": "Typhoons and monsoon floods; humid summer heat intensifying; low-moderate quake risk; very high adaptive capacity.",
+  "est": true
+ },
+ "CAN": {
+  "ndgain": 68.0,
+  "ndgainVuln": 0.282,
+  "wri": 19.48,
+  "inform": 2.6,
+  "hazards": [
+   "wildfire",
+   "flood",
+   "cold/snow",
+   "earthquake"
+  ],
+  "heat": 88,
+  "note": "Warming ~2x global but stays cool; record wildfire seasons (2023) and floods; BC quake/Cascadia risk; long harsh winters.",
+  "est": false
+ },
+ "BEL": {
+  "ndgain": 62.0,
+  "ndgainVuln": 0.366,
+  "wri": 4.61,
+  "inform": 2.6,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "sea-level rise"
+  ],
+  "heat": 89,
+  "note": "Mild maritime climate; flash floods (2021) and low-lying coastal SLR exposure; occasional heatwaves.",
+  "est": false
+ },
+ "HKG": {
+  "ndgain": 68.5,
+  "ndgainVuln": 0.37,
+  "wri": 6.5,
+  "inform": 1.7,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "landslide",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 29,
+  "note": "Super-typhoons, storm surge and SLR on a dense coast; intense humid heat rising. Index values estimated (not in ND-GAIN/WRI/INFORM).",
+  "est": true
+ },
+ "ISL": {
+  "ndgain": 64.7,
+  "ndgainVuln": 0.315,
+  "wri": 2.37,
+  "inform": 1.6,
+  "hazards": [
+   "volcano",
+   "earthquake",
+   "cold/snow",
+   "landslide",
+   "flood"
+  ],
+  "heat": 95,
+  "note": "Active volcanism (Reykjanes eruptions since 2021), quakes, glacial outburst floods; cool climate warming, no heat risk.",
+  "est": false
+ },
+ "SWE": {
+  "ndgain": 67.9,
+  "ndgainVuln": 0.323,
+  "wri": 3.3,
+  "inform": 2.7,
+  "hazards": [
+   "wildfire",
+   "flood",
+   "cold/snow"
+  ],
+  "heat": 98,
+  "note": "Very low climate stress; milder winters, more forest fires (2018) and floods; long dark winters in the north.",
+  "est": false
+ },
+ "GRC": {
+  "ndgain": 60.4,
+  "ndgainVuln": 0.356,
+  "wri": 10.1,
+  "inform": 2.9,
+  "hazards": [
+   "wildfire",
+   "extreme heat",
+   "earthquake",
+   "drought",
+   "flood"
+  ],
+  "heat": 62,
+  "note": "Severe heatwaves & megafires (2021, 2023), drought, Storm Daniel floods (2023); high quake risk; Med warming faster than global mean.",
+  "est": true
+ },
+ "ISR": {
+  "ndgain": 59.8,
+  "ndgainVuln": 0.344,
+  "wri": 4.43,
+  "inform": 3.3,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "earthquake",
+   "wildfire"
+  ],
+  "heat": 48,
+  "note": "Hot and increasingly arid; heatwaves and water scarcity (offset by desalination); Dead Sea Transform quake risk.",
+  "est": true
+ },
+ "FIN": {
+  "ndgain": 71.1,
+  "ndgainVuln": 0.306,
+  "wri": 1.59,
+  "inform": 2.0,
+  "hazards": [
+   "cold/snow",
+   "flood",
+   "wildfire"
+  ],
+  "heat": 98,
+  "note": "Among lowest climate stress anywhere; spring floods, forest fires, long cold winters that are becoming milder.",
+  "est": false
+ },
+ "LUX": {
+  "ndgain": 66.0,
+  "ndgainVuln": 0.341,
+  "wri": 0.45,
+  "inform": 1.0,
+  "hazards": [
+   "flood",
+   "extreme heat"
+  ],
+  "heat": 85,
+  "note": "Low risk: river/flash floods (2021) and occasional heatwaves; mild climate.",
+  "est": false
+ },
+ "IRL": {
+  "ndgain": 64.4,
+  "ndgainVuln": 0.317,
+  "wri": 3.32,
+  "inform": 2.3,
+  "hazards": [
+   "flood",
+   "sea-level rise"
+  ],
+  "heat": 98,
+  "note": "Mild, wet maritime climate staying comfortable; risks are coastal flooding/erosion, Atlantic storms and heavier rain.",
+  "est": false
+ },
+ "SMR": {
+  "ndgain": 63.5,
+  "ndgainVuln": 0.345,
+  "wri": 0.33,
+  "inform": 1.3,
+  "hazards": [
+   "earthquake",
+   "landslide",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 84,
+  "note": "Small hilltop state: Apennine quake & landslide risk, hotter drier summers. ND-GAIN/INFORM estimated (not covered).",
+  "est": true
+ },
+ "SYC": {
+  "ndgain": 48.7,
+  "ndgainVuln": 0.428,
+  "wri": 1.89,
+  "inform": 1.5,
+  "hazards": [
+   "sea-level rise",
+   "flood",
+   "landslide",
+   "tsunami"
+  ],
+  "heat": 56,
+  "note": "Granitic islands with narrow coastal plains exposed to SLR, coral bleaching, flash floods; outside main cyclone belt.",
+  "est": false
+ },
+ "HRV": {
+  "ndgain": 57.1,
+  "ndgainVuln": 0.399,
+  "wri": 4.84,
+  "inform": 2.5,
+  "hazards": [
+   "earthquake",
+   "wildfire",
+   "flood",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 78,
+  "note": "Adriatic coast faces hotter summers and wildfires; Zagreb/Petrinja quakes (2020); inland river floods.",
+  "est": false
+ },
+ "POL": {
+  "ndgain": 62.8,
+  "ndgainVuln": 0.314,
+  "wri": 5.77,
+  "inform": 2.4,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 83,
+  "note": "Moderate: river floods (2024), worsening summer droughts and heatwaves; continental climate stays fairly mild.",
+  "est": false
+ },
+ "AND": {
+  "ndgain": 63.0,
+  "ndgainVuln": 0.351,
+  "wri": 0.33,
+  "inform": 1.1,
+  "hazards": [
+   "landslide",
+   "flood",
+   "cold/snow",
+   "wildfire"
+  ],
+  "heat": 92,
+  "note": "Pyrenean microstate: avalanches, floods, landslides; shrinking snow cover; cool mountain climate. INFORM estimated.",
+  "est": true
+ },
+ "CZE": {
+  "ndgain": 65.1,
+  "ndgainVuln": 0.305,
+  "wri": 1.23,
+  "inform": 1.9,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 83,
+  "note": "River floods (2002, 2024), drought and forest dieback; heatwaves rising but climate remains temperate.",
+  "est": false
+ },
+ "CYP": {
+  "ndgain": 57.5,
+  "ndgainVuln": 0.355,
+  "wri": 3.15,
+  "inform": 2.9,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "wildfire",
+   "earthquake"
+  ],
+  "heat": 50,
+  "note": "Eastern Med hotspot: 40°C+ summers, severe water scarcity and wildfires; moderate quake risk.",
+  "est": true
+ },
+ "SVN": {
+  "ndgain": 63.2,
+  "ndgainVuln": 0.344,
+  "wri": 3.7,
+  "inform": 1.9,
+  "hazards": [
+   "flood",
+   "earthquake",
+   "landslide",
+   "extreme heat"
+  ],
+  "heat": 87,
+  "note": "Extreme floods (2023) and landslides; moderate quake risk; hotter summers but mostly mild alpine/continental climate.",
+  "est": false
+ },
+ "BRB": {
+  "ndgain": 58.6,
+  "ndgainVuln": 0.397,
+  "wri": 3.88,
+  "inform": 1.9,
+  "hazards": [
+   "tropical cyclone",
+   "sea-level rise",
+   "flood",
+   "drought"
+  ],
+  "heat": 57,
+  "note": "Hurricane exposure (Beryl 2024 passed close), coastal erosion & SLR, water scarcity; humid heat rising, trade winds help.",
+  "est": false
+ },
+ "MUS": {
+  "ndgain": 51.2,
+  "ndgainVuln": 0.455,
+  "wri": 3.06,
+  "inform": 2.0,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 78,
+  "note": "Intense cyclones and flash floods; coastal SLR and reef loss; central plateau stays relatively mild.",
+  "est": true
+ },
+ "SGP": {
+  "ndgain": 68.5,
+  "ndgainVuln": 0.379,
+  "wri": 0.72,
+  "inform": 0.7,
+  "hazards": [
+   "sea-level rise",
+   "extreme heat",
+   "flood"
+  ],
+  "heat": 41,
+  "note": "No quakes/cyclones, but persistent humid heat (rising wet-bulb) and long-term sea-level rise for a low-lying city-state.",
+  "est": false
+ },
+ "BHS": {
+  "ndgain": 48.7,
+  "ndgainVuln": 0.447,
+  "wri": 4.04,
+  "inform": 2.3,
+  "hazards": [
+   "tropical cyclone",
+   "sea-level rise",
+   "flood"
+  ],
+  "heat": 48,
+  "note": "Very low-lying; major-hurricane exposure (Dorian 2019) and sea-level rise threaten much of the land area long-term.",
+  "est": false
+ },
+ "ATG": {
+  "ndgain": 47.8,
+  "ndgainVuln": 0.485,
+  "wri": 3.3,
+  "inform": 2.1,
+  "hazards": [
+   "tropical cyclone",
+   "sea-level rise",
+   "drought",
+   "flood"
+  ],
+  "heat": 59,
+  "note": "Hurricanes (Irma 2017 devastated Barbuda), drought and water scarcity, coastal SLR.",
+  "est": false
+ },
+ "CRI": {
+  "ndgain": 54.5,
+  "ndgainVuln": 0.387,
+  "wri": 12.14,
+  "inform": 4.0,
+  "hazards": [
+   "earthquake",
+   "volcano",
+   "flood",
+   "landslide",
+   "tsunami"
+  ],
+  "heat": 76,
+  "note": "Active quake/volcano zone, floods/landslides; mild Central Valley highlands; Pacific north drying.",
+  "est": true
+ },
+ "ROU": {
+  "ndgain": 56.0,
+  "ndgainVuln": 0.398,
+  "wri": 3.3,
+  "inform": 2.8,
+  "hazards": [
+   "earthquake",
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 72,
+  "note": "Vrancea quake risk (Bucharest), river floods, growing south-east drought and heat; Carpathian areas stay mild.",
+  "est": true
+ },
+ "MAC": {
+  "ndgain": 64.0,
+  "ndgainVuln": 0.39,
+  "wri": 7.5,
+  "inform": 1.6,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 25,
+  "note": "Typhoon surge (Hato 2017) on low reclaimed land, SLR, intense humid heat. Index values estimated (not in ND-GAIN/WRI/INFORM).",
+  "est": true
+ },
+ "URY": {
+  "ndgain": 54.7,
+  "ndgainVuln": 0.394,
+  "wri": 5.1,
+  "inform": 2.5,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 77,
+  "note": "Temperate; main risks are drought (2023 water crisis), river floods and storms; no quakes or volcanoes.",
+  "est": false
+ },
+ "TTO": {
+  "ndgain": 47.1,
+  "ndgainVuln": 0.386,
+  "wri": 4.57,
+  "inform": 2.9,
+  "hazards": [
+   "flood",
+   "landslide",
+   "earthquake",
+   "tropical cyclone",
+   "sea-level rise"
+  ],
+  "heat": 60,
+  "note": "Flooding and landslides, moderate quakes; south of main hurricane belt; humid heat increasing.",
+  "est": false
+ },
+ "ARG": {
+  "ndgain": 50.4,
+  "ndgainVuln": 0.408,
+  "wri": 15.67,
+  "inform": 3.9,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat",
+   "earthquake",
+   "wildfire"
+  ],
+  "heat": 68,
+  "note": "Pampas floods & droughts, rising heatwaves in north/Buenos Aires; Andean quake zone; Patagonia cool and windy.",
+  "est": true
+ },
+ "BRN": {
+  "ndgain": 49.6,
+  "ndgainVuln": 0.424,
+  "wri": 2.07,
+  "inform": 2.3,
+  "hazards": [
+   "flood",
+   "landslide",
+   "extreme heat",
+   "wildfire"
+  ],
+  "heat": 46,
+  "note": "Equatorial humid heat rising; floods, landslides, haze from forest fires; no quakes or cyclones.",
+  "est": false
+ },
+ "BGR": {
+  "ndgain": 56.3,
+  "ndgainVuln": 0.361,
+  "wri": 2.34,
+  "inform": 2.7,
+  "hazards": [
+   "earthquake",
+   "flood",
+   "drought",
+   "extreme heat",
+   "wildfire"
+  ],
+  "heat": 76,
+  "note": "Moderate quake risk, river floods, increasing summer drought, heat and wildfires; mountain areas stay cooler.",
+  "est": false
+ },
+ "EST": {
+  "ndgain": 62.4,
+  "ndgainVuln": 0.361,
+  "wri": 1.99,
+  "inform": 1.9,
+  "hazards": [
+   "flood",
+   "sea-level rise",
+   "cold/snow"
+  ],
+  "heat": 98,
+  "note": "Very low climate stress; coastal storm floods, milder winters; resilient boreal forests.",
+  "est": false
+ },
+ "GRD": {
+  "ndgain": 55.2,
+  "ndgainVuln": 0.425,
+  "wri": 2.88,
+  "inform": 2.8,
+  "hazards": [
+   "tropical cyclone",
+   "sea-level rise",
+   "landslide",
+   "flood"
+  ],
+  "heat": 54,
+  "note": "Hurricanes (Ivan 2004; Beryl 2024 devastated Carriacou), coastal SLR and landslides.",
+  "est": false
+ },
+ "SVK": {
+  "ndgain": 58.3,
+  "ndgainVuln": 0.367,
+  "wri": 1.03,
+  "inform": 2.8,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat",
+   "landslide"
+  ],
+  "heat": 82,
+  "note": "Moderate: river floods, drought, heat in southern lowlands; mountainous north stays cool.",
+  "est": false
+ },
+ "MYS": {
+  "ndgain": 55.0,
+  "ndgainVuln": 0.365,
+  "wri": 12.9,
+  "inform": 3.2,
+  "hazards": [
+   "flood",
+   "landslide",
+   "extreme heat",
+   "sea-level rise"
+  ],
+  "heat": 48,
+  "note": "Monsoon floods and landslides; humid equatorial heat rising; little quake/cyclone risk; Cameron/Genting highlands milder.",
+  "est": true
+ },
+ "CHL": {
+  "ndgain": 60.1,
+  "ndgainVuln": 0.347,
+  "wri": 14.46,
+  "inform": 3.1,
+  "hazards": [
+   "earthquake",
+   "tsunami",
+   "volcano",
+   "wildfire",
+   "drought"
+  ],
+  "heat": 92,
+  "note": "Megaquake/tsunami/volcano zone; central megadrought and wildfires (2024); mild Mediterranean-to-cool climate.",
+  "est": true
+ },
+ "ARE": {
+  "ndgain": 53.7,
+  "ndgainVuln": 0.416,
+  "wri": 8.53,
+  "inform": 2.3,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "sea-level rise",
+   "flood"
+  ],
+  "heat": 3,
+  "note": "Among hottest humid coasts on Earth; projected wet-bulb extremes near survivability limits; fully desalination-dependent.",
+  "est": false
+ },
+ "MLT": {
+  "ndgain": 56.8,
+  "ndgainVuln": 0.351,
+  "wri": 0.98,
+  "inform": 1.6,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "sea-level rise"
+  ],
+  "heat": 62,
+  "note": "Hot humid summers getting hotter, severe water scarcity (desalination), coastal SLR; tiny land area.",
+  "est": true
+ },
+ "BRA": {
+  "ndgain": 50.7,
+  "ndgainVuln": 0.366,
+  "wri": 12.85,
+  "inform": 4.6,
+  "hazards": [
+   "flood",
+   "drought",
+   "landslide",
+   "extreme heat",
+   "wildfire"
+  ],
+  "heat": 52,
+  "note": "Floods/landslides (RS 2024), Amazon & Pantanal drought and fire; south and SE highlands milder; no quakes or cyclones.",
+  "est": true
+ },
+ "MDV": {
+  "ndgain": 43.6,
+  "ndgainVuln": 0.534,
+  "wri": 1.51,
+  "inform": 2.2,
+  "hazards": [
+   "sea-level rise",
+   "flood",
+   "tsunami"
+  ],
+  "heat": 40,
+  "note": "Average elevation ~1 m: existential long-term sea-level-rise risk; tsunami (2004); persistent humid heat.",
+  "est": false
+ },
+ "MEX": {
+  "ndgain": 47.6,
+  "ndgainVuln": 0.412,
+  "wri": 39.18,
+  "inform": 4.9,
+  "hazards": [
+   "earthquake",
+   "tropical cyclone",
+   "drought",
+   "extreme heat",
+   "volcano"
+  ],
+  "heat": 53,
+  "note": "Major quakes, hurricanes on both coasts, severe drought/water stress in north & centre; mild central highlands.",
+  "est": false
+ },
+ "ECU": {
+  "ndgain": 43.6,
+  "ndgainVuln": 0.476,
+  "wri": 20.8,
+  "inform": 5.8,
+  "hazards": [
+   "earthquake",
+   "volcano",
+   "flood",
+   "tsunami",
+   "landslide"
+  ],
+  "heat": 76,
+  "note": "Very active quake/volcano zone, El Niño floods/landslides; Andean highlands (Quito, Cuenca) stay mild.",
+  "est": true
+ },
+ "BTN": {
+  "ndgain": 44.3,
+  "ndgainVuln": 0.528,
+  "wri": 1.14,
+  "inform": 2.8,
+  "hazards": [
+   "flood",
+   "landslide",
+   "earthquake"
+  ],
+  "heat": 88,
+  "note": "Glacial lake outburst floods, landslides, quakes; mountain climate stays mild; carbon-negative country.",
+  "est": true
+ },
+ "CUB": {
+  "ndgain": 43.4,
+  "ndgainVuln": 0.457,
+  "wri": 6.61,
+  "inform": 3.5,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "sea-level rise",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 46,
+  "note": "Frequent hurricanes, storm surge and SLR on low coasts, drought; humid heat rising.",
+  "est": false
+ },
+ "THA": {
+  "ndgain": 45.4,
+  "ndgainVuln": 0.443,
+  "wri": 21.15,
+  "inform": 4.9,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "drought",
+   "sea-level rise",
+   "tsunami"
+  ],
+  "heat": 21,
+  "note": "Severe humid heat projected; major river floods (2011), Bangkok subsidence & SLR; Andaman tsunami risk.",
+  "est": false
+ },
+ "LTU": {
+  "ndgain": 60.2,
+  "ndgainVuln": 0.374,
+  "wri": 2.48,
+  "inform": 2.1,
+  "hazards": [
+   "flood",
+   "drought"
+  ],
+  "heat": 89,
+  "note": "Very low hazard exposure; occasional floods, droughts and storms; temperate climate stays comfortable.",
+  "est": false
+ },
+ "GEO": {
+  "ndgain": 55.3,
+  "ndgainVuln": 0.413,
+  "wri": 4.06,
+  "inform": 3.4,
+  "hazards": [
+   "earthquake",
+   "landslide",
+   "flood",
+   "drought"
+  ],
+  "heat": 82,
+  "note": "Caucasus quakes, landslides/mudflows; hotter Tbilisi summers; diverse mild climates incl. humid Black Sea coast.",
+  "est": true
+ },
+ "KNA": {
+  "ndgain": 57.3,
+  "ndgainVuln": 0.473,
+  "wri": 2.49,
+  "inform": 1.8,
+  "hazards": [
+   "tropical cyclone",
+   "sea-level rise",
+   "drought",
+   "volcano"
+  ],
+  "heat": 59,
+  "note": "Hurricane exposure, coastal SLR, water scarcity; dormant volcanoes; trade winds temper humid heat.",
+  "est": false
+ },
+ "TUR": {
+  "ndgain": 53.8,
+  "ndgainVuln": 0.396,
+  "wri": 14.56,
+  "inform": 5.2,
+  "hazards": [
+   "earthquake",
+   "wildfire",
+   "drought",
+   "extreme heat",
+   "flood"
+  ],
+  "heat": 62,
+  "note": "Very high quake risk (2023 M7.8); worsening drought and wildfires; hot south-east; Black Sea coast and highlands milder.",
+  "est": true
+ },
+ "PER": {
+  "ndgain": 48.3,
+  "ndgainVuln": 0.418,
+  "wri": 21.31,
+  "inform": 4.9,
+  "hazards": [
+   "earthquake",
+   "tsunami",
+   "flood",
+   "landslide",
+   "drought"
+  ],
+  "heat": 72,
+  "note": "Megaquake/tsunami risk, El Niño floods/landslides, glacier loss threatening water; Lima coast mild.",
+  "est": true
+ },
+ "HUN": {
+  "ndgain": 57.4,
+  "ndgainVuln": 0.38,
+  "wri": 0.82,
+  "inform": 2.2,
+  "hazards": [
+   "drought",
+   "extreme heat",
+   "flood"
+  ],
+  "heat": 71,
+  "note": "Great Plain drought & desertification risk, more heatwaves; Danube/Tisza floods; no major quakes.",
+  "est": false
+ },
+ "LCA": {
+  "ndgain": 53.6,
+  "ndgainVuln": 0.345,
+  "wri": 2.67,
+  "inform": 2.4,
+  "hazards": [
+   "tropical cyclone",
+   "landslide",
+   "flood",
+   "sea-level rise"
+  ],
+  "heat": 58,
+  "note": "Hurricanes, landslides and flash floods on steep terrain; coastal SLR.",
+  "est": false
+ },
+ "TON": {
+  "ndgain": 37.9,
+  "ndgainVuln": 0.595,
+  "wri": 5.65,
+  "inform": 3.0,
+  "hazards": [
+   "tropical cyclone",
+   "tsunami",
+   "earthquake",
+   "volcano",
+   "sea-level rise"
+  ],
+  "heat": 70,
+  "note": "Cyclones, tsunami (Hunga Tonga eruption 2022), quakes; low-lying islands face SLR.",
+  "est": true
+ },
+ "OMN": {
+  "ndgain": 49.3,
+  "ndgainVuln": 0.45,
+  "wri": 8.46,
+  "inform": 2.3,
+  "hazards": [
+   "extreme heat",
+   "tropical cyclone",
+   "drought",
+   "flood"
+  ],
+  "heat": 6,
+  "note": "Extreme heat; coast projected near humid-heat survivability limits; Arabian Sea cyclones (Shaheen 2021); water scarce.",
+  "est": false
+ },
+ "WSM": {
+  "ndgain": 40.1,
+  "ndgainVuln": 0.538,
+  "wri": 4.98,
+  "inform": 2.7,
+  "hazards": [
+   "tropical cyclone",
+   "tsunami",
+   "earthquake",
+   "sea-level rise"
+  ],
+  "heat": 74,
+  "note": "Cyclones, tsunamis (2009), coastal SLR; moderate humid tropical heat.",
+  "est": false
+ },
+ "ARM": {
+  "ndgain": 53.2,
+  "ndgainVuln": 0.394,
+  "wri": 2.66,
+  "inform": 3.2,
+  "hazards": [
+   "earthquake",
+   "landslide",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 80,
+  "note": "High quake risk (Spitak 1988), drought and hot Yerevan summers; highland climate otherwise mild.",
+  "est": true
+ },
+ "SAU": {
+  "ndgain": 51.1,
+  "ndgainVuln": 0.471,
+  "wri": 9.02,
+  "inform": 3.1,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 11,
+  "note": "Extreme dry heat; Gulf & Red Sea coasts near humid-heat limits; acute water scarcity; flash floods.",
+  "est": false
+ },
+ "VCT": {
+  "ndgain": 52.7,
+  "ndgainVuln": 0.418,
+  "wri": 2.64,
+  "inform": 2.9,
+  "hazards": [
+   "tropical cyclone",
+   "volcano",
+   "landslide",
+   "sea-level rise"
+  ],
+  "heat": 56,
+  "note": "Hurricanes (Beryl 2024), La Soufrière eruption (2021), landslides and coastal SLR.",
+  "est": false
+ },
+ "BHR": {
+  "ndgain": 48.3,
+  "ndgainVuln": 0.499,
+  "wri": 0.87,
+  "inform": 1.8,
+  "hazards": [
+   "extreme heat",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 5,
+  "note": "Extreme humid heat; low-lying island exposed to SLR; no surface water.",
+  "est": false
+ },
+ "PLW": {
+  "ndgain": 55.0,
+  "ndgainVuln": 0.482,
+  "wri": 2.19,
+  "inform": 2.2,
+  "hazards": [
+   "tropical cyclone",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 45,
+  "note": "Typhoons, sea-level rise and coral bleaching; humid heat; drought in El Niño years.",
+  "est": false
+ },
+ "MCO": {
+  "ndgain": 66.2,
+  "ndgainVuln": 0.39,
+  "wri": 0.21,
+  "inform": 1.0,
+  "hazards": [
+   "extreme heat",
+   "sea-level rise",
+   "landslide",
+   "earthquake"
+  ],
+  "heat": 82,
+  "note": "Dense coastal microstate: Mediterranean heatwaves, storm surge and SLR; minor quake risk. INFORM estimated.",
+  "est": true
+ },
+ "DMA": {
+  "ndgain": 58.5,
+  "ndgainVuln": 0.442,
+  "wri": 3.43,
+  "inform": 2.6,
+  "hazards": [
+   "tropical cyclone",
+   "landslide",
+   "volcano",
+   "flood"
+  ],
+  "heat": 62,
+  "note": "Hurricane Maria (2017) devastation, landslides, many volcanic centres; aims to be first climate-resilient nation.",
+  "est": true
+ },
+ "QAT": {
+  "ndgain": 52.2,
+  "ndgainVuln": 0.418,
+  "wri": 0.94,
+  "inform": 1.5,
+  "hazards": [
+   "extreme heat",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 3,
+  "note": "Among hottest, most humid places; projected wet-bulb extremes near survivability; fully desalination-dependent.",
+  "est": false
+ },
+ "LVA": {
+  "ndgain": 60.1,
+  "ndgainVuln": 0.387,
+  "wri": 3.19,
+  "inform": 2.6,
+  "hazards": [
+   "flood",
+   "drought"
+  ],
+  "heat": 95,
+  "note": "Very low hazard exposure; spring floods and storms; temperate climate stays comfortable.",
+  "est": false
+ },
+ "SUR": {
+  "ndgain": 46.4,
+  "ndgainVuln": 0.442,
+  "wri": 6.26,
+  "inform": 3.1,
+  "hazards": [
+   "flood",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 51,
+  "note": "Low coastal plain (Paramaribo) highly exposed to sea-level rise and floods; humid heat; no cyclones or quakes.",
+  "est": false
+ },
+ "IND": {
+  "ndgain": 44.4,
+  "ndgainVuln": 0.475,
+  "wri": 44.97,
+  "inform": 5.2,
+  "hazards": [
+   "extreme heat",
+   "flood",
+   "tropical cyclone",
+   "drought",
+   "earthquake"
+  ],
+  "heat": 18,
+  "note": "Among world's highest heat stress: wet-bulb extremes on plains, monsoon floods, cyclones, Himalayan quakes; hill regions milder.",
+  "est": false
+ },
+ "PAN": {
+  "ndgain": 47.5,
+  "ndgainVuln": 0.428,
+  "wri": 18.18,
+  "inform": 4.0,
+  "hazards": [
+   "flood",
+   "earthquake",
+   "landslide",
+   "drought"
+  ],
+  "heat": 60,
+  "note": "Outside hurricane belt; floods, landslides, moderate quakes; drought hit the canal (2023); very humid heat.",
+  "est": true
+ },
+ "COL": {
+  "ndgain": 50.5,
+  "ndgainVuln": 0.407,
+  "wri": 39.8,
+  "inform": 5.3,
+  "hazards": [
+   "flood",
+   "landslide",
+   "earthquake",
+   "volcano",
+   "drought"
+  ],
+  "heat": 64,
+  "note": "Floods/landslides, Andean quakes and volcanoes; Andean cities (Bogotá, Medellín) mild; lowlands hot-humid.",
+  "est": true
+ },
+ "CHN": {
+  "ndgain": 53.0,
+  "ndgainVuln": 0.394,
+  "wri": 29.54,
+  "inform": 2.9,
+  "hazards": [
+   "flood",
+   "earthquake",
+   "extreme heat",
+   "drought",
+   "tropical cyclone"
+  ],
+  "heat": 55,
+  "note": "East China humid heat & floods intensifying, northern drought, high quake risk, SE-coast typhoons; vast range of climates.",
+  "est": true
+ },
+ "VNM": {
+  "ndgain": 45.9,
+  "ndgainVuln": 0.499,
+  "wri": 24.83,
+  "inform": 3.9,
+  "hazards": [
+   "flood",
+   "tropical cyclone",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 36,
+  "note": "Mekong Delta among most SLR-threatened regions; typhoons, floods, humid heat; northern highlands milder.",
+  "est": false
+ },
+ "LKA": {
+  "ndgain": 45.5,
+  "ndgainVuln": 0.436,
+  "wri": 7.57,
+  "inform": 3.4,
+  "hazards": [
+   "flood",
+   "landslide",
+   "tropical cyclone",
+   "tsunami",
+   "drought"
+  ],
+  "heat": 38,
+  "note": "Monsoon floods, landslides, 2004 tsunami; humid heat on coasts; hill country (Kandy, Nuwara Eliya) milder.",
+  "est": true
+ },
+ "SEN": {
+  "ndgain": 42.3,
+  "ndgainVuln": 0.529,
+  "wri": 5.86,
+  "inform": 4.6,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "sea-level rise",
+   "flood"
+  ],
+  "heat": 22,
+  "note": "Sahelian heat and drought inland; coastal erosion/SLR threatens Saint-Louis; Dakar's Atlantic coast notably milder.",
+  "est": true
+ },
+ "XKX": {
+  "ndgain": 49.5,
+  "ndgainVuln": 0.43,
+  "wri": 2.0,
+  "inform": 3.0,
+  "hazards": [
+   "earthquake",
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 76,
+  "note": "Moderate quake & flood risk, hotter drier summers. Index values estimated (not in ND-GAIN/WRI/INFORM).",
+  "est": true
+ },
+ "VUT": {
+  "ndgain": 37.7,
+  "ndgainVuln": 0.547,
+  "wri": 11.54,
+  "inform": 4.3,
+  "hazards": [
+   "tropical cyclone",
+   "earthquake",
+   "volcano",
+   "tsunami",
+   "sea-level rise"
+  ],
+  "heat": 73,
+  "note": "One of most disaster-exposed nations: cyclones (Pam 2015), quakes, volcanoes, tsunamis, SLR.",
+  "est": false
+ },
+ "MNE": {
+  "ndgain": 52.1,
+  "ndgainVuln": 0.421,
+  "wri": 2.81,
+  "inform": 2.6,
+  "hazards": [
+   "earthquake",
+   "flood",
+   "wildfire",
+   "landslide"
+  ],
+  "heat": 80,
+  "note": "Adriatic quake risk (1979), floods and summer wildfires; mountain hinterland stays mild.",
+  "est": true
+ },
+ "ZAF": {
+  "ndgain": 44.0,
+  "ndgainVuln": 0.436,
+  "wri": 15.08,
+  "inform": 5.2,
+  "hazards": [
+   "drought",
+   "flood",
+   "wildfire",
+   "extreme heat"
+  ],
+  "heat": 74,
+  "note": "Recurring drought (Cape Town 2018), floods (KZN 2022), wildfire; interior heat rising; Cape coasts moderate.",
+  "est": false
+ },
+ "CPV": {
+  "ndgain": 45.1,
+  "ndgainVuln": 0.478,
+  "wri": 1.52,
+  "inform": 2.4,
+  "hazards": [
+   "drought",
+   "volcano",
+   "sea-level rise",
+   "flood"
+  ],
+  "heat": 80,
+  "note": "Chronic drought & water scarcity, Fogo volcano, coastal SLR; tempered by trade winds and a cool current.",
+  "est": true
+ },
+ "IDN": {
+  "ndgain": 48.3,
+  "ndgainVuln": 0.431,
+  "wri": 44.63,
+  "inform": 4.5,
+  "hazards": [
+   "earthquake",
+   "tsunami",
+   "volcano",
+   "flood",
+   "landslide"
+  ],
+  "heat": 48,
+  "note": "Extreme quake/tsunami/volcano exposure, floods; Jakarta sinking & SLR; humid heat rising; highlands milder.",
+  "est": true
+ },
+ "KWT": {
+  "ndgain": 49.2,
+  "ndgainVuln": 0.435,
+  "wri": 2.29,
+  "inform": 3.0,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "sea-level rise"
+  ],
+  "heat": 4,
+  "note": "Among highest temperatures on Earth (~54°C); projected among most extreme heat; full water-import dependence.",
+  "est": false
+ },
+ "BOL": {
+  "ndgain": 42.9,
+  "ndgainVuln": 0.453,
+  "wri": 3.17,
+  "inform": 4.9,
+  "hazards": [
+   "drought",
+   "flood",
+   "wildfire",
+   "landslide",
+   "cold/snow"
+  ],
+  "heat": 60,
+  "note": "Glacier loss threatens La Paz water; Amazon/Chiquitania fires & floods; Altiplano cold, lowlands hot.",
+  "est": true
+ },
+ "JAM": {
+  "ndgain": 47.5,
+  "ndgainVuln": 0.451,
+  "wri": 4.26,
+  "inform": 3.7,
+  "hazards": [
+   "tropical cyclone",
+   "earthquake",
+   "flood",
+   "landslide",
+   "sea-level rise"
+  ],
+  "heat": 60,
+  "note": "Hurricanes (Melissa 2025, Cat 5), quakes, floods/landslides; humid heat rising; cooler Blue Mountains.",
+  "est": true
+ },
+ "RUS": {
+  "ndgain": 56.3,
+  "ndgainVuln": 0.31,
+  "wri": 30.58,
+  "inform": 3.8,
+  "hazards": [
+   "wildfire",
+   "flood",
+   "cold/snow",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 84,
+  "note": "Permafrost thaw, Siberian megafires, floods; southern heatwaves (2010) and drought; harsh cold winters remain.",
+  "est": false
+ },
+ "BIH": {
+  "ndgain": 50.0,
+  "ndgainVuln": 0.38,
+  "wri": 2.87,
+  "inform": 3.3,
+  "hazards": [
+   "flood",
+   "earthquake",
+   "landslide",
+   "drought"
+  ],
+  "heat": 83,
+  "note": "River floods/landslides (2014), moderate quakes; hotter summers but continental mountain climate stays mild.",
+  "est": false
+ },
+ "DOM": {
+  "ndgain": 46.7,
+  "ndgainVuln": 0.47,
+  "wri": 13.5,
+  "inform": 4.4,
+  "hazards": [
+   "tropical cyclone",
+   "earthquake",
+   "flood",
+   "tsunami",
+   "landslide"
+  ],
+  "heat": 62,
+  "note": "Hurricanes, quakes and floods; humid heat rising; cooler central highlands (Jarabacoa, Constanza).",
+  "est": true
+ },
+ "PRY": {
+  "ndgain": 47.8,
+  "ndgainVuln": 0.38,
+  "wri": 1.89,
+  "inform": 3.1,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat",
+   "wildfire"
+  ],
+  "heat": 29,
+  "note": "Extreme humid heat projected, river floods and droughts (record-low Paraguay River), Chaco wildfires.",
+  "est": false
+ },
+ "TZA": {
+  "ndgain": 41.5,
+  "ndgainVuln": 0.505,
+  "wri": 12.53,
+  "inform": 6.0,
+  "hazards": [
+   "drought",
+   "flood",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 70,
+  "note": "Droughts and floods, coastal SLR (Dar es Salaam); highlands (Arusha, Iringa) mild; coast hot-humid.",
+  "est": true
+ },
+ "UZB": {
+  "ndgain": 52.5,
+  "ndgainVuln": 0.393,
+  "wri": 1.55,
+  "inform": 3.2,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "earthquake"
+  ],
+  "heat": 47,
+  "note": "Severe summer heat and water scarcity (Aral Sea, shrinking glacier-fed rivers); notable quake risk.",
+  "est": false
+ },
+ "GTM": {
+  "ndgain": 43.6,
+  "ndgainVuln": 0.455,
+  "wri": 22.41,
+  "inform": 5.9,
+  "hazards": [
+   "earthquake",
+   "volcano",
+   "tropical cyclone",
+   "flood",
+   "landslide"
+  ],
+  "heat": 64,
+  "note": "Quakes, active volcanoes (Fuego), hurricanes, floods/landslides, Dry Corridor drought; mild highlands.",
+  "est": true
+ },
+ "PHL": {
+  "ndgain": 47.1,
+  "ndgainVuln": 0.43,
+  "wri": 46.69,
+  "inform": 5.3,
+  "hazards": [
+   "tropical cyclone",
+   "earthquake",
+   "flood",
+   "volcano",
+   "tsunami"
+  ],
+  "heat": 42,
+  "note": "Top WorldRiskIndex: super-typhoons, quakes, volcanoes, floods, SLR; humid heat; Baguio highlands milder.",
+  "est": true
+ },
+ "GHA": {
+  "ndgain": 45.1,
+  "ndgainVuln": 0.455,
+  "wri": 3.28,
+  "inform": 5.1,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "drought",
+   "sea-level rise"
+  ],
+  "heat": 24,
+  "note": "Severe humid heat projected; floods, coastal erosion/SLR (Keta), northern drought.",
+  "est": false
+ },
+ "BLZ": {
+  "ndgain": 44.2,
+  "ndgainVuln": 0.483,
+  "wri": 5.9,
+  "inform": 3.3,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 39,
+  "note": "Hurricanes, low-lying coast and cayes exposed to SLR; humid heat; reef degradation.",
+  "est": false
+ },
+ "FJI": {
+  "ndgain": 47.5,
+  "ndgainVuln": 0.489,
+  "wri": 7.51,
+  "inform": 3.1,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "sea-level rise",
+   "earthquake",
+   "tsunami"
+  ],
+  "heat": 70,
+  "note": "Cyclones (Winston 2016), floods, SLR already forcing village relocations; humid but trade-wind tempered.",
+  "est": true
+ },
+ "NPL": {
+  "ndgain": 41.1,
+  "ndgainVuln": 0.504,
+  "wri": 2.47,
+  "inform": 5.4,
+  "hazards": [
+   "earthquake",
+   "landslide",
+   "flood",
+   "extreme heat"
+  ],
+  "heat": 68,
+  "note": "Major quake risk (2015), landslides, glacial lake floods; Terai plains extreme heat; hill valleys mild.",
+  "est": true
+ },
+ "KEN": {
+  "ndgain": 39.3,
+  "ndgainVuln": 0.482,
+  "wri": 13.28,
+  "inform": 6.1,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat",
+   "landslide"
+  ],
+  "heat": 66,
+  "note": "Recurring severe droughts and floods; north/east hot-arid; central highlands (Nairobi) remain mild.",
+  "est": true
+ },
+ "STP": {
+  "ndgain": 41.6,
+  "ndgainVuln": 0.527,
+  "wri": 0.85,
+  "inform": 2.5,
+  "hazards": [
+   "flood",
+   "landslide",
+   "sea-level rise"
+  ],
+  "heat": 64,
+  "note": "Low hazard exposure; floods, landslides and coastal erosion/SLR; humid equatorial heat.",
+  "est": false
+ },
+ "MDA": {
+  "ndgain": 51.7,
+  "ndgainVuln": 0.45,
+  "wri": 1.19,
+  "inform": 3.9,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat",
+   "earthquake"
+  ],
+  "heat": 72,
+  "note": "Drought and heat increasingly hit agriculture; river floods; Vrancea quakes felt.",
+  "est": false
+ },
+ "JOR": {
+  "ndgain": 49.9,
+  "ndgainVuln": 0.429,
+  "wri": 4.21,
+  "inform": 4.1,
+  "hazards": [
+   "drought",
+   "extreme heat",
+   "earthquake",
+   "flood"
+  ],
+  "heat": 51,
+  "note": "One of most water-scarce countries; hotter summers; Dead Sea Transform quake risk; flash floods.",
+  "est": false
+ },
+ "GUY": {
+  "ndgain": 45.9,
+  "ndgainVuln": 0.467,
+  "wri": 5.71,
+  "inform": 3.9,
+  "hazards": [
+   "flood",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 54,
+  "note": "Coastal plain lies below high-tide level: SLR and floods are the key long-term threat; humid heat.",
+  "est": true
+ },
+ "LBN": {
+  "ndgain": 43.7,
+  "ndgainVuln": 0.455,
+  "wri": 5.38,
+  "inform": 6.4,
+  "hazards": [
+   "earthquake",
+   "wildfire",
+   "drought",
+   "extreme heat",
+   "flood"
+  ],
+  "heat": 62,
+  "note": "Quake risk, wildfires, water scarcity; humid coastal heat rising; mountain areas stay mild.",
+  "est": true
+ },
+ "MKD": {
+  "ndgain": 52.4,
+  "ndgainVuln": 0.41,
+  "wri": 1.37,
+  "inform": 2.6,
+  "hazards": [
+   "earthquake",
+   "flood",
+   "wildfire",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 74,
+  "note": "High quake risk (Skopje 1963), floods, summer wildfires and heat; mountain areas milder.",
+  "est": false
+ },
+ "MHL": {
+  "ndgain": 46.1,
+  "ndgainVuln": 0.499,
+  "wri": 3.89,
+  "inform": 3.6,
+  "hazards": [
+   "sea-level rise",
+   "tropical cyclone",
+   "drought",
+   "flood"
+  ],
+  "heat": 48,
+  "note": "Atolls ~2 m above sea: existential sea-level-rise threat; king tides, drought, typhoons.",
+  "est": false
+ },
+ "ALB": {
+  "ndgain": 52.6,
+  "ndgainVuln": 0.416,
+  "wri": 5.79,
+  "inform": 3.1,
+  "hazards": [
+   "earthquake",
+   "flood",
+   "landslide",
+   "wildfire"
+  ],
+  "heat": 74,
+  "note": "High quake risk (Durrës 2019), floods, wildfires; hotter coastal summers; mountains milder.",
+  "est": true
+ },
+ "NIC": {
+  "ndgain": 44.1,
+  "ndgainVuln": 0.423,
+  "wri": 22.63,
+  "inform": 4.3,
+  "hazards": [
+   "tropical cyclone",
+   "earthquake",
+   "volcano",
+   "flood",
+   "tsunami"
+  ],
+  "heat": 56,
+  "note": "Hurricanes (Eta/Iota 2020), quakes, volcanoes, floods; humid heat rising.",
+  "est": false
+ },
+ "UKR": {
+  "ndgain": 53.5,
+  "ndgainVuln": 0.385,
+  "wri": 4.35,
+  "inform": 5.7,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat",
+   "wildfire"
+  ],
+  "heat": 75,
+  "note": "Southern steppe drought and heat increasing; floods in west; war-related environmental damage.",
+  "est": false
+ },
+ "BWA": {
+  "ndgain": 45.0,
+  "ndgainVuln": 0.484,
+  "wri": 1.47,
+  "inform": 2.9,
+  "hazards": [
+   "drought",
+   "extreme heat",
+   "flood",
+   "wildfire"
+  ],
+  "heat": 52,
+  "note": "Semi-arid with worsening drought and extreme heat; water scarcity; low geophysical risk.",
+  "est": true
+ },
+ "RWA": {
+  "ndgain": 40.6,
+  "ndgainVuln": 0.61,
+  "wri": 2.48,
+  "inform": 5.4,
+  "hazards": [
+   "landslide",
+   "flood",
+   "drought",
+   "earthquake"
+  ],
+  "heat": 86,
+  "note": "Highland climate stays mild; heavy-rain floods/landslides (2023), Kivu rift quakes.",
+  "est": true
+ },
+ "TUN": {
+  "ndgain": 45.0,
+  "ndgainVuln": 0.441,
+  "wri": 7.74,
+  "inform": 3.4,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood",
+   "wildfire"
+  ],
+  "heat": 40,
+  "note": "Severe drought & water stress, heatwaves (48°C+), wildfires; northern coast milder.",
+  "est": true
+ },
+ "KHM": {
+  "ndgain": 42.4,
+  "ndgainVuln": 0.472,
+  "wri": 8.1,
+  "inform": 6.1,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 14,
+  "note": "Among most severe projected humid heat; Mekong floods and droughts; low geophysical risk.",
+  "est": false
+ },
+ "TUV": {
+  "ndgain": 43.9,
+  "ndgainVuln": 0.573,
+  "wri": 1.42,
+  "inform": 2.5,
+  "hazards": [
+   "sea-level rise",
+   "tropical cyclone",
+   "drought"
+  ],
+  "heat": 36,
+  "note": "Atolls <5 m: existential sea-level-rise threat (Falepili migration treaty with Australia); cyclones, drought.",
+  "est": false
+ },
+ "SRB": {
+  "ndgain": 50.5,
+  "ndgainVuln": 0.47,
+  "wri": 1.92,
+  "inform": 3.4,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat",
+   "earthquake"
+  ],
+  "heat": 71,
+  "note": "River floods (2014), drought and heatwaves rising in Vojvodina; moderate quake risk.",
+  "est": false
+ },
+ "ETH": {
+  "ndgain": 37.7,
+  "ndgainVuln": 0.508,
+  "wri": 4.89,
+  "inform": 7.1,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat",
+   "earthquake",
+   "volcano"
+  ],
+  "heat": 72,
+  "note": "Recurrent drought & food insecurity; very hot lowlands; mild populous highlands (Addis ~2,400 m); rift quakes/volcanoes.",
+  "est": true
+ },
+ "CIV": {
+  "ndgain": 41.0,
+  "ndgainVuln": 0.488,
+  "wri": 2.98,
+  "inform": 5.2,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 40,
+  "note": "Humid heat rising; Abidjan floods/landslides, coastal erosion; northern drought.",
+  "est": false
+ },
+ "FSM": {
+  "ndgain": 37.0,
+  "ndgainVuln": 0.621,
+  "wri": 8.07,
+  "inform": 3.4,
+  "hazards": [
+   "tropical cyclone",
+   "sea-level rise",
+   "drought",
+   "landslide"
+  ],
+  "heat": 46,
+  "note": "Typhoons, sea-level rise on low islands/atolls, drought; humid heat.",
+  "est": false
+ },
+ "GAB": {
+  "ndgain": 42.6,
+  "ndgainVuln": 0.45,
+  "wri": 6.3,
+  "inform": 3.5,
+  "hazards": [
+   "flood",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 58,
+  "note": "Low hazard exposure; humid equatorial heat, coastal SLR (Libreville); forest climate fairly stable.",
+  "est": true
+ },
+ "SLV": {
+  "ndgain": 43.8,
+  "ndgainVuln": 0.452,
+  "wri": 17.44,
+  "inform": 4.4,
+  "hazards": [
+   "earthquake",
+   "volcano",
+   "flood",
+   "landslide",
+   "tropical cyclone"
+  ],
+  "heat": 53,
+  "note": "High quake/volcano risk, floods and landslides, Dry Corridor drought; humid heat.",
+  "est": false
+ },
+ "KAZ": {
+  "ndgain": 56.4,
+  "ndgainVuln": 0.355,
+  "wri": 2.18,
+  "inform": 2.6,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat",
+   "earthquake",
+   "cold/snow"
+  ],
+  "heat": 64,
+  "note": "Continental extremes: hot drying south, cold winters; floods (2024), Almaty quake risk.",
+  "est": false
+ },
+ "MAR": {
+  "ndgain": 47.7,
+  "ndgainVuln": 0.45,
+  "wri": 12.59,
+  "inform": 4.3,
+  "hazards": [
+   "drought",
+   "extreme heat",
+   "earthquake",
+   "flood",
+   "wildfire"
+  ],
+  "heat": 55,
+  "note": "Severe multi-year drought, interior heat (50°C in 2023), Atlas quake (2023); Atlantic coast stays milder.",
+  "est": false
+ },
+ "AZE": {
+  "ndgain": 50.1,
+  "ndgainVuln": 0.428,
+  "wri": 2.36,
+  "inform": 4.6,
+  "hazards": [
+   "earthquake",
+   "drought",
+   "flood",
+   "extreme heat"
+  ],
+  "heat": 62,
+  "note": "Quake risk, drought & water stress, falling Caspian level; hot Kura lowland, milder Caucasus foothills.",
+  "est": true
+ },
+ "NAM": {
+  "ndgain": 41.9,
+  "ndgainVuln": 0.511,
+  "wri": 7.15,
+  "inform": 4.2,
+  "hazards": [
+   "drought",
+   "extreme heat",
+   "flood"
+  ],
+  "heat": 60,
+  "note": "Arid with intensifying drought and heat; water scarcity; cool coastal fog belt.",
+  "est": true
+ },
+ "COM": {
+  "ndgain": 38.5,
+  "ndgainVuln": 0.49,
+  "wri": 4.66,
+  "inform": 3.1,
+  "hazards": [
+   "tropical cyclone",
+   "volcano",
+   "sea-level rise",
+   "flood"
+  ],
+  "heat": 62,
+  "note": "Cyclones (Kenneth 2019), Karthala volcano, SLR; humid heat.",
+  "est": true
+ },
+ "TLS": {
+  "ndgain": 37.0,
+  "ndgainVuln": 0.545,
+  "wri": 13.58,
+  "inform": 3.8,
+  "hazards": [
+   "flood",
+   "landslide",
+   "earthquake",
+   "drought",
+   "tsunami"
+  ],
+  "heat": 70,
+  "note": "Floods/landslides (Seroja 2021), quakes, El Niño droughts; hilly interior milder.",
+  "est": true
+ },
+ "HND": {
+  "ndgain": 41.3,
+  "ndgainVuln": 0.471,
+  "wri": 27.68,
+  "inform": 5.7,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "landslide",
+   "drought",
+   "earthquake"
+  ],
+  "heat": 60,
+  "note": "Hurricanes (Mitch, Eta/Iota), floods/landslides, Dry Corridor drought; highlands milder.",
+  "est": true
+ },
+ "MNG": {
+  "ndgain": 49.7,
+  "ndgainVuln": 0.396,
+  "wri": 1.68,
+  "inform": 2.6,
+  "hazards": [
+   "cold/snow",
+   "drought",
+   "wildfire",
+   "earthquake"
+  ],
+  "heat": 72,
+  "note": "Dzud (extreme winters) and drought kill livestock; desertification; coldest capital; no heat threat.",
+  "est": true
+ },
+ "BEN": {
+  "ndgain": 39.4,
+  "ndgainVuln": 0.584,
+  "wri": 3.46,
+  "inform": 6.1,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 22,
+  "note": "Severe humid heat projected; floods and coastal erosion (Cotonou).",
+  "est": false
+ },
+ "IRN": {
+  "ndgain": 47.5,
+  "ndgainVuln": 0.429,
+  "wri": 18.77,
+  "inform": 5.8,
+  "hazards": [
+   "earthquake",
+   "drought",
+   "extreme heat",
+   "flood"
+  ],
+  "heat": 35,
+  "note": "Very high quake risk, acute water crisis & land subsidence, extreme humid heat on Gulf coast.",
+  "est": false
+ },
+ "TKM": {
+  "ndgain": 39.4,
+  "ndgainVuln": 0.448,
+  "wri": 1.29,
+  "inform": 2.8,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "earthquake"
+  ],
+  "heat": 35,
+  "note": "Extreme summer heat, severe water scarcity (Amu Darya), Ashgabat quake risk.",
+  "est": false
+ },
+ "DZA": {
+  "ndgain": 47.4,
+  "ndgainVuln": 0.43,
+  "wri": 7.96,
+  "inform": 4.2,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "wildfire",
+   "earthquake",
+   "flood"
+  ],
+  "heat": 35,
+  "note": "Saharan heat & desertification, wildfires on Tell coast, quake risk in north; coast milder than interior.",
+  "est": true
+ },
+ "GNQ": {
+  "ndgain": 35.6,
+  "ndgainVuln": 0.45,
+  "wri": 2.24,
+  "inform": 3.5,
+  "hazards": [
+   "flood",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 58,
+  "note": "Low hazard exposure; humid equatorial heat and coastal SLR.",
+  "est": true
+ },
+ "KIR": {
+  "ndgain": 42.3,
+  "ndgainVuln": 0.528,
+  "wri": 2.41,
+  "inform": 3.6,
+  "hazards": [
+   "sea-level rise",
+   "drought",
+   "flood"
+  ],
+  "heat": 44,
+  "note": "Atolls ~2 m high: existential sea-level-rise threat; drought; humid heat.",
+  "est": false
+ },
+ "ZMB": {
+  "ndgain": 39.1,
+  "ndgainVuln": 0.492,
+  "wri": 3.17,
+  "inform": 5.8,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat"
+  ],
+  "heat": 69,
+  "note": "Drought (record 2024) hits hydropower and food; floods; plateau climate moderates heat.",
+  "est": false
+ },
+ "LAO": {
+  "ndgain": 42.4,
+  "ndgainVuln": 0.452,
+  "wri": 2.99,
+  "inform": 3.7,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat",
+   "landslide"
+  ],
+  "heat": 50,
+  "note": "Mekong floods and droughts; humid heat in lowlands; northern uplands milder.",
+  "est": true
+ },
+ "BLR": {
+  "ndgain": 54.0,
+  "ndgainVuln": 0.355,
+  "wri": 0.74,
+  "inform": 2.4,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 81,
+  "note": "Low hazard exposure; drought, spring floods; temperate climate stays comfortable.",
+  "est": false
+ },
+ "UGA": {
+  "ndgain": 35.9,
+  "ndgainVuln": 0.536,
+  "wri": 3.57,
+  "inform": 6.7,
+  "hazards": [
+   "flood",
+   "landslide",
+   "drought"
+  ],
+  "heat": 79,
+  "note": "Mild plateau climate; floods/landslides (Mt Elgon), drought in north-east.",
+  "est": false
+ },
+ "KGZ": {
+  "ndgain": 51.4,
+  "ndgainVuln": 0.344,
+  "wri": 2.96,
+  "inform": 3.6,
+  "hazards": [
+   "earthquake",
+   "landslide",
+   "flood",
+   "cold/snow"
+  ],
+  "heat": 84,
+  "note": "High quake risk, mudflows/landslides, glacier loss threatens water; cold winters; Fergana Valley hot.",
+  "est": true
+ },
+ "MDG": {
+  "ndgain": 35.0,
+  "ndgainVuln": 0.55,
+  "wri": 24.16,
+  "inform": 5.7,
+  "hazards": [
+   "tropical cyclone",
+   "drought",
+   "flood"
+  ],
+  "heat": 74,
+  "note": "Frequent intense cyclones, southern drought/famine; central highlands (Antananarivo) mild.",
+  "est": false
+ },
+ "PRK": {
+  "ndgain": 43.3,
+  "ndgainVuln": 0.513,
+  "wri": 10.37,
+  "inform": 3.6,
+  "hazards": [
+   "flood",
+   "drought",
+   "tropical cyclone",
+   "landslide"
+  ],
+  "heat": 82,
+  "note": "Floods and droughts with weak capacity; typhoons; cold winters, humid summers.",
+  "est": true
+ },
+ "SWZ": {
+  "ndgain": 40.9,
+  "ndgainVuln": 0.482,
+  "wri": 1.9,
+  "inform": 4.0,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat"
+  ],
+  "heat": 72,
+  "note": "Recurrent drought; floods; highveld cooler, lowveld hot.",
+  "est": false
+ },
+ "SLE": {
+  "ndgain": 33.2,
+  "ndgainVuln": 0.602,
+  "wri": 4.91,
+  "inform": 4.8,
+  "hazards": [
+   "flood",
+   "landslide",
+   "extreme heat"
+  ],
+  "heat": 47,
+  "note": "Freetown floods/mudslides (2017), humid heat; low geophysical risk.",
+  "est": false
+ },
+ "SLB": {
+  "ndgain": 38.0,
+  "ndgainVuln": 0.622,
+  "wri": 15.03,
+  "inform": 4.6,
+  "hazards": [
+   "tropical cyclone",
+   "earthquake",
+   "tsunami",
+   "sea-level rise",
+   "flood"
+  ],
+  "heat": 63,
+  "note": "Cyclones, quakes/tsunamis, SLR (small islands already lost); humid heat.",
+  "est": false
+ },
+ "ZWE": {
+  "ndgain": 35.4,
+  "ndgainVuln": 0.511,
+  "wri": 2.77,
+  "inform": 4.9,
+  "hazards": [
+   "drought",
+   "flood",
+   "tropical cyclone",
+   "extreme heat"
+  ],
+  "heat": 63,
+  "note": "Recurring drought (El Niño 2024), Cyclone Idai (2019) floods; highveld moderates heat.",
+  "est": false
+ },
+ "LBY": {
+  "ndgain": 40.0,
+  "ndgainVuln": 0.49,
+  "wri": 15.15,
+  "inform": 5.5,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 34,
+  "note": "Extreme heat and water scarcity; Derna dam-burst flood (Storm Daniel 2023).",
+  "est": false
+ },
+ "TJK": {
+  "ndgain": 47.4,
+  "ndgainVuln": 0.367,
+  "wri": 2.85,
+  "inform": 4.3,
+  "hazards": [
+   "earthquake",
+   "landslide",
+   "flood",
+   "drought"
+  ],
+  "heat": 72,
+  "note": "Very high quake risk, mudflows, glacier loss; hot lowland valleys in summer.",
+  "est": true
+ },
+ "MWI": {
+  "ndgain": 35.7,
+  "ndgainVuln": 0.567,
+  "wri": 3.6,
+  "inform": 4.7,
+  "hazards": [
+   "drought",
+   "flood",
+   "tropical cyclone"
+  ],
+  "heat": 74,
+  "note": "Floods & cyclones (Freddy 2023), recurrent drought; plateau moderates heat.",
+  "est": false
+ },
+ "IRQ": {
+  "ndgain": 35.6,
+  "ndgainVuln": 0.497,
+  "wri": 9.16,
+  "inform": 5.8,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 10,
+  "note": "Extreme heat (50°C+), severe water crisis from upstream dams and drought; dust storms.",
+  "est": false
+ },
+ "GIN": {
+  "ndgain": 40.7,
+  "ndgainVuln": 0.474,
+  "wri": 6.73,
+  "inform": 4.8,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 44,
+  "note": "Humid heat, floods; Fouta Djallon highlands milder; low geophysical risk.",
+  "est": false
+ },
+ "EGY": {
+  "ndgain": 45.4,
+  "ndgainVuln": 0.469,
+  "wri": 17.74,
+  "inform": 5.1,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "sea-level rise"
+  ],
+  "heat": 25,
+  "note": "Extreme heat, near-total Nile dependence, Nile Delta SLR and salinization.",
+  "est": true
+ },
+ "GNB": {
+  "ndgain": 32.7,
+  "ndgainVuln": 0.622,
+  "wri": 3.59,
+  "inform": 4.2,
+  "hazards": [
+   "sea-level rise",
+   "flood",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 22,
+  "note": "Low-lying coast and islands exposed to SLR; severe humid heat projected.",
+  "est": false
+ },
+ "BFA": {
+  "ndgain": 37.4,
+  "ndgainVuln": 0.523,
+  "wri": 2.06,
+  "inform": 7.3,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 11,
+  "note": "Extreme Sahelian heat and drought; desertification; flash floods.",
+  "est": false
+ },
+ "NRU": {
+  "ndgain": 53.4,
+  "ndgainVuln": 0.502,
+  "wri": 1.65,
+  "inform": 2.1,
+  "hazards": [
+   "sea-level rise",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 36,
+  "note": "Drought and water scarcity, coastal SLR (mined-out interior); humid heat.",
+  "est": false
+ },
+ "LBR": {
+  "ndgain": 35.7,
+  "ndgainVuln": 0.582,
+  "wri": 4.08,
+  "inform": 5.0,
+  "hazards": [
+   "flood",
+   "sea-level rise",
+   "extreme heat"
+  ],
+  "heat": 55,
+  "note": "Floods, coastal erosion (West Point, Monrovia), humid heat; low geophysical risk.",
+  "est": true
+ },
+ "VEN": {
+  "ndgain": 42.3,
+  "ndgainVuln": 0.386,
+  "wri": 17.61,
+  "inform": 6.4,
+  "hazards": [
+   "flood",
+   "landslide",
+   "earthquake",
+   "drought"
+  ],
+  "heat": 42,
+  "note": "Floods/landslides (Vargas 1999), quakes; humid heat; Andes milder; crisis limits adaptation.",
+  "est": false
+ },
+ "DJI": {
+  "ndgain": 36.4,
+  "ndgainVuln": 0.598,
+  "wri": 6.14,
+  "inform": 5.2,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "earthquake",
+   "flood"
+  ],
+  "heat": 9,
+  "note": "Among hottest countries; drought; rift-zone quakes/volcanism.",
+  "est": false
+ },
+ "PNG": {
+  "ndgain": 33.7,
+  "ndgainVuln": 0.549,
+  "wri": 27.64,
+  "inform": 6.6,
+  "hazards": [
+   "earthquake",
+   "volcano",
+   "tsunami",
+   "flood",
+   "landslide"
+  ],
+  "heat": 66,
+  "note": "Very active quake/volcano/tsunami zone, landslides; humid coasts but mild highlands.",
+  "est": true
+ },
+ "GMB": {
+  "ndgain": 36.1,
+  "ndgainVuln": 0.551,
+  "wri": 4.09,
+  "inform": 4.3,
+  "hazards": [
+   "extreme heat",
+   "flood",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 15,
+  "note": "Severe humid heat, coastal SLR (Banjul), drought.",
+  "est": false
+ },
+ "MMR": {
+  "ndgain": 36.5,
+  "ndgainVuln": 0.488,
+  "wri": 37.51,
+  "inform": 6.7,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "earthquake",
+   "extreme heat",
+   "landslide"
+  ],
+  "heat": 40,
+  "note": "Cyclones (Nargis 2008, Mocha 2023), floods, major quakes (Sagaing M7.7, 2025); severe heat.",
+  "est": false
+ },
+ "NGA": {
+  "ndgain": 37.6,
+  "ndgainVuln": 0.49,
+  "wri": 9.08,
+  "inform": 7.2,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "sea-level rise",
+   "drought"
+  ],
+  "heat": 23,
+  "note": "Extreme humid heat, major floods (2022), Lagos SLR, northern drought and desertification.",
+  "est": false
+ },
+ "COG": {
+  "ndgain": 33.7,
+  "ndgainVuln": 0.549,
+  "wri": 3.67,
+  "inform": 5.6,
+  "hazards": [
+   "flood",
+   "extreme heat"
+  ],
+  "heat": 55,
+  "note": "Floods and erosion, humid equatorial heat; low geophysical risk.",
+  "est": true
+ },
+ "PAK": {
+  "ndgain": 39.3,
+  "ndgainVuln": 0.525,
+  "wri": 27.03,
+  "inform": 6.6,
+  "hazards": [
+   "extreme heat",
+   "flood",
+   "earthquake",
+   "drought"
+  ],
+  "heat": 13,
+  "note": "Extreme heat (Jacobabad near wet-bulb limits), 2022 megafloods, quakes, glacial lake floods.",
+  "est": false
+ },
+ "MRT": {
+  "ndgain": 31.9,
+  "ndgainVuln": 0.655,
+  "wri": 11.06,
+  "inform": 5.3,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "sea-level rise"
+  ],
+  "heat": 8,
+  "note": "Extreme Saharan heat, drought and desertification; Nouakchott below sea level.",
+  "est": false
+ },
+ "SYR": {
+  "ndgain": 38.0,
+  "ndgainVuln": 0.521,
+  "wri": 11.55,
+  "inform": 7.6,
+  "hazards": [
+   "drought",
+   "earthquake",
+   "extreme heat",
+   "wildfire"
+  ],
+  "heat": 37,
+  "note": "Severe drought (2006-10, 2025), quakes (2023); hotter summers; conflict limits adaptation.",
+  "est": false
+ },
+ "BDI": {
+  "ndgain": 32.0,
+  "ndgainVuln": 0.61,
+  "wri": 3.07,
+  "inform": 6.5,
+  "hazards": [
+   "flood",
+   "landslide",
+   "drought"
+  ],
+  "heat": 84,
+  "note": "Mild highland climate; floods/landslides, rising Lake Tanganyika; very high vulnerability.",
+  "est": true
+ },
+ "BGD": {
+  "ndgain": 37.0,
+  "ndgainVuln": 0.544,
+  "wri": 25.7,
+  "inform": 5.9,
+  "hazards": [
+   "flood",
+   "tropical cyclone",
+   "sea-level rise",
+   "extreme heat",
+   "earthquake"
+  ],
+  "heat": 14,
+  "note": "Floods, cyclones, SLR in delta; severe humid heat; among highest long-term climate risk.",
+  "est": false
+ },
+ "MOZ": {
+  "ndgain": 36.1,
+  "ndgainVuln": 0.511,
+  "wri": 30.92,
+  "inform": 7.1,
+  "hazards": [
+   "tropical cyclone",
+   "flood",
+   "drought",
+   "sea-level rise"
+  ],
+  "heat": 54,
+  "note": "Major cyclones (Idai, Freddy), floods, drought, low coast exposed to SLR (Beira).",
+  "est": false
+ },
+ "NER": {
+  "ndgain": 35.4,
+  "ndgainVuln": 0.587,
+  "wri": 2.16,
+  "inform": 7.8,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 10,
+  "note": "Extreme Sahelian heat, drought, flash floods; among highest vulnerability.",
+  "est": false
+ },
+ "TGO": {
+  "ndgain": 42.2,
+  "ndgainVuln": 0.509,
+  "wri": 2.65,
+  "inform": 5.5,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "sea-level rise"
+  ],
+  "heat": 29,
+  "note": "Humid heat, floods, coastal erosion (Lomé).",
+  "est": false
+ },
+ "AFG": {
+  "ndgain": 33.0,
+  "ndgainVuln": 0.612,
+  "wri": 4.18,
+  "inform": 7.8,
+  "hazards": [
+   "drought",
+   "earthquake",
+   "flood",
+   "landslide",
+   "cold/snow"
+  ],
+  "heat": 50,
+  "note": "Severe drought, quakes (Herat 2023), flash floods; hot lowlands, cold highland winters.",
+  "est": true
+ },
+ "TCD": {
+  "ndgain": 26.4,
+  "ndgainVuln": 0.638,
+  "wri": 2.88,
+  "inform": 7.9,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 14,
+  "note": "Extreme heat, drought, shrinking Lake Chad, floods; highest vulnerability.",
+  "est": false
+ },
+ "CMR": {
+  "ndgain": 39.9,
+  "ndgainVuln": 0.478,
+  "wri": 10.08,
+  "inform": 6.7,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "drought",
+   "landslide"
+  ],
+  "heat": 55,
+  "note": "North very hot with drought; floods; western highlands mild; Lake Nyos gas risk.",
+  "est": false
+ },
+ "AGO": {
+  "ndgain": 36.4,
+  "ndgainVuln": 0.528,
+  "wri": 10.85,
+  "inform": 6.0,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat"
+  ],
+  "heat": 68,
+  "note": "Southern drought, floods; central plateau (Huambo) mild.",
+  "est": true
+ },
+ "LSO": {
+  "ndgain": 38.4,
+  "ndgainVuln": 0.507,
+  "wri": 1.22,
+  "inform": 3.7,
+  "hazards": [
+   "drought",
+   "cold/snow",
+   "flood"
+  ],
+  "heat": 90,
+  "note": "High-altitude climate stays mild; drought, snow and cold, soil erosion.",
+  "est": true
+ },
+ "MLI": {
+  "ndgain": 34.1,
+  "ndgainVuln": 0.585,
+  "wri": 2.27,
+  "inform": 7.3,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 6,
+  "note": "Extreme Sahelian heat and drought; flash floods; desertification.",
+  "est": false
+ },
+ "YEM": {
+  "ndgain": 31.3,
+  "ndgainVuln": 0.629,
+  "wri": 25.18,
+  "inform": 7.7,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat",
+   "tropical cyclone"
+  ],
+  "heat": 26,
+  "note": "Water crisis, floods, cyclones; extreme coastal heat; highlands (Sana'a) mild.",
+  "est": false
+ },
+ "COD": {
+  "ndgain": 30.4,
+  "ndgainVuln": 0.571,
+  "wri": 10.76,
+  "inform": 8.0,
+  "hazards": [
+   "flood",
+   "landslide",
+   "volcano",
+   "earthquake"
+  ],
+  "heat": 58,
+  "note": "Floods & landslides, Nyiragongo volcano, rift quakes; humid heat; eastern highlands mild.",
+  "est": true
+ },
+ "CAF": {
+  "ndgain": 27.4,
+  "ndgainVuln": 0.588,
+  "wri": 3.37,
+  "inform": 7.8,
+  "hazards": [
+   "flood",
+   "extreme heat",
+   "drought"
+  ],
+  "heat": 45,
+  "note": "Floods, rising heat, very high vulnerability; low geophysical risk.",
+  "est": false
+ },
+ "HTI": {
+  "ndgain": 33.3,
+  "ndgainVuln": 0.534,
+  "wri": 17.81,
+  "inform": 7.6,
+  "hazards": [
+   "tropical cyclone",
+   "earthquake",
+   "flood",
+   "landslide"
+  ],
+  "heat": 52,
+  "note": "Hurricanes, devastating quakes (2010, 2021), floods/landslides worsened by deforestation.",
+  "est": true
+ },
+ "SDN": {
+  "ndgain": 28.3,
+  "ndgainVuln": 0.629,
+  "wri": 7.34,
+  "inform": 7.8,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "flood"
+  ],
+  "heat": 16,
+  "note": "Extreme heat, drought, Nile floods; desertification; conflict.",
+  "est": false
+ },
+ "ERI": {
+  "ndgain": 27.4,
+  "ndgainVuln": 0.629,
+  "wri": 6.2,
+  "inform": 4.5,
+  "hazards": [
+   "extreme heat",
+   "drought",
+   "earthquake",
+   "volcano"
+  ],
+  "heat": 26,
+  "note": "Red Sea coast extreme heat and drought; milder Asmara highlands; rift volcanism.",
+  "est": true
+ },
+ "SSD": {
+  "ndgain": 26.0,
+  "ndgainVuln": 0.64,
+  "wri": 4.14,
+  "inform": 8.3,
+  "hazards": [
+   "flood",
+   "drought",
+   "extreme heat"
+  ],
+  "heat": 22,
+  "note": "Massive Nile/Sudd floods, drought, extreme heat; highest vulnerability. ND-GAIN estimated (not covered).",
+  "est": true
+ },
+ "SOM": {
+  "ndgain": 27.0,
+  "ndgainVuln": 0.638,
+  "wri": 29.12,
+  "inform": 8.2,
+  "hazards": [
+   "drought",
+   "flood",
+   "extreme heat",
+   "tropical cyclone",
+   "sea-level rise"
+  ],
+  "heat": 28,
+  "note": "Recurrent drought and famine, floods, extreme heat, cyclones; top INFORM risk tier.",
+  "est": true
+ },
+ "_sources": [
+  {
+   "name": "ND-GAIN Country Index (University of Notre Dame), 2026 release, data year 2024",
+   "url": "https://gain.nd.edu/our-work/country-index/download-data/",
+   "file": "https://gain.nd.edu/assets/647440/ndgain_countryindex_2026.zip",
+   "year": 2024
+  },
+  {
+   "name": "WorldRiskIndex 2025 (WorldRiskReport, Bündnis Entwicklung Hilft / IFHV Ruhr-Univ. Bochum); 2026 data package, 2026 values identical to 2025",
+   "url": "https://weltrisikobericht.de/en/download/",
+   "file": "worldriskindex-trend.csv / worldriskindex-2026.xlsx",
+   "year": 2025
+  },
+  {
+   "name": "INFORM Risk Index Mid-2026 v0.7.3 (EC JRC DRMKC), released 1 Sep 2026",
+   "url": "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Results-and-data",
+   "file": "https://drmkc.jrc.ec.europa.eu/inform-index/Portals/0/InfoRM/2026/INFORM_Risk_Mid_2026_v073.xlsx",
+   "year": 2026
+  },
+  {
+   "name": "World Bank Climate Change Knowledge Portal, CMIP6 0.25deg ensemble median: hi35, hi39, hd40, tr26, txx, tas (1995-2014, 2040-2059 SSP2-4.5/SSP3-7.0, 2080-2099 SSP2-4.5)",
+   "url": "https://climateknowledgeportal.worldbank.org/ (API https://cckpapi.worldbank.org/cckp/v1/)",
+   "year": 2026
+  },
+  {
+   "name": "IPCC AR6 WGI/WGII regional chapters & Atlas (hazard lists, heat-score adjustments)",
+   "url": "https://www.ipcc.ch/report/ar6/wg2/",
+   "year": 2022
+  }
+ ],
+ "_method": "ndgain/ndgainVuln: ND-GAIN 2026 release, latest data year 2024 (index 0-100; vulnerability 0-1). wri: WorldRiskIndex 2025 score (0-100, higher = more risk; geometric mean of exposure x vulnerability). inform: INFORM Risk Mid-2026 (0-10). hazards: up to 5, ordered by importance; seeded from INFORM hazard sub-scores (earthquake, flood, tsunami, cyclone, drought) and WRI exposure domains (incl. sea-level rise), then completed by expert judgement for volcano, wildfire, extreme heat, landslide, cold/snow (IPCC AR6 regional chapters). heat: 100*exp(-S/55) capped at 98, where S = 0.30*hi35 + 0.45*hi39 + 0.40*hd40 + 0.05*tr26 (all 2040-2059 SSP2-4.5 days/yr: heat index >35/>39C, Tmax >40C, nights >26C) + 0.06*hi35(2080-2099 SSP2-4.5, for long-term trajectory) + 2.5*max(0, TXx-33C) + 1.5*max(0, Tmean-20C); minus up to 12 for very cold mean climates (Tmean<4C). CCKP values are country area-averages, so for large or topographically diverse countries (e.g. USA, CHN, AUS, BRA, JPN, ETH, KEN, NPL, Mediterranean states) the formula value was replaced by an expert population-weighted estimate when they differed by >=5 points. est=true when any index value was imputed from analogue countries (TWN, HKG, MAC, XKX, SSD, SMR, AND, MCO) or heat was expert-adjusted. Retrieved 2026-10-10."
+}

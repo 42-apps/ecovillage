@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ecovillage Atlas · Where on Earth to found the next Auroville</title>
+<meta name="description" content="An interactive 3D globe that ranks every country — and 159 specific regions — for founding a new ecovillage or universal township like Auroville: land & legal structures, visas for volunteers, safety & stability, water, soil, climate and beauty. Set your own priorities and the world re-ranks around them.">
+<meta property="og:title" content="Ecovillage Atlas — Where on Earth to found the next Auroville">
+<meta property="og:description" content="Every country ranked on 24 things that make or break an ecovillage: land rights, legal vehicles, foreign funding, visas, safety, water, soil, climate resilience, beauty and community. Plus 159 candidate sites and the lessons of Auroville.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#071510">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Crect width='256' height='256' rx='58' fill='%23071510'/%3E%3Ccircle cx='128' cy='128' r='76' fill='none' stroke='%2334d27a' stroke-width='7' stroke-opacity='.55'/%3E%3Cpath d='M128 54c30 26 44 52 44 78a44 44 0 0 1-88 0c0-26 14-52 44-78z' fill='%23e8b64c'/%3E%3Cpath d='M128 92v86M128 132l-20-18M128 150l22-20' stroke='%23071510' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="app.css?v=1">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header id="topbar">
+    <div class="brand" id="brandHome" title="Reset view">
+      <svg class="logo" viewBox="0 0 256 256" aria-hidden="true">
+        <defs>
+          <radialGradient id="bgGrad" cx="50%" cy="30%" r="90%"><stop offset="0%" stop-color="#16402a"/><stop offset="55%" stop-color="#0b2419"/><stop offset="100%" stop-color="#061410"/></radialGradient>
+          <linearGradient id="leaf" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffd877"/><stop offset="100%" stop-color="#d8952f"/></linearGradient>
+        </defs>
+        <rect width="256" height="256" rx="58" fill="url(#bgGrad)"/>
+        <g fill="none" stroke="#5fe0a0" stroke-opacity="0.3" stroke-width="3">
+          <circle cx="128" cy="128" r="82"/><ellipse cx="128" cy="128" rx="38" ry="82"/><line x1="46" y1="128" x2="210" y2="128"/>
+        </g>
+        <path d="M128 50c32 28 48 56 48 84a48 48 0 0 1-96 0c0-28 16-56 48-84z" fill="url(#leaf)" stroke="#0b2419" stroke-width="3"/>
+        <path d="M128 92v90M128 134l-22-20M128 154l24-22" stroke="#0b2419" stroke-width="8" stroke-linecap="round" fill="none"/>
+      </svg>
+      <div class="brand-txt">
+        <span class="brand-kicker">Where on Earth to found the next Auroville</span>
+        <span class="brand-name">Ecovillage Atlas</span>
+        <span class="brand-sub">Every country &amp; 159 candidate regions, ranked for a new intentional community</span>
+      </div>
+    </div>
+    <div class="tools">
+      <div id="searchWrap">
+        <input id="search" type="text" placeholder="Search a country or site…" autocomplete="off" spellcheck="false" aria-label="Search">
+        <div id="searchResults" class="hidden"></div>
+      </div>
+      <button id="menuBtn" class="iconbtn" title="Menu" aria-label="Menu">☰</button>
+      <div id="menu" class="hidden">
+        <button class="mi" id="miReset"><span class="mi-ic">⤢</span><span class="mi-tx">Reset view</span></button>
+        <button class="mi" id="miSpin"><span class="mi-ic">⟳</span><span class="mi-tx">Auto-rotate</span><span class="mi-state">On</span></button>
+        <button class="mi" id="miFull"><span class="mi-ic">⛶</span><span class="mi-tx">Fullscreen</span></button>
+        <div class="mi-sep"></div>
+        <button class="mi" id="miWeights"><span class="mi-ic">⚖️</span><span class="mi-tx">Your priorities</span><span class="mi-state">On</span></button>
+        <button class="mi" id="miSites"><span class="mi-ic">📍</span><span class="mi-tx">Candidate sites</span><span class="mi-state">On</span></button>
+        <button class="mi" id="miVillages"><span class="mi-ic">🏘️</span><span class="mi-tx">Existing ecovillages</span><span class="mi-state">On</span></button>
+        <button class="mi" id="miTable"><span class="mi-ic">▦</span><span class="mi-tx">Full data table</span></button>
+        <button class="mi" id="miRelief"><span class="mi-ic">⛰️</span><span class="mi-tx">3D relief</span><span class="mi-state">On</span></button>
+        <button class="mi" id="miMap"><span class="mi-ic">🗺️</span><span class="mi-tx">Flat map</span><span class="mi-state">Off</span></button>
+        <div class="mi-sep"></div>
+        <button class="mi" id="miLessons"><span class="mi-ic">🌅</span><span class="mi-tx">Lessons from Auroville</span></button>
+        <button class="mi" id="miPanel"><span class="mi-ic">📊</span><span class="mi-tx">Ranking panel</span><span class="mi-state">On</span></button>
+        <button class="mi" id="miHelp"><span class="mi-ic">❔</span><span class="mi-tx">How it works</span></button>
+        <button class="mi" id="miAbout"><span class="mi-ic">ℹ</span><span class="mi-tx">About, method &amp; sources</span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Controls ===== -->
+  <div id="controls">
+    <div class="ctl-row">
+      <div id="pillarBar" role="group" aria-label="Choose a pillar to map"></div>
+      <div class="ctl-right">
+        <button class="minibtn" id="btnSites" title="Show / hide candidate sites">📍 <span class="mb-tx">Sites</span></button>
+        <button class="minibtn" id="btnVillages" title="Show / hide existing ecovillages">🏘️ <span class="mb-tx">Ecovillages</span></button>
+        <button class="minibtn" id="btnWeights" title="Set your priorities">⚖️ <span class="mb-tx">Priorities</span></button>
+        <button class="minibtn" id="btnTable" title="See the full data table">▦ <span class="mb-tx">Table</span></button>
+        <button class="minibtn" id="btnLessons" title="Lessons from Auroville">🌅 <span class="mb-tx">Auroville</span></button>
+        <button class="minibtn" id="btnMap" title="Toggle flat map / globe">🗺️ <span class="mb-tx">Flat map</span></button>
+      </div>
+    </div>
+    <div id="dimBar" role="group" aria-label="Choose one criterion to map"></div>
+  </div>
+
+  <!-- ===== Globe + flat map ===== -->
+  <div id="globeViz"></div>
+  <canvas id="flatViz" class="hidden"></canvas>
+  <div id="tooltip" class="hidden"></div>
+
+  <!-- ===== Left: ranking ===== -->
+  <aside id="rankPanel">
+    <div class="rp-head">
+      <div class="rp-tabs" id="rpTabs">
+        <button class="rp-tab on" data-t="countries">🌍 Countries</button>
+        <button class="rp-tab" data-t="sites">📍 Sites</button>
+      </div>
+      <button id="rpCollapse" title="Hide panel" aria-label="Hide panel">‹</button>
+    </div>
+    <div class="rp-title" id="rpTitle"></div>
+    <div class="rp-sub" id="rpSub"></div>
+    <div class="rp-filters" id="rpFilters"></div>
+    <div class="rp-stat" id="rpStat"></div>
+    <div id="rankList"></div>
+    <div class="rp-foot" id="rpFoot">Tap a row to fly there ↗</div>
+  </aside>
+  <button id="rpShow" class="hidden" title="Show ranking">📊</button>
+
+  <!-- ===== Right: detail ===== -->
+  <section id="detailCard" class="hidden">
+    <button id="detailClose" aria-label="Close">×</button>
+    <div id="detailBody"></div>
+  </section>
+
+  <!-- ===== Legend ===== -->
+  <div id="legend">
+    <button class="lg-head" id="legendToggle"><span id="lgTitle">Overall suitability</span><span class="lg-caret">▸</span></button>
+    <div id="legendBody">
+      <div class="lg-scale"><div class="lg-grad"></div><div class="lg-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div></div>
+      <div class="lg-rows">
+        <div class="lg-row"><span class="lg-pin site"></span>Candidate site (taller = better fit)</div>
+        <div class="lg-row"><span class="lg-pin vill"></span>Existing ecovillage</div>
+        <div class="lg-row nd"><span class="lg-sw" style="background:#2b3a33"></span>Excluded by a must-have / no data</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Weights drawer ===== -->
+  <div id="weightbar">
+    <div class="wb-head">
+      <button id="wbCollapse" class="wb-collapse" title="Hide priorities">⚖️ <span id="wbTitle">Your priorities</span> <span class="wb-caret">▾</span></button>
+      <div class="wb-presets" id="wbPresets"></div>
+      <button id="wbReset" class="wb-reset" title="Reset to equal weights">Reset</button>
+    </div>
+    <div class="wb-must" id="wbMust"></div>
+    <div class="wb-body" id="wbBody"></div>
+  </div>
+  <button id="wbShow" class="hidden" title="Set your priorities">⚖️</button>
+
+  <div id="toast"></div>
+
+  <!-- ===== Table overlay ===== -->
+  <div id="tableOverlay" class="overlay hidden">
+    <div class="ov-box table-box">
+      <button class="ov-close" id="tableClose" aria-label="Close">×</button>
+      <div class="tbl-head">
+        <h2>▦ Every country, every criterion</h2>
+        <input id="tblSearch" type="text" placeholder="Filter countries…" autocomplete="off" spellcheck="false">
+      </div>
+      <p class="tbl-lead">Click any column to sort. <b>Overall</b> and the five pillar columns follow your current priority weights. Cells run green (strong) → red (weak); a dotted underline marks a mostly-estimated value.</p>
+      <div class="tbl-scroll"><table id="dataTable"></table></div>
+    </div>
+  </div>
+
+  <!-- ===== Lessons from Auroville ===== -->
+  <div id="lessonsOverlay" class="overlay hidden">
+    <div class="ov-box lessons-box">
+      <button class="ov-close" id="lessonsClose" aria-label="Close">×</button>
+      <span class="wel-kicker">Why these criteria</span>
+      <h2>🌅 Lessons from Auroville</h2>
+      <div id="lessonsBody"></div>
+    </div>
+  </div>
+
+  <!-- ===== About / methodology ===== -->
+  <div id="aboutOverlay" class="overlay hidden">
+    <div class="ov-box about-box">
+      <button class="ov-close" id="aboutClose" aria-label="Close">×</button>
+      <h2>About the Ecovillage Atlas</h2>
+      <p>This atlas asks one question of every country on Earth: <b>if you wanted to found a new international ecovillage or universal township — in the spirit of Auroville — where would it have the best chance of thriving for generations?</b></p>
+      <p>Each country is scored 0–100 on <b id="abDimCount">24</b> criteria grouped in five pillars. Your <b>⚖️ priorities</b> set how much each one counts, and <b>must-haves</b> knock out countries that fail a hard requirement. On top sit <b>candidate sites</b> — specific valleys, highlands and coasts scouted for climate, water, soil, land prices and access — and <b>existing ecovillages</b> for precedent.</p>
+      <div id="abDims"></div>
+      <h3>What this atlas can't tell you</h3>
+      <ul class="ab-list">
+        <li><b>Regions differ.</b> Scores are national; land law, climate, safety and prices vary hugely inside big countries (Brazil, India, the USA). The site pins carry the regional detail.</li>
+        <li><b>Law changes.</b> Land, NGO and visa rules move fast. Check every point with a local lawyer before you commit money.</li>
+        <li><b>Local relationships.</b> Indigenous and customary land rights, neighbouring villages and local politics shape a project more than any index — Auroville's own history shows it.</li>
+        <li><b>Land title quality</b>, nonprofit tax treatment, banking for foreign-funded NGOs and succession of community land are worth checking country by country.</li>
+      </ul>
+      <p class="ov-cav">Indices are calibrated to the public sources listed; legal, visa, land-price and community scores combine verified sources with expert estimates (marked "estimate" in profiles). This is an <b>opinionated research atlas and a conversation starter</b>, not legal advice. Corrections are warmly welcome.</p>
+      <p class="ov-src" id="abBuilt">Built with globe.gl · boundaries © Natural Earth · part of the <a href="https://42-apps.github.io/" target="_blank" rel="noopener">42-apps</a> collection.</p>
+    </div>
+  </div>
+
+  <!-- ===== Welcome ===== -->
+  <div id="welcomeOverlay" class="overlay hidden">
+    <div class="ov-box welcome-box">
+      <span class="wel-kicker">Ecovillage Atlas</span>
+      <h2>Where should the next Auroville be? 🌱</h2>
+      <p class="wel-tag">All <b id="welCount">196</b> countries and <b id="welSites">159</b> candidate regions, ranked for founding a new international ecovillage — painted <b style="color:#34d27a">green</b> where it would thrive and <b style="color:#e2604f">red</b> where it would struggle.</p>
+      <ul class="wel-tips">
+        <li><span class="wt-ic">🏗️</span><span>Five pillars — <b>setup &amp; legal</b>, <b>visas</b>, <b>safety</b>, <b>land &amp; climate</b>, <b>community &amp; life</b> — across 24 criteria. Tap any to map it alone.</span></li>
+        <li><span class="wt-ic">⚖️</span><span>Open <b>Priorities</b> and drag the sliders, pick a preset like <i>Universal township</i> or <i>Climate haven</i>, and add <b>must-haves</b>.</span></li>
+        <li><span class="wt-ic">📍</span><span><b>Gold pins</b> are scouted candidate sites; <b>white pins</b> are existing ecovillages. Switch the panel to <b>Sites</b> to rank them.</span></li>
+        <li><span class="wt-ic">🌅</span><span>Read the <b>Lessons from Auroville</b> to see why each criterion is here.</span></li>
+      </ul>
+      <button class="wel-start" id="welStart">Explore the atlas</button>
+      <p class="wel-foot">Drag to spin · scroll to zoom · click a country or pin</p>
+    </div>
+  </div>
+
+  <script src="lib/globe.gl.min.js"></script>
+  <script src="data/eco.js?v=1"></script>
+  <script src="app.js?v=1"></script>
+</body>
+</html>
