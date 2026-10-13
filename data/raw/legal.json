@@ -86,7 +86,7 @@
   "entity": 85,
   "entityNote": "Association loi 1901 (simple declaration), SCIC, SCI, fonds de dotation or fondation; foreigners may found; habitat participatif recognised (ALUR 2014).",
   "funding": 88,
-  "fundingNote": "No ban; since 2021 associations must declare foreign donations above about EUR 153k and the state may object.",
+  "fundingNote": "No ban; since 2021 associations with >€153k/yr donations must list foreign funds separately in accounts; state veto only for religious associations.",
   "est": false
  },
  "DNK": {
@@ -405,8 +405,8 @@
   "est": true
  },
  "ARG": {
-  "land": 65,
-  "landNote": "DNU 70/2023 repealed Ley 26.737 caps on foreign rural land; repeal back in force after Oct 2026 Supreme Court ruling, but Congress may still void it.",
+  "land": 55,
+  "landNote": "DNU 70/2023 repealed Ley 26.737 foreign rural-land caps, but a 9 Oct 2026 Supreme Court interim order suspended that: caps (15% total, 1,000 ha core zone, no lake/river land) apply again for now.",
   "entity": 55,
   "entityNote": "Asociación civil or fundación via IGJ/provincial registries; slow; foreigners may found.",
   "funding": 85,

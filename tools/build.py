@@ -18,8 +18,9 @@ Inputs (data/raw/):
   auroville.json    lessons & timeline        → window.ECO_AV
 Every criterion ends up 0–100, higher = more favourable for founding an ecovillage.
 """
-import json, math, os, re, datetime
+import json, math, os, re, datetime, difflib, unicodedata
 
+fold = lambda n: unicodedata.normalize('NFKD', n or '').encode('ascii', 'ignore').decode()
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, 'data', 'raw')
 
@@ -71,10 +72,11 @@ COM = load('community.json')
 PLACES = load('places.json', [])
 VILL = load('ecovillages.json', [])
 CEDAR = load('cedar.json', [])
+NB = load('bc-numbeo.json'); ECN = load('bc-economy.json')
 AV = load('auroville.json', None)
 
 REGION_FIX = {'Middle East, North Africa, Afghanistan & Pakistan': 'Middle East & North Africa'}
-REGION_ISO = {'MLT': 'Europe & Central Asia'}           # World Bank files Malta under MENA
+REGION_ISO = {'MLT': 'Europe & Central Asia', 'AFG': 'South Asia', 'PAK': 'South Asia'}   # World Bank files Malta under MENA, Af/Pak with MENA
 NAME_FIX = {'Somalia, Fed. Rep.': 'Somalia', "Cote d'Ivoire": "Côte d'Ivoire", 'Turkiye': 'Türkiye',
             'Bahamas, The': 'Bahamas', 'Gambia, The': 'Gambia', 'Yemen, Rep.': 'Yemen', 'Micronesia, Fed. Sts.': 'Micronesia',
             'St. Kitts and Nevis': 'Saint Kitts and Nevis', 'St. Lucia': 'Saint Lucia', 'St. Vincent and the Grenadines': 'Saint Vincent and the Grenadines'}
@@ -104,7 +106,7 @@ for row in BC:
     sest = set((RES.get('_estFields') or {}).get(iso, []))     # per-field estimate flags from the resources sweep
     if 'landPrice' in sest: est.append('landcost')
     if 'waterStress' in sest: est.append('water')
-    est.append('growing')                                       # growing conditions are a judgement score everywhere
+    est += ['growing', 'offgrid']                               # judgement scores everywhere
 
     # ---- Visas & residency
     ssr = SS.get(iso)
@@ -119,10 +121,13 @@ for row in BC:
     civ = CIVICUS.get((G.get('civicus') or '').lower())
     s['civic'] = blend((civ, 0.5), (num(G.get('voice')), 0.25), (num(G.get('relig')), 0.25))
     if s['civic'] is None: s['civic'] = b.get('freedom'); est.append('civic')
+    if iso == 'MAC': est.append('civic')                           # wgi.json: Macau's CIVICUS & religious-freedom values are reasoned estimates
     inform = num(R.get('inform'))
     s['hazard'] = blend((lin(inform, 7.5, 1.0) if inform is not None else None, 0.6),
                         (100 - wri_pct[iso] if iso in wri_pct else None, 0.4))
-    if R.get('est') and inform is None: est.append('hazard')
+    rn = R.get('note') or ''                                        # risk.json notes say which index values were imputed
+    if re.search(r'Index values estimated|INFORM estimated', rn): est.append('hazard')
+    if re.search(r'Index values estimated|ND-GAIN(/INFORM)? estimated', rn): est.append('future')
 
     # ---- Land, beauty & climate
     s['beauty'] = b.get('landscape'); s['climate'] = b.get('climate')
@@ -137,10 +142,18 @@ for row in BC:
     s['community'] = num(C.get('eco'))
     hs = (C.get('homeschool') or '').lower()
     s['offgrid'] = blend((num(C.get('offgrid')), 0.6), (lin(S.get('pvout'), 2.6, 5.2), 0.25), (HOMESCHOOL.get(hs), 0.15))
-    if C.get('est'): est += ['community', 'offgrid']
-    s['cost'] = b.get('affordability'); s['health'] = b.get('healthcare'); s['access'] = b.get('infrastructure')
+    if C.get('est'): est.append('community')
+    nbc = num((NB.get(iso) or {}).get('nbCost')); gdp = num((ECN.get(iso) or {}).get('gdpPppPc'))
+    if nbc: s['cost'] = 100 - logscale(nbc, 20, 110)                                  # Numbeo cost-of-living index, cheaper = higher
+    elif gdp: s['cost'] = 100 - logscale(gdp, 3000, 350000); est.append('cost')        # price-level proxy calibrated to the Numbeo score
+    else: s['cost'] = b.get('affordability'); est.append('cost')
+    s['health'] = b.get('healthcare'); s['access'] = b.get('infrastructure')
     s['openness'] = b.get('openness'); s['spirit'] = b.get('spirituality')
 
+    BC_KEY = {'safety': 'safety', 'beauty': 'landscape', 'climate': 'climate', 'health': 'healthcare', 'access': 'infrastructure',
+              'openness': 'openness', 'spirit': 'spirituality'}
+    bv = list(b.values()); filler = {v for v in bv if bv.count(v) >= 3}   # livability.json fills its gaps with one constant per row
+    est += [k for k, bk in BC_KEY.items() if b.get(bk) in filler]
     for k, v in list(s.items()):
         if v is None:
             note_missing(k, iso)
@@ -199,11 +212,13 @@ def short(t, n=220):
 for cd in CEDAR:
     iso = name_iso.get(cd.get('country'))
     if not iso or num(cd.get('lat')) is None: continue
-    if cd.get('type') == 'kibbutz' and not re.search(r'eco|green|environment|organic|desert|solar|permacult', cd.get('desc') or '', re.I):
+    if cd.get('type') == 'kibbutz' and not re.search(r'\b(eco|green|environment|organic|solar|permacult)', cd.get('desc') or '', re.I):
         continue                                   # keep the ecologically-minded kibbutzim, not all of them
     rec = {'name': cd['name'], 'iso': iso, 'lat': cd['lat'], 'lon': cd['lon'], 'founded': cd.get('founded'), 'pop': cd.get('pop'),
            'type': cd.get('type'), 'url': cd.get('url'), 'note': short(cd.get('desc')), 'src': 'cedar'}
-    dup = next((v for v in vills if v['iso'] == iso and (norm(v['name']) == norm(rec['name']) or near(v, rec) or same_place(v, rec))), None)
+    cands = [v for v in vills if v['iso'] == iso]                   # exact name first, then similar name nearby
+    dup = next((v for v in cands if norm(fold(v['name'])) == norm(fold(rec['name']))), None) or \
+          next((v for v in cands if same_place(v, rec) or (near(v, rec) and difflib.SequenceMatcher(None, norm(fold(v['name'])), norm(fold(rec['name']))).ratio() >= 0.5)), None)
     if dup:
         for k in ('founded', 'pop', 'url', 'note'):
             if not dup.get(k) and rec.get(k): dup[k] = rec[k]

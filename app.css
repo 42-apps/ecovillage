@@ -216,7 +216,7 @@ a{color:var(--accent2)}
 /* detail/right + legend stack: when detail open, lift legend handled in JS via class */
 
 /* ===== Weights drawer ===== */
-#weightbar{position:fixed; left:50%; transform:translateX(-50%); bottom:14px; z-index:45; width:min(880px, calc(100vw - 360px));
+#weightbar{position:fixed; left:50%; transform:translateX(-50%); bottom:14px; z-index:56; width:min(880px, calc(100vw - 360px));
   background:var(--panel2); border:1px solid var(--line2); border-radius:15px; backdrop-filter:blur(14px); box-shadow:0 18px 50px rgba(0,0,0,.5); overflow:hidden}
 .wb-head{display:flex; align-items:center; gap:9px; padding:9px 12px; border-bottom:1px solid var(--line)}
 .wb-collapse{display:flex; align-items:center; gap:6px; border:none; background:transparent; color:var(--txt); font:inherit; font-weight:800; font-size:13px; cursor:pointer; flex:none}
@@ -307,9 +307,9 @@ a{color:var(--accent2)}
 #dataTable thead th:hover{color:var(--txt)}
 #dataTable th.sorted{color:var(--gold)}
 #dataTable th .th-ic{display:block; font-size:13px; margin-bottom:1px}
-#dataTable th.col-name,#dataTable td.col-name{position:sticky; left:0; z-index:2; text-align:left; background:#0d2018; font-weight:600; min-width:150px}
-#dataTable thead th.col-name{z-index:4}
-#dataTable th.col-rank,#dataTable td.col-rank{position:sticky; left:0; z-index:2; background:#0d2018}
+#dataTable th.col-rank,#dataTable td.col-rank{position:sticky; left:0; z-index:2; background:#0d2018; width:36px; min-width:36px; max-width:36px}
+#dataTable th.col-name,#dataTable td.col-name{position:sticky; left:36px; z-index:2; text-align:left; background:#0d2018; font-weight:600; min-width:150px}
+#dataTable thead th.col-name,#dataTable thead th.col-rank{z-index:4}
 #dataTable tbody tr:hover td{background:rgba(120,200,160,.07)}
 #dataTable tbody tr:hover td.col-name{background:#11271d}
 #dataTable td.cell{font-weight:700; font-variant-numeric:tabular-nums; color:#06140f; border-radius:0}
@@ -340,6 +340,7 @@ a{color:var(--accent2)}
   .brand-name{font-size:15px; line-height:1.15; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
   .logo{width:34px; height:34px}
   #search{width:108px}#search:focus{width:132px}
+  #searchResults{position:fixed; top:54px; left:8px; right:8px; width:auto}
   :root{--top:178px}
   #controls{top:54px; padding:4px 8px 6px}
   #controls .ctl-row{flex-direction:column; align-items:stretch; gap:5px}

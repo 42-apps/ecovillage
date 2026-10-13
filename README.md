@@ -13,7 +13,7 @@ each criterion is there.
 
 Part of the [42-apps](https://42-apps.github.io/) collection, built with [globe.gl](https://globe.gl).
 
-**Live:** https://42-apps.github.io/ecovillage/  ·  **v0.1.0**
+**Live:** https://42-apps.github.io/ecovillage/  ·  **v0.1.1**
 
 ## The five pillars
 

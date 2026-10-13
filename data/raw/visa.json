@@ -107,7 +107,7 @@
    "EU/EEA"
   ],
   "prYears": 5,
-  "note": "Golden visa ended Apr 2025. RD 1155/2024 cut arraigo to 2 yrs. Citizenship 10 yrs (2 for Latin Americans/Filipinos); dual nationality only for Ibero-American states.",
+  "note": "Golden visa ended Apr 2025. RD 1155/2024 cut arraigo to 2 yrs. Citizenship 10 yrs (2 for Latin Americans/Filipinos); dual only for Ibero-America, Andorra, Philippines, Eq. Guinea, Portugal, France.",
   "est": false
  },
  "CHE": {
@@ -221,7 +221,7 @@
   "retire": false,
   "freeMove": [],
   "prYears": 10,
-  "note": "Tightening: naturalisation residence raised to 10 yrs (Apr 2026); PR income/language rules and ¥200k fee from Oct 2026; DN visa not extendable. No dual.",
+  "note": "Tightening: naturalisation residence raised to 10 yrs (Apr 2026); ¥200k PR fee and above-average income test from Oct 2026, B1 Japanese from Apr 2027; DN visa not extendable. No dual.",
   "est": false
  },
  "DEU": {
@@ -1086,7 +1086,7 @@
   "routes": [
    "Digital nomad VITEM XIV ($1,500/mo or $18k)",
    "Retirement visa ($2,000/mo)",
-   "Volunteer visa (VITEM V, 1 yr)",
+   "Volunteer visa (VITEM VIII, 1 yr)",
    "Mercosur residence (members)"
   ],
   "volunteer": true,

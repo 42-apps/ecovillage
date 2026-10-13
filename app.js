@@ -37,7 +37,7 @@ const DIMS = [
   {key:'future',    p:'nature', ic:'🌡️', name:'Climate resilience',   desc:'How well the country is placed for 2050+ heat, drought and climate shocks', src:'ND-GAIN 2026 (data 2024) + 2040–59 heat stress from World Bank Climate Knowledge Portal projections (SSP2-4.5)'},
   {key:'community', p:'living', ic:'🏘️', name:'Ecovillage scene',     desc:'Existing ecovillages, networks and permaculture know-how to learn from', src:'Global Ecovillage Network map (1,337 listings), FIC directory, national networks (Coopérative Oasis, Diggers & Dreamers, LØS, GEN Deutschland)'},
   {key:'offgrid',   p:'living', ic:'🔆', name:'Self-build & off-grid',desc:'Freedom to build naturally, live off-grid and run your own school; solar potential', src:'Building/zoning flexibility for natural building & off-grid (expert); solar PV potential (Solargis / World Bank); homeschooling law'},
-  {key:'cost',      p:'living', ic:'💰', name:'Cost of living',       desc:'Everyday affordability for residents', src:'Affordability (Numbeo purchasing power vs cost of living) via the Best Countries map'},
+  {key:'cost',      p:'living', ic:'💰', name:'Cost of living',       desc:'Everyday prices for residents (cheaper = higher)', src:'Numbeo Cost of Living Index, inverted & log-scaled (cheaper = higher); GDP-PPP per capita as a proxy where Numbeo has no data'},
   {key:'health',    p:'living', ic:'🏥', name:'Healthcare',           desc:'Quality and reach of medical care', src:'Numbeo Health Care Index via the Best Countries map'},
   {key:'access',    p:'living', ic:'✈️', name:'Access & internet',    desc:'Transport links, utilities and internet', src:'World Bank Logistics Performance + internet speed via the Best Countries map'},
   {key:'openness',  p:'living', ic:'🤝', name:'Welcome & English',    desc:'Acceptance of newcomers and ease of communicating', src:'Gallup Migrant Acceptance + EF English Proficiency via the Best Countries map'},
@@ -67,7 +67,7 @@ const MUSTS = [
   {id:'nomad',     ic:'💻', name:'Digital-nomad visa',       test:c => !!c.f.nomad},
   {id:'civic',     ic:'🕊️', name:'Open civic space',         test:c => c.f.civicus === 'open' || c.f.civicus === 'narrowed'},
   {id:'school',    ic:'🎓', name:'Own schooling allowed',    test:c => c.f.homeschool === 'legal' || c.f.homeschool === 'regulated'},
-  {id:'water',     ic:'💧', name:'Not water-stressed',       test:c => c.s.water >= 50},
+  {id:'water',     ic:'💧', name:'Not water-stressed',       test:c => c.s.water >= 50 && (c.x.waterStress == null || c.x.waterStress < 3)},
   {id:'funds',     ic:'💸', name:'Foreign donations free',   test:c => c.s.funding >= 60},
 ];
 
@@ -225,8 +225,10 @@ function refreshPins() {
 }
 function pinById(id) {
   if (!id) return null;
-  if (id[0] === 'v') { const v = VILLAGES[+id.slice(1)]; return v ? { kind:'village', id, lat:v.lat, lng:v.lon, iso:v.iso, d:v } : null; }
-  const p = placeById[id]; return p ? { kind:'site', id, lat:p.lat, lng:p.lon, iso:p.iso, d:p } : null;
+  const p = placeById[id];
+  if (p) return { kind:'site', id, lat:p.lat, lng:p.lon, iso:p.iso, d:p };
+  const m = /^v(\d+)$/.exec(id), v = m && VILLAGES[+m[1]];          // villages are 'v<index>'; site ids may also start with v
+  return v ? { kind:'village', id, lat:v.lat, lng:v.lon, iso:v.iso, d:v } : null;
 }
 
 function initGlobe() {
@@ -260,15 +262,17 @@ function initGlobe() {
 }
 function sizeGlobe() { if (globe) globe.width(elViz.clientWidth || window.innerWidth).height(elViz.clientHeight || (window.innerHeight - 142)); }
 function refreshGlobe() {
-  if (!globe || state.mode !== 'globe') return;
+  if (state.mode === 'flat') { drawFlat(); return; }
+  if (!globe) return;
   globe.polygonCapColor(capColor).polygonAltitude(polyAlt);
   refreshPins();
 }
 function refreshAll() {
   rebuildRanks(); refreshGlobe(); buildRank();
-  if (state.mode === 'flat') drawFlat();
+  const st = detailCard.scrollTop;                // re-render the open card in place, keeping its scroll
   if (state.sel) showDetail(byIso[state.sel]);
   else if (state.selPin) showPin(state.selPin);
+  detailCard.scrollTop = st;
 }
 
 /* ----------------------------- tooltip ----------------------------------- */
@@ -295,13 +299,16 @@ function pinTipHTML(p) {
   }
   const s = p.d, sv = siteVal(s);
   return `<div class="tt-name">📍 ${esc(s.name)}</div><div class="tt-sub">${flag(s.iso)} ${esc(byIso[s.iso]?.name || s.iso)} · ${esc(s.climate || '')}</div>` +
-    `<div class="tt-score"><b style="color:${col(sv)}">${r0(sv)}</b><span class="u">/ 100 · site #${siteRank[s.id] || '—'} of ${PLACES.length}</span></div>` +
+    `<div class="tt-score"><b style="color:${col(sv)}">${r0(sv)}</b><span class="u">/ 100 · site #${siteRank[s.id] || '—'} of ${siteList.filter(x => x.ok).length}</span></div>` +
     `<div class="tt-hint">Candidate site · click for the scout's notes</div>`;
 }
+let overGlobe = false;                            // globe.gl re-raycasts its last pointer position even after the mouse leaves
+elViz.addEventListener('pointerenter', () => { overGlobe = true; });
+elViz.addEventListener('pointerleave', () => { overGlobe = false; onPolyHover(null); onPinHover(null); });
 function onPolyHover(f) {
+  if (!overGlobe) f = null;
   state.hoverIso = f ? polyIso(f) : null;
-  if (globe) globe.controls().autoRotate = !f && spinOn;
-  globe.polygonCapColor(capColor).polygonAltitude(polyAlt);
+  if (globe) { globe.controls().autoRotate = !f && spinOn; globe.polygonCapColor(capColor).polygonAltitude(polyAlt); }
   if (!f) { hideTip(); return; }
   const c = polyCountry(f);
   if (c) showTip(tipHTML(c), lastMouse.x, lastMouse.y);
@@ -309,6 +316,7 @@ function onPolyHover(f) {
 }
 let pinHover = null;
 function onPinHover(p) {
+  if (!overGlobe) p = null;
   pinHover = p || null;
   if (globe) globe.controls().autoRotate = !p && spinOn;
   if (p) showTip(pinTipHTML(p), lastMouse.x, lastMouse.y); else if (!state.hoverIso) hideTip();
@@ -676,7 +684,7 @@ function drawFlat() {
   }
 }
 function pointInRing(x, y, ring) { let inside = false; for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) { const xi = projX(ring[i][0]), yi = projY(ring[i][1]), xj = projX(ring[j][0]), yj = projY(ring[j][1]); if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) inside = !inside; } return inside; }
-function flatCountryAt(x, y) { for (const f of LAND) { let hit = false; eachRing(f.geometry, ring => { if (!hit && pointInRing(x, y, ring)) hit = true; }); if (hit) return f; } return null; }
+function flatCountryAt(x, y) { for (const f of LAND) { let inside = false; eachRing(f.geometry, ring => { if (pointInRing(x, y, ring)) inside = !inside; }); if (inside) return f; } return null; }   // even-odd, so holes (Lesotho in South Africa) work
 function flatPinAt(x, y) { let best = null, bd = 49; for (const p of pinData()) { const d = (projX(p.lng) - x) ** 2 + (projY(p.lat) - y) ** 2; if (d < bd) { bd = d; best = p; } } return best; }
 elFlat.addEventListener('mousemove', e => {
   if (state.mode !== 'flat') return;
@@ -718,8 +726,9 @@ function buildTable() {
     .sort((a, b) => ((tblVal(a.c, tblSort.key) ?? -1) - (tblVal(b.c, tblSort.key) ?? -1)) * tblSort.dir);
   const head = `<thead><tr><th class="col-rank">#</th><th class="col-name">Country</th>` +
     cols.map(c => `<th data-sort="${c.k}" class="${tblSort.key === c.k ? 'sorted' : ''}" title="${esc(c.name)}" style="box-shadow:inset 0 -3px 0 ${c.color}${c.pil ? '' : '66'}"><span class="th-ic">${c.ic}</span>${tblSort.key === c.k ? (tblSort.dir < 0 ? '▾' : '▴') : ''}</th>`).join('') + `</tr></thead>`;
-  const body = '<tbody>' + rows.map((r, i) =>
-    `<tr${r.ok ? '' : ' style="opacity:.5"'}><td class="col-rank tbl-rk">${i + 1}</td><td class="col-name" data-iso="${r.c.iso}"><span class="tbl-flag">${flag(r.c.iso)}</span>${esc(r.c.name)}</td>` +
+  let k = 0;
+  const body = '<tbody>' + rows.map(r =>
+    `<tr${r.ok ? '' : ' style="opacity:.5"'}><td class="col-rank tbl-rk">${r.ok ? ++k : '·'}</td><td class="col-name" data-iso="${r.c.iso}"><span class="tbl-flag">${flag(r.c.iso)}</span>${esc(r.c.name)}</td>` +
     cols.map(cl => { const v = tblVal(r.c, cl.k); const est = (r.c.est || []).includes(cl.k); return `<td class="cell${cl.k === 'overall' ? ' col-overall' : ''}" style="background:${col(v)}${est ? ';text-decoration:underline dotted;text-underline-offset:3px' : ''}">${r0(v)}</td>`; }).join('') + `</tr>`).join('') + '</tbody>';
   dataTable.innerHTML = head + body;
 }
@@ -826,7 +835,7 @@ function buildAbout() {
       dimsOf(p.key).map(d => `<div class="ab-dim"><span>${d.ic}</span><span><b>${esc(d.name)}</b></span><span>${esc(d.src)}</span></div>`).join('')).join('') +
     `<p class="ab-method" style="margin-top:12px"><b>Candidate sites</b> were scouted for climate, water, soil, land price, beauty, access and nearby communities; their ranking blends the scout's score (55%) with the country's overall score under your priorities (45%). <b>Existing ecovillages</b> come from the Global Ecovillage Network, ic.org and national networks.</p>`;
   const b = window.ECO_BUILT ? ` · data built ${window.ECO_BUILT}` : '';
-  document.getElementById('abBuilt').innerHTML = `v0.1.0${b} · Built with globe.gl · boundaries © Natural Earth · part of the <a href="https://42-apps.github.io/" target="_blank" rel="noopener">42-apps</a> collection.`;
+  document.getElementById('abBuilt').innerHTML = `v0.1.1${b} · Built with globe.gl · boundaries © Natural Earth · part of the <a href="https://42-apps.github.io/" target="_blank" rel="noopener">42-apps</a> collection.`;
 }
 document.getElementById('miAbout').addEventListener('click', () => { menu.classList.add('hidden'); buildAbout(); aboutOverlay.classList.remove('hidden'); });
 document.getElementById('aboutClose').addEventListener('click', () => aboutOverlay.classList.add('hidden'));
@@ -847,7 +856,7 @@ document.addEventListener('keydown', e => {
     for (const ov of [tableOverlay, lessonsOverlay, aboutOverlay]) if (!ov.classList.contains('hidden')) return ov.classList.add('hidden');
     if (!welcome.classList.contains('hidden')) return hideWelcome();
     if (!detailCard.classList.contains('hidden')) clearSel();
-  } else if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); spinOn = !spinOn; if (globe && !state.hoverIso && state.mode === 'globe') globe.controls().autoRotate = spinOn; syncSpin(); }
+  } else if ((e.key === ' ' || e.code === 'Space') && !(e.target.closest && e.target.closest('button, a, select, textarea, [contenteditable]'))) { e.preventDefault(); spinOn = !spinOn; if (globe && !state.hoverIso && state.mode === 'globe') globe.controls().autoRotate = spinOn; syncSpin(); }
 });
 
 /* ============================== Boot ===================================== */
